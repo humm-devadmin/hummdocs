@@ -8,8 +8,3 @@ Placing Oxipay widgets on your website is a great way to introduce Oxipay to you
     In the context of this documentation, a widget is a banner or tag that will open a modal dialog (a.k.a. popup) when clicked. The content of the modal dialog can be any web-page.
   </div>
 </div>
-
-<small>We strive to write good documentation for our merchants. If there is a way we can improve our documentation, please let us know through <a href="mailto:support@%domain%?Subject=Oxipay Documentation">support@%domain%</a></small>
-<br>
-<br>
-<small>Version 1.10</small>

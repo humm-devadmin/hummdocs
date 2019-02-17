@@ -87,8 +87,3 @@ By default the Price-info widget will not display for prices above $%max_purchas
 <br/><br/>
 
 <small>*We reserve the right to change any linked image at anytime without prior notice</small>
-<br/><br/>
-<small>We strive to write good documentation for our merchants. If there is a way we can improve our documentation, please let us know through <a href="mailto:support@%domain%?Subject=Oxipay Documentation">support@%domain%</a></small>
-<br>
-<br>
-<small>Version 1.10</small>
