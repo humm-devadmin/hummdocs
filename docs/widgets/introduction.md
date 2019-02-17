@@ -1,4 +1,4 @@
-Placing Oxipay widgets on your website is a great way to introduce Oxipay to your users and drive more sales through your online store. The following documentation will guide you through the process of getting Oxipay widgets displayed on your website.
+Placing Humm widgets on your website is a great way to introduce Humm to your users and drive more sales through your online store. The following documentation will guide you through the process of getting Humm widgets displayed on your website.
 
 <div class="panel panel-primary">
   <div class="panel-heading">
