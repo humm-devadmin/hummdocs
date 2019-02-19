@@ -38,7 +38,7 @@ To setup and configure Humm on your Shopify store, please use the instructions b
 </div>
 
 <div class="panel">
-  Use <b>Test Mode</b> to test Humm or diagnose issue; transactions are similated and credit cards are not debited.
+  Use <b>Test Mode</b> to test Humm or diagnose issues; transactions are similated and credit cards are not debited.
 </div>
 
 <div class="panel">

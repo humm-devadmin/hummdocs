@@ -67,10 +67,10 @@ Below is a screenshot of the various Humm settings available and what they are f
 
 **API Key**: Provided to you by Platform Integration Team; used to verify orders from your store.
 
-**Minimum Order Total**: Orders below that will not have Humm as a payment option. leave as 0 for no limit.
+**Minimum Order Total**: Orders below that will not have Humm as a payment option. Leave as 0 for no limit.
 
-**Maximum Order Total**: Orders above that will not have Humm as a payment option. leave as 0 for no limit.
+**Maximum Order Total**: Orders above that will not have Humm as a payment option. Leave as 0 for no limit.
 
 <div class="panel">
-  Leaving both - Minimum and Maximum Order Totals - blank will enable Humm on all products.
+  Leaving both Minimum and Maximum Order Totals 0 will enable Humm on all products.
 </div>

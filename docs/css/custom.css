@@ -4,7 +4,7 @@
 /* --------------------------- */
 
 .wy-nav-side {
-    background: #1a1c28;
+    background: #333;
 }
 
 .wy-menu-vertical a:hover {
@@ -18,33 +18,62 @@
 
 .wy-nav-content {
   background-color: #ffffff;
-  max-width: 1024px !important;
+  max-width: 100% !important;
 }
 
 .rst-versions, .rst-current-version {
-  background: #31333f !important;
+  background: #DCE4C9 !important;
+}
+
+.rst-current-version span:first-of-type {
+  float: left;
+}
+
+.rst-current-version a {
+    color: #333 !important;
 }
 
 .wy-side-nav-search {
-  background: #fa8b23 !important;
+  background: #FF6C00 !important;
 }
 
 .wy-side-nav-search img {
   width:500px !important;
 }
 
-
-/* --------------------------- */
-/*  Humm Rebranding Changes  */
-/* --------------------------- */
-
-.panel {
-    background-color: #eee;
-    padding: 15px;
-    border-radius: 5px;
-    border: 1px solid #d8d8d8;
-    margin-bottom: 15px;
+.wy-menu-vertical li.current {
+  background-color: #FFF;
 }
+
+  .wy-menu-vertical li.on a, .wy-menu-vertical li.current > a {
+    background-color: #EEE;
+    border: none !important;
+  }
+
+.wy-menu-vertical li.current a {
+  border-right: none;
+}
+
+.wy-side-nav-search .icon:before {
+  display: block;
+  content: ' ';
+  background-image: url('../img/humm.svg');
+  background-size: 200px 100px;
+  height: 100px;
+  width: 200px;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+    /* --------------------------- */
+    /*  Humm Rebranding Changes  */
+    /* --------------------------- */
+    .panel {
+      background-color: #eee;
+      padding: 15px;
+      border-radius: 5px;
+      border: 1px solid #d8d8d8;
+      margin-bottom: 15px;
+    }
 .panel-danger h3 {
     color: #b92020;
 }

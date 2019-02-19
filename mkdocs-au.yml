@@ -53,3 +53,5 @@ extra:
    payment_desc: ''
    max_purchase: 2100
    no_weekly_shopify: shopify
+   version_1: 1.9.1.0 (CE)
+   operating_system_1: Ubuntu 16.04 LTS

@@ -9,7 +9,7 @@ Humm has been developed and tested against the following Magento tech stacks:
 
 | Magento Version      | Operating System | SQL    | PHP Version | Web Server    |
 |----------------------|------------------|--------|-------------|---------------|
-| Magento 1.9.1.0 (CE) | Ubuntu 16.04 LTS | 5.5.55 | 5.6.30      | Apache 2.4.18 |
+| Magento 1.9.1.0 (CE) | %operating_system_1% | 5.5.55 | 5.6.30      | Apache 2.4.18 |
 | Magento 1.4.2.0 (CE) | Ubuntu 14.04 LTS | 5.5.54 | 5.5.9       | Apache 2.4.7  |
 
 
