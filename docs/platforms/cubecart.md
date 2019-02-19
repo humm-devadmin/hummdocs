@@ -1,12 +1,12 @@
-# Setting up Oxipay on a CubeCart Store
+# Setting up Humm on a CubeCart Store
 
-This document outlines the steps needed to install Oxipay on your CubeCart Store.
+This document outlines the steps needed to install Humm on your CubeCart Store.
 
 <div class="panel">
-  At the time of writing this article, Oxipay was developed and tested against CubeCart version <code>6.1.1</code>, although the plugin should be compatible with other CubeCart versions. If you encounter any issues, please contact us to resolve them as soon as possible.
+  At the time of writing this article, Humm was developed and tested against CubeCart version <code>6.1.1</code>, although the plugin should be compatible with other CubeCart versions. If you encounter any issues, please contact us to resolve them as soon as possible.
 </div>
 
-## Installing Oxipay
+## Installing Humm
 
 <div class="panel">
   You will need a <b>Merchant ID</b> and <b>API Key</b> before continuing with the installation procedure. They are required to uniquely identify the Merchant and provide a secure link. If you don't have either of these, please contact <a href="mailto:support@%domain%">support@%domain%</a>
@@ -24,7 +24,7 @@ The plugin can be installed via CubeCart's Admin Control Panel, either manually 
 
 [https://www.cubecart.com/extensions/payment-gateways/oxipay](https://www.cubecart.com/extensions/payment-gateways/oxipay)
 
-**2** - Select the **lightning bolt** button, next to your required Oxipay plugin version, to reveal the **Auto Install/Upgrade Token**
+**2** - Select the **lightning bolt** button, next to your required Humm plugin version, to reveal the **Auto Install/Upgrade Token**
 
 ![autoinstall-1.png](/img/platforms/cubecart/autoinstall-1.png)
 
@@ -60,7 +60,7 @@ If the automatic installation is not successful, you will be presented with a me
 
 [https://www.cubecart.com/extensions/payment-gateways/oxipay](https://www.cubecart.com/extensions/payment-gateways/oxipay)
 
-**2** - Select the **download** button , next to your required Oxipay plugin version, to download the Oxipay plugin ZIP file.
+**2** - Select the **download** button , next to your required Humm plugin version, to download the Humm plugin ZIP file.
 
 ![manualinstall-1.png](/img/platforms/cubecart/manualinstall-1.png)
 
@@ -80,17 +80,17 @@ If the automatic installation is not successful, you will be presented with a me
 
 ![manualinstall-4.png](/img/platforms/cubecart/manualinstall-4.png)
 
-## Configuring Oxipay
+## Configuring Humm
 
 <div class="panel">
-  This section describes the <b>Module Settings</b> available once you have installed the Oxipay plugin. This includes the Oxipay gateways to communicate with, as well as whether or not to enable Test Mode.  
+  This section describes the <b>Module Settings</b> available once you have installed the Humm plugin. This includes the Humm gateways to communicate with, as well as whether or not to enable Test Mode.  
 </div>
 
 **1** - Log into the CubeCart Admin Control Panel as an Administrator.
 
 **2** - Once logged in, you will be presented with your Store's dashboard. From the side menu that appears to the left, scroll to the **Extensions** section and select **Manage Extensions**.
 
-**3** - Under the **Available Extensions** section, select the text **OxiPay** to configure the module settings. Descriptions of the options are listed below.
+**3** - Under the **Available Extensions** section, select the text **Humm** to configure the module settings. Descriptions of the options are listed below.
 
 ![config-1.png](/img/platforms/cubecart/config-1.png)
 <div class="panel">
@@ -105,25 +105,25 @@ If the automatic installation is not successful, you will be presented with a me
 * **Priority** 	If you have more than one payment gateway, please use this field to define the order they are shown in. A setting of '1' will show it first, '2' second, etc.
 <hr>
 
-* **Scope** This allows you to specify whether you want the Oxipay plugin to be available via the Main Website only or the Mobile Website only, or both.
+* **Scope** This allows you to specify whether you want the Humm plugin to be available via the Main Website only or the Mobile Website only, or both.
 <hr>
 
-* **Default** This must be enabled if you would like Oxipay pre-selected for the Customer as the default payment option.
+* **Default** This must be enabled if you would like Humm pre-selected for the Customer as the default payment option.
 <hr>
 
-* **Merchant ID** This is the Oxipay Merchant ID that you are provided with as part of your on-boarding when signing-up for Oxipay.
+* **Merchant ID** This is the Humm Merchant ID that you are provided with as part of your on-boarding when signing-up for Humm.
 <hr>
 
 * **API Key** The API Key or the Encryption key is a case-sensitive alpha-numeric sequence that is used to authenticate payment requests originating from your Store. It is vital that you protect it and don't provide it to unauthorised individuals.
 <hr>
 
-* **Test Mode** Indicates whether to process payments over the live Oxipay Gateway URL resulting in real transactions, or to process it over the Oxipay Sandbox Gateway URL which will produce simulated (test) transactions with no real dollar amounts being debited. By default it should be set to **No** unless we are attempting to diagnose issues on your store to do with Oxipay, or you're testing integrating the plugin with your online CubeCart store.
+* **Test Mode** Indicates whether to process payments over the live Humm Gateway URL resulting in real transactions, or to process it over the Humm Sandbox Gateway URL which will produce simulated (test) transactions with no real dollar amounts being debited. By default it should be set to **No** unless we are attempting to diagnose issues on your store to do with Humm, or you're testing integrating the plugin with your online CubeCart store.
 <hr>
 
-* **Test Gateway URL** This specifies the test Oxipay end-point that the plugin would need to communicate with when **Test Mode** is enabled. This is mainly used for troubleshooting purposes, particularly if we want to simulate test transactions on your CubeCart Store without having real dollar amounts debited from Credit Cards.
+* **Test Gateway URL** This specifies the test Humm end-point that the plugin would need to communicate with when **Test Mode** is enabled. This is mainly used for troubleshooting purposes, particularly if we want to simulate test transactions on your CubeCart Store without having real dollar amounts debited from Credit Cards.
 <hr>
 
-* **Gateway URL** This specifies the live Oxipay end-point that the plugin would need to communicate with for it to be able to process payments via Oxipay. Note that transactions processed over this URL are real transactions that end up in real dollar amounts being deducted.
+* **Gateway URL** This specifies the live Humm end-point that the plugin would need to communicate with for it to be able to process payments via Humm. Note that transactions processed over this URL are real transactions that end up in real dollar amounts being deducted.
 
 <hr>
 
@@ -136,7 +136,7 @@ If the automatic installation is not successful, you will be presented with a me
 
 <hr>
 
-##Upgrading Oxipay
+##Upgrading Humm
 
 ###Automatic Upgrade
 
@@ -149,7 +149,7 @@ That is, you do not need to type in your <b>Merchant ID</b> and <b>API Key</b> a
 
 [https://www.cubecart.com/extensions/payment-gateways/oxipay](https://www.cubecart.com/extensions/payment-gateways/oxipay)
 
-**2** - Select the **lightning bolt** button, next to your required Oxipay plugin version, to reveal the **Auto Install/Upgrade Token**
+**2** - Select the **lightning bolt** button, next to your required Humm plugin version, to reveal the **Auto Install/Upgrade Token**
 
 ![autoinstall-1.png](/img/platforms/cubecart/autoinstall-1.png)
 
@@ -182,7 +182,7 @@ Prior to manually upgrading, you will first need to un-install the previous vers
 </div>
 
 
-##Un-installing Oxipay
+##Un-installing Humm
 
 **1** - Log into the CubeCart Admin Control Panel as an Administrator.
 
@@ -192,10 +192,10 @@ Prior to manually upgrading, you will first need to un-install the previous vers
 
 ![uninstall-2.png](/img/platforms/cubecart/uninstall-2.png)
 
-**3** - In the list of **Available Extensions**, select the **delete** button associated with the **Oxipay** extension.
+**3** - In the list of **Available Extensions**, select the **delete** button associated with the **Humm** extension.
 
 **4** - If the module has been un-installed correctly, the module will no longer appear in the list of **Available Extensions**.
 
 ![uninstall-3.png](/img/platforms/cubecart/uninstall-3.png)
 
-**5** - You can now download the new version of the Oxipay CubeCart plugin and install it as per the instructions in the [Installing Oxipay](#installing-oxipay) section of this document.
+**5** - You can now download the new version of the Humm CubeCart plugin and install it as per the instructions in the [Installing Humm](#installing-oxipay) section of this document.

@@ -1,14 +1,14 @@
 # Signature Generation
 
-In order to prevent against malicious attacks and hijacking of browser sessions,  Oxipay implements a signing mechanism based on HMAC-SHA256. This section provides information on how you can use HMAC-SHA256 for signing and verification purposes.
+In order to prevent against malicious attacks and hijacking of browser sessions,  Humm implements a signing mechanism based on HMAC-SHA256. This section provides information on how you can use HMAC-SHA256 for signing and verification purposes.
 
-As mentioned, Oxipay uses HMAC-SHA256 for purposes of signing and verifying requests.
+As mentioned, Humm uses HMAC-SHA256 for purposes of signing and verifying requests.
 
 Below is an example that demonstrates how you can go about implementing a method in a shopping platform that is based on PHP to generate the signature.
 
 ## PHP Example
 
-Below is a PHP code snippet that demonstrates how a signature might be generated in the context of Oxipay:
+Below is a PHP code snippet that demonstrates how a signature might be generated in the context of Humm:
 
 ```php
 	function oxipay_sign($query, $api_key )
@@ -28,7 +28,7 @@ Below is a PHP code snippet that demonstrates how a signature might be generated
 
 First note that the method expects two parameters and they are <code>$query</code> and <code>$api_key</code>. The <code>$query</code> represents the various key-value pairs that form your HTTP request POST and vary depending on the information that is entered as part of the checkout process on your shopping cart.
 
-The parameter <code>$api_key</code> represents the API Key that is unique for every merchant. It should only change once the API key has been changed on the Oxipay side.
+The parameter <code>$api_key</code> represents the API Key that is unique for every merchant. It should only change once the API key has been changed on the Humm side.
 
 Having received the two parameters, the <code>oxipay_sign</code> method will then perform an alphabetical sorting of the various key-value pairs based on the key but still maintaining the correlation between the keys and their respective values.
 
@@ -75,7 +75,7 @@ class Main
         map.put("x_currency", "AUD");
         map.put("x_reference", "TestOrder1");
         map.put("x_shop_country", "AU");
-        map.put("x_shop_name", "Oxipay Mugs");
+        map.put("x_shop_name", "Humm Mugs");
         map.put("x_test", "false");
 
         String plainText = signatureGeneration(_key, map);
@@ -132,7 +132,7 @@ class Main
 ## Go Example
 
 ```
-// RegistrationPayload required to register a device with Oxipay
+// RegistrationPayload required to register a device with Humm
 type RegistrationPayload struct {
     MerchantID      string `json:"x_merchant_id"`
     DeviceID        string `json:"x_device_id"`
@@ -144,7 +144,7 @@ type RegistrationPayload struct {
     Signature       string `json:"signature"`
 }
 
-// AuthorisationPayload Payload used to send to Oxipay
+// AuthorisationPayload Payload used to send to Humm
 type AuthorisationPayload struct {
     MerchantID        string `json:"x_merchant_id"`
     DeviceID          string `json:"x_device_id"`
@@ -157,7 +157,7 @@ type AuthorisationPayload struct {
     Signature         string `json:"signature"`
 }
 
-// Response is the response returned from Oxipay for both a CreateKey and Sales Adjustment
+// Response is the response returned from Humm for both a CreateKey and Sales Adjustment
 type Response struct {
     PurchaseNumber string `json:"x_purchase_number,omitempty"`
     Status         string `json:"x_status,omitempty"`
@@ -167,7 +167,7 @@ type Response struct {
     Signature      string `json:"signature"`
 }
 
-// SalesAdjustmentPayload holds a request to Oxipay for the ProcessAdjustment
+// SalesAdjustmentPayload holds a request to Humm for the ProcessAdjustment
 type SalesAdjustmentPayload struct {
     PosTransactionRef string `json:"x_pos_transaction_ref"`
     PurchaseRef       string `json:"x_purchase_ref"`
@@ -192,7 +192,7 @@ func (r *Response) Authenticate(key string) (bool, error) {
     return false, errors.New("Plaintext is signature is 0 length")
 }
 
-// GeneratePlainTextSignature will generate an Oxipay plain text message ready for signing
+// GeneratePlainTextSignature will generate an Humm plain text message ready for signing
 func GeneratePlainTextSignature(payload interface{}) string {
 
     var buffer bytes.Buffer

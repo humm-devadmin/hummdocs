@@ -1,17 +1,17 @@
 <h1>Setup on Shopify</h1>
 
-To setup and configure Oxipay on your Shopify store, please use the instructions below
+To setup and configure Humm on your Shopify store, please use the instructions below
 <br/>
 
-##Integrating Oxipay##
+##Integrating Humm##
 
 <div class="panel">
   You will need your <b>Merchant ID</b> and an <b>Encryption Key</b> handy before continuing with the installation.
 </div>
 
-1 – Email <a href="mailto:pit@%domain%?Subject=Oxipay URL Request (Shopify)&body=Hi, %0D%0A%0D%0AMy Merchant ID is: %0D%0A%0D%0AI would like to setup Oxipay on my Shopify site. %0D%0A%0D%0AThanks,%0D%0A%0D%0A">pit@%domain%</a> for a copy of the **Oxipay Gateway Authorisation** URL. Please include your Merchant ID in the email.
+1 – Email <a href="mailto:pit@%domain%?Subject=Humm URL Request (Shopify)&body=Hi, %0D%0A%0D%0AMy Merchant ID is: %0D%0A%0D%0AI would like to setup Humm on my Shopify site. %0D%0A%0D%0AThanks,%0D%0A%0D%0A">pit@%domain%</a> for a copy of the **Humm Gateway Authorisation** URL. Please include your Merchant ID in the email.
 
-2 - Clicking the link to be taken to your store's setting page to add Oxipay.
+2 - Clicking the link to be taken to your store's setting page to add Humm.
 
 3 - Once logged in, you will see the prompt below. Click **Install payment provider**.
 
@@ -21,7 +21,7 @@ To setup and configure Oxipay on your Shopify store, please use the instructions
 
 ![6.png](/img/platforms/shopify/6.png)
 
-5 - Bring the **Alternative Payments** section into focus, expand the **Select additional payment method** drop-down and click **Oxipay - Interest Free Payments**.
+5 - Bring the **Alternative Payments** section into focus, expand the **Select additional payment method** drop-down and click **Humm - Interest Free Payments**.
 
 <div class="panel">
 	To access this page from your Shopify dashboard, select <b>Settings</b> in the bottom left hand corner, then select select <b>Payment providers</b>.
@@ -29,7 +29,7 @@ To setup and configure Oxipay on your Shopify store, please use the instructions
 
 ![7.png](/img/platforms/shopify/7.png)
 
-6 - Enter your **Merchant Number** and **API Key** then click on **Save**. You can also specify the credit cards you want to allow with Oxipay.
+6 - Enter your **Merchant Number** and **API Key** then click on **Save**. You can also specify the credit cards you want to allow with Humm.
 
 ![8.png](/img/platforms/shopify/8.png)
 
@@ -38,7 +38,7 @@ To setup and configure Oxipay on your Shopify store, please use the instructions
 </div>
 
 <div class="panel">
-  Use <b>Test Mode</b> to test Oxipay or diagnose issue; transactions are similated and credit cards are not debited.
+  Use <b>Test Mode</b> to test Humm or diagnose issue; transactions are similated and credit cards are not debited.
 </div>
 
 <div class="panel">

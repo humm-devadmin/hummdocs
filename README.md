@@ -12,7 +12,7 @@ Note: you might need to ensure cinst, python, & pip are all in your path.
 
 ## Updating the documentation
 
-The hummdocs repository has all the documentation in markdown format. There is also a submodule to the oxipay.github.io GiHub pages repository, which is basically the hummdocs repository transformed into static HTML for the web.
+The hummdocs repository has all the documentation in markdown format. There is also a submodule to the Humm.github.io GiHub pages repository, which is basically the hummdocs repository transformed into static HTML for the web.
 
 To update the documentation the following steps need to be done.
 

@@ -3,34 +3,34 @@ site_dir: 'humm-au'
 nav:
 - Home: index.md
 - E-commerce Platforms:
-   # - Shopify: platforms/shopify.md
+   - Shopify: platforms/shopify.md
    - WooCommerce: platforms/woocommerce.md
-   # - Magento 1: platforms/magento_1.md
-   # - Magento 2: platforms/magento_2.md
-   # - PrestaShop: platforms/prestashop.md
-   # - CubeCart: platforms/cubecart.md
-   # - OpenCart: platforms/opencart.md
-# - POS Platforms:
-#    - Vend: platforms/vend.md
+   - Magento 1: platforms/magento_1.md
+   - Magento 2: platforms/magento_2.md
+   - PrestaShop: platforms/prestashop.md
+   - CubeCart: platforms/cubecart.md
+   - OpenCart: platforms/opencart.md
+- POS Platforms:
+    - Vend: platforms/vend.md
 - Accreditation:
    - Test Transactions: accreditation/accreditation.md
 - Developer Resources:
    - Introduction: developer_resources/introduction.md
    - Checkout Process: developer_resources/checkout_process.md
-#    - Gateway Reference: developer_resources/gateway_reference.md
+   - Gateway Reference: developer_resources/gateway_reference.md
    - Refund API Reference: developer_resources/refund_api.md
-#    - Sample cURL Script: developer_resources/sample_curl.md
-#    - Signature Generation: developer_resources/signature_generation.md
-#    - Testing Declines and Approvals: developer_resources/declines_and_approvals.md
+   - Sample cURL Script: developer_resources/sample_curl.md
+   - Signature Generation: developer_resources/signature_generation.md
+   - Testing Declines and Approvals: developer_resources/declines_and_approvals.md
 - Widgets:
    - Introduction: widgets/introduction.md
-#    - List of Widgets: widgets/list_of_widgets.md
-#    - Landing Page Widget: widgets/landing_widget.md
-#    - Installation:
-#       - Generic Installation: widgets/installation.md
-#       - Shopify Specific: price-info/shopify.md
-#       - Magento 1 Specific: price-info/magento_1.md 
-#       - OpenCart 3 Specific: price-info/opencart_3.md
+   - List of Widgets: widgets/list_of_widgets.md
+   - Landing Page Widget: widgets/landing_widget.md
+- Installation:
+   - Generic Installation: widgets/installation.md
+   - Shopify Specific: price-info/shopify.md
+   - Magento 1 Specific: price-info/magento_1.md 
+   - OpenCart 3 Specific: price-info/opencart_3.md
 theme: 
    name: readthedocs
    custom_dir: custom_theme
@@ -50,6 +50,6 @@ extra:
    country: Australia
    merchantID_for_curl: 30199250
    signature_for_curl: 5390d3249610b40b146ada45d46493895dbad0e7ca05daa7df42e6bd0cfc203f
-   payment_desc: There are a total of 5 equal payments, one at point of purchase and the remaining 4 over the next 4 fortnights.
+   payment_desc: ''
    max_purchase: 2100
    no_weekly_shopify: shopify

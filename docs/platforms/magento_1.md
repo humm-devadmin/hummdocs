@@ -1,11 +1,11 @@
 <h1>Setup on Magento 1</h1>
 
-You can install Oxipay plugin by manually copying plugin files across into your store's webserver. <br>
+You can install Humm plugin by manually copying plugin files across into your store's webserver. <br>
 Use the same instructions to upgrade your existing plugin to a newer release.
 
 ## Supported Tech Stacks
 
-Oxipay has been developed and tested against the following Magento tech stacks:
+Humm has been developed and tested against the following Magento tech stacks:
 
 | Magento Version      | Operating System | SQL    | PHP Version | Web Server    |
 |----------------------|------------------|--------|-------------|---------------|
@@ -21,7 +21,7 @@ Oxipay has been developed and tested against the following Magento tech stacks:
 
 1 - You can create a backup of your store by navigating to **System** -> **Tools** -> **Backup**.
 
-2 - Download the Oxipay plugin from [github.com/oxipay/oxipay-magento-1.x/releases](https://github.com/oxipay/oxipay-magento-1.x/releases).
+2 - Download the Humm plugin from [github.com/oxipay/oxipay-magento-1.x/releases](https://github.com/oxipay/oxipay-magento-1.x/releases).
 
 3 - Unzip it, then copy the following plugin files and folders into the corresponding folders under the Magento root directory.
 
@@ -47,7 +47,7 @@ Oxipay has been developed and tested against the following Magento tech stacks:
 
 ![5.png](/img/platforms/magento_1/5.png)
 
-3 - Confirm  **Oxipay Checkout** is visible and once expanded looks similar to the image below.
+3 - Confirm  **Humm Checkout** is visible and once expanded looks similar to the image below.
 
 ![6.png](/img/platforms/magento_1/6.png)
 
