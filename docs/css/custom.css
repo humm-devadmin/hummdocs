@@ -4,12 +4,16 @@
 /* --------------------------- */
 
 .wy-nav-side {
-    background: #333;
+  background: #F1F2EE !important;
 }
 
-.wy-menu-vertical a:hover {
-  color: #fff;
-  background-color: #515565;
+  .wy-nav-side li a, .wy-nav-side li  {
+    color: #333 !important;
+  }
+
+.wy-menu-vertical a:hover, .wy-menu-vertical li.on a:hover, .wy-menu-vertical li.current > a:hover, .wy-menu-vertical li.current a:hover {
+  color: #fff !important;
+  background-color: #4D5046;
 }
 
 .wy-nav-content-wrap {
@@ -33,20 +37,30 @@
     color: #333 !important;
 }
 
-.wy-side-nav-search {
+.btn-neutral, .btn-neutral:visited {
   background: #FF6C00 !important;
+  color: white !important;
 }
+
+  .btn-neutral:hover {
+    background: #CC5600 !important;
+  }
+
+  .wy-side-nav-search {
+    background: #FF6C00 !important;
+  }
 
 .wy-side-nav-search img {
   width:500px !important;
 }
 
 .wy-menu-vertical li.current {
-  background-color: #FFF;
+  background-color: #DCE4C9;
 }
 
   .wy-menu-vertical li.on a, .wy-menu-vertical li.current > a {
-    background-color: #EEE;
+    background-color: #4D5046;
+    color: white !important;
     border: none !important;
   }
 
@@ -67,13 +81,13 @@
     /* --------------------------- */
     /*  Humm Rebranding Changes  */
     /* --------------------------- */
-    .panel {
-      background-color: #eee;
-      padding: 15px;
-      border-radius: 5px;
-      border: 1px solid #d8d8d8;
-      margin-bottom: 15px;
-    }
+.panel {
+  background-color: #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  margin-bottom: 15px;
+}
 .panel-danger h3 {
     color: #b92020;
 }
@@ -161,4 +175,12 @@
      #oxipay-img{
      top: 0px !important;
      }
+}
+
+h1, h2 {
+  color: #FF6c00;
+}
+
+.wy-menu-vertical span {
+  color: #333 !important;
 }
