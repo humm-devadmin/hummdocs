@@ -39,6 +39,7 @@ deploy:
 notifications:
   - provider: Email
     to:
+      - pit@oxipay.com.au
       - pit@shophumm.com.au
       - devadmin@shophumm.com.au
   - provider: Slack

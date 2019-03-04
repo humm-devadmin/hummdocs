@@ -9,9 +9,9 @@ To setup and configure Humm on your Shopify store, please use the instructions b
   You will need your <b>Merchant ID</b> and an <b>Encryption Key</b> handy before continuing with the installation.
 </div>
 
-1 – Email <a href="mailto:pit@%domain%?Subject=Humm URL Request (Shopify)&body=Hi, %0D%0A%0D%0AMy Merchant ID is: %0D%0A%0D%0AI would like to setup Humm on my Shopify site. %0D%0A%0D%0AThanks,%0D%0A%0D%0A">pit@%domain%</a> for a copy of the **Humm Gateway Authorisation** URL. Please include your Merchant ID in the email.
+1 – Email <a href="mailto:pit@%domain%">pit@%domain%</a> with your merchant ID and mobile number for a copy of the **Humm Gateway Authorisation URL**.
 
-2 - Clicking the link to be taken to your store's setting page to add Humm.
+2 - Click the **Humm Gateway Authorisation URL** link to be taken to your store's setting page to add Humm.
 
 3 - Once logged in, you will see the prompt below. Click **Install payment provider**.
 
@@ -38,18 +38,14 @@ To setup and configure Humm on your Shopify store, please use the instructions b
 </div>
 
 <div class="panel">
-  Use <b>Test Mode</b> to test Humm or diagnose issues; transactions are similated and credit cards are not debited.
+  Tick the <b>Use test Mode</b> checkbox to test Humm or diagnose issues; transactions are similated and credit cards are not debited.</br>
+  See <a href="../../accreditation/accreditation">Accreditation</a> for more details.
 </div>
 
 <div class="panel">
-  In order to add the Price-info widget as below, please see the Shopify instructions <a href="../../price-info/%no_weekly_shopify%">here</a>.
+  In order to add the Price-info widget as below, please see the Shopify instructions <a href="../../price-info/shopify">here</a>.
 </div>
 
-<p class="price">
-    <span><strong>Product Price</strong>:</span>
-    <span id="priceinfo" class="woocommerce-Price-amount amount">
-        <span class="woocommerce-Price-currencySymbol">$</span>1400.00
-    </span>
-</p>
-<script class="oxipay-price-info" id="my-id" src="http://widgets.%domain%/content/scripts/payments.js?price-selector=%23priceinfo"></script>
+**Price: ** $1000
+<script class="oxipay-price-info" id="my-id" src="http://widgets.oxipay.com.au/content/scripts/payments.js?productPrice=1000"></script>
 </br>

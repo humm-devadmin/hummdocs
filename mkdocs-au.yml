@@ -52,6 +52,5 @@ extra:
    signature_for_curl: 5390d3249610b40b146ada45d46493895dbad0e7ca05daa7df42e6bd0cfc203f
    payment_desc: ''
    max_purchase: 2100
-   no_weekly_shopify: shopify
    version_1: 1.9.1.0 (CE)
    operating_system_1: Ubuntu 16.04 LTS
