@@ -10,8 +10,8 @@ nav:
    - PrestaShop: platforms/prestashop.md
    - CubeCart: platforms/cubecart.md
    - OpenCart: platforms/opencart.md
-- POS Platforms:
-    - Vend: platforms/vend.md
+#- POS Platforms:
+    # - Vend: platforms/vend.md
 - Accreditation:
    - Test Transactions: accreditation/accreditation.md
 - Developer Resources:
@@ -52,5 +52,3 @@ extra:
    signature_for_curl: 5390d3249610b40b146ada45d46493895dbad0e7ca05daa7df42e6bd0cfc203f
    payment_desc: ''
    max_purchase: 2100
-   version_1: 1.9.1.0 (CE)
-   operating_system_1: Ubuntu 16.04 LTS

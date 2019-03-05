@@ -2,7 +2,12 @@
 
 In order to prevent against malicious attacks and hijacking of browser sessions,  Humm implements a signing mechanism based on HMAC-SHA256. This section provides information on how you can use HMAC-SHA256 for signing and verification purposes.
 
-As mentioned, Humm uses HMAC-SHA256 for purposes of signing and verifying requests.
+There are two instances where signature generation is required:
+
+* When sending a request POST to Humm
+* When receiving both a response POST or GET from Humm
+
+
 
 Below is an example that demonstrates how you can go about implementing a method in a shopping platform that is based on PHP to generate the signature.
 
@@ -11,12 +16,12 @@ Below is an example that demonstrates how you can go about implementing a method
 Below is a PHP code snippet that demonstrates how a signature might be generated in the context of Humm:
 
 ```php
-	function oxipay_sign($query, $api_key )
+	function humm_sign($query, $api_key )
 	{
 	    $clear_text = '';
 	    ksort($query);
 	    foreach ($query as $key => $value) {
-	        if (substr($key, 0, 2) === "x_") {
+	        if (substr($key, 0, 2) === "x_" && $key !== "x_signature") {
 	            $clear_text .= $key . $value;
 	        }
 	    }
@@ -30,9 +35,10 @@ First note that the method expects two parameters and they are <code>$query</cod
 
 The parameter <code>$api_key</code> represents the API Key that is unique for every merchant. It should only change once the API key has been changed on the Humm side.
 
-Having received the two parameters, the <code>oxipay_sign</code> method will then perform an alphabetical sorting of the various key-value pairs based on the key but still maintaining the correlation between the keys and their respective values.
+Having received the two parameters, the <code>humm_sign</code> method will then perform an alphabetical sorting of the various key-value pairs based on the key but still maintaining the correlation between the keys and their respective values.
 
-The method will then examine the <code>$query</code> variable for the various key-value pairs by checking for the <code>x_</code> prefix and would then append them together.
+The method will then examine the <code>$query</code> variable for the various key-value pairs by checking for the <code>x_</code> prefix and would then append them together.</br>
+Note that the <code>x_signature</code> key-value pair should not be included in the generation of a signature.
 
 The method then computes the keyed hash value using the <code>hash_hmac</code> method.
 
@@ -41,7 +47,7 @@ The method then computes the keyed hash value using the <code>hash_hmac</code> m
 
 ## Java Example 
 
-```
+```java
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -67,9 +73,9 @@ class Main
         
         HashMap<String, String>  map = new HashMap<String, String>();
 
-        map.put("x_url_callback", "http://example.com/payments/oxipay/process");
-        map.put("x_url_cancel", "http://example.com/payments/oxipay/cancel");
-        map.put("x_url_complete", "http://example.com/payments/oxipay/process");
+        map.put("x_url_callback", "http://example.com/payments/humm/process");
+        map.put("x_url_cancel", "http://example.com/payments/humm/cancel");
+        map.put("x_url_complete", "http://example.com/payments/humm/process");
         map.put("x_account_id", _merchantId);
         map.put("x_amount", "400.00");
         map.put("x_currency", "AUD");
@@ -131,7 +137,7 @@ class Main
 
 ## Go Example
 
-```
+```golang
 // RegistrationPayload required to register a device with Humm
 type RegistrationPayload struct {
     MerchantID      string `json:"x_merchant_id"`

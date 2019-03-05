@@ -72,11 +72,13 @@ Below is a sample request that might be posted to an Humm gateway that is in the
 There are two responses from Humm.
 
 The first response that Humm always performs is a server-to-server asynchronous POST to the shopping cart on the gateway specified in the <code>x_url_callback</code> and in the format <code>application/x-www-form-urlencoded</code>. Similar to the request POST, the response POST includes key-values pairs that are specific to that transaction and indicate things such as the outcome of that particular transaction if it has failed or is completed successfully for instance.</br>
-Please note that this POST must be sent over HTTPS. Consequently the <code>x_url_callback</code> field should specify the HTTPS has the protocol.
 
-The second response is a HTTP GET to the client on either of the URLs specified in <code>x_url_complete</code> or <code>x_url_cancel</code>.
+The second response is a HTTP GET to the client on the URLs specified in <code>x_url_complete</code>.</br>
+The key-value pairs included in this HTTP GET are the same as the POST values as shown below.
 
-## Response POST values
+**Please note:** The POST response must be sent over HTTPS. Consequently the <code>x_url_callback</code> field should specify the HTTPS has the protocol.
+
+## Response POST/GET values
 
 Below is an overview of the various response key-value pairs that Humm returns after it has finished processing a transaction. Note that some of these key-value pairs echo corresponding key-value pairs in the request that Humm receives - as is the case with <code>x_currency</code> for instance.
 
@@ -92,12 +94,23 @@ x_timestamp               | Time at which the transaction is completed, in UTC f
 x_result                  | Values that represent the outcome of a transaction | Valid values are **completed** or **failed** | **completed**
 x_signature               | Response payload that is signed/verified using HMAC-SHA256 | hex string, case-insensitive | See [Signature Generation](../signature_generation/)
 
+### Response signature validation
+
+The <code>x_signature</code> included in both the POST and GET responses must validated by the merchants server.</br>
+Failure to do so could allow a third-party to tamper with the response.
+
+In the event that the provided <code>x_signature</code> does not match the calculated signature, the reponse should be disregarded.
+
+For further information please see [Signature Generation](../signature_generation/).
+
 ## Response POST reply
 
-It is expected that the POST reponse will be replied to by the sellers server to confirm that the POST response was recieved.<br>
+It is expected that the POST reponse will be replied to by the merchants server to confirm that the POST response was correctly recieved.</br>
+The format of this response must be human-readable and not exceed 1000 characters.
+
 The expected key-value pairs of this reply are listed below.
 
  Key | Description | Type | Example
 -----|-------------|------|---------
 x_reference               | A reference that uniquely references the order and assigned by the merchant | ascii string | 19783
-x_result                  | Values that represent the outcome of a transaction | Valid values are **completed** and **failed**| **completed**
+x_result                  | The status of the order in question according to the merchants server.</br>**This should not merely copy the status from the initial response POST** | ascii string | Approved, Declined, Paid, etc.
