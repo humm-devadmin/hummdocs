@@ -29,7 +29,7 @@ To do this your website must be able to process a test transaction and have it v
 
 ![2.png](/img/accreditation/2.png)
 
-- You can use the card number **5506750000004364** with any name and valid expiry date.
+- You can use the card number **5506750000004364** with any name and valid expiry date. See [Testing Declines and Approvals](../../developer_resources/declines_and_approvals) for more information.
 - A CVV of 200 will cause the transaction to decline. All other 3 digit numbers will succeed.
 
 4 - Your transaction will be approved or declined and you will be redirected back to the web-store.

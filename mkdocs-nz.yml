@@ -8,7 +8,7 @@ nav:
    - Magento 1: platforms/magento_1.md
    - Magento 2: platforms/magento_2.md
    - PrestaShop: platforms/prestashop.md
-   - CubeCart: platforms/cubecart.md
+   # - CubeCart: platforms/cubecart.md
    - OpenCart: platforms/opencart.md
 # - POS Platforms:
 #    - Vend: platforms/vend.md
@@ -25,7 +25,7 @@ nav:
 - Widgets:
     - Introduction: widgets/introduction.md
     - List of Widgets: widgets/list_of_widgets.md
-    - Landing Page Widget: widgets/landing_widget.md
+    # - Landing Page Widget: widgets/landing_widget.md
     - Installation:
         - Generic Installation: widgets/installation.md
         - Shopify Specific: price-info/shopify.md
