@@ -1,8 +1,9 @@
 ## Adding a Widget to your Website
-<strong>Step 1:</strong> Choose the widget that you want to install from our <a href="/guidelines/widgets">Widgets list</a>.
-<br><strong>Step 2:</strong> Place the ```<script>``` tag in the desired place you'd like it to appear on your website.
-<br><strong>Step 3:</strong> Save and you should see a working widget on your website.
+**Step 1:** Choose the widget that you want to install from our [List of Widgets](../list_of_widgets).
 
+**Step 2:** Place the ```<script>``` tag in the desired place you'd like it to appear on your website.
+
+**Step 3:** Save and you should see a working widget on your website.
 
 ### Working Example
-<script id="oxipay-banner" src="https://widgets.%domain%/content/scripts/more-info-large.js"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200"></script>
