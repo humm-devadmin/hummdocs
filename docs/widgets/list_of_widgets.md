@@ -1,4 +1,4 @@
-### More-info large
+<!-- ### More-info large
 <script id="moreInfoLarge" src="https://widgets.%domain%/content/scripts/more-info-large.js"></script>
 ```
 <script id="oxipay-banner" src="https://widgets.%domain%/content/scripts/more-info-large.js"></script>
@@ -10,21 +10,22 @@
 ```
 <script id="oxipay-banner" src="https://widgets.%domain%/content/scripts/more-info-small.js"></script>
 ```
-<br>
+<br> -->
 
 ### Price-info widget
 
 **(fortnightly repayments)**
-<script id="oxipay-price-info" src="https://widgets.%domain%/content/scripts/payments.js?productPrice=0"></script>
+<script id="oxipay-price-info" src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=0"></script>
 ```
-<script id="oxipay-price-info" src="https://widgets.%domain%/content/scripts/payments.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
+<script id="oxipay-price-info" src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
 ```
 
-**(weekly repayments)**
+<!-- **(weekly repayments)**
 <script id="oxipay-price-info" src="https://widgets.%domain%/content/scripts/payments-weekly.js?productPrice=0"></script>
 ```
 <script id="oxipay-price-info" src="https://widgets.%domain%/content/scripts/payments-weekly.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
-```
+``` 
+-->
 
 
 ### Dynamic Price-info widget
@@ -33,7 +34,7 @@ For instances where you have multiple products on the same page, or the price of
 
 With this widget you can provide a **URL encoded** jquery style CSS selector and it will bind a call back to the DOMSubTreeModified event. If the price is modified, it will update the payment info accordingly. 
 
-For example, this is a block of html extracted from a typical woo-commerce product page. 
+For example, this is a block of html extracted from a typical WooCommerce product page:
 
 ```
     <span>Product Price:</span>
@@ -44,22 +45,22 @@ For example, this is a block of html extracted from a typical woo-commerce produ
     </p>
 ```
 
-In this case we use the urlencoded ```%23priceinfo ``` to refer to the id ```#priceinfo```
-
-**(fortnightly repayments)**
 <p class="price">
     <span><strong>Product Price</strong>:</span>
     <span id="priceinfo" class="woocommerce-Price-amount amount">
         <span class="woocommerce-Price-currencySymbol">$</span>1400.00
     </span>
 </p>
-<script class="oxipay-price-info" id="my-id" src="http://widgets.%domain%/content/scripts/payments.js?price-selector=%23priceinfo"></script>
+
+In this case we use the urlencoded ```%23priceinfo ``` to refer to the id ```#priceinfo```
+
+<script class="oxipay-price-info" id="my-id" src="http://widgets.%domain%/content/scripts/price-info.js?price-selector=%23priceinfo"></script>
 ```
-<script class="oxipay-price-info" id="my-id" src="http://widgets.%domain%/content/scripts/payments.js?price-selector=%23priceinfo"></script>
+<script class="oxipay-price-info" id="my-id" src="http://widgets.%domain%/content/scripts/price-info.js?price-selector=%23priceinfo"></script>
 ```
 <br>
 
-**(weekly repayments)**
+<!-- **(weekly repayments)**
 <p class="price">
     <span><strong>Product Price</strong>:</span>
     <span id="priceinfo2" class="woocommerce-Price-amount amount">
@@ -71,7 +72,7 @@ In this case we use the urlencoded ```%23priceinfo ``` to refer to the id ```#pr
 <script class="oxipay-price-info" id="my-id" src="http://widgets.%domain%/content/scripts/payments-weekly.js?price-selector=%23priceinfo2"></script>
 ```
 
-<br>
+<br> -->
 
 You could also use ```price-selector=.woocommerce-Price-amount.amount``` if your product price isn't accessible by an xml:id 
 
@@ -83,16 +84,13 @@ To alter the Price-info widget based on the price passed to it, you may set the 
 
 This is done by setting the ```data-min``` and ```data-max``` fields when calling the Price-info widget script as seen below.
 ```
-<script data-min="20" data-max="300" src="https://widgets.%domain%/content/scripts/payments-weekly.js?productPrice=YOUR_PRICE"></script>
+<script data-min="20" data-max="300" src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=YOUR_PRICE"></script>
 ```
 In this instance the Price-info widget will not display if the proudct price is above $300 and will display in an altered form if the value is below $20 as seen below.
 
-<script data-min="20" data-max="300" src="https://widgets.%domain%/content/scripts/payments-weekly.js?productPrice=0"></script>
+<script data-min="20" data-max="300" src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=0"></script>
+
 <br>
-
-By default the Price-info widget will not display for prices above $%max_purchase%.
-
-<br/>
 
 <div class="panel panel-primary">
   <div class="panel-heading">
