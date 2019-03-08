@@ -1,7 +1,6 @@
 <h1>Setup on Shopify</h1>
 
 To setup and configure Humm on your Shopify store, please use the instructions below
-<br/>
 
 ##Integrating Humm##
 
@@ -47,5 +46,4 @@ To setup and configure Humm on your Shopify store, please use the instructions b
 </div>
 
 **Price: ** $1000
-<script class="oxipay-price-info" id="my-id" src="http://widgets.oxipay.com.au/content/scripts/payments.js?productPrice=1000"></script>
-</br>
+<script id="my-id" src="http://widgets.%domain%/content/scripts/price-info.js?productPrice=1000"></script>
