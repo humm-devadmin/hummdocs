@@ -11,17 +11,17 @@ Use the same instructions to upgrade your existing plugin to a newer release.
 
 1 - You can create a backup of your store by navigating to **System** -> **Tools** -> **Backup**.
 
-2 - Download the Humm plugin from [github.com/oxipay/oxipay-magento-1.x/releases](https://github.com/oxipay/oxipay-magento-1.x/releases).
+2 - Download the Humm plugin from [github.com/humm-devadmin/humm-magento1.x/releases](https://github.com/humm-devadmin/humm-magento1.x/releases).
 
 3 - Unzip it, then copy the following plugin files and folders into the corresponding folders under the Magento root directory.
 
-- /app/code/community/Oxipay
-- /app/design/frontend/base/default/template/oxipayments
-- /app/design/adminhtml/base/default/template/oxipayments
-- /app/etc/modules/Oxipay_Oxipayments.xml
+    /app/code/community/Humm
+    /app/design/frontend/base/default/template/HummPayments
+    /app/design/adminhtml/base/default/template/HummPayments
+    /app/etc/modules/Humm_HummPayments.xml
 
-- /skin/frontend/base/default/images/Oxipay/
-- /skin/adminhtml/base/default/images/Oxipay/
+    /skin/frontend/base/default/images/Humm/
+    /skin/adminhtml/base/default/images/Humm/
 
 4 - Login into Magento's **Admin Panel**, click on **System** then select **Cache Management**.
 
@@ -41,3 +41,36 @@ Use the same instructions to upgrade your existing plugin to a newer release.
 
 ![6.png](/img/platforms/magento_1/6.png)
 
+4 - Force Humm provides a way to preview and test Humm before Humm is officially launched. Please do not enabled it in the live environment before
+
+## Humm official launch
+
+Before the Humm official launch, the plugin will behave like an Oxipay payment plugin. It will show Oxipay, and checkout with the Oxipay gateway.
+
+The plugin will automatically switch itself to Humm when the Humm is officially launched. It will then show Humm, and checkout with the Humm gateway.
+
+The switch-over should be automatic and you as the merchant should not need to do anything on the launch date to make the switch.
+
+## Updating from the old Oxipay plugin
+
+1 - Install the Humm payment plugin as described earlier in this page.
+
+2 - Go to the Payment Methods page as described earlier.
+
+3 - If you already have the Oxipay plugin installed and configured, you will see certain Oxipay configurations (Merchant Number, API Key, etc.) has been copyed to the Humm plugin configurations.
+
+4 - Set "Enabled" to "Yes" for Humm plugin, **and set "Enabled" to "No" for the Oxipay plugin**.
+
+5 - Adjust other Humm plugin settings if necessary. "Is Testing" is preset to "No" by default in this case. Save the config.
+
+6 - Now you can safely remove the Oxipay plugin by removing the following folders and files:
+
+    /app/code/community/Oxipay
+    /app/design/frontend/base/default/template/oxipayments
+    /app/design/adminhtml/base/default/template/oxipayments
+    /app/etc/modules/Oxipay_Oxipayments.xml
+
+    /skin/frontend/base/default/images/Oxipay/
+    /skin/adminhtml/base/default/images/Oxipay/
+
+7 - Before the Humm launch date, the plugin will still shou Oxipay and checkout with Oxipay, and your customers should feel no changes. After the official Humm launch, the plugin will automatically switch to Humm, providing a smooth and fully automatic transition.
