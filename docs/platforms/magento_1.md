@@ -1,6 +1,6 @@
 <h1>Setup on Magento 1</h1>
 
-You can install Humm plugin by manually copying plugin files across into your store's webserver. <br>
+You can install Humm plugin by manually copying plugin files across into your store's webserver.  
 Use the same instructions to upgrade your existing plugin to a newer release.
 
 ## Plugin Installation
@@ -11,7 +11,7 @@ Use the same instructions to upgrade your existing plugin to a newer release.
 
 1 - You can create a backup of your store by navigating to **System** -> **Tools** -> **Backup**.
 
-2 - Download the Humm plugin from [github.com/humm-devadmin/humm-magento1.x/releases](https://github.com/humm-devadmin/humm-magento1.x/releases).
+2 - Download the Humm plugin from [github.com/shophumm/humm-magento1.x/releases](https://github.com/shophumm/humm-magento1.x/releases).
 
 3 - Unzip it, then copy the following plugin files and folders into the corresponding folders under the Magento root directory.
 
@@ -41,7 +41,7 @@ Use the same instructions to upgrade your existing plugin to a newer release.
 
 ![6.png](/img/platforms/magento_1/6.png)
 
-4 - Force Humm provides a way to preview and test Humm before Humm is officially launched. Please do not enabled it in the live environment before
+4 - Force Humm provides a way to preview and test Humm before Humm is officially launched. Please do not enabled it in the live environment before the official Humm launch.
 
 ## Humm official launch
 
