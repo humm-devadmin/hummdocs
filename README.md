@@ -20,13 +20,15 @@ To update the documentation the following steps need to be done.
 
 * There are 2 branches:
 
-        | branch name       |    description     |
-        |-------------------|--------------------|
-        | **master**        |    master branch for Humm docs (http://docs.shophumm.com.au and http://docs.shophumm.co.nz) |
-        | developmnent      |    dev branch for Humm docs |
+| branch name       |    description     |
+|-------------------|--------------------|
+| **master**        |    master branch for Humm docs (http://docs.shophumm.com.au and http://docs.shophumm.co.nz) |
+| developmnent      |    dev branch for Humm docs |
 
-        Each branch contains both AU and NZ version at the same time.
+Each branch contains both AU and NZ version at the same time.  
 The differences are contained in the mkdocs config files (mkdocs-au.yml and mkdocs-nz.yml respectively).
+
+## How to contribute
 
 * You can create a branch for your changes.
 
