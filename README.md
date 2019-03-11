@@ -22,7 +22,7 @@ To update the documentation the following steps need to be done.
 
 | branch name       |    description     |
 |-------------------|--------------------|
-| **master**        |    master branch for Humm docs (http://docs.shophumm.com.au and http://docs.shophumm.co.nz) |
+| **master**        |    master branch for Humm docs (https://docs.shophumm.com.au and https://docs.shophumm.co.nz) |
 | developmnent      |    dev branch for Humm docs |
 
 Each branch contains both AU and NZ version at the same time.  

@@ -46,4 +46,4 @@ To setup and configure Humm on your Shopify store, please use the instructions b
 </div>
 
 **Price: ** $1000
-<script id="my-id" src="http://widgets.%domain%/content/scripts/price-info.js?productPrice=1000"></script>
+<script id="my-id" src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1000"></script>
