@@ -14,7 +14,7 @@ For adding Price-info Widget to your Website, follow the instruction
 
 ![theme-editor.png](/img/price-info/theme-editor.png)
 
-**Step 4:** From left panel, navigate to "Sections" and select "product-template.liquid"
+**Step 4:** From the left panel, navigate to "Sections" and select "product-template.liquid"
 
 ![theme-editor.png](/img/price-info/left-sections.png)
 
