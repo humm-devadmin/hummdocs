@@ -7,9 +7,9 @@
   background: #F1F2EE !important;
 }
 
-  .wy-nav-side li a, .wy-nav-side li  {
-    color: #333 !important;
-  }
+.wy-nav-side li a, .wy-nav-side li  {
+  color: #333 !important;
+}
 
 .wy-menu-vertical a:hover, .wy-menu-vertical li.on a:hover, .wy-menu-vertical li.current > a:hover, .wy-menu-vertical li.current a:hover {
   color: #fff !important;
@@ -42,13 +42,13 @@
   color: white !important;
 }
 
-  .btn-neutral:hover {
-    background: #CC5600 !important;
-  }
+.btn-neutral:hover {
+  background: #CC5600 !important;
+}
 
-  .wy-side-nav-search {
-    background: #FF6C00 !important;
-  }
+.wy-side-nav-search {
+  background: #FF6C00 !important;
+}
 
 .wy-side-nav-search img {
   width:500px !important;
@@ -92,19 +92,24 @@
     color: #b92020;
 }
 .wy-side-nav-search, .wy-nav-top {
-    background-color: #e68821;
+    background-color: #FF6C00;
 
 }
+
+.wy-nav-top .fa {
+  line-height: inherit;
+}
+
 .wy-side-nav-search input[type=text] {
     border-color:  #c1731c;
 }
 
 #oxipay-tag-01 img {
-   height: 20px !important;
+  height: 20px !important;
 }
 
 #oxipay-banner-01 img {
-   height: 100% !important;
+  height: 100% !important;
 }
 
 #oxipay-banner-01 p {
