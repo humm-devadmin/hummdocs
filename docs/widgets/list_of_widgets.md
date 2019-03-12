@@ -14,7 +14,7 @@
 
 ## Price-info widget
 
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=0"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200"></script>
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
 ```
@@ -47,7 +47,7 @@ For example, this is a block of html extracted from a typical WooCommerce produc
 <p class="price">
     <span><strong>Product Price</strong>:</span>
     <span id="priceinfo" class="woocommerce-Price-amount amount">
-        <span class="woocommerce-Price-currencySymbol">$</span>1400.00
+        <span class="woocommerce-Price-currencySymbol">$</span>1000.00
     </span>
 </p>
 
@@ -91,14 +91,15 @@ In this example, the Price-info widget will not display if the product price is 
 
 <br>
 
-<div class="panel panel-primary">
+
   <div class="panel-heading">
     <h3 class="panel-title">Installation based on Platforms</h3>
   </div>
   <div class="panel-body">
 <ul>
-  <li><a href="../../price-info/shopify">Shopify specific instructions</a></li>
-  <li><a href="../../price-info/woocommerce">WooCommerce specific instructions</a></li>
+  <li><a href="../../price-info/shopify">Shopify</a></li>
+  <li><a href="../../price-info/magento_1">Magento 1</a></li>
+  <li><a href="../../price-info/opencart_3">OpenCart 3</a></li>
 </ul>
   </div>
 </div>
