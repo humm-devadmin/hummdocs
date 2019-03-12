@@ -4,22 +4,22 @@ nav:
 - Home: index.md
 - E-commerce Platforms:
    - Shopify: platforms/shopify.md
-   - WooCommerce: platforms/woocommerce.md
+   # - WooCommerce: platforms/woocommerce.md
    - Magento 1: platforms/magento_1.md
    - Magento 2: platforms/magento_2.md
-   - PrestaShop: platforms/prestashop.md
+   # - PrestaShop: platforms/prestashop.md
    # - CubeCart: platforms/cubecart.md
-   - OpenCart: platforms/opencart.md
+   # - OpenCart: platforms/opencart.md
 #- POS Platforms:
     # - Vend: platforms/vend.md
-- Accreditation:
-   - Test Transactions: accreditation/accreditation.md
+# - Accreditation:
+#    - Test Transactions: accreditation/accreditation.md
 - Developer Resources:
    - Introduction: developer_resources/introduction.md
    - Checkout Process: developer_resources/checkout_process.md
    - Gateway Reference: developer_resources/gateway_reference.md
-   - Refund API Reference: developer_resources/refund_api.md
-   - Sample cURL Script: developer_resources/sample_curl.md
+   # - Refund API Reference: developer_resources/refund_api.md
+   # - Sample cURL Script: developer_resources/sample_curl.md
    - Signature Generation: developer_resources/signature_generation.md
    - Testing Declines and Approvals: developer_resources/declines_and_approvals.md
 - Widgets:

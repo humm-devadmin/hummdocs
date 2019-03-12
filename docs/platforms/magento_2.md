@@ -42,7 +42,7 @@ Use the same instructions to upgrade your existing plugin to a newer release.
 
 Before the Humm official launch, the plugin will behave like an Oxipay payment plugin. It will show Oxipay, and checkout with the Oxipay gateway.
 
-The plugin will automatically switch itself to Humm when the Humm is officially launched. It will then show Humm, and checkout with the Humm gateway.
+The plugin will automatically switch itself to Humm once it is officially launched. It will then show Humm, and checkout with the Humm gateway.
 
 The switch-over should be automatic and you as the merchant should not need to do anything on the launch date to make the switch.
 
@@ -58,4 +58,4 @@ The switch-over should be automatic and you as the merchant should not need to d
 
 5 - Now you can disable or remove the Oxipay plugin as its features are all included in the Humm plugin.
 
-6 - Before the Humm launch date, the plugin will still shou Oxipay and checkout with Oxipay, and your customers should feel no changes. After the official Humm launch, the plugin will automatically switch to Humm, providing a smooth and fully automatic transition.
+6 - Before the Humm launch date, the plugin will still show Oxipay and checkout with Oxipay, and your customers should feel no changes. After the official Humm launch, the plugin will automatically switch to Humm, providing a smooth and fully automatic transition.
