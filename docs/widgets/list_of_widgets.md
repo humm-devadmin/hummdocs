@@ -12,12 +12,18 @@
 ```
 <br> -->
 
-## Price-info widget
+# Price-info widget
 
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200"></script>
+## How to use
+
+To use the price-info widget, simple insert the following code to where you want the price-info widget to be be displayed. Replace <code>PLACE_YOUR_PRODUCT_PRICE</code> with the price of the product.
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
 ```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200"></script>
+
+<br>
+
 
 <!-- **(weekly repayments)**
 <script src="https://widgets.%domain%/content/scripts/payments-weekly.js?productPrice=0"></script>
@@ -26,12 +32,26 @@
 ``` 
 -->
 
+## Widget behavior
+When the product price is below **$1000**, the price-info widget will display the payable amount of each instalment.  
+On a product of **$400**, the widget will look like:
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=400"></script>
 
-## Dynamic Price-info widget
+When the product price is over **$1000**, the widget will show "Streeetch your payments", with the amount of each instalment.  
+Here is an example of the widget on a **$5000** product:
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=5000"></script>
 
-For instances where you have multiple products on the same page, or the price of the product dynamically updates as a result of user selection; we provide a more sophisticated price-info widget. 
+Also, the content of the popup when the widget is clicked will be slightly different when the product price is below or over **$2000**.
 
-With this widget, you can provide a **URL encoded** jquery style CSS selector and it will bind a call back to the DOMSubTreeModified event. If the price is modified, it will update the payment info accordingly. 
+## Widget features
+### 1. Dynamically get product price
+
+Instead of passing in a fixed ```productPrice``` value,  you can provide a ```price-selector``` query argument to target the HTML element containing the product price. In this instance, the price-info widget will get the product price from the specified element, and dynamically update when the price is changed.
+
+For instances where the price of the product dynamically updates as a result of user selection, or you have multiple products on the same page, our price-info widget can dynamically get the product price from a specified html element in the page.
+
+With this feature, you can provide a **URL encoded** jquery style CSS selector and it will bind a call back to the DOMSubTreeModified event.  
+If the price is modified, it will update the payment info accordingly. 
 
 For example, this is a block of html extracted from a typical WooCommerce product page:
 
@@ -47,7 +67,7 @@ For example, this is a block of html extracted from a typical WooCommerce produc
 <p class="price">
     <span><strong>Product Price</strong>:</span>
     <span id="priceinfo" class="woocommerce-Price-amount amount">
-        <span class="woocommerce-Price-currencySymbol">$</span>1000.00
+        <span class="woocommerce-Price-currencySymbol">$</span>900.00
     </span>
 </p>
 
@@ -73,11 +93,9 @@ In this case, we use the urlencoded ```%23priceinfo ``` to refer to the id ```#p
 
 <br> -->
 
-You could also use ```price-selector=.woocommerce-Price-amount.amount``` if your product price isn't accessible by an xml:id 
+You could also use ```price-selector=.woocommerce-Price-amount.amount``` or any CSS selectors to help identify the price element.
 
-If you *do not* provide a ```price-selector``` query argument then you can also use a fixed ```productPrice``` value. In this instance, the payment period will not update if the price is updated.
-
-### Minimum and Maximum in Price-info widget (Optional)
+### 2. Minimum and Maximum (Optional)
 
 To alter the Price-info widget based on the price passed to it, you may set the minimum and maximum values it will display for.
 

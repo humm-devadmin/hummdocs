@@ -37,7 +37,7 @@ _Next: Continue onto Complete The Install instructions below._
 
 ## Complete The Install
 
-1 - If not already log into your **OpenCart Admin**; From the left menu select **Extensions** and then **Extensions** submenu item below.
+1 - If not already, log into your **OpenCart Admin**. From the left menu select **Extensions** and then **Extensions** submenu item below.
 
 ![1.png](/img/platforms/opencart/1.png)
 
