@@ -20,7 +20,7 @@ To setup and configure Humm on your Shopify store, please use the instructions b
 
 ![6.png](/img/platforms/shopify/6.png)
 
-5 - Bring the **Alternative Payments** section into focus, expand the **Select additional payment method** drop-down and click **Humm - Interest Free Payments**.
+5 - Bring the **Alternative Payments** section into focus, expand the **Select additional payment method** drop-down and click **Humm - Streetch Your Payments**.
 
 <div class="panel">
 	To access this page from your Shopify dashboard, select <b>Settings</b> in the bottom left hand corner, then select select <b>Payment providers</b>.
@@ -33,12 +33,12 @@ To setup and configure Humm on your Shopify store, please use the instructions b
 ![8.png](/img/platforms/shopify/8.png)
 
 <div class="panel">
-  The <b>Show</b> checkbox makes your Encryption Key visible as you type it in; otherwise it is masked. 
+  The <b>Show</b> checkbox makes your Encryption Key visible as you type it in, otherwise it is masked. 
 </div>
 
 <div class="panel">
-  Tick the <b>Use test Mode</b> checkbox to test Humm or diagnose issues; transactions are similated and credit cards are not debited.</br>
-  See <a href="../../accreditation/accreditation">Accreditation</a> for more details.
+  Tick the <b>Use test Mode</b> checkbox to test Humm or diagnose issues. transactions are simulated and credit cards are not debited.</br>
+  <!--See <a href="../../accreditation/accreditation">Accreditation</a> for more details.-->
 </div>
 
 <div class="panel">

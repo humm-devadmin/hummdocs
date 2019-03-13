@@ -88,8 +88,8 @@ Below is an overview of the various response key-value pairs that Humm returns a
 
  Key | Description | Type | Example
 -----|-------------|------|---------
-x_account_id              | This is the Merchant ID assigned by Humm to the merchant | unicode string | 123456
-x_reference               | A reference that uniquely references the order and assigned by the merchant | ascii string | 19783
+x_account_id              | This is the Merchant ID assigned by Humm to the merchant | Unicode string | 123456
+x_reference               | A reference that uniquely references the order and assigned by the merchant | ASCII string | 19783
 x_currency                | Currency of the transaction | ISO-4217 | %currency_abbr%
 x_test                    | Indicates whether the transaction is to be processed as a live or a test transaction | True/False | False
 x_amount                  | Represents the transaction's total amount including any taxes and shipping costs | decimal | 99.90  
@@ -109,12 +109,12 @@ For further information please see [Signature Generation](../signature_generatio
 
 ## Response POST reply
 
-It is expected that the POST reponse will be replied to by the merchants server to confirm that the POST response was correctly recieved.</br>
+It is expected that the POST response will be replied to by the merchants server to confirm that the POST response was correctly received.</br>
 The format of this response must be human-readable and not exceed 1000 characters.
 
 The expected key-value pairs of this reply are listed below.
 
  Key | Description | Type | Example
 -----|-------------|------|---------
-x_reference               | A reference that uniquely references the order and assigned by the merchant | ascii string | 19783
-x_result                  | The status of the order in question according to the merchants server.</br>**This should not merely copy the status from the initial response POST** | ascii string | Approved, Declined, Paid, etc.
+x_reference               | A reference that uniquely references the order and assigned by the merchant | ASCII string | 19783
+x_result                  | The status of the order in question according to the merchants server.</br>**This should not merely copy the status from the initial response POST** | ASCII string | Approved, Declined, Paid, etc.

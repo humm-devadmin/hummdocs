@@ -1,6 +1,6 @@
 <h1>Setup on Magento 1</h1>
 
-You can install Humm plugin by manually copying plugin files across into your store's webserver.  
+You can install Humm plugin by manually copying plugin files across into your store's web server.  
 Use the same instructions to upgrade your existing plugin to a newer release.
 
 ## Plugin Installation
@@ -57,7 +57,7 @@ The switch-over should be automatic and you as the merchant should not need to d
 
 2 - Go to the Payment Methods page as described earlier.
 
-3 - If you already have the Oxipay plugin installed and configured, you will see certain Oxipay configurations (Merchant Number, API Key, etc.) has been copyed to the Humm plugin configurations.
+3 - If you already have the Oxipay plugin installed and configured, you will see certain Oxipay configurations (Merchant Number, API Key, etc.) have been copied to the Humm plugin configurations.
 
 4 - Set "Enabled" to "Yes" for Humm plugin, **and set "Enabled" to "No" for the Oxipay plugin**.
 

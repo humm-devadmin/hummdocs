@@ -7,7 +7,7 @@ YOUR_MAGENTO_FOLDER/app/design/frontend/rwd/YOUR_TEMPLATE_FOLDER/template/catalo
 ```
 **Step 2:** Find "getPriceHtml"
 
-There should be only one occurance of the "getPriceHtml" string, and it may look similar to:
+There should be only one occurrence of the "getPriceHtml" string, and it may look similar to:
 ```
 <?php echo $this->getPriceHtml($_product); ?>
 ```

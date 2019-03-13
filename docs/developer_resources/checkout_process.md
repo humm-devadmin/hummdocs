@@ -16,4 +16,4 @@ Below is a chart that summarises the flow of a transaction when processing it us
 
 **Step 5**: The customer is then presented with an 'Approved' or 'Declined' page.  The customer is then redirected (**GET**) to the provided <code>x_url_complete</code> with the same <a href="/developer_resources/gateway_reference/#post-and-get-responses">response</a> content as used in **Step 4**.  
 
- **Step 6**: The transaction is now complete from Humm side as well as the client's and shopping cart's point of views.
+ **Step 6**: The transaction is now complete from Humm's side as well as the client's and shopping cart's point of views.

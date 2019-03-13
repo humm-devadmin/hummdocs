@@ -32,7 +32,7 @@ Use the same instructions to upgrade your existing plugin to a newer release.
 
 1 - To view Humm's settings page, navigate to **Stores** -> **Configuration** -> **Sales** -> **Payment Methods**.
 
-2- Confirm **Humm Payment Gateway** is visible and once expanded looks like the image below.
+2 - Confirm **Humm Payment Gateway** is visible and once expanded looks like the image below.
 
 ![4.png](\img\platforms\magento_2\4.png)
 

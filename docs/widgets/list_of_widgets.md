@@ -33,33 +33,33 @@ To use the price-info widget, simple insert the following code to where you want
 -->
 
 ## Widget behavior
-When the product price is below **$1000**, the price-info widget will display the payable amount of each instalment.  
+When the product price is below or equal to **$1000**, the price-info widget will display the payable amount of each installment.  
 On a product of **$400**, the widget will look like:
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=400"></script>
 
-When the product price is over **$1000**, the widget will show "Streeetch your payments", with the amount of each instalment.  
+When the product price is over **$1000**, the widget will only show "Streeetch your payments".
 Here is an example of the widget on a **$5000** product:
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=5000"></script>
 
-Also, the content of the popup when the widget is clicked will be slightly different when the product price is below or over **$2000**.
+Also, the content of the pop-up when the widget is clicked will be slightly different when the product price is below or over **$2000**.
 
 ## Widget features
 ### 1. Dynamically get product price
 
 Instead of passing in a fixed ```productPrice``` value,  you can provide a ```price-selector``` query argument to target the HTML element containing the product price. In this instance, the price-info widget will get the product price from the specified element, and dynamically update when the price is changed.
 
-For instances where the price of the product dynamically updates as a result of user selection, or you have multiple products on the same page, our price-info widget can dynamically get the product price from a specified html element in the page.
+For instances where the price of the product dynamically updates as a result of user selection, or you have multiple products on the same page, our price-info widget can dynamically get the product price from a specified HTML element in the page.
 
-With this feature, you can provide a **URL encoded** jquery style CSS selector and it will bind a call back to the DOMSubTreeModified event.  
+With this feature, you can provide a **URL encoded** jQuery style CSS selector and it will bind a call back to the DOMSubTreeModified event.  
 If the price is modified, it will update the payment info accordingly. 
 
-For example, this is a block of html extracted from a typical WooCommerce product page:
+For example, this is a block of HTML extracted from a typical WooCommerce product page:
 
 ```
 <span>Product Price:</span>
 <p class="price">
     <span id="priceinfo" class="woocommerce-Price-amount amount">
-        <span class="woocommerce-Price-currencySymbol">$</span>1400.00
+        <span class="woocommerce-Price-currencySymbol">$</span>900.00
     </span>
 </p>
 ```

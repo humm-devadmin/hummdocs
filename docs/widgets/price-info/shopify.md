@@ -1,6 +1,6 @@
 # Adding Shopify's Price-info Widget
 
-For adding Price-info Widget to your Website, follow the instruction
+For adding Price-info Widget to your Shopify website, follow the instructions below:
 
 **Step 1:** Login into Shopify backend/Dashboard
 

@@ -1,5 +1,5 @@
 #Adding WooCommerce's Price-info Widget
-For adding Price-info Widget to your Website, follow the instruction<br>
+For adding Price-info Widget to your WooCommerce Website, follow the instructions<br>
 <strong>Step 1:</strong> Find ```price.php``` from the following location in your hosting (Wordpress installed Folder) and open it with your desired text-editor <br>
 ```
 YourWordpressFolder\wp-content\plugins\woocommerce\templates\single-product
