@@ -9,7 +9,7 @@ nav:
    - Magento 2: platforms/magento_2.md
    # - PrestaShop: platforms/prestashop.md
    # - CubeCart: platforms/cubecart.md
-   # - OpenCart: platforms/opencart.md
+   - OpenCart 3.0: platforms/opencart.md
 #- POS Platforms:
     # - Vend: platforms/vend.md
 # - Accreditation:
