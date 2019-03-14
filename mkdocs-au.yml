@@ -7,7 +7,7 @@ nav:
    # - WooCommerce: platforms/woocommerce.md
    - Magento 1: platforms/magento_1.md
    - Magento 2: platforms/magento_2.md
-   # - PrestaShop: platforms/prestashop.md
+   - PrestaShop: platforms/prestashop.md
    # - CubeCart: platforms/cubecart.md
    - OpenCart 3.0: platforms/opencart.md
 #- POS Platforms:

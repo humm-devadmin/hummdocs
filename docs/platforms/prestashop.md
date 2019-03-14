@@ -1,29 +1,21 @@
-<h1>Setting up on PrestaShop</h1>
+#Setting up on PrestaShop
 
 This document outlines the steps needed to install Humm on your PrestaShop store.
 
 ## Plugin Installation
+<div id="installing-humm">
+  The plugin can be installed via PrestaShop's admin panel. This section details how to upload and install the plugin, and configure its various parameters for it to work properly.
+</div>
 
 <div class="panel">
   You will need your <b>Merchant ID</b> and an <b>Encryption Key (API Key)</b> handy before continuing with the installation. 
 </div>
 
-The plugin can be installed automatically via PrestaShop's admin panel. This section details how to upload and install the plugin, and configure its various parameters for it to work properly.
-
-<div class="panel">
-  Installation of the plugin requires you to be able to access the store's admin area. If you have trouble accessing your PrestaShop's admin area.
-</div>
-
-<div id="installing-oxipay"></div>
-### Installation Procedure
-
 **1** - Click the following URL corresponding to your PrestaShop version to download the plugin.
 
 For PrestaShop 1.6:
-[https://github.com/oxipay/oxipay-prestashop/releases/download/1.3.1/oxipay_prestashop_v1.3.1.zip](https://github.com/oxipay/oxipay-prestashop/releases/download/1.3.1/oxipay_prestashop_v1.3.1.zip)
-
-For PrestaShop 1.7:
-[https://github.com/oxipay/oxipay-prestashop/releases/download/1.3.2/oxipay_prestashop_v1.3.2.zip](https://github.com/oxipay/oxipay-prestashop/releases/download/1.3.2/oxipay_prestashop_v1.3.2.zip)
+[https://github.com/shophumm/humm-prestashop/releases/download/1.5.0/hummprestashop.zip](https://github.com/shophumm/humm-prestashop/releases/download/1.5.0/hummprestashop.zip)  
+For PrestaShop 1.7: coming soon.
 
 **2** - Log into your PrestaShop's admin area.
 
@@ -62,29 +54,26 @@ For PrestaShop 1.7:
 
 Immediately after installing the Humm plugin, you would be automatically re-directed to the plugin settings page. Otherwise, you can bring up this page by going to the Modules and Services page, finding the Humm listing, and clicking the **Configure** button next to it.
 
-1 - **Title**: This configures the plugin title that gets displayed to the end user during checkout. By default it is configured to **Humm**. 
+![8.png](/img/platforms/prestashop/8.png)
 
-2 - **Logo**: This controls the Humm Logo that gets displayed.
+1 - **Checkout Method**: This Switch between the two checkout methods (Humm and Oxipay).
 
-3 - **Description**: This configures the plugin description text that gets displayed to the end user as part of the checkout process. By default, it is configured to **Breathe easy with Humm, an interest-free instalment payment plan**.
+2 - **Country**: The country your store operates in (Australia or New Zealand).
 
-4 - **Humm Gateway URL**: This specifies the Humm gateway that the plugin would need to communicate with for it to be able to process payments via Humm.
+3 - **Is Test?**: When set to 'Yes', the plugin will be set to do test transactions. Please set this to 'No' when you have done testing and are ready for real transactions.
 
-| Humm Environment | URL  |
-|--------------------|------|
-| Production Gateway | https://secure.%domain%/Checkout?platform=Default |
-| Sandbox Gateway    | https://securesandbox.%domain%/Checkout?platform=Default |
+4 - **Gateway URL**: This specifies the Humm gateway that the plugin would communicate with for processing the payment. Leave this to empty when you are not sure, and the plugin will derive the correct URL based on your other settings.
 
 5 - **Merchant ID**: This is the Humm Merchant ID that you are provided with as part of your on-boarding when signing-up for Humm.
 
-6 - **API Key**: The API Key or the Encryption key is a case-sensitive alpha-numeric sequence that is used to authenticate payment requests originating from your store. It is vital that you protect it and don't provide it to unauthorised individuals.
+6 - **API Key**: The API Key is a case-sensitive alpha-numeric sequence that is used to authenticate payment requests. It is vital that you protect it and don't provide it to unauthorised individuals. 
 <div class="panel">
   The Humm Platform Integration Team will provide you with your API key.
 </div>
 
-Once you have finished making the necessary configuration changes or updates, click the **Save** button on the bottom left.
+Once you have finished making the necessary configuration changes, click the **Save** button on the bottom left.
 
-##Upgrading Humm
+## Plugin Update
 
 You can upgrade your Humm PrestaShop plugin by uninstalling the old one and installing the newer version. 
 
@@ -100,4 +89,4 @@ To uninstall the Humm plugin you need to:
 
 ![16.png](/img/platforms/prestashop/16.png)
 
-4 - You can now download the newer version of the Humm PrestaShop plugin and install it as per the instructions in the [Installing Humm](#installing-oxipay) section of this document.
+4 - You can now download the newer version of the Humm PrestaShop plugin and install it as per the instructions in the [Installing Humm](#installing-humm) section of this document.
