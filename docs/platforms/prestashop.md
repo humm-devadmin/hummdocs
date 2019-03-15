@@ -14,7 +14,7 @@ This document outlines the steps needed to install Humm on your PrestaShop store
 **1** - Click the following URL corresponding to your PrestaShop version to download the plugin.
 
 For PrestaShop 1.6:
-[https://github.com/shophumm/humm-prestashop/releases/download/1.5.0/hummprestashop.zip](https://github.com/shophumm/humm-prestashop/releases/download/1.5.0/hummprestashop.zip)  
+[https://github.com/shophumm/humm-prestashop/releases/tag/1.5.1](https://github.com/shophumm/humm-prestashop/releases/tag/1.5.1)  
 For PrestaShop 1.7: coming soon.
 
 **2** - Log into your PrestaShop's admin area.
@@ -51,12 +51,11 @@ For PrestaShop 1.7: coming soon.
 
 ## Configuration
 
-
 Immediately after installing the Humm plugin, you would be automatically re-directed to the plugin settings page. Otherwise, you can bring up this page by going to the Modules and Services page, finding the Humm listing, and clicking the **Configure** button next to it.
 
 ![8.png](/img/platforms/prestashop/8.png)
 
-1 - **Checkout Method**: This Switch between the two checkout methods (Humm and Oxipay).
+1 - **Checkout Method**: This allows you to switch between the two checkout methods (Humm and Oxipay).
 
 2 - **Country**: The country your store operates in (Australia or New Zealand).
 
@@ -66,7 +65,8 @@ Immediately after installing the Humm plugin, you would be automatically re-dire
 
 5 - **Merchant ID**: This is the Humm Merchant ID that you are provided with as part of your on-boarding when signing-up for Humm.
 
-6 - **API Key**: The API Key is a case-sensitive alpha-numeric sequence that is used to authenticate payment requests. It is vital that you protect it and don't provide it to unauthorised individuals. 
+6 - **API Key**: The API Key is a case-sensitive alpha-numeric sequence that is used to authenticate payment requests. It is vital that you protect it and don't provide it to unauthorised individuals.
+
 <div class="panel">
   The Humm Platform Integration Team will provide you with your API key.
 </div>
@@ -79,7 +79,7 @@ You can upgrade your Humm PrestaShop plugin by uninstalling the old one and inst
 
 To uninstall the Humm plugin you need to:
 
-1 - Locate the Humm plugin in the **Modules and Services** page
+1 - Locate the Humm plugin in the **Modules and Services** page.
 
 2 - From the drop-down menu that appears, click **Delete**.
 
