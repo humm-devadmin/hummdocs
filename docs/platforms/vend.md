@@ -1,6 +1,6 @@
 <h1>Setup on Vend</h1>
 
-To setup and configure Humm with your Vend POS device you will need the following:
+To setup and configure **humm** with your Vend POS device you will need the following:
 
 
 <div class="panel">
@@ -10,9 +10,9 @@ To setup and configure Humm with your Vend POS device you will need the followin
  </ul>
 </div>
 
-Device Tokens can be generated in your <a href="https://portals.%domain%/merchantarea#/login">Humm Merchant Portal</a>
+Device Tokens can be generated in your <a href="https://portals.%domain%/merchantarea#/login">**humm** Merchant Portal</a>
 
-1. Login to the <a href="https://portals.%domain%/merchantarea#/login">Humm Merchant Portal</a>
+1. Login to the <a href="https://portals.%domain%/merchantarea#/login">**humm** Merchant Portal</a>
 
 2. Select the menu in the top right corner
 
@@ -38,7 +38,7 @@ Go to Settings -> Payment Types -> Add Payment Type
 Select:
 
 * Payment Type =  Credit Card
-* Custom Name = Humm
+* Custom Name = **humm**
 
 
 ![02_select_credit_card.png](/img/platforms/vend/02_select_credit_card.png)
@@ -48,9 +48,9 @@ Select:
 
 ---
 
-### Configure Humm Payment Type
+### Configure **humm** Payment Type
 
-On the Settings -> Payment Types screen, choose the Humm Payment Type
+On the Settings -> Payment Types screen, choose the **humm** Payment Type
 
 
 ![04_configure_oxipay.png](/img/platforms/vend/04_configure_oxipay.png)
@@ -68,7 +68,7 @@ Press the "Save Pament Type"
 ---
 ### Pair a Register
 
-Humm requires each Vend register to be paired with Humm before it can transact against the JHumm POS endpoint.
+**Humm** requires each Vend register to be paired with **humm** before it can transact against the **humm** POS endpoint.
 
 In order to do this, you simply need to perform a test transaction from each Vend Register with-in your store.
 
@@ -79,7 +79,7 @@ You will be prompted for your:
 
 Your **Merchant ID** is provided in your Welcome Pack.
 
-**Device Tokens** can be generated in the <a href="https://portals.%domain%/merchantarea#/login">Humm Merchant Portal</a>
+**Device Tokens** can be generated in the <a href="https://portals.%domain%/merchantarea#/login">**humm** Merchant Portal</a>
 
 
 
@@ -93,4 +93,4 @@ Your **Merchant ID** is provided in your Welcome Pack.
 
 ## Complete
 
-Congratulations! Once a register is paired, your customers can now pay with Humm
+Congratulations! Once a register is paired, your customers can now pay with **humm**

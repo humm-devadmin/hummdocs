@@ -42,6 +42,23 @@ Note that you would place the widget in the section marked ```INSERT_WIDGET_HERE
 ```
 **Step 3:** Place the following ```<script>``` tag into the ```product.twig``` file.<br>
 
+### 'Little things' only
+
+Using the following code if you are a **'Little things'** only merchant.
+```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}&LittleOnly"></script>
+```
+
+### 'Big things' only
+
+Using the following code if you are a **'Big things'** only merchant.
+```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}&BigOnly"></script>
+```
+
+### Both 'Little things' and 'Big things'
+
+Using the following code if you are both a **'Little things'** and **'Big things'** merchant.
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}"></script>
 ```
@@ -51,5 +68,3 @@ Note that you would place the widget in the section marked ```INSERT_WIDGET_HERE
 </div>
 <br>
 **Step 4:** Save and you should see a working widget on your website.
-
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=100"></script>
