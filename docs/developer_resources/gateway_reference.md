@@ -16,7 +16,7 @@ There are two Humm gateways that transaction information can be posted to and th
 | Humm Environment | URL |
 |--------------------|-----|
 | Production Gateway | [https://cart.%domain%/Checkout?platform=Default](https://cart.%domain%/Checkout?platform=Default) |
-| Sandbox Gateway | [https://test-cart.%domain%/Checkout?platform=Default](https://test-cart.%domain%/Checkout?platform=Default) |
+| Sandbox Gateway | [https://integration-cart.%domain%/Checkout?platform=Default](https://test-cart.%domain%/Checkout?platform=Default) |
 
 <a name="Responses"></a>
 

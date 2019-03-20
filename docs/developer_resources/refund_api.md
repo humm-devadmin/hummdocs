@@ -7,8 +7,8 @@ Humm provides an API to programmatically process refunds or adjustments to an Hu
 
 | Humm Environment | URL |
 |--------------------|-----|
-| Production Endpoint | [https://portals.%domain%/api/ExternalRefund/processrefund](https://secure.%domain%/api/ExternalRefund/processrefund) |
-| Sandbox Endpoint | [https://portalssandbox.%domain%/api/ExternalRefund/processrefund](https://securesandbox.%domain%/api/ExternalRefund/processrefund) |
+| Production Endpoint | [https://cart.%domain%/api/ExternalRefund/processrefund](https://cart.%domain%/api/ExternalRefund/processrefund) |
+| Sandbox Endpoint | [https://integration-cart.%domain%/api/ExternalRefund/processrefund](https://integration-cart.%domain%/api/ExternalRefund/processrefund) |
 
 
 ## Request 

@@ -12,7 +12,7 @@ To do this your website must be able to process a test transaction and have it v
 
 1 - Add a product to your cart and proceed to check out with Humm.
 
-- The URL you redirect to should be secure**sandbox**.%domain%
+- The URL you redirect to should be **integration-**cart.%domain%
 
 2 - Sign up for a **test** Humm account.
 
