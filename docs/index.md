@@ -1,7 +1,14 @@
 ## What is **humm**?
-Huumm launched as part of FlexiGroup’s product portfolio in 2019. **Humm** is changing the way consumers are transacting online and forming part of people’s every day shopping experiences. It allows consumers to buy now and pay later. 
-
-Huumm integrates seamlessly with a number of leading eCommerce solutions including Shopify, WooCommerce, Magento, Presta Shop, OpenCart and Cube Cart.
+**Humm** is the Buy Not Pay Later service that's perfect for both the 'Little things' and 'Big things' in life.
+Customers can buy everything from $1 to $30,000 depending on where they shop.
+All purchases with **humm** are interest free forever.
 
 ### How it works 
-Huumm is integrated at point of sale, in-store and on-line. The customer signs up and is able to transact using their credit or debit card. The transaction is broken into smaller payments, allowing the customer to acquire their purchase before it has been fully paid for.
+**Humm** is integrated at point of sale, instore and online.
+
+For 'Little things' you can be approved for up to $2,000.
+You can choose to pay weekly or fortnightly over 2.5 or 5 months.
+Each repayment frees your balance to spend again.
+
+For 'Big things' **humm** can pro-approve up to $10,000 or you can apply instore for up to $30,000 depending on the retailer.
+You can choose to repay in 6, 12, 24...all the way up to 60 months.

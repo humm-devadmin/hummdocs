@@ -8,15 +8,10 @@ There are two **humm** gateways that transaction information can be posted to an
 
 ## **Humm** Gateways
 
-<div class="panel panel-primary">
-	<b>Please note:</b> The <b>humm</b> checkout gateway URLs will be available for testing shortly.<br/>
-	<b>The URLs below may be subject to change.</b>
-</div>
-
 | **Humm** Environment | URL |
 |--------------------|-----|
 | Production Gateway | [https://cart.%domain%/Checkout?platform=Default](https://cart.%domain%/Checkout?platform=Default) |
-| Sandbox Gateway | [https://integration-cart.%domain%/Checkout?platform=Default](https://test-cart.%domain%/Checkout?platform=Default) |
+| Sandbox Gateway | [https://integration-cart.%domain%/Checkout?platform=Default](https://integration-cart.%domain%/Checkout?platform=Default) |
 
 <a name="Responses"></a>
 

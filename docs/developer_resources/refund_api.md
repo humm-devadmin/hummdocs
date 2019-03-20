@@ -56,5 +56,5 @@ The following ``curl`` command will allow you to test the refunds API. You will 
         "x_reason": "test",
         "signature": "a5fc92ddd2326c6099bd0f43bbe75afb54004a6ba68f354cc2b40328341d8ee2"
     }' \    
-    https://portalssandbox.%domain%/api/ExternalRefund/processrefund
+    https://integration-cart.%domain%/api/ExternalRefund/processrefund
 
