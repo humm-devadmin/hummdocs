@@ -16,32 +16,63 @@
 
 ## How to use
 
-To use the price-info widget, simple insert the following code to where you want the price-info widget to be be displayed. Replace <code>PLACE_YOUR_PRODUCT_PRICE</code> with the price of the product.
+To use the price-info widget, you must select the corrosponding type based on whether you offer **'Little things'**, **'Big Things'** or **both**.
+
+<div class="panel">
+  It is important that you use the correct type of price-info widget. Please see below. If you are not sure please contact <a href="mailto:pit@%domain%">pit@%domain%</a>
+</div>
+
+Simple insert the corrosponding script to where you want the price-info widget to be be displayed. Replace <code>PLACE_YOUR_PRODUCT_PRICE</code> with the price of the product.
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200"></script>
-
 <br>
 
 
-<!-- **(weekly repayments)**
-<script src="https://widgets.%domain%/content/scripts/payments-weekly.js?productPrice=0"></script>
-```
-<script src="https://widgets.%domain%/content/scripts/payments-weekly.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
-``` 
--->
 
 ## Widget behavior
-When the product price is below or equal to **$1000**, the price-info widget will display the payable amount of each installment.  
+
+There are three different types of price-info widgets which depend on whether your **humm** account supports only **'Little things'**, only **'Big Things'** or **both**.
+
+This behaviour effects all price-info widgets, including the dynamic price-info widget.
+
+### 'Little things' only
+
+Using the following code if you are a **'Little things'** only merchant.
+```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&LittleOnly"></script>
+```
+Note the use of <code>&LittleOnly</code> parameter.
+
+### 'Big things' only
+
+Using the following code if you are a **'Big things'** only merchant.
+```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&BigOnly"></script>
+```
+Note the use of <code>&BigOnly</code> parameter.
+
+### Both 'Little things' and 'Big things'
+
+Using the following code if you are both a **'Little things'** and **'Big things'** merchant.
+```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
+```
+Note that there is no extra parameter required.
+
+<!--
+## Price-info Functionality
+
+When the product price is less than or equal to **$1000**, the price-info widget will display the payable amount of each installment.
+
 On a product of **$400**, the widget will look like:
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=400"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=400&LittleOnly"></script>
 
-When the product price is over **$1000**, the widget will only show "Streeetch your payments".
-Here is an example of the widget on a **$5000** product:
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=5000"></script>
-
-Also, the content of the pop-up when the widget is clicked will be slightly different when the product price is below or over **$2000**.
+When the product price is greater than **$1000** and less than or equal to **$2000**, the widget will only display as below.
+Here is an example of the widget on a **$1500** product:
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500&LittleOnly"></script>
+-->
 
 ## Widget features
 ### 1. Dynamically get product price
