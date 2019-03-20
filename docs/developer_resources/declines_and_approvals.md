@@ -1,5 +1,5 @@
 #### Accepted Numbers
-Due to PCI DSS compliance, to perform a test transaction within Humm's sandbox environment, you will need to use one of the following credit card numbers.
+Due to PCI DSS compliance, to perform a test transaction within humm's sandbox environment, you will need to use one of the following credit card numbers.
 
 |Type|PAN|Countries Available|AU Result|NZ Result|
 |----|---|-------------------|---------|---------|

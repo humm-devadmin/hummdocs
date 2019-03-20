@@ -1,4 +1,4 @@
-Placing Humm widgets on your website is a great way to introduce Humm to your users and drive more sales through your online store. The following documentation will guide you through the process of getting Humm widgets displayed on your website.
+Placing humm widgets on your website is a great way to introduce humm to your users and drive more sales through your online store. The following documentation will guide you through the process of getting humm widgets displayed on your website.
 
 <div class="panel panel-primary">
   <div class="panel-heading">

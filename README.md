@@ -12,7 +12,7 @@ Note: you might need to ensure cinst, python, & pip are all in your path.
 
 ## Updating the documentation
 
-The hummdocs repository has all the documentation in markdown format. There is also a submodule to the Humm.github.io GiHub pages repository, which is basically the hummdocs repository transformed into static HTML for the web.
+The hummdocs repository has all the documentation in markdown format. There is also a submodule to the humm.github.io GiHub pages repository, which is basically the hummdocs repository transformed into static HTML for the web.
 
 To update the documentation the following steps need to be done.
 
@@ -22,8 +22,8 @@ To update the documentation the following steps need to be done.
 
 | branch name       |    description     |
 |-------------------|--------------------|
-| **master**        |    master branch for Humm docs (https://docs.shophumm.com.au and https://docs.shophumm.co.nz) |
-| developmnent      |    dev branch for Humm docs |
+| **master**        |    master branch for humm docs (https://docs.shophumm.com.au and https://docs.shophumm.co.nz) |
+| developmnent      |    dev branch for humm docs |
 
 Each branch contains both AU and NZ version at the same time.  
 The differences are contained in the mkdocs config files (mkdocs-au.yml and mkdocs-nz.yml respectively).

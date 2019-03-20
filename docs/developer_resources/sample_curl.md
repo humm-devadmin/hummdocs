@@ -1,6 +1,6 @@
 # Sample cURL Script
 
-Below is a sample cURL script that you can use to test the Humm test (sandbox) gateway.
+Below is a sample cURL script that you can use to test the humm test (sandbox) gateway.
 
 <hr>
 <div style="font-family: monospace; font-size:1.2rem; color: #DC143C; word-wrap: break-word !important;">

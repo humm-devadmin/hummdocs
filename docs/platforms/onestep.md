@@ -1,3 +1,3 @@
-# Setting up Humm on a OneStep Store
+# Setting up humm on a OneStep Store
 
 TODO

@@ -1,12 +1,12 @@
-# Setting up Humm on a CubeCart Store
+# Setting up humm on a CubeCart Store
 
-This document outlines the steps needed to install Humm on your CubeCart Store.
+This document outlines the steps needed to install humm on your CubeCart Store.
 
 <div class="panel">
-  At the time of writing this article, Humm was developed and tested against CubeCart version <code>6.1.1</code>, although the plugin should be compatible with other CubeCart versions. If you encounter any issues, please contact us to resolve them as soon as possible.
+  At the time of writing this article, humm was developed and tested against CubeCart version <code>6.1.1</code>, although the plugin should be compatible with other CubeCart versions. If you encounter any issues, please contact us to resolve them as soon as possible.
 </div>
 
-## Installing Humm
+## Installing humm
 
 <div class="panel">
   You will need a <b>Merchant ID</b> and <b>API Key</b> before continuing with the installation procedure. They are required to uniquely identify the Merchant and provide a secure link. If you don't have either of these, please contact <a href="mailto:support@%domain%">support@%domain%</a>
@@ -24,7 +24,7 @@ The plugin can be installed via CubeCart's Admin Control Panel, either manually 
 
 [https://www.cubecart.com/extensions/payment-gateways/oxipay](https://www.cubecart.com/extensions/payment-gateways/oxipay)
 
-**2** - Select the **lightning bolt** button, next to your required Humm plugin version, to reveal the **Auto Install/Upgrade Token**
+**2** - Select the **lightning bolt** button, next to your required humm plugin version, to reveal the **Auto Install/Upgrade Token**
 
 ![autoinstall-1.png](/img/platforms/cubecart/autoinstall-1.png)
 
@@ -60,7 +60,7 @@ If the automatic installation is not successful, you will be presented with a me
 
 [https://www.cubecart.com/extensions/payment-gateways/oxipay](https://www.cubecart.com/extensions/payment-gateways/oxipay)
 
-**2** - Select the **download** button , next to your required Humm plugin version, to download the Humm plugin ZIP file.
+**2** - Select the **download** button , next to your required humm plugin version, to download the humm plugin ZIP file.
 
 ![manualinstall-1.png](/img/platforms/cubecart/manualinstall-1.png)
 
@@ -80,10 +80,10 @@ If the automatic installation is not successful, you will be presented with a me
 
 ![manualinstall-4.png](/img/platforms/cubecart/manualinstall-4.png)
 
-## Configuring Humm
+## Configuring humm
 
 <div class="panel">
-  This section describes the <b>Module Settings</b> available once you have installed the Humm plugin. This includes the Humm gateways to communicate with, as well as whether or not to enable Test Mode.  
+  This section describes the <b>Module Settings</b> available once you have installed the humm plugin. This includes the humm gateways to communicate with, as well as whether or not to enable Test Mode.  
 </div>
 
 **1** - Log into the CubeCart Admin Control Panel as an Administrator.
@@ -105,25 +105,25 @@ If the automatic installation is not successful, you will be presented with a me
 * **Priority** 	If you have more than one payment gateway, please use this field to define the order they are shown in. A setting of '1' will show it first, '2' second, etc.
 <hr>
 
-* **Scope** This allows you to specify whether you want the Humm plugin to be available via the Main Website only or the Mobile Website only, or both.
+* **Scope** This allows you to specify whether you want the humm plugin to be available via the Main Website only or the Mobile Website only, or both.
 <hr>
 
-* **Default** This must be enabled if you would like Humm pre-selected for the Customer as the default payment option.
+* **Default** This must be enabled if you would like humm pre-selected for the Customer as the default payment option.
 <hr>
 
-* **Merchant ID** This is the Humm Merchant ID that you are provided with as part of your on-boarding when signing-up for Humm.
+* **Merchant ID** This is the humm Merchant ID that you are provided with as part of your on-boarding when signing-up for humm.
 <hr>
 
 * **API Key** The API Key or the Encryption key is a case-sensitive alpha-numeric sequence that is used to authenticate payment requests originating from your Store. It is vital that you protect it and don't provide it to unauthorised individuals.
 <hr>
 
-* **Test Mode** Indicates whether to process payments over the live Humm Gateway URL resulting in real transactions, or to process it over the Humm Sandbox Gateway URL which will produce simulated (test) transactions with no real dollar amounts being debited. By default it should be set to **No** unless we are attempting to diagnose issues on your store to do with Humm, or you're testing integrating the plugin with your online CubeCart store.
+* **Test Mode** Indicates whether to process payments over the live humm Gateway URL resulting in real transactions, or to process it over the humm Sandbox Gateway URL which will produce simulated (test) transactions with no real dollar amounts being debited. By default it should be set to **No** unless we are attempting to diagnose issues on your store to do with humm, or you're testing integrating the plugin with your online CubeCart store.
 <hr>
 
-* **Test Gateway URL** This specifies the test Humm end-point that the plugin would need to communicate with when **Test Mode** is enabled. This is mainly used for troubleshooting purposes, particularly if we want to simulate test transactions on your CubeCart Store without having real dollar amounts debited from Credit Cards.
+* **Test Gateway URL** This specifies the test humm end-point that the plugin would need to communicate with when **Test Mode** is enabled. This is mainly used for troubleshooting purposes, particularly if we want to simulate test transactions on your CubeCart Store without having real dollar amounts debited from Credit Cards.
 <hr>
 
-* **Gateway URL** This specifies the live Humm end-point that the plugin would need to communicate with for it to be able to process payments via Humm. Note that transactions processed over this URL are real transactions that end up in real dollar amounts being deducted.
+* **Gateway URL** This specifies the live humm end-point that the plugin would need to communicate with for it to be able to process payments via humm. Note that transactions processed over this URL are real transactions that end up in real dollar amounts being deducted.
 
 <hr>
 
@@ -136,7 +136,7 @@ If the automatic installation is not successful, you will be presented with a me
 
 <hr>
 
-##Upgrading Humm
+##Upgrading humm
 
 ###Automatic Upgrade
 
@@ -149,7 +149,7 @@ That is, you do not need to type in your <b>Merchant ID</b> and <b>API Key</b> a
 
 [https://www.cubecart.com/extensions/payment-gateways/oxipay](https://www.cubecart.com/extensions/payment-gateways/oxipay)
 
-**2** - Select the **lightning bolt** button, next to your required Humm plugin version, to reveal the **Auto Install/Upgrade Token**
+**2** - Select the **lightning bolt** button, next to your required humm plugin version, to reveal the **Auto Install/Upgrade Token**
 
 ![autoinstall-1.png](/img/platforms/cubecart/autoinstall-1.png)
 
@@ -182,7 +182,7 @@ Prior to manually upgrading, you will first need to un-install the previous vers
 </div>
 
 
-##Un-installing Humm
+##Un-installing humm
 
 **1** - Log into the CubeCart Admin Control Panel as an Administrator.
 
@@ -198,4 +198,4 @@ Prior to manually upgrading, you will first need to un-install the previous vers
 
 ![uninstall-3.png](/img/platforms/cubecart/uninstall-3.png)
 
-**5** - You can now download the new version of the Humm CubeCart plugin and install it as per the instructions in the [Installing Humm](#installing-oxipay) section of this document.
+**5** - You can now download the new version of the humm CubeCart plugin and install it as per the instructions in the [Installing humm](#installing-oxipay) section of this document.

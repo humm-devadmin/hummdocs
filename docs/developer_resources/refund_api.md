@@ -1,6 +1,6 @@
 # Refund API
 
-Humm provides an API to programmatically process refunds or adjustments to an Humm purchase.
+Humm provides an API to programmatically process refunds or adjustments to an humm purchase.
 
 ## Humm Endpoints
 

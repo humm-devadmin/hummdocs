@@ -12,11 +12,11 @@
 
 ![2.png](/img/platforms/woocommerce/2.png)
 
-3 - In the top left, type Humm in the **Search plugins...** search box then hit Enter.
+3 - In the top left, type **humm** in the **Search plugins...** search box then hit Enter.
 
 ![3.png](/img/platforms/woocommerce/3.png)
 
-4 - From the search results, click on **Install Now** next to **Humm Payment Gateway for WooCommerce**.
+4 - From the search results, click on **Install Now** next to ****humm** Payment Gateway for WooCommerce**.
 
 ![29.png](/img/platforms/woocommerce/29.png)
 
@@ -24,7 +24,7 @@
 
 ![30.png](/img/platforms/woocommerce/30.png)
 
-6 - This will re-direct you to **Plugins** page, confirm that Humm is installed and activated.
+6 - This will re-direct you to **Plugins** page, confirm that **humm** is installed and activated.
 
 ![31.png](/img/platforms/woocommerce/31.png)
 
@@ -34,32 +34,32 @@
 
 ![32.png](/img/platforms/woocommerce/32.png)
 
-2 - From the top bar, click on **Payments** and then on **Humm**.
+2 - From the top bar, click on **Payments** and then on ****humm****.
 
 ![33.png](/img/platforms/woocommerce/33.png)
 
 
-Below is a screenshot of the various Humm settings available and what they are for.
+Below is a screenshot of the various **humm** settings available and what they are for.
 
 ![34.png](/img/platforms/woocommerce/34.png)
 
-**Enabled**: Enables or disables Humm
+**Enabled**: Enables or disables **humm**
 
 **Shop Name**: Your store name that will be displayed in WooCommerce email receipts to customers
 
 **Humm Region**: Region where your store is located as per your merchant agreement.
 
-**Test Mode**: For troubleshooting of issues or testing of Humm's user experience.
+**Test Mode**: For troubleshooting of issues or testing of **humm**'s user experience.
 
 **Modal Checkout**: Completes transaction on your store for a more seamless experience.
 
-**Price Widget**: Displays an Humm price widget on each of your store's product pages. (**Recommended**)
+**Price Widget**: Displays an **humm** price widget on each of your store's product pages. (**Recommended**)
 
-**Top Banner Widget**: Displays an Humm banner at the top of all pages. (Australian stores only)
+**Top Banner Widget**: Displays an **humm** banner at the top of all pages. (Australian stores only)
 
-**Top Banner on FrontPage Only**: Displays an Humm banner at the top of the FrontPage only. (Australian stores only)
+**Top Banner on FrontPage Only**: Displays an **humm** banner at the top of the FrontPage only. (Australian stores only)
 
-**Pre-select Checkout Button**: Adds a button to the cart page to quickly checkout with Humm.
+**Pre-select Checkout Button**: Adds a button to the cart page to quickly checkout with **humm**.
 
 **Pre-select Button Order**: Determines the order in which the pre-select button is displayed. Lower numbers are displayed first. Default is 20.
 
@@ -67,10 +67,10 @@ Below is a screenshot of the various Humm settings available and what they are f
 
 **API Key**: Provided to you by Platform Integration Team; used to verify orders from your store.
 
-**Minimum Order Total**: Orders below that will not have Humm as a payment option. Leave as 0 for no limit.
+**Minimum Order Total**: Orders below that will not have **humm** as a payment option. Leave as 0 for no limit.
 
-**Maximum Order Total**: Orders above that will not have Humm as a payment option. Leave as 0 for no limit.
+**Maximum Order Total**: Orders above that will not have **humm** as a payment option. Leave as 0 for no limit.
 
 <div class="panel">
-  Leaving both Minimum and Maximum Order Totals 0 will enable Humm on all products.
+  Leaving both Minimum and Maximum Order Totals 0 will enable **humm** on all products.
 </div>
