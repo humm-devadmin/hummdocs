@@ -9,7 +9,7 @@ Below is a summary of how to bring up the **Quick Config Actions** sub-menu:
 
 **3** - This will re-direct you to the **List of Modules** page.
 
-**4** - Scroll down until you bring the **Modules List** panel into focus and  type **Humm** in the search field in the panel's top left corner. This will bring the humm module into focus and filter out all other modules.
+**4** - Scroll down until you bring the **Modules List** panel into focus and  type **Humm** in the search field in the panel's top left corner. This will bring the **humm** module into focus and filter out all other modules.
 
 **5** - If you want to bring up the full **Humm Configuration** page, then click on the **Configure** button.
 
@@ -19,21 +19,21 @@ Below is a summary of how to bring up the **Quick Config Actions** sub-menu:
 
 Here is a quick summary of the various **Configure** options available to you:
 
-* **Disable**: Disables the plugin but leaves it installed on your PrestaShop. You can re-enable it with its existing settings at a later time. Humm will not appear as a payment option on your store once disabled.
+* **Disable**: Disables the plugin but leaves it installed on your PrestaShop. You can re-enable it with its existing settings at a later time. **Humm** will not appear as a payment option on your store once disabled.
 <hr>
-* **Disable on mobiles**: This option disables humm only on mobile devices (or smartphones, such as iPhones). This does not apply to tablets (such as iPads) or desktop computers.
+* **Disable on mobiles**: This option disables **humm** only on mobile devices (or smartphones, such as iPhones). This does not apply to tablets (such as iPads) or desktop computers.
 <hr>
-* **Disable on tablets**: Disables humm on tablets but not smartphones or desktop computers.
+* **Disable on tablets**: Disables **humm** on tablets but not smartphones or desktop computers.
 <hr>
-* **Disable on computers**: Disables humm on desktop computers only.
+* **Disable on computers**: Disables **humm** on desktop computers only.
 <hr>
-* **Reset**: Resets the humm module to its original state without any of the configuration settings that have been applied post installation.
+* **Reset**: Resets the **humm** module to its original state without any of the configuration settings that have been applied post installation.
 <hr>
 * **Uninstall**: Uninstalls the plugin from your store. The plugin will still be available and you will be able to install it at a later time without having to upload it again.
 <hr>
-* **Mark as Favorite**: Marks humm as one of your favourite plugins so that it becomes available from within the **Favourites** category list on the left hand side of the **Modules List** panel.
+* **Mark as Favorite**: Marks **humm** as one of your favourite plugins so that it becomes available from within the **Favourites** category list on the left hand side of the **Modules List** panel.
 
 ![13.png](/img/platforms/prestashop/13.png)
 <hr>
 
-* **Delete**: Completely removes the plugin from your store. The plugin will no longer be available for installation again and the only way to add humm back to your store as a payment method would be to perform the instructions in the [Installing humm](#installing-oxipay) section of the document again.
+* **Delete**: Completely removes the plugin from your store. The plugin will no longer be available for installation again and the only way to add **humm** back to your store as a payment method would be to perform the instructions in the [Installing **humm**](#installing-oxipay) section of the document again.

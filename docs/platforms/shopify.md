@@ -1,8 +1,8 @@
 <h1>Setup on Shopify</h1>
 
-To setup and configure humm on your Shopify store, please use the instructions below
+To setup and configure **humm** on your Shopify store, please use the instructions below
 
-##Integrating humm##
+##Integrating **humm**##
 
 <div class="panel">
   You will need your <b>Merchant ID</b> and an <b>Encryption Key</b> handy before continuing with the installation.
@@ -10,7 +10,7 @@ To setup and configure humm on your Shopify store, please use the instructions b
 
 1 – Email <a href="mailto:pit@%domain%">pit@%domain%</a> with your merchant ID and mobile number for a copy of the **humm Gateway Authorisation URL**.
 
-2 - Click the **humm Gateway Authorisation URL** link to be taken to your store's setting page to add humm.
+2 - Click the **humm Gateway Authorisation URL** link to be taken to your store's setting page to add **humm**.
 
 3 - Once logged in, you will see the prompt below. Click **Install payment provider**.
 
@@ -28,7 +28,7 @@ To setup and configure humm on your Shopify store, please use the instructions b
 
 ![7.png](/img/platforms/shopify/7.png)
 
-6 - Enter your **Merchant Number** and **API Key** then click on **Save**. You can also specify the credit cards you want to allow with humm.
+6 - Enter your **Merchant Number** and **API Key** then click on **Save**. You can also specify the credit cards you want to allow with **humm**.
 
 ![8.png](/img/platforms/shopify/8.png)
 
@@ -37,7 +37,7 @@ To setup and configure humm on your Shopify store, please use the instructions b
 </div>
 
 <div class="panel">
-  Tick the <b>Use test Mode</b> checkbox to test humm or diagnose issues. transactions are simulated and credit cards are not debited.</br>
+  Tick the <b>Use test Mode</b> checkbox to test **humm** or diagnose issues. transactions are simulated and credit cards are not debited.</br>
   <!--See <a href="../../accreditation/accreditation">Accreditation</a> for more details.-->
 </div>
 

@@ -16,7 +16,7 @@
 
 ![3.png](/img/platforms/woocommerce/3.png)
 
-4 - From the search results, click on **Install Now** next to ****humm** Payment Gateway for WooCommerce**.
+4 - From the search results, click on **Install Now** next to **humm Payment Gateway for WooCommerce**.
 
 ![29.png](/img/platforms/woocommerce/29.png)
 
@@ -34,7 +34,7 @@
 
 ![32.png](/img/platforms/woocommerce/32.png)
 
-2 - From the top bar, click on **Payments** and then on ****humm****.
+2 - From the top bar, click on **Payments** and then on **humm**.
 
 ![33.png](/img/platforms/woocommerce/33.png)
 

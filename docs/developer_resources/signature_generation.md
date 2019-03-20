@@ -1,11 +1,11 @@
 # Signature Generation
 
-In order to prevent against malicious attacks and hijacking of browser sessions, humm implements a signing mechanism based on HMAC-SHA256. This section provides information on how you can use HMAC-SHA256 for signing and verification purposes.
+In order to prevent against malicious attacks and hijacking of browser sessions, **humm** implements a signing mechanism based on HMAC-SHA256. This section provides information on how you can use HMAC-SHA256 for signing and verification purposes.
 
 There are two instances where signature generation is required:
 
-* When sending a request POST to humm
-* When receiving both a response POST or GET from humm
+* When sending a request POST to **humm**
+* When receiving both a response POST or GET from **humm**
 
 
 
@@ -13,7 +13,7 @@ Below is an example that demonstrates how you can go about implementing a method
 
 ## PHP Example
 
-Below is a PHP code snippet that demonstrates how a signature might be generated in the context of humm:
+Below is a PHP code snippet that demonstrates how a signature might be generated in the context of **humm**:
 
 ```php
 	function humm_sign($query, $api_key )
@@ -33,9 +33,9 @@ Below is a PHP code snippet that demonstrates how a signature might be generated
 
 First note that the method expects two parameters and they are <code>$query</code> and <code>$api_key</code>. The <code>$query</code> represents the various key-value pairs that form your HTTP request POST and vary depending on the information that is entered as part of the checkout process on your shopping cart.
 
-The parameter <code>$api_key</code> represents the API Key that is unique for every merchant. It should only change once the API key has been changed on the humm side.
+The parameter <code>$api_key</code> represents the API Key that is unique for every merchant. It should only change once the API key has been changed on the **humm** side.
 
-Having received the two parameters, the <code>humm_sign</code> method will then perform an alphabetical sorting of the various key-value pairs based on the key but still maintaining the correlation between the keys and their respective values.
+Having received the two parameters, the <code>**humm**_sign</code> method will then perform an alphabetical sorting of the various key-value pairs based on the key but still maintaining the correlation between the keys and their respective values.
 
 The method will then examine the <code>$query</code> variable for the various key-value pairs by checking for the <code>x_</code> prefix and would then append them together.</br>
 Note that the <code>x_signature</code> key-value pair should not be included in the generation of a signature.

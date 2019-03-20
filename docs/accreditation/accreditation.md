@@ -1,24 +1,24 @@
 <h1>Accreditation Process</h1>
 
-Once humm is installed on your platform it must be verified before it can process live transactions.<br>
-To do this your website must be able to process a test transaction and have it verified by humm.
+Once **humm** is installed on your platform it must be verified before it can process live transactions.<br>
+To do this your website must be able to process a test transaction and have it verified by **humm**.
 
 <div class="panel">
-    Before performing the test transaction, <b>test mode</b> must be activated in the humm settings.<br>
+    Before performing the test transaction, <b>test mode</b> must be activated in the **humm** settings.<br>
     Please refer to the documentation for your platform.
 </div>
 
 ### Performing a Test Transaction
 
-1 - Add a product to your cart and proceed to check out with humm.
+1 - Add a product to your cart and proceed to check out with **humm**.
 
 - The URL you redirect to should be **integration-**cart.%domain%
 
-2 - Sign up for a **test** humm account.
+2 - Sign up for a **test** **humm** account.
 
 ![1.png](/img/accreditation/1.png)
 
-- Only test accounts will be able to sign in. Preexisting live humm accounts will not work.
+- Only test accounts will be able to sign in. Preexisting live **humm** accounts will not work.
 - Please ensure your mobile number is correct as you will need to receive a verification code.
 
 <div class="panel">

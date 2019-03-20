@@ -1,11 +1,11 @@
 # Refund API
 
-Humm provides an API to programmatically process refunds or adjustments to an humm purchase.
+**Humm** provides an API to programmatically process refunds or adjustments to an **humm** purchase.
 
-## Humm Endpoints
+## **Humm** Endpoints
 
 
-| Humm Environment | URL |
+| **Humm** Environment | URL |
 |--------------------|-----|
 | Production Endpoint | [https://cart.%domain%/api/ExternalRefund/processrefund](https://cart.%domain%/api/ExternalRefund/processrefund) |
 | Sandbox Endpoint | [https://integration-cart.%domain%/api/ExternalRefund/processrefund](https://integration-cart.%domain%/api/ExternalRefund/processrefund) |
