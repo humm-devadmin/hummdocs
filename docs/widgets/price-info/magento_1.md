@@ -13,6 +13,23 @@ There should be only one occurrence of the "getPriceHtml" string, and it may loo
 ```
 **Step 3:** Place the following ```<script>``` tag below the "getPriceHtml" code.
 
+### 'Little things' only
+
+Using the following code if you are a **'Little things'** only merchant.
+```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=<?php echo $_product->getFinalPrice(); ?>&LittleOnly"></script>
+```
+
+### 'Big things' only
+
+Using the following code if you are a **'Big things'** only merchant.
+```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=<?php echo $_product->getFinalPrice(); ?>&BigOnly"></script>
+```
+
+### Both 'Little things' and 'Big things'
+
+Using the following code if you are both a **'Little things'** and **'Big things'** merchant.
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=<?php echo $_product->getFinalPrice(); ?>"></script>
 ```
@@ -22,5 +39,3 @@ There should be only one occurrence of the "getPriceHtml" string, and it may loo
 </div>
 
 **Step 4:** Save and you should see a working widget on your website.
-
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=100"></script>
