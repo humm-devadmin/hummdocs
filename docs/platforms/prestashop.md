@@ -68,7 +68,7 @@ Immediately after installing the **humm** plugin, you would be automatically re-
 6 - **API Key**: The API Key is a case-sensitive alpha-numeric sequence that is used to authenticate payment requests. It is vital that you protect it and don't provide it to unauthorised individuals.
 
 <div class="panel">
-  The **humm** Platform Integration Team will provide you with your API key.
+  The <b>humm</b> Platform Integration Team will provide you with your API key.
 </div>
 
 Once you have finished making the necessary configuration changes, click the **Save** button on the bottom left.

@@ -1,5 +1,5 @@
 ## What is **humm**?
-**Humm** is the Buy Not Pay Later service that's perfect for both the 'Little things' and 'Big things' in life.
+**Humm** is the Buy Now Pay Later service that's perfect for both the 'Little things' and 'Big things' in life.
 Customers can buy everything from $1 to $30,000 depending on where they shop.
 All purchases with **humm** are interest free forever.
 
