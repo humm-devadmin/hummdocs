@@ -1,14 +1,21 @@
 ## What is **humm**?
-**Humm** is the Buy Now Pay Later service that's perfect for both the 'Little things' and 'Big things' in life.
-Customers can buy everything from $1 to $30,000 depending on where they shop.
-All purchases with **humm** are interest free forever.
+**Humm** is the Buy Now Pay Later service everyone is talking about – because it’s interest free forever. You can buy ‘Little things’ and ‘Big things’ from $1 to $30,000 quickly and easily. 
+
 
 ### How it works 
 **Humm** is integrated at point of sale, instore and online.
 
-For 'Little things' you can be approved for up to $2,000.
-You can choose to pay weekly or fortnightly over 2.5 or 5 months.
-Each repayment frees your balance to spend again.
+For ‘Little things’, you can apply for up to $2,000 then choose how to repay:  
+- Weekly or fortnightly over 2.5 months on purchases up to $500  
+- Fortnightly over 2.5 or 5 months on purchases over $500.
 
-For 'Big things' **humm** can pro-approve up to $10,000 or you can apply instore for up to $30,000 depending on the retailer.
-You can choose to repay in 6, 12, 24...all the way up to 60 months.
+For ‘Big things’ you can apply for:  
+- up to $10,000 pre-approved – so you can shop with confidence  
+- up to $30,000 in store – based on where you’re shopping  
+- 6, 12, 24, 36, 48, 54 or 60 months to repay – depending on your store.
+
+
+
+
+<br><br>
+Fees, charges, terms, conditions and lending criteria apply.
