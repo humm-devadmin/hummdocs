@@ -16,13 +16,13 @@
 
 ## How to use
 
-To use the price-info widget, you must select the corrosponding type based on whether you offer **'Little things'**, **'Big Things'** or **both**.
+To use the price-info widget, you must select the corresponding type based on whether you offer **'Little things'**, **'Big Things'** or **both**.
 
 <div class="panel">
   It is important that you use the correct type of price-info widget. Please see below. If you are not sure please contact <a href="mailto:pit@%domain%">pit@%domain%</a>
 </div>
 
-Simple insert the corrosponding script to where you want the price-info widget to be be displayed. Replace <code>PLACE_YOUR_PRODUCT_PRICE</code> with the price of the product.
+Simply insert the corresponding script to where you want the price-info widget to be be displayed. Replace <code>PLACE_YOUR_PRODUCT_PRICE</code> with the price of the product.
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
 ```
@@ -35,7 +35,7 @@ Simple insert the corrosponding script to where you want the price-info widget t
 
 There are three different types of price-info widgets which depend on whether your **humm** account supports only **'Little things'**, only **'Big Things'** or **both**.
 
-This behaviour effects all price-info widgets, including the dynamic price-info widget.
+This behavior effects all price-info widgets, including the dynamic price-info widget.
 
 ### 'Little things' only
 

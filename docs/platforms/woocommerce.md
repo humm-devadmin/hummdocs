@@ -1,4 +1,4 @@
-<h1>Setup on WooCommerce</h1>
+#Setup on WooCommerce
 
 <div class="panel">
   You will need your <b>Merchant ID</b> and an <b>Encryption Key</b> for the installation.
@@ -30,16 +30,12 @@
 
 ## Configuring Plugin
 
-1 - From the side-bar, click on **WooCommerce** and then on **Settings**.
+1 - From the **Plugins** page, find the Humm/Oxipay plugin, and click on **Settings**.
 
 ![32.png](/img/platforms/woocommerce/32.png)
 
-2 - From the top bar, click on **Payments** and then on **humm**.
-
-![33.png](/img/platforms/woocommerce/33.png)
-
-
-Below is a screenshot of the various **humm** settings available and what they are for.
+2 - The **humm** settings page will be shown if it is after the **humm** launch date. Otherwise you may still see an **Oxipay** settings page. 
+Below is a screenshot of the various **humm** settings available and what they are for. 
 
 ![34.png](/img/platforms/woocommerce/34.png)
 
@@ -51,7 +47,7 @@ Below is a screenshot of the various **humm** settings available and what they a
 
 **Test Mode**: For troubleshooting of issues or testing of **humm**'s user experience.
 
-**Modal Checkout**: Completes transaction on your store for a more seamless experience.
+**Force humm** This is for testing humm before the official launch. Leave it unchecked unless you are sure about what you are doing.
 
 **Price Widget**: Displays an **humm** price widget on each of your store's product pages. (**Recommended**)
 
@@ -72,5 +68,33 @@ Below is a screenshot of the various **humm** settings available and what they a
 **Maximum Order Total**: Orders above that will not have **humm** as a payment option. Leave as 0 for no limit.
 
 <div class="panel">
-  Leaving both Minimum and Maximum Order Totals 0 will enable **humm** on all products.
+  Leaving both Minimum and Maximum Order Totals 0 will enable <b>humm</b> on all products.
 </div>
+
+## Refunding
+
+This plugin supports WooCommerce online refunding.
+
+1 - Find and click the order you want to refund from the orders list. 
+
+2 - In the Order details page, click the "Refund" button
+
+![10.png](/img/platforms/woocommerce/10.png)
+
+3 - Choose the items or set the amount you want to refund, and click the "Refund via humm" button.
+
+![11.png](/img/platforms/woocommerce/11.png)
+
+4 - In this way, a refund request will be sent to the humm server and you will be shown the result immediately.
+
+## **Humm** official launch
+
+Before the **humm** official launch, the plugin will behave like an Oxipay payment plugin. It will show Oxipay, and checkout with the Oxipay gateway.
+
+The plugin will automatically switch itself to **humm** once it is officially launched. It will then show **humm**, and checkout with the **humm** gateway.
+
+The switch-over should be automatic and you as the merchant should not need to do anything on the launch date to make the switch.
+
+## Updating from the old Oxipay plugin
+
+For existing Oxipay merchants, just click the "update" button to update the existing Oxipay plugin when an update is available.

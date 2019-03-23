@@ -69,7 +69,7 @@ Setting | Description
 Oxipay / **humm** | Switch between the two checkout methods
 
 As we are currently in a period of transitioning from Oxipay to **humm**, this setting gives you the power of switching between the two checkout methods.  
-**Australian merchants should choose Oxipay before the official **humm** launch, and switch to **humm** immediately after the launch.**
+**Australian merchants should choose Oxipay before the official humm launch, and switch to humm immediately after the launch.**
 
 #### Shop Details
 
@@ -88,7 +88,7 @@ Merchant ID | Identifies your business and is provided as part of your onboardin
 API Key | Code used to verify that payment requests from your site are valid
 
 <div class="panel">
-  The **humm** Platform Integration Team will provide you with your API key.
+  The <b>humm</b> Platform Integration Team will provide you with your API key.
 </div>
 
 #### General Settings
