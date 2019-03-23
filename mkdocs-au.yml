@@ -12,8 +12,8 @@ nav:
    - OpenCart 3.0: platforms/opencart.md
 #- POS Platforms:
     # - Vend: platforms/vend.md
-# - Accreditation:
-#    - Test Transactions: accreditation/accreditation.md
+- Accreditation:
+   - Test Transactions: accreditation/test.md
 - Developer Resources:
    - Introduction: developer_resources/introduction.md
    - Checkout Process: developer_resources/checkout_process.md

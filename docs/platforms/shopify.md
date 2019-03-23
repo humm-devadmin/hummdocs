@@ -37,8 +37,8 @@ To setup and configure **humm** on your Shopify store, please use the instructio
 </div>
 
 <div class="panel">
-  Tick the <b>Use test Mode</b> checkbox to test <b>humm</b> or diagnose issues. transactions are simulated and credit cards are not debited.</br>
-  <!--See <a href="../../accreditation/accreditation">Accreditation</a> for more details.-->
+  Tick the <b>Use test mode</b> checkbox to test <b>humm</b> or diagnose issues. transactions are simulated and credit cards are not debited.</br>
+  <!--See <a href="../../accreditation/test">Test Transaction</a> for more details.-->
 </div>
 
 <div class="panel">

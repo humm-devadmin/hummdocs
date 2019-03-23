@@ -1,4 +1,4 @@
-<h1>Test Transaction</h1>
+<h1>Test Transactions</h1>
 
 Once **humm** is installed on your platform it must be verified before it can process live transactions.<br>
 To do this your website must be able to process a test transaction and have it verified by **humm**.
