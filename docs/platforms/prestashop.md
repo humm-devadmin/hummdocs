@@ -14,7 +14,7 @@ This document outlines the steps needed to install **humm** on your PrestaShop s
 **1** - Click the following URL corresponding to your PrestaShop version to download the plugin.
 
 For PrestaShop 1.6:
-[https://github.com/shophumm/humm-prestashop/releases/tag/1.5.1](https://github.com/shophumm/humm-prestashop/releases/tag/1.5.1)  
+[https://github.com/shophumm/humm-prestashop/releases/tag/1.5.2](https://github.com/shophumm/humm-prestashop/releases/tag/1.5.2)  
 For PrestaShop 1.7: coming soon.
 
 **2** - Log into your PrestaShop's admin area.
