@@ -51,7 +51,7 @@ For PrestaShop 1.7: coming soon.
 
 ## Configuration
 
-Immediately after installing the **humm** plugin, you would be automatically re-directed to the plugin settings page. Otherwise, you can bring up this page by going to the Modules and Services page, finding the **humm** listing, and clicking the **Configure** button next to it.
+Immediately after installing the **humm** plugin, you will be automatically re-directed to the plugin settings page. Otherwise, you can bring up this page by going to the Modules and Services page, finding the **humm** listing, and clicking the **Configure** button next to it.
 
 ![8.png](/img/platforms/prestashop/8.png)
 
@@ -75,11 +75,11 @@ Once you have finished making the necessary configuration changes, click the **S
 
 ## Plugin Update
 
-You can upgrade your **humm** PrestaShop plugin by uninstalling the old one and installing the newer version. 
+You can upgrade your **humm** PrestaShop plugin by uninstalling the old one and installing the newer version.
 
 To uninstall the **humm** plugin you need to:
 
-1 - Locate the **humm** plugin in the **Modules and Services** page.
+1 - Locate the **humm**/Oxipay plugin in the **Modules and Services** page.
 
 2 - From the drop-down menu that appears, click **Delete**.
 

@@ -40,7 +40,7 @@ Use the same instructions to upgrade your existing plugin to a newer release.
 
 ## **Humm** official launch
 
-Before the **humm** official launch, the plugin will behave like an Oxipay payment plugin. It will show Oxipay, and checkout with the Oxipay gateway.
+Before the **humm** official launch, the plugin will behave the same as the Oxipay payment plugin. It will show Oxipay, and checkout with the Oxipay gateway.
 
 The plugin will automatically switch itself to **humm** once it is officially launched. It will then show **humm**, and checkout with the **humm** gateway.
 

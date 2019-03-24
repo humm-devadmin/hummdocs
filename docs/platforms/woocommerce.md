@@ -16,7 +16,7 @@
 
 ![3.png](/img/platforms/woocommerce/3.png)
 
-4 - From the search results, click on **Install Now** next to **humm Payment Gateway for WooCommerce**.
+4 - From the search results, click on **Install Now** next to **Humm / Oxipay Payment Gateway for WooCommerce**.
 
 ![29.png](/img/platforms/woocommerce/29.png)
 
@@ -50,6 +50,8 @@ Below is a screenshot of the various **humm** settings available and what they a
 **Force humm** This is for testing humm before the official launch. Leave it unchecked unless you are sure about what you are doing.
 
 **Price Widget**: Displays an **humm** price widget on each of your store's product pages. (**Recommended**)
+
+**Merchant Type**: If your **humm** account supports only 'Little things', only 'Big things' or Both.
 
 **Top Banner Widget**: Displays an **humm** banner at the top of all pages. (Australian stores only)
 
@@ -85,11 +87,11 @@ This plugin supports WooCommerce online refunding.
 
 ![11.png](/img/platforms/woocommerce/11.png)
 
-4 - In this way, a refund request will be sent to the humm server and you will be shown the result immediately.
+4 - In this way, a refund request will be sent to the **humm** server and you will be shown the result immediately.
 
 ## **Humm** official launch
 
-Before the **humm** official launch, the plugin will behave like an Oxipay payment plugin. It will show Oxipay, and checkout with the Oxipay gateway.
+Before the **humm** official launch, the plugin will behave the same as the Oxipay payment plugin. It will show Oxipay, and checkout with the Oxipay gateway.
 
 The plugin will automatically switch itself to **humm** once it is officially launched. It will then show **humm**, and checkout with the **humm** gateway.
 
@@ -97,4 +99,4 @@ The switch-over should be automatic and you as the merchant should not need to d
 
 ## Updating from the old Oxipay plugin
 
-For existing Oxipay merchants, just click the "update" button to update the existing Oxipay plugin when an update is available.
+For existing Oxipay merchants, just click the "update" button in the plugins menu to update the existing Oxipay plugin when an update is available.
