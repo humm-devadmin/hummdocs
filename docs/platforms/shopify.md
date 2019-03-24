@@ -20,7 +20,7 @@ To setup and configure **humm** on your Shopify store, please use the instructio
 
 ![6.png](/img/platforms/shopify/6.png)
 
-5 - Bring the **Alternative Payments** section into focus, expand the **Select additional payment method** drop-down and click **humm - Streetch Your Payments**.
+5 - Bring the **Alternative Payments** section into focus, expand the **Select additional payment method** drop-down and click **Humm - Pay in slices. No Interest ever.**
 
 <div class="panel">
 	To access this page from your Shopify dashboard, select <b>Settings</b> in the bottom left hand corner, then select select <b>Payment providers</b>.

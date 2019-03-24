@@ -40,13 +40,13 @@ Use the same instructions to upgrade your existing plugin to a newer release.
 
 ## **Humm** official launch
 
-Before the **humm** official launch, the plugin will behave like an Oxipay payment plugin. It will show Oxipay, and checkout with the Oxipay gateway.
+Before the **humm** official launch, the plugin will behave the same as the Oxipay payment plugin. It will show Oxipay, and checkout with the Oxipay gateway.
 
 The plugin will automatically switch itself to **humm** once it is officially launched. It will then show **humm**, and checkout with the **humm** gateway.
 
 The switch-over should be automatic and you as the merchant should not need to do anything on the launch date to make the switch.
 
-## Updating from the old Oxipay plugin
+## Upgrade From The Old Oxipay Plugin
 
 1 - Install the **humm** payment plugin as described earlier in this page.
 
@@ -56,6 +56,6 @@ The switch-over should be automatic and you as the merchant should not need to d
 
 4 - Do test transactions to make sure the **humm** Payment plugin works correctly with your store.
 
-5 - Now you can disable or remove the Oxipay plugin as its features are all included in the **humm** plugin.
+5 - Now you can disable or remove the Oxipay plugin as its features are all included in the **humm** plugin. You may like to keep the plugin but set it to disabled to allow online refunding of the existing old Oxipay transactions.
 
 6 - Before the **humm** launch date, the plugin will still show Oxipay and checkout with Oxipay, and your customers should see no changes. After the official **humm** launch, the plugin will automatically switch to **humm**, providing a smooth and fully automatic transition.
