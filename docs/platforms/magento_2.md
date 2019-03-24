@@ -56,6 +56,6 @@ The switch-over should be automatic and you as the merchant should not need to d
 
 4 - Do test transactions to make sure the **humm** Payment plugin works correctly with your store.
 
-5 - Now you can disable or remove the Oxipay plugin as its features are all included in the **humm** plugin.
+5 - Now you can disable or remove the Oxipay plugin as its features are all included in the **humm** plugin. You may like to keep the plugin but set it to disabled to allow online refunding of the existing old Oxipay transactions.
 
 6 - Before the **humm** launch date, the plugin will still show Oxipay and checkout with Oxipay, and your customers should feel no changes. After the official **humm** launch, the plugin will automatically switch to **humm**, providing a smooth and fully automatic transition.
