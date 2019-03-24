@@ -63,7 +63,7 @@ The switch-over should be automatic and you as the merchant should not need to d
 
 5 - Adjust other **humm** plugin settings if necessary. "Is Testing" is preset to "No" by default in this case. Save the config.
 
-6 - Now you can safely remove the Oxipay plugin by removing the following folders and files:
+6 - You may want to keep the old Oxipay plugin (and keep it NOT enabled) to allow online refunding of the existing Oxipay orders. Otherwise you can safely remove the Oxipay plugin by removing the following folders and files:
 
     /app/code/community/Oxipay
     /app/design/frontend/base/default/template/oxipayments
