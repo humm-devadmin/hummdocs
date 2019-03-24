@@ -51,7 +51,7 @@ The plugin will automatically switch itself to **humm** once it is officially la
 
 The switch-over should be automatic and you as the merchant should not need to do anything on the launch date to make the switch.
 
-## Updating from the old Oxipay plugin
+## Upgrade From The Old Oxipay Plugin
 
 1 - Install the **humm** payment plugin as described earlier in this page.
 

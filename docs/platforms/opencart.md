@@ -101,3 +101,24 @@ Order Status Failed | Status orders will be set to when payment is marked as fai
 Geo Zone | Select the Geo Zone this payment will be visible in.
 Status | Enables or disables **humm**
 Sort Order | If you have more than one payment gateway, please use this field to define the order they are shown in. A setting of '1' will show it first, '2' second, etc.
+
+## Upgrade From The Old Oxipay Plugin
+
+<div class="panel">
+  Before upgrading to <b>humm</b> make note of your merchant number and API key.<br>
+  These can be found in your Oxipay plugins settings page as described <a href="#configuration">here.</a><br>
+  If you don't have these email <a href="mailto:pit@%domain%">pit@%domain%</a> with your merchant number (if you have it), mobile number and company name.
+</div>
+
+1 - Navigate to the **Extensions** page as shown in [Complete The Installation](#complete-the-installation).
+
+2 - Locate Oxipay and click the **Uninstall** icon.
+
+![13.png](/img/platforms/opencart/13.png)
+
+3 - Follow the installation process as described [here](#plugin-installation).
+
+<div class="panel">
+  Before the launch of <b>humm</b>, the <b>Checkout Method</b> setting should be set to Oxipay on public websites.<br>
+  After <b>humm</b> is launched this will need to be manually updated to <b>humm</b>.
+</div>
