@@ -41,7 +41,7 @@ Use the same instructions to upgrade your existing plugin to a newer release.
 
 ![6.png](/img/platforms/magento_1/6.png)
 
-4 - Force **humm** provides a way to preview and test **humm** before **humm** is officially launched. Please do not enabled it in the live environment before the official **humm** launch.
+4 - Force **humm** provides a way to preview and test **humm** before **humm** is officially launched. Please do not enable it in the live environment before the official **humm** launch.
 
 ## **Humm** official launch
 
@@ -73,4 +73,4 @@ The switch-over should be automatic and you as the merchant should not need to d
     /skin/frontend/base/default/images/Oxipay/
     /skin/adminhtml/base/default/images/Oxipay/
 
-7 - Before the **humm** launch date, the plugin will still show Oxipay and checkout with Oxipay, and your customers should feel no changes. After the official **humm** launch, the plugin will automatically switch to **humm**, providing a smooth and fully automatic transition.
+7 - Before the **humm** launch date, the plugin will still show Oxipay and checkout with Oxipay, and your customers should see no changes. After the official **humm** launch, the plugin will automatically switch to **humm**, providing a smooth and fully automatic transition.

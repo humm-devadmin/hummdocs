@@ -11,7 +11,7 @@ Use the same instructions to upgrade your existing plugin to a newer release.
 
 1 - Download the **humm** plugin from [https://github.com/shophumm/humm-magento2.x/releases](https://github.com/shophumm/humm-magento2.x/releases).
 
-2 - Unzip it then copy the inner `**humm**` folder into the `MAGENTO_DIR/app/code` directory on your webserver. If the <code>code</code> folder doesn't exist, then create it manually.
+2 - Unzip it then copy the inner `humm` folder into the `MAGENTO_DIR/app/code` directory on your webserver. If the <code>code</code> folder doesn't exist, then create it manually.
 
 3 - Change directory into `MAGENTO_DIR/bin` to make the `magento` utility available.
 
@@ -36,7 +36,7 @@ Use the same instructions to upgrade your existing plugin to a newer release.
 
 ![4.png](\img\platforms\magento_2\4.png)
 
-4 - Force **humm** provides a way to preview and test **humm** before **humm** is officially launched. Please do not enabled it in the live environment before the official **humm** launch.
+4 - Force **humm** provides a way to preview and test **humm** before **humm** is officially launched. Please do not enable it in the live environment before the official **humm** launch.
 
 ## **Humm** official launch
 
@@ -58,4 +58,4 @@ The switch-over should be automatic and you as the merchant should not need to d
 
 5 - Now you can disable or remove the Oxipay plugin as its features are all included in the **humm** plugin. You may like to keep the plugin but set it to disabled to allow online refunding of the existing old Oxipay transactions.
 
-6 - Before the **humm** launch date, the plugin will still show Oxipay and checkout with Oxipay, and your customers should feel no changes. After the official **humm** launch, the plugin will automatically switch to **humm**, providing a smooth and fully automatic transition.
+6 - Before the **humm** launch date, the plugin will still show Oxipay and checkout with Oxipay, and your customers should see no changes. After the official **humm** launch, the plugin will automatically switch to **humm**, providing a smooth and fully automatic transition.

@@ -13,7 +13,7 @@ Below is an example that demonstrates how you can go about implementing a method
 
 ## PHP Example
 
-Below is a PHP code snippet that demonstrates how a signature might be generated in the context of **humm**:
+Below is a PHP code snippet that demonstrates how a signature might be generated in the context of **humm:**:
 
 ```php
 	function humm_sign($query, $api_key )
