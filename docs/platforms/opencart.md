@@ -19,7 +19,7 @@ You can install **humm** automatically with the extension installer or manually 
 </div>
 
 1 - Download the **humm** extension from [github.com/shophumm/humm-opencart/releases](https://github.com/shophumm/humm-opencart/releases).<br>
-**Please ensure that you select the latest release for your version OpenCart.**
+**Please ensure that you select the latest release for your version of OpenCart.**
 
 2 - Log into your **OpenCart Admin**, click on **Extensions** on the left menu, then on **Installer** submenu item below.
 
@@ -33,8 +33,8 @@ _Next: Continue onto Complete The Install instructions below._
 
 ### Manual Installation
 
-1 - Download the **humm** extension from [github.com/shophumm/humm-opencart/releases](https://github.com/shophumm/humm-opencart/releases).
-**Please ensure that you select the latest release for your version OpenCart.**
+1 - Download the **humm** extension from [github.com/shophumm/humm-opencart/releases](https://github.com/shophumm/humm-opencart/releases).<br>
+**Please ensure that you select the latest release for your version of OpenCart.**
 
 2 - Unzip it and copy the contents of the `uploads` folder into OpenCarts root folder. For a new install, no files should be overwritten; with an upgrade, only previous **humm** files should be overwritten.
 
@@ -44,7 +44,7 @@ _Next: Continue onto Complete The Install instructions below._
 
 1 - If not already, log into your **OpenCart Admin**. From the left menu select **Extensions**, and then the **Extensions** submenu item below.
 
-![5.png](/img/platforms/opencart/1.png)
+![1.png](/img/platforms/opencart/1.png)
 
 2 - This will take you to the **Extensions** page. Select **Payments** from the extension type dropdown.
 
@@ -77,7 +77,7 @@ Setting | Description
 Oxipay / **humm** | Switch between the two checkout methods
 
 As we are currently in a period of transitioning from Oxipay to **humm**, this setting gives you the power of switching between the two checkout methods.  
-**Australian merchants should choose Oxipay before the official humm launch, and switch to humm immediately after launch.**
+**Australian merchants should choose Oxipay before the official humm launch and switch to humm immediately after launch.**
 
 #### Shop Details
 
