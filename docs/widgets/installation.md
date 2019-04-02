@@ -1,5 +1,8 @@
 ## Adding a Widget to your Website
-**Step 1:** Choose the widget that you want to install from our [List of Widgets](../list_of_widgets).
+**Step 1:** Choose the widget that you want to install from:
+
+* [Price-info Widget](../price_info)
+* [Banner Widgets](../banners)
 
 **Step 2:** Place the ```<script>``` tag in the desired place you'd like it to appear on your website.
 

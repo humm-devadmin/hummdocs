@@ -9,7 +9,7 @@ nav:
    - Magento 2: platforms/magento_2.md
    - PrestaShop: platforms/prestashop.md
    # - CubeCart: platforms/cubecart.md
-   - OpenCart 3.0: platforms/opencart.md
+   - OpenCart: platforms/opencart.md
 #- POS Platforms:
     # - Vend: platforms/vend.md
 - Accreditation:
@@ -24,7 +24,8 @@ nav:
    - Testing Declines and Approvals: developer_resources/declines_and_approvals.md
 - Widgets:
    - Introduction: widgets/introduction.md
-   - List of Widgets: widgets/list_of_widgets.md
+   - Price-info Widget: widgets/price_info.md
+   - Banner Widgets: widgets/banners.md
    # - Landing Page Widget: widgets/landing_widget.md
    - Installation:
       - Generic Installation: widgets/installation.md
