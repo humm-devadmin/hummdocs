@@ -99,4 +99,6 @@ The switch-over should be automatic and you as the merchant should not need to d
 
 ## Updating from the old Oxipay plugin
 
-For existing Oxipay merchants, just click the "update" button in the plugins menu to update the existing Oxipay plugin when an update is available.
+For existing Oxipay merchants, navigate to the plugins menu, find the Oxipay plugin and click **update now**.
+
+![35.png](/img/platforms/woocommerce/35.png)
