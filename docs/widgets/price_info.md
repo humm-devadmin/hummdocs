@@ -23,13 +23,20 @@ To use the price-info widget, you must select the corresponding type based on wh
 </div>
 
 Simply insert the corresponding script to where you want the price-info widget to be be displayed. Replace <code>PLACE_YOUR_PRODUCT_PRICE</code> with the price of the product.
-```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
-```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200"></script>
+
+### Example
+
+The price-info widget will display differently depending on its type and the price passed to it.
+
+For example, here is a 'Little Only' price-info widget for $200:
+
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script>
 <br>
 
+The following is 'Big Only' price-info widget for $4000:
 
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000&LittleOnly"></script>
+<br>
 
 ## Widget behavior
 
