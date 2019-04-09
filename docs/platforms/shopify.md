@@ -42,7 +42,7 @@ To setup and configure **humm** on your Shopify store, please use the instructio
 </div>
 
 <div class="panel">
-  In order to add the Price-info widget as below, please see the Shopify instructions <a href="../../price-info/shopify">here</a>.
+  In order to add the Price-info widget as below, please see the Shopify instructions <a href="../../widgets/price-info/shopify">here</a>.
 </div>
 
 **Price: ** $1000
