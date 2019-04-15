@@ -7,8 +7,8 @@
 
 | **Humm** Environment | URL |
 |--------------------|-----|
-| Production Endpoint | [https://cart.%domain%/api/ExternalRefund/processrefund](https://cart.%domain%/api/ExternalRefund/processrefund) |
-| Sandbox Endpoint | [https://integration-cart.%domain%/api/ExternalRefund/processrefund](https://integration-cart.%domain%/api/ExternalRefund/processrefund) |
+| Production Endpoint | [https://buyerapi.%domain%/api/ExternalRefund/v1/processrefund](https://buyerapi.%domain%/api/ExternalRefund/v1/processrefund) |
+| Sandbox Endpoint | [https://integration-buyerapi.%domain%/api/ExternalRefund/v1/processrefund](https://integration-buyerapi.%domain%/api/ExternalRefund/v1/processrefund) |
 
 
 ## Request 
@@ -56,5 +56,5 @@ The following ``curl`` command will allow you to test the refunds API. You will 
         "x_reason": "test",
         "signature": "a5fc92ddd2326c6099bd0f43bbe75afb54004a6ba68f354cc2b40328341d8ee2"
     }' \    
-    https://integration-cart.%domain%/api/ExternalRefund/processrefund
+    https://integration-buyerapi.%domain%/api/ExternalRefund/v1/processrefund
 
