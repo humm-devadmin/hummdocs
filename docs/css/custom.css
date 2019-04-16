@@ -72,7 +72,8 @@
   display: block;
   content: ' ';
   background-image: url('../img/humm.svg');
-  background-size: 200px 100px;
+  background-size: 200px auto;
+  background-position: center;
   height: 100px;
   width: 200px;
   background-repeat: no-repeat;
