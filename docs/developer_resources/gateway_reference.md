@@ -89,6 +89,7 @@ x_currency                | Currency of the transaction | ISO-4217 | %currency_a
 x_test                    | Indicates whether the transaction is to be processed as a live or a test transaction | True/False | False
 x_amount                  | Represents the transaction's total amount including any taxes and shipping costs | decimal | 99.90  
 x_gateway_reference       | A reference for the authorisation issues by **humm** that is unique | unique string | 123
+x_purchase_number         | A reference for the authorisation issues by **humm** that is unique. **Same as x_gateway_reference** | unique string | 123
 x_timestamp               | Time at which the transaction is completed, in UTC format YYYY-MM-DDTHH:MM:SSZ | iso-8601 in UTC | 2017-06-24T12:11:43Z
 x_result                  | Values that represent the outcome of a transaction | Valid values are **completed** or **failed** | **completed**
 x_signature               | Response payload that is signed/verified using HMAC-SHA256 | hex string, case-insensitive | See [Signature Generation](../signature_generation/)
@@ -99,6 +100,8 @@ The <code>x_signature</code> included in both the POST and GET responses must va
 Failure to do so could allow a third-party to tamper with the response.
 
 In the event that the provided <code>x_signature</code> does not match the calculated signature, the reponse should be disregarded.
+
+All fields recieved starting with <code>x_</code> should be used to calculate the signature, except for <code>x_signature</code> itself.
 
 For further information please see [Signature Generation](../signature_generation/).
 

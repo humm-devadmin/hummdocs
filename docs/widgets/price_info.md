@@ -28,15 +28,11 @@ Simply insert the corresponding script to where you want the price-info widget t
 
 The price-info widget will display differently depending on its type and the price passed to it.
 
-For example, here is a 'Little Only' price-info widget for $200:
-
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script>
-<br>
-
-The following is 'Big Only' price-info widget for $4000:
-
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000&LittleOnly"></script>
-<br>
+| | <= $1000 | $1000 < price <= $2000 | > $2000 |
+| -- | -- | -- | -- |
+| **Default** | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000"></script> |
+| **Big Things Only** | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&BigOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500&BigOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000&BigOnly"></script> |
+| **Little Things Only** | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500&LittleOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000&LittleOnly"></script> |
 
 ## Widget behavior
 
