@@ -10,7 +10,7 @@ There are two instances where signature generation is required:
 Below is an example that demonstrates how you can go about implementing a method in a shopping platform that is based on PHP to generate the signature.
 
  <div class="panel">
-    <b>Note: </b>When signing a request, all fields starting with <code>x_</code> must used, except for <code>x_signature</code>.
+    <b>Note: </b>When signing a request, all fields starting with <code>x_</code> must be used, except for <code>x_signature</code>.
 </div>
 
 ## PHP Example
