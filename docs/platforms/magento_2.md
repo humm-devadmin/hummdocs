@@ -9,6 +9,29 @@ Use the same instructions to upgrade your existing plugin to a newer release.
   You will need your <b>Merchant Number</b> and an <b>Encryption Key</b> handy before continuing with the installation.
 </div>
 
+### Install using Composer
+
+1. Add the **humm** repository
+
+        #(in the Magento root directory)
+        composer config repositories.shophumm git https://github.com/shophumm/humm-magento2.x.git
+
+2. Require the Humm Payment Gateway Module
+
+        composer require humm/module-humm-payment-gateway:dev-composer
+
+3. Enable the module
+       
+        ./bin/magento module:enable Humm_HummPaymentGateway --clear-static-content
+
+4. Update the database
+
+        ./bin/magento setup:upgrade
+
+5.  [Configure the plugin](#configuration)
+
+### Manual Install
+
 1 - Download the **humm** plugin from [https://github.com/shophumm/humm-magento2.x/releases](https://github.com/shophumm/humm-magento2.x/releases).
 
 2 - Unzip it then copy the inner `humm` folder into the `MAGENTO_DIR/app/code` directory on your webserver. If the <code>code</code> folder doesn't exist, then create it manually.
