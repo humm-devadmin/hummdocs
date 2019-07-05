@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Setting up **humm** on a CubeCart Store - humm Documentation (AU)</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../../css/jquery.modal.min.css" rel="stylesheet">
+  <link href="../../css/custom.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Setting up **humm** on a CubeCart Store";
+    var mkdocs_page_input_path = "platforms\\cubecart.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> humm Documentation (AU)</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">E-commerce Platforms</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../shopify/">Shopify</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../woocommerce/">WooCommerce</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../magento_1/">Magento 1</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../magento_2/">Magento 2</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../prestashop/">PrestaShop</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../opencart/">OpenCart</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Accreditation</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../accreditation/test/">Test Transactions</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Developer Resources</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../developer_resources/introduction/">Introduction</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../developer_resources/checkout_process/">Checkout Process</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../developer_resources/gateway_reference/">Gateway Reference</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../developer_resources/refund_api/">Refund API Reference</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../developer_resources/signature_generation/">Signature Generation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../developer_resources/declines_and_approvals/">Testing Declines and Approvals</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Widgets</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../widgets/introduction/">Introduction</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../widgets/price_info/">Price-info Widget</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../widgets/banners/">Banner Widgets</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../widgets/landing_widget/">Landing Page Widget</a>
+                </li>
+                <li class="">
+                    
+    <span class="caption-text">Installation</span>
+    <ul class="subnav">
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../widgets/installation/">Generic Installation</a>
+                </li>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../widgets/price-info/shopify/">Shopify Specific</a>
+                </li>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../widgets/price-info/magento_1/">Magento 1 Specific</a>
+                </li>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../widgets/price-info/opencart_3/">OpenCart 3 Specific</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">humm Documentation (AU)</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Setting up **humm** on a CubeCart Store</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                
+<h1 id="setting-up-humm-on-a-cubecart-store">Setting up <strong>humm</strong> on a CubeCart Store</h1>
+<p>This document outlines the steps needed to install <strong>humm</strong> on your CubeCart Store.</p>
+<div class="panel">
+  At the time of writing this article, **humm** was developed and tested against CubeCart version <code>6.1.1</code>, although the plugin should be compatible with other CubeCart versions. If you encounter any issues, please contact us to resolve them as soon as possible.
+</div>
+
+<h2 id="installing-humm">Installing <strong>humm</strong></h2>
+<div class="panel">
+  You will need a <b>Merchant ID</b> and <b>API Key</b> before continuing with the installation procedure. They are required to uniquely identify the Merchant and provide a secure link. If you don't have either of these, please contact <a href="mailto:support@shophumm.com.au">support@shophumm.com.au</a>
+</div>
+
+<p>The plugin can be installed via CubeCart's Admin Control Panel, either manually or automatically using a Token. This section details how to upload the plugin, and install and configure its various parameters for it to work properly.</p>
+<div class="panel">
+  If you have trouble accessing your CubeCart's Admin Control Panel, please consult CubeCart's official <a href="https://support.cubecart.com/Knowledgebase/List">knowledgebase</a> and <a href="https://forums.cubecart.com/">forums</a>, or your IT department to resolve the issue.
+</div>
+
+<h3 id="automatic-installation-using-token">Automatic Installation using Token</h3>
+<p><strong>1</strong> - Navigate to the following URL.</p>
+<p><a href="https://www.cubecart.com/extensions/payment-gateways/oxipay">https://www.cubecart.com/extensions/payment-gateways/oxipay</a></p>
+<p><strong>2</strong> - Select the <strong>lightning bolt</strong> button, next to your required <strong>humm</strong> plugin version, to reveal the <strong>Auto Install/Upgrade Token</strong></p>
+<p><img alt="autoinstall-1.png" src="/img/platforms/cubecart/autoinstall-1.png" /></p>
+<p><strong>3</strong> - Copy the <strong>Token</strong> from within the pop-up.</p>
+<p><img alt="autoinstall-2.png" src="/img/platforms/cubecart/autoinstall-2.png" /></p>
+<p><strong>4</strong> - Log into the CubeCart Admin Control Panel as an Administrator.</p>
+<p><img alt="autoinstall-3.png" src="/img/platforms/cubecart/autoinstall-3.png" /></p>
+<p><strong>5</strong> - Once logged in, you will be presented with your Store's dashboard. From the side menu that appears to the left, scroll to the <strong>Extensions</strong> section and select <strong>Manage Extensions</strong>.</p>
+<p><img alt="autoinstall-4.png" src="/img/platforms/cubecart/autoinstall-4.png" /></p>
+<p><strong>6</strong> - Copy the <strong>Auto Install/Upgrade Token</strong> into the Token field on the <strong>Manage Extensions</strong> page and select the <strong>Go</strong> button.</p>
+<p><img alt="autoinstall-5.png" src="/img/platforms/cubecart/autoinstall-5.png" /></p>
+<p><strong>7</strong> - If the module has been installed correctly, the module will appear in the list of <strong>Available Extensions</strong>.</p>
+<p><img alt="autoinstall-6.png" src="/img/platforms/cubecart/autoinstall-6.png" /></p>
+<div class="panel">
+If the automatic installation is not successful, you will be presented with a message at the top of the page similar to the screenshot below. If this continues to be a problem, please refer to the <a href="#manual-installation">Manual Installation</a> procedure.
+</div>
+
+<p><img alt="autoinstall-7.png" src="/img/platforms/cubecart/autoinstall-7.png" /></p>
+<h3 id="manual-installation">Manual Installation</h3>
+<p><strong>1</strong> - Navigate to the following URL.</p>
+<p><a href="https://www.cubecart.com/extensions/payment-gateways/oxipay">https://www.cubecart.com/extensions/payment-gateways/oxipay</a></p>
+<p><strong>2</strong> - Select the <strong>download</strong> button , next to your required <strong>humm</strong> plugin version, to download the <strong>humm</strong> plugin ZIP file.</p>
+<p><img alt="manualinstall-1.png" src="/img/platforms/cubecart/manualinstall-1.png" /></p>
+<p><strong>3</strong> - Extract the ZIP file and copy the contents to the <strong>modules/gateway</strong> folder of your server’s/site directory.</p>
+<p><strong>4</strong> - Ensure the folders/files have adequate read/write permissions set.</p>
+<p><strong>5</strong> - Log into the CubeCart Admin Control Panel as an Administrator.</p>
+<p><img alt="manualinstall-2.png" src="/img/platforms/cubecart/manualinstall-2.png" /></p>
+<p><strong>6</strong> - Once logged in, you will be presented with your Store's dashboard. From the side menu that appears to the left, scroll to the <strong>Extensions</strong> section and select <strong>Manage Extensions</strong>.</p>
+<p><img alt="manualinstall-3.png" src="/img/platforms/cubecart/manualinstall-3.png" /></p>
+<p><strong>7</strong> - If the module has been installed correctly, the module will appear in the list of <strong>Available Extensions</strong>.</p>
+<p><img alt="manualinstall-4.png" src="/img/platforms/cubecart/manualinstall-4.png" /></p>
+<h2 id="configuring-humm">Configuring <strong>humm</strong></h2>
+<div class="panel">
+  This section describes the <b>Module Settings</b> available once you have installed the **humm** plugin. This includes the **humm** gateways to communicate with, as well as whether or not to enable Test Mode.  
+</div>
+
+<p><strong>1</strong> - Log into the CubeCart Admin Control Panel as an Administrator.</p>
+<p><strong>2</strong> - Once logged in, you will be presented with your Store's dashboard. From the side menu that appears to the left, scroll to the <strong>Extensions</strong> section and select <strong>Manage Extensions</strong>.</p>
+<p><strong>3</strong> - Under the <strong>Available Extensions</strong> section, select the text <strong>Humm</strong> to configure the module settings. Descriptions of the options are listed below.</p>
+<p><img alt="config-1.png" src="/img/platforms/cubecart/config-1.png" />
+<div class="panel">
+  We have intentionally masked the <b>Merchant ID</b> and <b>API Key</b> in this support document. Please contact us and we will advise you of the settings to use.
+</div></p>
+<hr>
+
+<ul>
+<li>
+<p><strong>Status</strong> This must be enabled for the payment options to appear during checkout.
+<hr></p>
+</li>
+<li>
+<p><strong>Priority</strong>  If you have more than one payment gateway, please use this field to define the order they are shown in. A setting of '1' will show it first, '2' second, etc.
+<hr></p>
+</li>
+<li>
+<p><strong>Scope</strong> This allows you to specify whether you want the <strong>humm</strong> plugin to be available via the Main Website only or the Mobile Website only, or both.
+<hr></p>
+</li>
+<li>
+<p><strong>Default</strong> This must be enabled if you would like <strong>humm</strong> pre-selected for the Customer as the default payment option.
+<hr></p>
+</li>
+<li>
+<p><strong>Merchant ID</strong> This is the <strong>humm</strong> Merchant ID that you are provided with as part of your on-boarding when signing-up for <strong>humm</strong>.
+<hr></p>
+</li>
+<li>
+<p><strong>API Key</strong> The API Key or the Encryption key is a case-sensitive alpha-numeric sequence that is used to authenticate payment requests originating from your Store. It is vital that you protect it and don't provide it to unauthorised individuals.
+<hr></p>
+</li>
+<li>
+<p><strong>Test Mode</strong> Indicates whether to process payments over the live <strong>humm</strong> Gateway URL resulting in real transactions, or to process it over the <strong>humm</strong> Sandbox Gateway URL which will produce simulated (test) transactions with no real dollar amounts being debited. By default it should be set to <strong>No</strong> unless we are attempting to diagnose issues on your store to do with <strong>humm</strong>, or you're testing integrating the plugin with your online CubeCart store.
+<hr></p>
+</li>
+<li>
+<p><strong>Test Gateway URL</strong> This specifies the test <strong>humm</strong> end-point that the plugin would need to communicate with when <strong>Test Mode</strong> is enabled. This is mainly used for troubleshooting purposes, particularly if we want to simulate test transactions on your CubeCart Store without having real dollar amounts debited from Credit Cards.
+<hr></p>
+</li>
+<li>
+<p><strong>Gateway URL</strong> This specifies the live <strong>humm</strong> end-point that the plugin would need to communicate with for it to be able to process payments via <strong>humm</strong>. Note that transactions processed over this URL are real transactions that end up in real dollar amounts being deducted.</p>
+</li>
+</ul>
+<hr>
+
+<p><strong>4</strong> - Once you have finished making the necessary configuration changes, click the <strong>Save</strong> button.</p>
+<p><strong>5</strong> - <strong>Australia</strong> will be automatically set as an <strong>Enabled Region</strong> in the <strong>Allowed Zones</strong> tab. This must match the Country set in the CubeCart Store Settings.</p>
+<p><img alt="config-2.png" src="/img/platforms/cubecart/config-2.png" />
+<hr></p>
+<hr>
+
+<h2 id="upgrading-humm">Upgrading <strong>humm</strong></h2>
+<h3 id="automatic-upgrade">Automatic Upgrade</h3>
+<div class="panel">
+Importantly, when you perform an automatic upgrade, all the module settings are retained.
+That is, you do not need to type in your <b>Merchant ID</b> and <b>API Key</b> again.
+</div>
+
+<p><strong>1</strong> - Navigate to the following URL.</p>
+<p><a href="https://www.cubecart.com/extensions/payment-gateways/oxipay">https://www.cubecart.com/extensions/payment-gateways/oxipay</a></p>
+<p><strong>2</strong> - Select the <strong>lightning bolt</strong> button, next to your required <strong>humm</strong> plugin version, to reveal the <strong>Auto Install/Upgrade Token</strong></p>
+<p><img alt="autoinstall-1.png" src="/img/platforms/cubecart/autoinstall-1.png" /></p>
+<p><strong>3</strong> - Copy the <strong>Token</strong> from within the pop-up.</p>
+<p><img alt="autoinstall-2.png" src="/img/platforms/cubecart/autoinstall-2.png" /></p>
+<p><strong>4</strong> - Log into the CubeCart Admin Control Panel as an Administrator.</p>
+<p><img alt="autoinstall-3.png" src="/img/platforms/cubecart/autoinstall-3.png" /></p>
+<p><strong>5</strong> - Once logged in, you will be presented with your Store's dashboard. From the side menu that appears to the left, scroll to the <strong>Extensions</strong> section and select <strong>Manage Extensions</strong>.</p>
+<p><img alt="autoinstall-4.png" src="/img/platforms/cubecart/autoinstall-4.png" /></p>
+<p><strong>6</strong> - Copy the <strong>Auto Install/Upgrade Token</strong> into the Token field on the <strong>Manage Extensions</strong> page.</p>
+<p><img alt="autoinstall-5.png" src="/img/platforms/cubecart/autoinstall-5.png" /></p>
+<p><strong>7</strong> - If you enable the option to <strong>Backup if already exists</strong>, a backup of the previous plugin version will be created.</p>
+<p><strong>8</strong> - Select the <strong>Go</strong> button to complete the upgrade.</p>
+<hr>
+
+<h3 id="manual-upgrade">Manual Upgrade</h3>
+<div class="panel">
+Prior to manually upgrading, you will first need to un-install the previous version.
+</div>
+
+<h2 id="un-installing-humm">Un-installing <strong>humm</strong></h2>
+<p><strong>1</strong> - Log into the CubeCart Admin Control Panel as an Administrator.</p>
+<p><img alt="uninstall-1.png" src="/img/platforms/cubecart/uninstall-1.png" /></p>
+<p><strong>2</strong> - Once logged in, you will be presented with your Store's dashboard. From the side menu that appears to the left, scroll to the <strong>Extensions</strong> section and select <strong>Manage Extensions</strong>.</p>
+<p><img alt="uninstall-2.png" src="/img/platforms/cubecart/uninstall-2.png" /></p>
+<p><strong>3</strong> - In the list of <strong>Available Extensions</strong>, select the <strong>delete</strong> button associated with the <strong>Humm</strong> extension.</p>
+<p><strong>4</strong> - If the module has been un-installed correctly, the module will no longer appear in the list of <strong>Available Extensions</strong>.</p>
+<p><img alt="uninstall-3.png" src="/img/platforms/cubecart/uninstall-3.png" /></p>
+<p><strong>5</strong> - You can now download the new version of the <strong>humm</strong> CubeCart plugin and install it as per the instructions in the <a href="#installing-oxipay">Installing <strong>humm</strong></a> section of this document.</p>
+
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/jquery.modal.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>

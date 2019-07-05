@@ -1,0 +1,192 @@
+
+/* --------------------------- */
+/*  Humm Rebranding Changes  */
+/* --------------------------- */
+
+.wy-nav-side {
+  background: #F1F2EE !important;
+}
+
+.wy-nav-side li a, .wy-nav-side li  {
+  color: #333 !important;
+}
+
+.wy-menu-vertical a:hover, .wy-menu-vertical li.on a:hover, .wy-menu-vertical li.current > a:hover, .wy-menu-vertical li.current a:hover {
+  color: #fff !important;
+  background-color: #4D5046;
+}
+
+.wy-nav-content-wrap {
+    background: #edeeef;
+}
+
+.wy-nav-content {
+  background-color: #ffffff;
+  max-width: 100% !important;
+}
+
+.rst-versions, .rst-current-version {
+  background: #DCE4C9 !important;
+}
+
+.rst-current-version span:first-of-type {
+  float: left;
+}
+
+.rst-current-version a {
+    color: #333 !important;
+}
+
+.btn-neutral, .btn-neutral:visited {
+  background: #FF6C00 !important;
+  color: white !important;
+}
+
+.btn-neutral:hover {
+  background: #CC5600 !important;
+}
+
+.wy-side-nav-search {
+  background: #FF6C00 !important;
+}
+
+.wy-side-nav-search img {
+  width:500px !important;
+}
+
+.wy-menu-vertical li.current {
+  background-color: #DCE4C9;
+}
+
+  .wy-menu-vertical li.on a, .wy-menu-vertical li.current > a {
+    background-color: #4D5046;
+    color: white !important;
+    border: none !important;
+  }
+
+.wy-menu-vertical li.current a {
+  border-right: none;
+}
+
+.wy-side-nav-search .icon:before {
+  display: block;
+  content: ' ';
+  background-image: url('../img/humm.svg');
+  background-size: 200px auto;
+  background-position: center;
+  height: 100px;
+  width: 200px;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+    /* --------------------------- */
+    /*  Humm Rebranding Changes  */
+    /* --------------------------- */
+.panel {
+  background-color: #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  margin-bottom: 15px;
+}
+.panel-danger h3 {
+    color: #b92020;
+}
+.wy-side-nav-search, .wy-nav-top {
+    background-color: #FF6C00;
+
+}
+
+.wy-nav-top .fa {
+  line-height: inherit;
+}
+
+.wy-side-nav-search input[type=text] {
+    border-color:  #c1731c;
+}
+
+#oxipay-tag-01 img {
+  height: 20px !important;
+}
+
+#oxipay-banner-01 img {
+  height: 100% !important;
+}
+
+#oxipay-banner-01 p {
+    font-size: 14px !important;
+}
+
+#oxipay-banner-01 h3 {
+    margin: 0px 0px 10px 0px !important;
+}
+
+.wy-menu-vertical .subnav .caption-text {
+    padding: 0.4045em 2.427em;
+}
+
+.wy-menu-vertical .toctree-l1 > ul.subnav > li.current {
+    /*background: transparent;*/
+}
+
+.wy-menu-vertical li ul.subnav ul.subnav {
+    padding-left: 0;
+}
+
+.wy-menu-vertical li ul.subnav ul.subnav a{
+    padding-left: 3.25em;
+}
+
+.wy-menu-vertical li ul.subnav ul.subnav ul.subnav {
+    padding-left: 1em;
+}
+
+.fade.in {
+    opacity: 1;
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.alert-dismissable, .alert-dismissible {
+    padding-right: 35px;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+#oxipay-img {
+    top: 30px !important;
+}
+
+#oxipay-tag-02{
+  font-size: 12px;
+  margin-bottom: -40px !important;
+}
+
+#oxipay-tag-02 > p{
+  margin-bottom: 10px !important;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+     #oxipay-img{
+     top: 0px !important;
+     }
+}
+
+h1, h2 {
+  color: #FF6c00;
+}
+
+.wy-menu-vertical span {
+  color: #333 !important;
+}

@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Gateway Reference - humm Documentation (AU)</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../../css/jquery.modal.min.css" rel="stylesheet">
+  <link href="../../css/custom.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Gateway Reference";
+    var mkdocs_page_input_path = "developer_resources\\gateway_reference.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> humm Documentation (AU)</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">E-commerce Platforms</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../platforms/shopify/">Shopify</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../platforms/woocommerce/">WooCommerce</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../platforms/magento_1/">Magento 1</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../platforms/magento_2/">Magento 2</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../platforms/prestashop/">PrestaShop</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../platforms/opencart/">OpenCart</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Accreditation</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../accreditation/test/">Test Transactions</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Developer Resources</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../introduction/">Introduction</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../checkout_process/">Checkout Process</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Gateway Reference</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#gateway-reference">Gateway Reference</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#humm-gateways">Humm Gateways</a></li>
+        
+            <li><a class="toctree-l4" href="#request-post">Request POST</a></li>
+        
+            <li><a class="toctree-l4" href="#request-values">Request values</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#sample-post">Sample POST</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#post-and-get-responses">POST and GET responses</a></li>
+        
+            <li><a class="toctree-l4" href="#response-postget-values">Response POST/GET values</a></li>
+        
+            <li><a class="toctree-l4" href="#response-post-reply">Response POST reply</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../refund_api/">Refund API Reference</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../signature_generation/">Signature Generation</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../declines_and_approvals/">Testing Declines and Approvals</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Widgets</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../widgets/introduction/">Introduction</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../widgets/price_info/">Price-info Widget</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../widgets/banners/">Banner Widgets</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../widgets/landing_widget/">Landing Page Widget</a>
+                </li>
+                <li class="">
+                    
+    <span class="caption-text">Installation</span>
+    <ul class="subnav">
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../widgets/installation/">Generic Installation</a>
+                </li>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../widgets/price-info/shopify/">Shopify Specific</a>
+                </li>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../widgets/price-info/magento_1/">Magento 1 Specific</a>
+                </li>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../widgets/price-info/opencart_3/">OpenCart 3 Specific</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">humm Documentation (AU)</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Developer Resources &raquo;</li>
+        
+      
+    
+    <li>Gateway Reference</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                
+<h1 id="gateway-reference">Gateway Reference</h1>
+<p>Communicating with <strong>humm</strong> in order to process a transaction via our payment gateway involves <strong>the buyers' browser</strong> performing an HTTP <strong>POST</strong> to the <strong>humm</strong> endpoint. This can be viewed as an authorisation request that is performed by the shopping cart in order to process the payment via <strong>humm</strong>.</p>
+<p>Please note, this is not an HTTP API and <em>can not</em> be used for server to server communication.</p>
+<p>There are two <strong>humm</strong> gateways that transaction information can be posted to and they represent the live <strong>humm</strong> payment gateway and the test (sandbox) gateway.</p>
+<h2 id="humm-gateways"><strong>Humm</strong> Gateways</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Humm</strong> Environment</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Production Gateway</td>
+<td><a href="https://cart.shophumm.com.au/Checkout?platform=Default">https://cart.shophumm.com.au/Checkout?platform=Default</a></td>
+</tr>
+<tr>
+<td>Sandbox Gateway</td>
+<td><a href="https://integration-cart.shophumm.com.au/Checkout?platform=Default">https://integration-cart.shophumm.com.au/Checkout?platform=Default</a></td>
+</tr>
+</tbody>
+</table>
+<p><a name="Responses"></a></p>
+<h2 id="request-post">Request POST</h2>
+<p>Posting to the <strong>humm</strong> endpoint, regardless of whether this is done in the live or test environment, should be done using the format <code>application/x-www-form-urlencoded</code>. Please note that <strong>humm</strong> adopts the convention of prefixing the various key names with <code>x_</code> .</p>
+<p>Below is an overview of the various key-value pairs that can be passed to <strong>humm</strong> (<strong>Request Values</strong>), a description of what they are as well as an indication of whether they are mandatory or optional.</p>
+<h2 id="request-values">Request values</h2>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+<th>Type</th>
+<th>Example</th>
+<th>Length</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x_account_id <strong>Required</strong></td>
+<td>This is a unique Merchant ID that is assigned by <strong>humm</strong> to individual merchants</td>
+<td>unicode string</td>
+<td>123456</td>
+<td>10</td>
+</tr>
+<tr>
+<td>x_amount <strong>Required</strong></td>
+<td>Represents the transaction's total amount including any taxes and shipping costs</td>
+<td>decimal</td>
+<td>99.90</td>
+<td>12</td>
+</tr>
+<tr>
+<td>x_currency <strong>Required</strong></td>
+<td>Currency of the transaction</td>
+<td>ISO-4217</td>
+<td>AUD</td>
+<td>3</td>
+</tr>
+<tr>
+<td>x_customer_billing_address1</td>
+<td>Billing address line 1</td>
+<td>unicode string</td>
+<td>97 Pirie St</td>
+<td>200</td>
+</tr>
+<tr>
+<td>x_customer_billing_address2</td>
+<td>Billing address line 2</td>
+<td>unicode string</td>
+<td>Level 6</td>
+<td>200</td>
+</tr>
+<tr>
+<td>x_customer_billing_city</td>
+<td>Billing city</td>
+<td>unicode string</td>
+<td>Adelaide</td>
+<td>200</td>
+</tr>
+<tr>
+<td>x_customer_billing_country</td>
+<td>Billing country</td>
+<td>iso-3166-1 alpha-2</td>
+<td>AU</td>
+<td>3</td>
+</tr>
+<tr>
+<td>x_customer_billing_state</td>
+<td>Billing state</td>
+<td>unicode string</td>
+<td>SA</td>
+<td>200</td>
+</tr>
+<tr>
+<td>x_customer_billing_postcode</td>
+<td>Billing postcode</td>
+<td>unicode string</td>
+<td>5000</td>
+<td>200</td>
+</tr>
+<tr>
+<td>x_customer_email</td>
+<td>Billing email address</td>
+<td>unicode string</td>
+<td>user@example.com</td>
+<td>65</td>
+</tr>
+<tr>
+<td>x_customer_first_name</td>
+<td>Customer's first name</td>
+<td>unicode string</td>
+<td>John</td>
+<td>50</td>
+</tr>
+<tr>
+<td>x_customer_last_name</td>
+<td>Customer's last name</td>
+<td>unicode string</td>
+<td>Appleseed</td>
+<td>50</td>
+</tr>
+<tr>
+<td>x_customer_phone</td>
+<td>Customer's phone number</td>
+<td>unicode string</td>
+<td>0400 000 000</td>
+<td>12</td>
+</tr>
+<tr>
+<td>x_customer_shipping_address1</td>
+<td>Shipping address line 1</td>
+<td>unicode string</td>
+<td>97 Pirie St</td>
+<td>200</td>
+</tr>
+<tr>
+<td>x_customer_shipping_address2</td>
+<td>Shipping address line 2</td>
+<td>unicode string</td>
+<td>Level 6</td>
+<td>200</td>
+</tr>
+<tr>
+<td>x_customer_shipping_city</td>
+<td>Shipping city</td>
+<td>unicode string</td>
+<td>Adelaide</td>
+<td>200</td>
+</tr>
+<tr>
+<td>x_customer_shipping_country</td>
+<td>Shipping country</td>
+<td>unicode string</td>
+<td>AU</td>
+<td>3</td>
+</tr>
+<tr>
+<td>x_customer_shipping_first_name</td>
+<td>Customer's first name (Shipping)</td>
+<td>unicode string</td>
+<td>John</td>
+<td>50</td>
+</tr>
+<tr>
+<td>x_customer_shipping_last_name</td>
+<td>Customer's last name (Shipping)</td>
+<td>unicode string</td>
+<td>Appleseed</td>
+<td>50</td>
+</tr>
+<tr>
+<td>x_customer_shipping_phone</td>
+<td>Customer's phone number (Shipping)</td>
+<td>unicode string</td>
+<td>0400 000 000</td>
+<td>12</td>
+</tr>
+<tr>
+<td>x_customer_shipping_state</td>
+<td>Shipping state</td>
+<td>unicode string</td>
+<td>SA</td>
+<td>200</td>
+</tr>
+<tr>
+<td>x_customer_shipping_postcode</td>
+<td>Shipping postcode</td>
+<td>unicode string</td>
+<td>5000</td>
+<td>200</td>
+</tr>
+<tr>
+<td>x_description</td>
+<td>Item's description as setup in the shopping cart</td>
+<td>unicode string</td>
+<td>Order #767</td>
+<td>200</td>
+</tr>
+<tr>
+<td>x_reference <strong>Required</strong></td>
+<td>A reference that uniquely references the order and assigned by the merchant. This is unique to the shopping cart.</td>
+<td>ascii string (max length 250 bytes)</td>
+<td>19783</td>
+<td>250</td>
+</tr>
+<tr>
+<td>x_shop_country <strong>Required</strong></td>
+<td>Country of where the merchant's store is located</td>
+<td>iso-3166-1alpha-2</td>
+<td>AU</td>
+<td>3</td>
+</tr>
+<tr>
+<td>x_shop_name <strong>Required</strong></td>
+<td>Store name as advertised on the internet, TV and other media</td>
+<td>Shop Inc</td>
+<td>200</td>
+<td></td>
+</tr>
+<tr>
+<td>x_signature <strong>Required</strong></td>
+<td>Request payload that is signed/verified using HMAC-SHA256</td>
+<td>hex string, case-insensitive</td>
+<td>See <a href="../signature_generation/">Signature Generation</a></td>
+<td>64</td>
+</tr>
+<tr>
+<td>x_url_callback <strong>Required</strong></td>
+<td>Callback notifications are sent asynchronously to this URL. <strong>The protocol must be HTTPS</strong></td>
+<td>URL</td>
+<td>https://shop.com.au/callback</td>
+<td>200</td>
+</tr>
+<tr>
+<td>x_url_cancel <strong>Required</strong></td>
+<td>Customers are redirected to this URL if they want to quit their <strong>humm</strong> transaction and return to the shopping cart store instead</td>
+<td>URL</td>
+<td>https://shop.com.au/cancel</td>
+<td>200</td>
+</tr>
+<tr>
+<td>x_url_complete <strong>Required</strong></td>
+<td>Customers are redirected to this URL if they have successfully processed their transaction using <strong>humm</strong></td>
+<td>URL</td>
+<td>https://shop.com.au/compete</td>
+<td>200</td>
+</tr>
+<tr>
+<td>x_transaction_timeout</td>
+<td>Transaction timout in minutes. Maximum value is 1440.</td>
+<td>int</td>
+<td>60</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="sample-post">Sample POST</h1>
+<p>Below is a sample request that might be posted to an <strong>humm</strong> gateway that is in the <code>application/x-www-form-urlencoded</code> format. In this example, please ignore values for individual keys - such as the value for <code>x_signature</code> - since this sample POST is for demonstration purposes only and does not demonstrate a real transaction that can be completed by <strong>humm</strong>.</p>
+<pre><code>x_reference=123&amp;x_account_id=1&amp;x_amount=100.00&amp;x_currency=AUD&amp;x_url_callback=sample_callback_url&amp;x_url_complete=sample_complete_url&amp;x_shop_country=AU&amp;x_shop_name=Sample+Shop&amp;x_customer_first_name=first&amp;x_customer_last_name=last&amp;x_customer_email=sample%40email.com&amp;x_customer_billing_country=AU&amp;x_customer_billing_city=Adelaide&amp;x_customer_billing_address1=97+Pirie&amp;x_customer_billing_address2=St&amp;x_customer_billing_state=SA&amp;x_customer_billing_zip=5000&amp;x_description=Sample+Store+-+%123&amp;x_url_cancel=sample_cancel_url&amp;x_signature=dummy_signature
+</code></pre>
+<p><a name="Responses"></a></p>
+<h2 id="post-and-get-responses">POST and GET responses</h2>
+<p>There are two responses from <strong>humm</strong>.</p>
+<p>The first response that <strong>humm</strong> always performs is a server-to-server asynchronous POST to the shopping cart on the gateway specified in the <code>x_url_callback</code> and in the format <code>application/x-www-form-urlencoded</code>. Similar to the request POST, the response POST includes key-values pairs that are specific to that transaction and indicate things such as the outcome of that particular transaction if it has failed or is completed successfully for instance.</br></p>
+<p>The second response is a HTTP GET to the client on the URLs specified in <code>x_url_complete</code>.</br>
+The key-value pairs included in this HTTP GET are the same as the POST values as shown below.</p>
+<p><strong>Please note:</strong> The POST response must be sent over HTTPS. Consequently the <code>x_url_callback</code> field should specify the HTTPS has the protocol.</p>
+<h2 id="response-postget-values">Response POST/GET values</h2>
+<p>Below is an overview of the various response key-value pairs that <strong>humm</strong> returns after it has finished processing a transaction. Note that some of these key-value pairs echo corresponding key-value pairs in the request that <strong>humm</strong> receives - as is the case with <code>x_currency</code> for instance.</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+<th>Type</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x_account_id</td>
+<td>This is the Merchant ID assigned by <strong>humm</strong> to the merchant</td>
+<td>Unicode string</td>
+<td>123456</td>
+</tr>
+<tr>
+<td>x_reference</td>
+<td>A reference that uniquely references the order and assigned by the merchant</td>
+<td>ASCII string</td>
+<td>19783</td>
+</tr>
+<tr>
+<td>x_currency</td>
+<td>Currency of the transaction</td>
+<td>ISO-4217</td>
+<td>AUD</td>
+</tr>
+<tr>
+<td>x_test</td>
+<td>Indicates whether the transaction is to be processed as a live or a test transaction</td>
+<td>True/False</td>
+<td>False</td>
+</tr>
+<tr>
+<td>x_amount</td>
+<td>Represents the transaction's total amount including any taxes and shipping costs</td>
+<td>decimal</td>
+<td>99.90</td>
+</tr>
+<tr>
+<td>x_gateway_reference</td>
+<td>A reference for the authorisation issues by <strong>humm</strong> that is unique</td>
+<td>unique string</td>
+<td>123</td>
+</tr>
+<tr>
+<td>x_purchase_number</td>
+<td>A reference for the authorisation issues by <strong>humm</strong> that is unique. <strong>Same as x_gateway_reference</strong></td>
+<td>unique string</td>
+<td>123</td>
+</tr>
+<tr>
+<td>x_timestamp</td>
+<td>Time at which the transaction is completed, in UTC format YYYY-MM-DDTHH:MM:SSZ</td>
+<td>iso-8601 in UTC</td>
+<td>2017-06-24T12:11:43Z</td>
+</tr>
+<tr>
+<td>x_result</td>
+<td>Values that represent the outcome of a transaction</td>
+<td>Valid values are <strong>completed</strong> or <strong>failed</strong></td>
+<td><strong>completed</strong></td>
+</tr>
+<tr>
+<td>x_signature</td>
+<td>Response payload that is signed/verified using HMAC-SHA256</td>
+<td>hex string, case-insensitive</td>
+<td>See <a href="../signature_generation/">Signature Generation</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="response-signature-validation">Response signature validation</h3>
+<p>The <code>x_signature</code> included in both the POST and GET responses must validated by the merchants server.</br>
+Failure to do so could allow a third-party to tamper with the response.</p>
+<p>In the event that the provided <code>x_signature</code> does not match the calculated signature, the reponse should be disregarded.</p>
+<p>All fields recieved starting with <code>x_</code> should be used to calculate the signature, except for <code>x_signature</code> itself.</p>
+<p>For further information please see <a href="../signature_generation/">Signature Generation</a>.</p>
+<h2 id="response-post-reply">Response POST reply</h2>
+<p>It is expected that the POST response will be replied to by the merchants server to confirm that the POST response was correctly received.</br>
+The format of this response must be human-readable and not exceed 1000 characters.</p>
+<p>The expected key-value pairs of this reply are listed below.</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+<th>Type</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x_reference</td>
+<td>A reference that uniquely references the order and assigned by the merchant</td>
+<td>ASCII string</td>
+<td>19783</td>
+</tr>
+<tr>
+<td>x_result</td>
+<td>The status of the order in question according to the merchants server.</br><strong>This should not merely copy the status from the initial response POST</strong></td>
+<td>ASCII string</td>
+<td>Approved, Declined, Paid, etc.</td>
+</tr>
+</tbody>
+</table>
+
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../refund_api/" class="btn btn-neutral float-right" title="Refund API Reference">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../checkout_process/" class="btn btn-neutral" title="Checkout Process"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../checkout_process/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../refund_api/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/jquery.modal.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>
