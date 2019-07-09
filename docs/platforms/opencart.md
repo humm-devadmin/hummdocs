@@ -40,7 +40,6 @@ _Next: Continue onto Finalising Installation [below](#finalising-installation)._
 
 _Next: Continue onto Finalising Installation [below](#finalising-installation)._
 
-<a name="finalising"></a>
 ## Finalising Installation
 
 1 - Log into your **OpenCart Admin** then navigate to **Extensions > Extensions**.
