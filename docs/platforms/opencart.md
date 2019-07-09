@@ -30,7 +30,7 @@ To integrate **humm** you will need your:
 
 ![12.png](/img/platforms/opencart/12.png)
 
-_Next: Continue onto Finalising Installation below._
+_Next: Continue onto Finalising Installation [below](#finalising-installation)._
 
 ## Manual Installation
 
@@ -38,8 +38,9 @@ _Next: Continue onto Finalising Installation below._
 
 2 - Unzip then copy contents of `uploads` folder into OpenCarts root folder. For upgrade **humm**, only **humm** files should be overwritten.
 
-_Next: Continue onto Finalising Installation below._
+_Next: Continue onto Finalising Installation [below](#finalising-installation)._
 
+<a name="finalising"></a>
 ## Finalising Installation
 
 1 - Log into your **OpenCart Admin** then navigate to **Extensions > Extensions**.
@@ -74,10 +75,10 @@ Sort Order | `1` This will show humm first.
 
 1 - Make note of your Merchant No. and API Key in your Oxipay settings page.
 
-2 - Navigate to **Extensions** as shown in [Finalising Installation](#complete-the-installation).
+2 - Navigate to **Extensions** as shown in [Finalising Installation](#finalising-installation).
 
 2 - Locate Oxipay then click **Uninstall**.
 
 ![13.png](/img/platforms/opencart/13.png)
 
-3 - Follow the installation process as described [here](#plugin-installation).
+3 - Follow the installation process as described [here](#installation-using-extension-installer).
