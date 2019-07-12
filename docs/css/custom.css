@@ -68,7 +68,7 @@
   border-right: none;
 }
 
-.wy-side-nav-search .icon:before {
+ {
   display: block;
   content: ' ';
   background-image: url('../img/humm.svg');
@@ -92,9 +92,8 @@
 .panel-danger h3 {
     color: #b92020;
 }
-.wy-side-nav-search, .wy-nav-top {
+.md-header {
     background-color: #FF6C00;
-
 }
 
 .wy-nav-top .fa {

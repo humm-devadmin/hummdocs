@@ -13,12 +13,9 @@ To integrate **humm** you will need your:
 * Merchant Number
 * API Key
 
-
 ## Installation using Extension Installer
 
-<div class="panel">
-  The Extension Installer requires FTP settings to be configured. If it isn't, use manual installation instead.
-</div>
+> The Extension Installer requires FTP settings to be configured. If it isn't, use manual installation instead.
 
 1 - Download the latest extension for your OpenCart version [here](https://github.com/shophumm/humm-opencart/releases).
 

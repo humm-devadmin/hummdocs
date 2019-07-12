@@ -2,7 +2,7 @@ site_name: humm Documentation (AU)
 site_dir: 'humm-au'
 nav:
 - Home: index.md
-- E-commerce Platforms:
+- E-commerce Integration:
    - Shopify: platforms/shopify.md
    - WooCommerce: platforms/woocommerce.md
    - Magento 1: platforms/magento_1.md
@@ -33,7 +33,7 @@ nav:
       - Magento 1 Specific: widgets/price-info/magento_1.md 
       - OpenCart 3 Specific: widgets/price-info/opencart_3.md
 theme: 
-   name: readthedocs
+   name: material
    custom_dir: custom_theme
 extra_css: [css/jquery.modal.min.css, css/custom.css]
 extra_javascript: [js/jquery.modal.js]
