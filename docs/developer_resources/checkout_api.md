@@ -1,4 +1,4 @@
-# Gateway Reference
+# Checkout API
 
 Communicating with **humm** in order to process a transaction via our payment gateway involves **the buyers' browser** performing an HTTP **POST** to the **humm** endpoint. This can be viewed as an authorisation request that is performed by the shopping cart in order to process the payment via **humm**.
 

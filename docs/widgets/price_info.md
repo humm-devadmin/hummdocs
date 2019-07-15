@@ -18,9 +18,7 @@
 
 To use the price-info widget, you must select the corresponding type based on whether you offer **'Little things'**, **'Big Things'** or **both**.
 
-<div class="panel">
-  It is important that you use the correct type of price-info widget. Please see below. If you are not sure please contact <a href="mailto:pit@%domain%">pit@%domain%</a>
-</div>
+> It is important that you use the correct type of price-info widget. Please see below. If you are not sure please contact <a href="mailto:pit@%domain%">pit@%domain%</a>
 
 Simply insert the corresponding script to where you want the price-info widget to be be displayed. Replace <code>PLACE_YOUR_PRODUCT_PRICE</code> with the price of the product.
 
