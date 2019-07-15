@@ -56,19 +56,13 @@ This should at least include the following:
 
 The endpoints listed [here](../../developer_resources/checkout_api/#humm-gateways) should also be whitelisted.
 
-## Upgrade From The Old Oxipay Plugin
+## Upgrade from Oxipay Plugin
 
-1 - Install **humm**.
+1 - Install **humm** as described above.
 
-2 - Navigate to **Payment Methods**.
+2 - Navigate to **Payment Methods** then configure as described above.
 
-3 - If Oxipay plugin is already installed and configured, you will see certain Oxipay configurations (Merchant Number, API Key, etc.) have been copied over to **humm**.
-
-4 - Set "Enabled" to "Yes" for **humm** plugin, **and set "Enabled" to "No" for the Oxipay plugin**.
-
-5 - Adjust other **humm** plugin settings if necessary. "Is Testing" is preset to "No" by default in this case. Save the config.
-
-6 - You may want to keep the old Oxipay plugin (and keep it NOT enabled) to allow online refunding of the existing Oxipay orders. Otherwise you can remove it by removing the following folders and files:
+6 - Disable ore remove the Oxipay plugin. Disabling allows for online refund of old Oxipay transactions. To uninstall remove the following files and folders:
 
     /app/code/community/Oxipay
     /app/design/frontend/base/default/template/oxipayments
@@ -77,6 +71,3 @@ The endpoints listed [here](../../developer_resources/checkout_api/#humm-gateway
 
     /skin/frontend/base/default/images/Oxipay/
     /skin/adminhtml/base/default/images/Oxipay/
-
-7 - Before the **humm** launch date, the plugin will still show Oxipay and checkout with Oxipay, and your customers should see no changes. After the official **humm** launch, the plugin will automatically switch to **humm**, providing a smooth and fully automatic transition.
-

@@ -56,18 +56,6 @@ To integrate **humm** you will need your
 
 ![4.png](\img\platforms\magento_2\4.png)
 
-## Upgrade From The Old Oxipay Plugin
-
-1 - Install the **humm** payment plugin as described earlier in this page.
-
-2 - Go to the **Payment Methods** page as described earlier.
-
-3 - Configure the settings as you should as a new merchant.
-
-4 - Do test transactions to make sure the **humm** Payment plugin works correctly with your store.
-
-5 - Disable or remove the Oxipay plugin. Disable to allow online refunding of the existing old Oxipay transactions.
-
 ## Varnish Cache
 
 If your server utilises a Varnish cache it is important that you whitelist any URLs associated with the **humm** plugin.
@@ -79,3 +67,11 @@ This should at least include the following:
 * YOUR_DOMAIN/HummPayments/payment/complete/
 ```
 The endpoints listed [here](../../developer_resources/gateway_reference/#humm-gateways) should also be whitelisted.
+
+## Upgrade from Oxipay Plugin
+
+1 - Install the **humm** as described above.
+
+2 - Navigate to **Payment Methods** then configure as described above.
+
+3 - Disable or remove the Oxipay plugin. Disabling allows for online refunding of old Oxipay transactions.
