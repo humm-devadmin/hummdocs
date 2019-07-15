@@ -2,10 +2,10 @@
 
 ## Locate your **humm** Credentials
 
-You will need the following to integrate **humm** into your WooCommerce store:
+To integrate **humm** you will need your:
 
 * Merchant Number
-* Encryption Key
+* API Key
 
 ##Integrating **humm**
 

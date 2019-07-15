@@ -8,7 +8,7 @@
 
 ##Locate your humm Credentials
 
-To integrate **humm** you will need your:
+To integrate **humm** you will need your
 
 * Merchant Number
 * API Key
