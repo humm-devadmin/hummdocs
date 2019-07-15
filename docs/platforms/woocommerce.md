@@ -7,19 +7,11 @@ You will need the following to integrate **humm** into your WooCommerce store:
 * Merchant Number
 * Encryption Key
 
-## Installation
+##Integrating **humm**
 
-1 - In your WordPress admin area, click **Plugin** on left side-bar.
+1 - On the left-hand side of your WordPress admin page, click **Plugins > Add New** then search for **humm** in top-right search field.
 
 ![1.png](/img/platforms/woocommerce/1.png)
-
-2 - Click **Add New**.
-
-![2.png](/img/platforms/woocommerce/2.png)
-
-3 - In **Search plugins...** type **humm**.
-
-![3.png](/img/platforms/woocommerce/3.png)
 
 4 - Next to **Humm / Oxipay Payment Gateway for WooCOMmerce** click **Install** then **Activate**. 
 
@@ -31,7 +23,7 @@ You will need the following to integrate **humm** into your WooCommerce store:
 
 ![32.png](/img/platforms/woocommerce/32.png)
 
-Configure **humm** as follows:
+Ensure **humm** is configured as follows.
 
 |Setting|Value|
 -------|-----

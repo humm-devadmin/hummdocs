@@ -1,19 +1,18 @@
-<h1>Setup on Magento 2</h1>
+#Integrating on Magento 2
 
-You can install **humm** plugin by manually copying plugin files across into your store's webserver.  
-Use the same instructions to upgrade your existing plugin to a newer release.
+Use the same instructions to upgrade the **humm** plugin to a newer release.
 
-## Plugin Installation
+## Locate your **humm** Credentials
 
-<div class="panel">
-  You will need your <b>Merchant Number</b> and an <b>Encryption Key</b> handy before continuing with the installation.
-</div>
+You will need the following to integrate **humm** into your WooCommerce store:
 
-### Install using Composer
+* Merchant Number
+* Encryption Key
 
-1. Add the **humm** repository
+## Integrating **humm** using Composer
 
-        #(in the Magento root directory)
+1. Add the **humm** repository, in Magento's root directory
+
         composer config repositories.shophumm git https://github.com/shophumm/humm-magento2.x.git
 
 2. Require the Humm Payment Gateway Module
@@ -28,9 +27,9 @@ Use the same instructions to upgrade your existing plugin to a newer release.
 
         ./bin/magento setup:upgrade
 
-5.  [Configure the plugin](#configuration)
+5.  [Configure humm](#configuration)
 
-### Manual Install
+## Integrating **humm** Manually
 
 1 - Download the **humm** plugin from [https://github.com/shophumm/humm-magento2.x/releases](https://github.com/shophumm/humm-magento2.x/releases).
 
@@ -41,11 +40,9 @@ Use the same instructions to upgrade your existing plugin to a newer release.
 4 - Run `magento setup:upgrade`. This will auto-enable **humm** as part of `setup:upgrade`. You should see `Module 'Humm_HummPaymentGateway'` in the output of the command.
 <br>
 
-<div class="panel">
-  Depending on your tech stack, you might have to use the <code>php</code> prefix (<code>php magento setup:upgrade</code>) when running the various <code>magento</code> commands.
-</div>
+> Depending on your tech stack, you might have to use the <code>php</code> prefix (<code>php magento setup:upgrade</code>) when running the various <code>magento</code> commands.
 
-5 - Flush Magento's Cache by navigating to **Settings** -> **Cache Management** -> **Flush Magento Cache**. Alternatively, you can run <code>MAGENTO_DIR/bin/magento cache:flush</code> from the command line.
+5 - Flush Magento's Cache: **Settings** -> **Cache Management** -> **Flush Magento Cache**. Alternatively, run <code>MAGENTO_DIR/bin/magento cache:flush</code> from command line.
 
 ![3.png](\img\platforms\magento_2\3.png)
 
@@ -53,23 +50,12 @@ Use the same instructions to upgrade your existing plugin to a newer release.
 
 ## Configuration
 
-1 - To view **humm**'s settings page, navigate to **Stores** -> **Configuration** -> **Sales** -> **Payment Methods**.
+1 - Navigate to **Stores** -> **Configuration** -> **Sales** -> **Payment Methods**.
 
 2 - Confirm **humm Payment Gateway** is visible and once expanded looks like the image below.
 
 ![4.png](\img\platforms\magento_2\4.png)
 
-<!--
-4 - Force **humm** provides a way to preview and test **humm** before **humm** is officially launched. Please do not enable it in the live environment before the official **humm** launch.
-
-## **Humm** official launch
-
-Before the **humm** official launch, the plugin will behave the same as the Oxipay payment plugin. It will show Oxipay, and checkout with the Oxipay gateway.
-
-The plugin will automatically switch itself to **humm** once it is officially launched. It will then show **humm**, and checkout with the **humm** gateway.
-
-The switch-over should be automatic and you as the merchant should not need to do anything on the launch date to make the switch.
--->
 ## Upgrade From The Old Oxipay Plugin
 
 1 - Install the **humm** payment plugin as described earlier in this page.
@@ -80,18 +66,16 @@ The switch-over should be automatic and you as the merchant should not need to d
 
 4 - Do test transactions to make sure the **humm** Payment plugin works correctly with your store.
 
-5 - Now you can disable or remove the Oxipay plugin as its features are all included in the **humm** plugin. You may like to keep the plugin but set it to disabled to allow online refunding of the existing old Oxipay transactions.
-
-6 - Before the **humm** launch date, the plugin will still show Oxipay and checkout with Oxipay, and your customers should see no changes. After the official **humm** launch, the plugin will automatically switch to **humm**, providing a smooth and fully automatic transition.
+5 - Disable or remove the Oxipay plugin. Disable to allow online refunding of the existing old Oxipay transactions.
 
 ## Varnish Cache
 
 If your server utilises a Varnish cache it is important that you whitelist any URLs associated with the **humm** plugin.
 
 This should at least include the following:
-
+```
 * YOUR_DOMAIN/HummPayments/payment/start/
 * YOUR_DOMAIN/HummPayments/payment/cancel/
 * YOUR_DOMAIN/HummPayments/payment/complete/
-
+```
 The endpoints listed [here](../../developer_resources/gateway_reference/#humm-gateways) should also be whitelisted.

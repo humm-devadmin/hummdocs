@@ -88,7 +88,6 @@
   height: 30px;
   width: 200px;
   background-repeat: no-repeat;
-  margin: auto;
 }
 
 /* Prevent mkdocs material from 
@@ -96,6 +95,7 @@ impacting font color on widgets */
 .humm-more-info-widget {
   color:inherit !important;
 }
+
 
     /* --------------------------- */
     /*  Humm Rebranding Changes  */

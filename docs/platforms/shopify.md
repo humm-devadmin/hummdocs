@@ -7,7 +7,7 @@ To integrate **humm** you will need your:
 * Merchant Number
 * API Key
 
-##Integrating **humm**##
+##Integrating **humm**
 
 1 – Email <a href="mailto:pit@%domain%">pit@%domain%</a> with your merchant ID and mobile number for the **humm Gateway Authorisation URL**.
 

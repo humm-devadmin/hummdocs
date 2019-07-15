@@ -1,13 +1,16 @@
-<h1>Setup on Magento 1</h1>
+#Integrating on Magento 1
 
-You can install **humm** plugin by manually copying plugin files across into your store's web server.  
-Use the same instructions to upgrade your existing plugin to a newer release.
+Use the same instructions to upgrade the **humm** plugin to a newer release.
+
+
+## Locate your **humm** Credentials
+
+You will need the following to integrate **humm** into your WooCommerce store:
+
+* Merchant Number
+* Encryption Key
 
 ## Plugin Installation
-
-<div class="panel">
-  You will need your <b>Merchant Number</b> and an <b>Encryption Key</b> handy before continuing with the installation.
-</div>
 
 1 - You can create a backup of your store by navigating to **System** -> **Tools** -> **Backup**.
 
@@ -81,8 +84,10 @@ If your server utilises a Varnish cache it is important that you whitelist any U
 
 This should at least include the following:
 
-* YOUR_DOMAIN/HummPayments/payment/start/
-* YOUR_DOMAIN/HummPayments/payment/cancel/
-* YOUR_DOMAIN/HummPayments/payment/complete/
+
+    YOUR_DOMAIN/HummPayments/payment/start/
+    YOUR_DOMAIN/HummPayments/payment/cancel/
+    YOUR_DOMAIN/HummPayments/payment/complete/
+
 
 The endpoints listed [here](../../developer_resources/gateway_reference/#humm-gateways) should also be whitelisted.

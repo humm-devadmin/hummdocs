@@ -3,7 +3,7 @@
 Once **humm** is installed on your platform it must be verified before it can process live transactions.<br>
 To do this your website must be able to process a test transaction and have it verified by **humm**.
 
-> <b>test mode</b> must be activated in the <b>humm</b> settings<br> before proceeding.
+> <b>Test mode</b> must be activated in the <b>humm</b> settings before proceeding.
 
 ## Performing a Test Transaction
 

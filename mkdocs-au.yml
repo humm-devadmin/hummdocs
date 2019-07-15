@@ -8,20 +8,12 @@ nav:
    - Magento 1: platforms/magento_1.md
    - Magento 2: platforms/magento_2.md
    - PrestaShop: platforms/prestashop.md
-   # - CubeCart: platforms/cubecart.md
    - OpenCart: platforms/opencart.md
+#   - CubeCart: platforms/cubecart.md
 #- POS Platforms:
     # - Vend: platforms/vend.md
 - Accreditation:
    - Test Transactions: accreditation/test.md
-- Developer Resources:
-   - Introduction: developer_resources/introduction.md
-   - Checkout Process: developer_resources/checkout_process.md
-   - Checkout API: developer_resources/checkout_api.md
-   - Refund API: developer_resources/refund_api.md
-   # - Sample cURL Script: developer_resources/sample_curl.md
-   - Signature Generation: developer_resources/signature_generation.md
-   - Testing Declines and Approvals: developer_resources/declines_and_approvals.md
 - Widgets:
    - Introduction: widgets/introduction.md
    - Price-info Widget: widgets/price_info.md
@@ -32,9 +24,34 @@ nav:
       - Shopify Specific: widgets/price-info/shopify.md
       - Magento 1 Specific: widgets/price-info/magento_1.md 
       - OpenCart 3 Specific: widgets/price-info/opencart_3.md
+- Developer Resources:
+   - Introduction: developer_resources/introduction.md
+   - Checkout Process: developer_resources/checkout_process.md
+   - Checkout API: developer_resources/checkout_api.md
+   - Refund API: developer_resources/refund_api.md
+   # - Sample cURL Script: developer_resources/sample_curl.md
+   - Signature Generation: developer_resources/signature_generation.md
+   - Testing Declines and Approvals: developer_resources/declines_and_approvals.md
+
 theme: 
-   name: material
-   custom_dir: custom_theme
+  name: null
+  custom_dir: material
+  language: en
+  feature:
+   tabs: false
+  palette:
+   primary:
+   accent:
+  font:
+   text: Roboto
+   code: Roboto Mono
+  favicon: assets/images/favicon.png
+  logo:
+   icon: "\uE80C"
+  include_search_page: false
+  search_index_only: true
+  static_templates:
+  - 404.html
 extra_css: [css/jquery.modal.min.css, css/custom.css]
 extra_javascript: [js/jquery.modal.js]
 extra:
