@@ -1,4 +1,4 @@
-<h1>Setup on Shopify</h1>
+#Integrating on Shopify
 
 ##Locate humm Credentials
 
@@ -35,3 +35,5 @@ To add the Price-info widget as below, use Shopify instructions <a href="../../w
 
 **Price: ** $1000
 <script id="my-id" src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1000"></script>
+
+<br><br>

@@ -25,6 +25,8 @@
   max-width: 100% !important;
 }
 
+
+
 .rst-versions, .rst-current-version {
   background: #DCE4C9 !important;
 }
@@ -76,6 +78,7 @@
   display:none !important;
 }
 
+/* Inserts humm logo */
 .md-logo:before{
   display: block;
   content: ' ';
@@ -87,6 +90,13 @@
   background-repeat: no-repeat;
   margin: auto;
 }
+
+/* Prevent mkdocs material from 
+impacting font color on widgets */
+.humm-more-info-widget {
+  color:inherit !important;
+}
+
     /* --------------------------- */
     /*  Humm Rebranding Changes  */
     /* --------------------------- */
