@@ -15,7 +15,6 @@ nav:
 - Accreditation:
    - Test Transactions: accreditation/test.md
 - Widgets:
-   - Introduction: widgets/introduction.md
    - Price-info Widget: widgets/price_info.md
    - Banners: widgets/banners.md
    - Landing Page: widgets/landing_widget.md
