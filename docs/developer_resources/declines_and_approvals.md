@@ -22,7 +22,7 @@ Only a CVV value of 200 will generate a declined; all other values will result i
 |200|Declined|
 |Other values|Approved|
 
--<!-- #### NZ CVV Values and Outcomes		
+<!-- #### NZ CVV Values and Outcomes		
  -		
  -NZ allows some cards to dynamically return different test results. The following CVV values can be used against NZ to force certain test outcomes.		
  -		
