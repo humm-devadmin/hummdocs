@@ -74,8 +74,17 @@
   height: auto;
 }
 
-.md-icon, .md-header-nav__button md-logo {
+label.md-nav__title text {
+  display: none !important;
+}
+
+i.md-icon {
   display:none !important;
+}
+
+/* Fixes issue with mobile view */
+.md-nav__title.md-nav__title--site {
+  display: none !important;
 }
 
 /* Inserts humm logo */
