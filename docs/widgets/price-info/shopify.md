@@ -10,7 +10,7 @@ For adding Price-info Widget to your Shopify website, follow the instructions be
 
 > <b>If the "product-template.liquid" file does not exist</b>, navigate to **Templates** and select **product.liquid** instead.
 
-3 - Place the ```<script>``` tag in the desired place you'd like it to appear on your website, typically this is before. This should be added before ```Add to Cart ``` button tag.<br>
+3 - Place the ```<script>``` tag in the desired place you'd like it to appear on your website, typically this is before. This should be added before ```Add to Cart ``` button tag.
 
 ### 'Little things' only
 
