@@ -14,6 +14,7 @@ nav:
     # - Vend: platforms/vend.md
 - Accreditation:
    - Test Transactions: accreditation/test.md
+   - Testing Declines and Approvals: accreditation/declines_and_approvals.md
 - Widgets:
    - Price-info Widget: widgets/price_info.md
    - Banners: widgets/banners.md

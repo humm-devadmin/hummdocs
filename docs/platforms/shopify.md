@@ -1,6 +1,6 @@
 #Integrating on Shopify
 
-##Locate humm Credentials
+## Locate your **humm** Credentials
 
 To integrate **humm** you will need your
 
