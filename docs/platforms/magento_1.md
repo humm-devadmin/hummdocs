@@ -1,27 +1,22 @@
-<h1>Setup on Magento 1</h1>
+# Magento 1
 
-You can install **humm** plugin by manually copying plugin files across into your store's web server.  
-Use the same instructions to upgrade your existing plugin to a newer release.
+## Locate your **humm** Credentials
 
-## Plugin Installation
+To integrate **humm** you will need your
 
-<div class="panel">
-  You will need your <b>Merchant Number</b> and an <b>Encryption Key</b> handy before continuing with the installation.
-</div>
+* Merchant Number
+* API Key
+
+## Plugin Installation / Upgrade
 
 1 - You can create a backup of your store by navigating to **System** -> **Tools** -> **Backup**.
 
-2 - Download the **humm** plugin from [github.com/shophumm/humm-magento1.x/releases](https://github.com/shophumm/humm-magento1.x/releases).
+2 - Download the **humm** plugin zip from [GitHub](https://github.com/shophumm/humm-magento1.x/releases/latest).
 
-3 - Unzip it, then copy the following plugin files and folders into the corresponding folders under the Magento root directory.
+3 - Unzip it, then copy the following folders into the corresponding folders under your Magento root directory.
 
-    /app/code/community/Humm
-    /app/design/frontend/base/default/template/HummPayments
-    /app/design/adminhtml/base/default/template/HummPayments
-    /app/etc/modules/Humm_HummPayments.xml
-
-    /skin/frontend/base/default/images/Humm/
-    /skin/adminhtml/base/default/images/Humm/
+    app/
+    skin/
 
 4 - Login into Magento's **Admin Panel**, click on **System** then select **Cache Management**.
 
@@ -41,48 +36,14 @@ Use the same instructions to upgrade your existing plugin to a newer release.
 
 ![6.png](/img/platforms/magento_1/6.png)
 
-<!-- 4 - Force **humm** provides a way to preview and test **humm** before **humm** is officially launched. Please do not enable it in the live environment before the official **humm** launch.
-
-## **Humm** official launch
-
-Before the **humm** official launch, the plugin will behave the same as the Oxipay payment plugin. It will show Oxipay, and checkout with the Oxipay gateway.
-
-The plugin will automatically switch itself to **humm** once it is officially launched. It will then show **humm**, and checkout with the **humm** gateway.
-
-The switch-over should be automatic and you as the merchant should not need to do anything on the launch date to make the switch.
--->
-## Upgrade From The Old Oxipay Plugin
-
-1 - Install the **humm** payment plugin as described earlier in this page.
-
-2 - Go to the Payment Methods page as described earlier.
-
-3 - If you already have the Oxipay plugin installed and configured, you will see certain Oxipay configurations (Merchant Number, API Key, etc.) have been copied to the **humm** plugin configurations.
-
-4 - Set "Enabled" to "Yes" for **humm** plugin, **and set "Enabled" to "No" for the Oxipay plugin**.
-
-5 - Adjust other **humm** plugin settings if necessary. "Is Testing" is preset to "No" by default in this case. Save the config.
-
-6 - You may want to keep the old Oxipay plugin (and keep it NOT enabled) to allow online refunding of the existing Oxipay orders. Otherwise you can safely remove the Oxipay plugin by removing the following folders and files:
-
-    /app/code/community/Oxipay
-    /app/design/frontend/base/default/template/oxipayments
-    /app/design/adminhtml/base/default/template/oxipayments
-    /app/etc/modules/Oxipay_Oxipayments.xml
-
-    /skin/frontend/base/default/images/Oxipay/
-    /skin/adminhtml/base/default/images/Oxipay/
-
-7 - Before the **humm** launch date, the plugin will still show Oxipay and checkout with Oxipay, and your customers should see no changes. After the official **humm** launch, the plugin will automatically switch to **humm**, providing a smooth and fully automatic transition.
-
 ## Varnish Cache
 
 If your server utilises a Varnish cache it is important that you whitelist any URLs associated with the **humm** plugin.
 
 This should at least include the following:
 
-* YOUR_DOMAIN/HummPayments/payment/start/
-* YOUR_DOMAIN/HummPayments/payment/cancel/
-* YOUR_DOMAIN/HummPayments/payment/complete/
+    YOUR_DOMAIN/HummPayments/payment/start/
+    YOUR_DOMAIN/HummPayments/payment/cancel/
+    YOUR_DOMAIN/HummPayments/payment/complete/
 
-The endpoints listed [here](../../developer_resources/gateway_reference/#humm-gateways) should also be whitelisted.
+The endpoints listed [here](../../developer_resources/checkout_api/#humm-gateways) should also be whitelisted.

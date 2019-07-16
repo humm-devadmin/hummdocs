@@ -2,26 +2,15 @@
 
 For adding Price-info Widget to your Shopify website, follow the instructions below:
 
-**Step 1:** Login into Shopify backend/Dashboard
+1 - From the Shopify Dashboard, navigate to **Online Store > Themes > Actions > Edit Code**.
 
-**Step 2:** Navigate to Online Store > Themes
+2 - From left panel, navigate to **Sections** then select **product-template.liquid**.
 
-![online-store.png](/img/price-info/online-store.png)
+![theme-editor.png](/img/price-info/theme_edit.png)
 
-![theme.png](/img/price-info/theme.png)
+> <b>If the "product-template.liquid" file does not exist</b>, navigate to **Templates** and select **product.liquid** instead.
 
-**Step 3:** From top-right corner, select to Edit HTML/CSS
-
-![theme-editor.png](/img/price-info/theme-editor.png)
-
-**Step 4:** From the left panel, navigate to "Sections" and select "product-template.liquid"
-
-![theme-editor.png](/img/price-info/left-sections.png)
-
-<div class="panel">
-    <b>If the "product-template.liquid" file does not exist</b>, navigate to "Templates" and select "product.liquid" instead.
-</div>
-**Step 5:** Place the ```<script>``` tag in the desired place you'd like it to appear on your website. This should be added before ```Add to Cart ``` button tag.<br>
+3 - Place the ```<script>``` tag in the desired place you'd like it to appear on your website, typically this is before. This should be added before ```Add to Cart ``` button tag.
 
 ### 'Little things' only
 
@@ -44,4 +33,4 @@ Using the following code if you are both a **'Little things'** and **'Big things
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}"></script>
 ```
 
-**Step 6:** Save and you should see a working widget on your website.
+4 - Save and you should see a working widget on your website.

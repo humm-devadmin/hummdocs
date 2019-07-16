@@ -1,13 +1,13 @@
-<h1>Setup on Shopify</h1>
+#Integrating on Shopify
 
-##Locate humm Credentials
+## Locate your **humm** Credentials
 
-To integrate humm you will need your:
+To integrate **humm** you will need your
 
 * Merchant Number
 * API Key
 
-##Integrating **humm**##
+##Integrating **humm**
 
 1 – Email <a href="mailto:pit@%domain%">pit@%domain%</a> with your merchant ID and mobile number for the **humm Gateway Authorisation URL**.
 
@@ -35,3 +35,5 @@ To add the Price-info widget as below, use Shopify instructions <a href="../../w
 
 **Price: ** $1000
 <script id="my-id" src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1000"></script>
+
+<br><br>

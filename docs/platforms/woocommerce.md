@@ -1,47 +1,43 @@
-#WooCommerce Integration
+#Integrating on WooCommerce
 
 ## Locate your **humm** Credentials
 
-You will need the following to integrate **humm** into your WooCommerce store:
+To integrate **humm** you will need your:
 
 * Merchant Number
-* Encryption Key
+* API Key
 
-## Installing **humm**
+##Integrating **humm**
 
-1 - Log into the WooCommerce admin area.
+1 - On the left-hand side of your WordPress admin page, click **Plugins > Add New** then search for **humm** in top-right search field.
 
-2 - On the left-hand side menu, navigate to **Plugins > Add New**.
+![1.png](/img/platforms/woocommerce/1.png)
 
-3 - In the search field at the top-right, search for `humm`
+4 - Next to **Humm / Oxipay Payment Gateway for WooCommerce** click **Install** then **Activate**. 
 
-![Installing humm.png](/img/platforms/woocommerce/1.png)
+![29.png](/img/platforms/woocommerce/29.png)
 
-4 - Click ![install.png](/img/platforms/woocommerce/install.png)
+## Configuration
 
-5 - Once the plugin is installed, click **Activate**
+From the **Plugins** page, find Humm then click **Settings**.
 
-## Configuring **humm**
+![32.png](/img/platforms/woocommerce/32.png)
 
-1 - On the left-hand side menu, navigate to **WooCommmerce > Settings > Checkout > humm**.
-
-![Installing humm.png](/img/platforms/woocommerce/2.png)
-
-2 - Configue the **humm** settings as follow:
+Ensure **humm** is configured as follows.
 
 |Setting|Value|
-|-------|-----|
-|**Humm** Region|AU or NZ accordingly|
-|Test Mode|Checkbox = `Unticked`|
-|Merchant ID|Your Merchant Number|
-|API Key|Your Encryption Key|
-|Shop Name|Your Store's name|
-|Merchant Type|If your **humm** account supports only 'Little things', only 'Big things' or Both|
-|Marketing Widgets|Top Banner Widget = `Ticked`<br />Top Banner on FrontPage Only = `Ticked`|
-|Minimum Order Total|`1`|
-|Checkout buttons|Pre-select Checkout Button = `Ticked`<br />Pre-select Button Order = `Ticked`|
-
-![installing **humm**.png](/img/platforms/woocommerce/3.png)
+-------|-----
+**Enabled**| `Ticked`
+**Humm Region**| AU or NZ
+**Test Mode**| `Unticked`
+**Price Widget**| `Ticked`
+**Merchant Type**| 'Little things', 'Big things' or Both.
+**Top Banner Widget**| `Ticked` (AU Only)
+**Top Banner on FrontPage Only**| `Ticked` (AU only)
+**Pre-select Checkout Button**| `Ticked`
+**Pre-select Button Order**| `1`
+**Minimum Order Total**| `0` for no limit.
+**Maximum Order Total**| `0` for no limit.
 
 ## Refunding
 
@@ -49,6 +45,6 @@ You will need the following to integrate **humm** into your WooCommerce store:
 
 ![Refund1.png](/img/platforms/woocommerce/Refund1.png)
 
-3 - Choose the items or set the amount you want to refund then click **Refund via humm**.
+2 - Choose the items or set the amount you want to refund then click **Refund via humm**.
 
 ![Refund2.png](/img/platforms/woocommerce/Refund2.png)
