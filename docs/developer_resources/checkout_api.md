@@ -6,12 +6,12 @@ Please note, this is not an HTTP API and *can not* be used for server to server 
 
 There are two **humm** gateways that transaction information can be posted to and they represent the live **humm** payment gateway and the test (sandbox) gateway.
 
-## **Humm** Gateways
+## **Humm** Endpoints
 
 | **Humm** Environment | URL |
 |--------------------|-----|
-| Production Gateway | [https://cart.%domain%/Checkout?platform=Default](https://cart.%domain%/Checkout?platform=Default) |
-| Sandbox Gateway | [https://integration-cart.%domain%/Checkout?platform=Default](https://integration-cart.%domain%/Checkout?platform=Default) |
+| Production Endpoints | [https://cart.%domain%/Checkout?platform=Default](https://cart.%domain%/Checkout?platform=Default) |
+| Sandbox Endpoints | [https://integration-cart.%domain%/Checkout?platform=Default](https://integration-cart.%domain%/Checkout?platform=Default) |
 
 <a name="Responses"></a>
 
