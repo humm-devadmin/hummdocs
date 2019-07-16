@@ -17,7 +17,7 @@ To integrate **humm** you will need your
 
 2. Require the Humm Payment Gateway Module
 
-        composer require humm/module-humm-payment-gateway:dev-composer
+        composer require humm/module-humm-payment-gateway:dev-master
 
 3. Enable the module
        
@@ -31,32 +31,33 @@ To integrate **humm** you will need your
 
 ## Integrating **humm** Manually
 
-1 - Download the **humm** plugin from [https://github.com/shophumm/humm-magento2.x/releases](https://github.com/shophumm/humm-magento2.x/releases).
+1 - Download the **humm** plugin zip from [GitHub](https://github.com/shophumm/humm-magento2.x/releases/latest).
 
-2 - Unzip it then copy the inner `humm` folder into the `MAGENTO_DIR/app/code` directory on your webserver. If the <code>code</code> folder doesn't exist, then create it manually.
+2 - Unzip it then copy the inner `Humm` folder into the `MAGENTO_DIR/app/code` directory on your webserver.
 
-3 - Change directory into `MAGENTO_DIR/bin` to make the `magento` utility available.
+> If the `code` folder doesn't exist, then create it manually.
 
-4 - Run `magento setup:upgrade`. This will auto-enable **humm** as part of `setup:upgrade`. You should see `Module 'Humm_HummPaymentGateway'` in the output of the command.
-<br>
+3 - Run `MAGENTO_DIR/bin/magento setup:upgrade` to enable **humm**.
 
-> Depending on your tech stack, you might have to use the <code>php</code> prefix (<code>php magento setup:upgrade</code>) when running the various <code>magento</code> commands.
+You should see `Module 'Humm_HummPaymentGateway'` in the output of the command.
 
-5 - Flush Magento's Cache: **Settings** -> **Cache Management** -> **Flush Magento Cache**. Alternatively, run <code>MAGENTO_DIR/bin/magento cache:flush</code> from command line.
+> Depending on your tech stack, you might have to use the <code>php</code> prefix (`php MAGENTO_DIR/bin/magento setup:upgrade`) when running the various <code>magento</code> commands.
+
+4 - Flush Magento's Cache: **Settings** -> **Cache Management** -> **Flush Magento Cache**.
+
+Alternatively, run <code>MAGENTO_DIR/bin/magento cache:flush</code> from command line.
 
 ![3.png](\img\platforms\magento_2\3.png)
 
-6 - Run `setup:static-content:deploy` to avoid generated HTML referring to javascript/css that haven't been added to the list of compiled/minified assets which can break your store's front-end/admin panel.
+> You may need to run `MAGENTO_DIR/bin/magento setup:static-content:deploy`. This is to avoid generated HTML referring to javascript/css that haven't been added to the list of compiled/minified assets which can break your store's front-end/admin panel.
 
 ## Configuration
 
-1 - Navigate to **Stores** -> **Configuration** -> **Sales** -> **Payment Methods**.
-
-2 - Confirm **humm Payment Gateway** is visible and once expanded looks like the image below.
+Navigate to **Stores** -> **Configuration** -> **Sales** -> **Payment Methods**.
 
 ![4.png](\img\platforms\magento_2\4.png)
 
-## Upgrade From The Old Oxipay Plugin
+<!-- ## Upgrade From The Old Oxipay Plugin
 
 1 - Install the **humm** payment plugin as described earlier in this page.
 
@@ -67,7 +68,7 @@ To integrate **humm** you will need your
 4 - Do test transactions to make sure the **humm** Payment plugin works correctly with your store.
 
 5 - Disable or remove the Oxipay plugin. Disable to allow online refunding of the existing old Oxipay transactions.
-
+ -->
 ## Varnish Cache
 
 If your server utilises a Varnish cache it is important that you whitelist any URLs associated with the **humm** plugin.
