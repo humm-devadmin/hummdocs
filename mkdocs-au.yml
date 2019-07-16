@@ -16,6 +16,7 @@ nav:
    - Test Transactions: accreditation/test.md
    - Testing Declines and Approvals: accreditation/declines_and_approvals.md
 - Widgets:
+   - Best Practice Integration: widgets/best_practice_integration.md
    - Price-info Widget: widgets/price_info.md
    - Banners: widgets/banners.md
    - Landing Page: widgets/landing_widget.md
