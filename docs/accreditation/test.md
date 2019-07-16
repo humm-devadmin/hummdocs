@@ -1,7 +1,6 @@
 #Test Transactions
 
-Once **humm** is installed on your platform it must be verified before it can process live transactions.<br>
-To do this your website must be able to process a test transaction and have it verified by **humm**.
+The following instructions outline how to perform a test transaction with humm.
 
 > <b>Test mode</b> must be activated in the <b>humm</b> settings before proceeding.
 
@@ -26,13 +25,10 @@ To do this your website must be able to process a test transaction and have it v
 
 ![2.png](/img/accreditation/2.png)
 
-- Use the credit card number **4564 4564 4564 4564** with any name and valid expiry date. See [Testing Declines and Approvals](../../developer_resources/declines_and_approvals) for more information.
-<!-- - A CVV of 200 will cause the transaction to decline. All other 3 digit numbers will succeed. -->
+- Use the credit card number **4111 1111 1111 1111** with any name and valid expiry date.
 
 4 - Your transaction will be approved or declined and you will be redirected back to the web-store.
 
 ![3.png](/img/accreditation/3.png)
 
 5 - Confirm that the transaction is showing up correctly in the sales records for your store.
-
-> Once complete, please email <a href="mailto:pit@%domain%">pit@%domain%</a> with your merchant ID.
