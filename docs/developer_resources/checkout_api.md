@@ -21,7 +21,7 @@ Posting to the **humm** endpoint, regardless of whether this is done in the live
 
 Below is an overview of the various key-value pairs that can be passed to **humm** (**Request Values**), a description of what they are as well as an indication of whether they are mandatory or optional.
 
-## Request values
+### Request values
 
  Key | Description | Type | Example | Length
 -----|-------------|------|---------|--------
@@ -57,7 +57,7 @@ x_url_cancel **Required**         | Customers are redirected to this URL if they
 x_url_complete **Required**       | Customers are redirected to this URL if they have successfully processed their transaction using **humm** | URL | https://shop%domain_postfix%/compete | 200
 x_transaction_timeout             | Transaction timout in minutes. Maximum value is 1440. | int | 60
 
-# Sample POST
+### Sample POST
 
 Below is a sample request that might be posted to an **humm** gateway that is in the <code>application/x-www-form-urlencoded</code> format. In this example, please ignore values for individual keys - such as the value for <code>x_signature</code> - since this sample POST is for demonstration purposes only and does not demonstrate a real transaction that can be completed by **humm**.
 
@@ -77,7 +77,7 @@ The key-value pairs included in this HTTP GET are the same as the POST values as
 
 **Please note:** The POST response must be sent over HTTPS. Consequently the <code>x_url_callback</code> field should specify the HTTPS has the protocol.
 
-## Response POST/GET values
+### Response POST/GET values
 
 Below is an overview of the various response key-value pairs that **humm** returns after it has finished processing a transaction. Note that some of these key-value pairs echo corresponding key-value pairs in the request that **humm** receives - as is the case with <code>x_currency</code> for instance.
 
