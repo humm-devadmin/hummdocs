@@ -1,5 +1,7 @@
 # Best Practice Integration
 
+<h3 style="color:gray; font-style:italic">Convert more browsers into <b>shoppers</b></h3>
+
 ## Showcase **humm**
 Our default marketing assets for your website inform customers about **humm**, convert more browsers into shoppers and increase average basket size.
 
@@ -13,13 +15,25 @@ The below assets are available via our integration guides.
 
 Let your customers know you accept **humm**.
 
-![Banner Placement](/img/best_integration_guidelines/Banner-placement-web3.png)
+![/widgets/banners](/img/best_integration_guidelines/Banner-placement-web3.png)
 
-Banners are available here.
+* Top strip banners are available [here](/widgets/banners).
 
-Banners are available here.
+<a href="/widgets/banners">
+    <img class="box-shadow" src="/img/best_integration_guidelines/Pay_in_slices_sml.png">
+</a>
 
-The **humm** payment tile is available here.
+* Banners are available [here](/widgets/banners).
+
+<a href="/widgets/banners">
+    <img class="box-shadow" src="/img/best_integration_guidelines/LTBTsml.png">
+</a>
+
+* The **humm** payment tile is available [here](https://tools.shophumm.com.au/logos-images).
+
+<a href="https://tools.shophumm.com.au/logos-images">
+    <img class="box-shadow" src="/img/best_integration_guidelines/payment_sml.png">
+</a>
 
 - - -
 
@@ -33,17 +47,17 @@ The **humm** pricing widget is tailored to the price of the item on your website
 
 ![Sample Product Page](/img/best_integration_guidelines/Sample_product_page1.png)
 
-Magnified view
+**Magnified view**
 
-Items < $1000
+**Items < $1000**
 
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200"></script>
 
-Items > $1000
+**Items > $1000**
 
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500"></script>
 
-Widgets are available here.
+Widgets are available [here](/widgets/price_info/).
 
 - - -
 
@@ -56,19 +70,26 @@ Triggered from "More Info" on:
 * Product page
 * Cart page
 * Checkout page
+
 **Pop up widget  on mobile**
 
-![Pop up on mobile](/img/best_integration_guidelines/More_info_pop_up_MOB2.png)
+<a href="https://tools.shophumm.com.au/logos-images">
+    <img class="box-shadow" src="/img/best_integration_guidelines/More_info_pop_up_MOB2.png">
+</a>
 
 **Pop up widget on desktop - Items < $2,000**
 
-![Pop up on mobile](/img/best_integration_guidelines/More_info_pop_up_MOB2.png)
+<a href="/widgets/price_info#price-info-widget">
+    <img class="box-shadow" src="/img/best_integration_guidelines/pop_up_under 2000_0.png">
+</a>
 
 **Pop up widget on desktop - Items > $2,000**
 
-![Pop up on mobile](/img/best_integration_guidelines/More_info_pop_up_MOB2.png)
+<a href="/widgets/price_info#price-info-widget">
+    <img class="box-shadow" src="/img/best_integration_guidelines/pop_up_over 2000_0.png">
+</a>
 
-Widgets are available here.
+Widgets are available [here](/widgets/price_info/).
 
 - - -
 
@@ -78,17 +99,17 @@ Remind customers of the benefits of paying with humm at the Cart Page
 
 ![Cart Widget](/img/best_integration_guidelines/Cart2_0.png)
 
-Magnified view
+**Magnified view**
 
-Items < $1000
+**Items < $1000**
 
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200"></script>
 
-Items > $1000
+**Items > $1000**
 
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500"></script>
 
-Widgets are available here.
+Widgets are available [here](/widgets/price_info/).
 
 - - - 
 
@@ -98,17 +119,17 @@ This is your last chance to let your customers know they have the option to pay 
 
 ![Check out Widget](/img/best_integration_guidelines/Checkout3.png)
 
-Magnified view
+**Magnified view**
 
-Checkout < $1000
+**Checkout < $1000**
 
 ![Checkout < $1,000 ](/img/best_integration_guidelines/checkout_lg3.png)
 
-Checkout > $1000
+**Checkout > $1000**
 
 ![Checkout > $1,000 ](/img/best_integration_guidelines/checkout_lg4.png)
 
-Widgets are available here.
+Widgets are available [here](/widgets/price_info/).
 
 - - -
 <br>
@@ -123,7 +144,7 @@ Widgets are available here.
     <div class="window-content">
         <p>For materials you customise or create, please send a copy to <a href="mailto:marketing@shophumm.com.au?subject=humm Artwork Request">marketing@shophumm.com.au</a>&nbsp;for review and approval before publication. Turnaround&nbsp;time is generally 5 working days for each round of submitted&nbsp;material.</p>
 
-        <a href="mailto:marketing@shophumm.com.au?subject=humm Artwork Request">Get approval</a>
+        >> <a href="mailto:marketing@shophumm.com.au?subject=humm Artwork Request">Get approval</a> <<
 
     </div>
 </div>
