@@ -1,6 +1,6 @@
 #Setting up on PrestaShop
 
-## Locate your humm Credentials
+## Locate your **humm** Credentials
 
 To integrate **humm** you will need your
 
