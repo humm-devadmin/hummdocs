@@ -43,8 +43,8 @@ Ensure **humm** is configured as follows.
 
 1 - Click order to refund from orders list page, then **Refund** at bottom.
 
-![Refund1.png](/img/platforms/woocommerce/Refund1.png)
+![Refund1.png](/img/platforms/woocommerce/refund1.png)
 
 2 - Choose the items or set the amount you want to refund then click **Refund via humm**.
 
-![Refund2.png](/img/platforms/woocommerce/Refund2.png)
+![Refund2.png](/img/platforms/woocommerce/refund2.png)
