@@ -1,7 +1,4 @@
-#Integrating on Magento 1
-
-Use the same instructions to upgrade the **humm** plugin to a newer release.
-
+# Magento 1
 
 ## Locate your **humm** Credentials
 
@@ -9,21 +6,17 @@ To integrate **humm** you will need your
 
 * Merchant Number
 * API Key
-## Plugin Installation
+
+## Plugin Installation / Upgrade
 
 1 - You can create a backup of your store by navigating to **System** -> **Tools** -> **Backup**.
 
-2 - Download the **humm** plugin from [github.com/shophumm/humm-magento1.x/releases](https://github.com/shophumm/humm-magento1.x/releases).
+2 - Download the **humm** plugin zip from [GitHub](https://github.com/shophumm/humm-magento1.x/releases/latest).
 
-3 - Unzip it, then copy the following plugin files and folders into the corresponding folders under the Magento root directory.
+3 - Unzip it, then copy the following folders into the corresponding folders under your Magento root directory.
 
-    /app/code/community/Humm
-    /app/design/frontend/base/default/template/HummPayments
-    /app/design/adminhtml/base/default/template/HummPayments
-    /app/etc/modules/Humm_HummPayments.xml
-
-    /skin/frontend/base/default/images/Humm/
-    /skin/adminhtml/base/default/images/Humm/
+    app/
+    skin/
 
 4 - Login into Magento's **Admin Panel**, click on **System** then select **Cache Management**.
 
@@ -52,7 +45,6 @@ Before the **humm** official launch, the plugin will behave the same as the Oxip
 The plugin will automatically switch itself to **humm** once it is officially launched. It will then show **humm**, and checkout with the **humm** gateway.
 
 The switch-over should be automatic and you as the merchant should not need to do anything on the launch date to make the switch.
--->
 ## Upgrade From The Old Oxipay Plugin
 
 1 - Install the **humm** payment plugin as described earlier in this page.
@@ -77,6 +69,7 @@ The switch-over should be automatic and you as the merchant should not need to d
 
 7 - Before the **humm** launch date, the plugin will still show Oxipay and checkout with Oxipay, and your customers should see no changes. After the official **humm** launch, the plugin will automatically switch to **humm**, providing a smooth and fully automatic transition.
 
+-->
 ## Varnish Cache
 
 If your server utilises a Varnish cache it is important that you whitelist any URLs associated with the **humm** plugin.
