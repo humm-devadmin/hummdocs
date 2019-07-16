@@ -1,4 +1,4 @@
-# Setup on OpenCart
+# Integrating on OpenCart
 
 **Humm** is available for the following versions of OpenCart:
 
@@ -8,17 +8,14 @@
 
 ##Locate your humm Credentials
 
-To integrate **humm** you will need your:
+To integrate **humm** you will need your
 
 * Merchant Number
 * API Key
 
-
 ## Installation using Extension Installer
 
-<div class="panel">
-  The Extension Installer requires FTP settings to be configured. If it isn't, use manual installation instead.
-</div>
+> The Extension Installer requires FTP settings to be configured. If it isn't, use manual installation instead.
 
 1 - Download the latest extension for your OpenCart version [here](https://github.com/shophumm/humm-opencart/releases).
 
@@ -69,15 +66,3 @@ Order Status Failed | `Failed`
 Geo Zone | AU or NZ
 Environment | Sandbox (Test) for testing else Live or Other.
 Sort Order | `1` This will show humm first.
-
-## Upgrading From Old Oxipay Plugin
-
-1 - Make note of your Merchant No. and API Key in your Oxipay settings page.
-
-2 - Navigate to **Extensions** as shown in [Finalising Installation](#finalising-installation).
-
-2 - Locate Oxipay then click **Uninstall**.
-
-![13.png](/img/platforms/opencart/13.png)
-
-3 - Follow the installation process as described [here](#installation-using-extension-installer).

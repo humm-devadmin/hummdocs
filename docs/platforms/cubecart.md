@@ -2,9 +2,7 @@
 
 This document outlines the steps needed to install **humm** on your CubeCart Store.
 
-<div class="panel">
-  At the time of writing this article, **humm** was developed and tested against CubeCart version <code>6.1.1</code>, although the plugin should be compatible with other CubeCart versions. If you encounter any issues, please contact us to resolve them as soon as possible.
-</div>
+> **humm** was tested against CubeCart version <code>6.1.1</code>, however, should be compatible against other versions.
 
 ## Installing **humm**
 

@@ -1,21 +1,16 @@
 # Signature Generation
 
-In order to prevent against malicious attacks and hijacking of browser sessions, **humm** implements a signing mechanism based on HMAC-SHA256. This section provides information on how you can use HMAC-SHA256 for signing and verification purposes.
+To prevent against malicious attacks, **humm** implements HMAC-SHA256 signing. We explain how to use HMAC-SHA256 for signing and verification purposes.
 
 There are two instances where signature generation is required:
 
-* When sending a request POST to **humm**
+* When sending a POST request to **humm**
 * When receiving both a response POST or GET from **humm**
-
-Below is an example that demonstrates how you can go about implementing a method in a shopping platform that is based on PHP to generate the signature.
-
- <div class="panel">
-    <b>Note: </b>When signing a request, all fields starting with <code>x_</code> must be used, except for <code>x_signature</code>.
-</div>
 
 ## PHP Example
 
-Below is a PHP code snippet that demonstrates how a signature might be generated in the context of **humm:**:
+Below is a PHP example on how you can implement a method for signature generation.
+
 
 ```php
 	function humm_sign($query, $api_key )
@@ -33,19 +28,18 @@ Below is a PHP code snippet that demonstrates how a signature might be generated
 ```
 
 
-First note that the method expects two parameters and they are <code>$query</code> and <code>$api_key</code>. The <code>$query</code> represents the various key-value pairs that form your HTTP request POST and vary depending on the information that is entered as part of the checkout process on your shopping cart.
+The method expects two parameters: <code>$query</code> and <code>$api_key</code>:
+* <code>$query</code> represents the various key-value pairs that form your HTTP request POST and vary depending on the information that is entered as part of the checkout process on your shopping cart.
 
-The parameter <code>$api_key</code> represents the API Key that is unique for every merchant. It should only change once the API key has been changed on the **humm** side.
+* <code>$api_key</code> represents the merchant's unique API Key that. It should remain the same and only changes if changed by **humm**.
 
-Having received the two parameters, the <code>**humm**_sign</code> method will then perform an alphabetical sorting of the various key-value pairs based on the key but still maintaining the correlation between the keys and their respective values.
+Having received the two parameters, <code>**humm**_sign</code> method thens perform alphabetical sorting of the various key-value pairs based on the key but still maintaining the correlation between the keys and their respective values.
 
-The method will then examine the <code>$query</code> variable for the various key-value pairs by checking for the <code>x_</code> prefix and would then append them together.</br>
-Note that the <code>x_signature</code> key-value pair should not be included in the generation of a signature.
+It then examines the query <code>$query</code> variable for the various key-value pairs by checking for the <code>x_</code> prefix and then appends them together.</br>
+
+> <b>Note: </b>When signing a request, all fields starting with <code>x_</code> must be used, except for <code>x_signature</code>.
 
 The method then computes the keyed hash value using the <code>hash_hmac</code> method.
-
-
-
 
 ## Java Example 
 
