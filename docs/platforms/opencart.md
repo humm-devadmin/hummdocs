@@ -66,15 +66,3 @@ Order Status Failed | `Failed`
 Geo Zone | AU or NZ
 Environment | Sandbox (Test) for testing else Live or Other.
 Sort Order | `1` This will show humm first.
-
-## Upgrading From Old Oxipay Plugin
-
-1 - Make note of your Merchant No. and API Key in your Oxipay settings page.
-
-2 - Navigate to **Extensions** as shown in [Finalising Installation](#finalising-installation).
-
-2 - Locate Oxipay then click **Uninstall**.
-
-![13.png](/img/platforms/opencart/13.png)
-
-3 - Follow the installation process as described [here](#installation-using-extension-installer).
