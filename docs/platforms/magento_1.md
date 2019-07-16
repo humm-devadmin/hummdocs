@@ -82,4 +82,4 @@ This should at least include the following:
     YOUR_DOMAIN/HummPayments/payment/complete/
 
 
-The endpoints listed [here](../../developer_resources/gateway_reference/#humm-gateways) should also be whitelisted.
+The endpoints listed [here](../../developer_resources/checkout_api/#humm-gateways) should also be whitelisted.
