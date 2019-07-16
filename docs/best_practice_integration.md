@@ -113,7 +113,7 @@ Widgets are available [here](/widgets/price_info/).
 
 - - - 
 
-## Check out
+## Check out widget
 
 This is your last chance to let your customers know they have the option to pay in slices with humm.
 
