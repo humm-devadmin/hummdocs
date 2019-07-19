@@ -3,15 +3,15 @@ site_dir: 'oxipay-nz'
 nav:
 - Home: index.md
 - Platforms:
-   - Shopify: platforms/shopify.md
-   - WooCommerce: platforms/woocommerce.md
-   - Magento 1: platforms/magento_1.md
-   - Magento 2: platforms/magento_2.md
-   - PrestaShop: platforms/prestashop.md
-   # - CubeCart: platforms/cubecart.md
-   - OpenCart: platforms/opencart.md
+   - Shopify: ecommerce/shopify.md
+   - WooCommerce: ecommerce/woocommerce.md
+   - Magento 1: ecommerce/magento_1.md
+   - Magento 2: ecommerce/magento_2.md
+   - PrestaShop: ecommerce/prestashop.md
+   # - CubeCart: ecommerce/cubecart.md
+   - OpenCart: ecommerce/opencart.md
 # - POS Platforms:
-#    - Vend: platforms/vend.md
+#    - Vend: ecommerce/vend.md
 - Accreditation:
   - Test Transactions: accreditation/accreditation.md
   - Testing Declines and Approvals: accreditation/declines_and_approvals.md

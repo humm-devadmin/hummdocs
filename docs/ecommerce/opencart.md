@@ -21,11 +21,11 @@ To integrate **humm** you will need your
 
 2 - From your **OpenCart Admin**, click **Extensions > Installer**.
 
-![11.png](/img/platforms/opencart/11.png)
+![11.png](/img/ecommerce/opencart/11.png)
 
 3 - Click **Upload** then select the **humm** extension (ending with `.ocmod.zip`).
 
-![12.png](/img/platforms/opencart/12.png)
+![12.png](/img/ecommerce/opencart/12.png)
 
 _Next: Continue onto Finalising Installation [below](#finalising-installation)._
 
@@ -41,19 +41,19 @@ _Next: Continue onto Finalising Installation [below](#finalising-installation)._
 
 1 - Log into your **OpenCart Admin** then navigate to **Extensions > Extensions**.
 
-![1.png](/img/platforms/opencart/1.png)
+![1.png](/img/ecommerce/opencart/1.png)
 
 2 - Select **Payments** from dropdown.
 
-![2.png](/img/platforms/opencart/2.png)
+![2.png](/img/ecommerce/opencart/2.png)
 
 3 - Locate **humm** then click **Install**.
 
-![3.png](/img/platforms/opencart/3.png)
+![3.png](/img/ecommerce/opencart/3.png)
 
 4 - Click **Edit** on the right, this will open your **humm** settings page.
 
-![4.png](/img/platforms/opencart/4.png)
+![4.png](/img/ecommerce/opencart/4.png)
 
 5 - Ensure plugin is configured as below:
 

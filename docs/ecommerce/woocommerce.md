@@ -11,17 +11,17 @@ To integrate **humm** you will need your:
 
 1 - On the left-hand side of your WordPress admin page, click **Plugins > Add New** then search for **humm** in top-right search field.
 
-![1.png](/img/platforms/woocommerce/1.png)
+![1.png](/img/ecommerce/woocommerce/1.png)
 
 4 - Next to **Humm / Oxipay Payment Gateway for WooCommerce** click **Install** then **Activate**. 
 
-![29.png](/img/platforms/woocommerce/29.png)
+![29.png](/img/ecommerce/woocommerce/29.png)
 
 ## Configuration
 
 From the **Plugins** page, find Humm then click **Settings**.
 
-![32.png](/img/platforms/woocommerce/32.png)
+![32.png](/img/ecommerce/woocommerce/32.png)
 
 Ensure **humm** is configured as follows.
 
@@ -43,8 +43,8 @@ Ensure **humm** is configured as follows.
 
 1 - Click order to refund from orders list page, then **Refund** at bottom.
 
-![Refund1.png](/img/platforms/woocommerce/refund1.png)
+![Refund1.png](/img/ecommerce/woocommerce/refund1.png)
 
 2 - Choose the items or set the amount you want to refund then click **Refund via humm**.
 
-![Refund2.png](/img/platforms/woocommerce/refund2.png)
+![Refund2.png](/img/ecommerce/woocommerce/refund2.png)
