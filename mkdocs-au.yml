@@ -19,7 +19,8 @@ nav:
 - Widgets:
    - Price-info Widget: widgets/price_info.md
    - Banners: widgets/banners.md
-   - Landing Page: widgets/landing_widget.md
+   - Landing Pages:
+      - Little Things Online: /widgets/landing_pages/little_only
    - Installation:
       - Generic Installation: widgets/installation.md
       - Shopify Specific: widgets/price-info/shopify.md
