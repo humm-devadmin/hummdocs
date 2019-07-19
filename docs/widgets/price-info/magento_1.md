@@ -1,4 +1,4 @@
-#Adding Magento 1's Price-info Widget
+#Price-info Widgets on Shopify
 For adding Price-info Widget to your Magento 1 Website, follow these instructions
 
 **Step 1:** Find ```view.phtml``` from the following location in your hosting (Magento installed Folder) and open it with your desired text-editor

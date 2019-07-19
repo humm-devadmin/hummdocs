@@ -1,6 +1,7 @@
-#Adding Price-info Widget For OpenCart 3
+#Price-info Widgets on OpenCart 3
 
-**Step 1:** Open the ```product.twig``` file in the following location on your server<br>
+**Step 1:** 
+Open the ```product.twig``` file in the following location on your server<br>
 ```
 YOUR_OPENCART_DIR/catalog/view/theme/YOUR_THEME/template/product/product.twig
 ```
@@ -63,8 +64,7 @@ Using the following code if you are both a **'Little things'** and **'Big things
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}"></script>
 ```
 
-<div class="panel">
-    Try inserting the widget in different places in the code until you find the most suitable place for your site.
-</div>
-<br>
+
+> Try inserting the widget in different places in the code until you find the most suitable place for your site.
+
 **Step 4:** Save and you should see a working widget on your website.
