@@ -60,19 +60,19 @@
   background-color: #DCE4C9;
 }
 
-  .wy-menu-vertical li.on a, .wy-menu-vertical li.current > a {
-    background-color: #4D5046;
-    color: white !important;
-    border: none !important;
-  }
+.wy-menu-vertical li.on a, .wy-menu-vertical li.current > a {
+  background-color: #4D5046;
+  color: white !important;
+  border: none !important;
+}
 
 .wy-menu-vertical li.current a {
   border-right: none;
 }
 
-.md-header {
-  height: auto;
-}
+/* ------------------------------- */
+/* MKDocs Material Changes - Begin */
+/* ------------------------------- */
 
 label.md-nav__title text {
   display: none !important;
@@ -82,7 +82,7 @@ i.md-icon {
   display:none !important;
 }
 
-/* Fixes issue with mobile view */
+/* Fixes mobile view issue */
 .md-nav__title.md-nav__title--site {
   display: none !important;
 }
@@ -99,16 +99,30 @@ i.md-icon {
   background-repeat: no-repeat;
 }
 
-/* Prevent mkdocs material from 
-impacting font color on widgets */
+/* Prevent material from changing widget color */
 .humm-more-info-widget {
   color:inherit !important;
 }
 
 
-    /* --------------------------- */
-    /*  Humm Rebranding Changes  */
-    /* --------------------------- */
+.md-logo {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  line-height: auto;
+}
+
+.md-flex__cell.md-flex__cell--shrink {
+  vertical-align: middle;
+}
+
+/* ----------------------------- */
+/* MKDocs Material Theme - END   */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/*    Humm Rebranding Changes    */
+/* ----------------------------- */
 .panel {
   background-color: #ccc;
   padding: 15px;
