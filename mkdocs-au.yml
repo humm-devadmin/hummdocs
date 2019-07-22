@@ -23,6 +23,7 @@ nav:
       - Introduction: widgets/landing_pages/introduction.md
       - Little Things Online: widgets/landing_pages/little_things_online.md
       - Little Things Instore: widgets/landing_pages/little_things_instore.md
+      - Big Things Instore: widgets/landing_pages/big_things_instore.md
    - Installation:
       - Generic Installation: widgets/installation.md
       - Shopify Specific: widgets/price-info/shopify.md

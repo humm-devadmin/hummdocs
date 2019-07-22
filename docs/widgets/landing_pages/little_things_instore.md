@@ -1,4 +1,6 @@
-## Little Things Only Landing Page
+# Little Things Instore
+
+Simply insert the following image into a blank page on your site. 
 
 <a href="/img/landing_pages/Little_things_instore.png" download="little_things_instore"> > Download Link < </a>
 
