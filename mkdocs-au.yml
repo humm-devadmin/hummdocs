@@ -27,9 +27,9 @@ nav:
       - Little and Big Things Instore/Online: widgets/landing_pages/little_and_big_things_instore_and_online.md
    - Widget Installation:
       - Generic Installation: widgets/installation.md
-      - Shopify Specific: widgets/price-info/shopify.md
-      - Magento 1 Specific: widgets/price-info/magento_1.md 
-      - OpenCart 3 Specific: widgets/price-info/opencart_3.md
+      - On Shopify: widgets/price-info/shopify.md
+      - On Magento 1: widgets/price-info/magento_1.md 
+      - On OpenCart 3: widgets/price-info/opencart_3.md
 - Developer Resources:
    - Introduction: developer_resources/introduction.md
    - Checkout Process: developer_resources/checkout_process.md
