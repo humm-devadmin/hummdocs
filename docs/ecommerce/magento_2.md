@@ -47,7 +47,7 @@ You should see `Module 'Humm_HummPaymentGateway'` in the output of the command.
 
 Alternatively, run <code>MAGENTO_DIR/bin/magento cache:flush</code> from command line.
 
-![3.png](\img\platforms\magento_2\3.png)
+![3.png](\img\ecommerce\magento_2\3.png)
 
 > You may need to run `MAGENTO_DIR/bin/magento setup:static-content:deploy`. This is to avoid generated HTML referring to javascript/css that haven't been added to the list of compiled/minified assets which can break your store's front-end/admin panel.
 
@@ -55,7 +55,7 @@ Alternatively, run <code>MAGENTO_DIR/bin/magento cache:flush</code> from command
 
 Navigate to **Stores** -> **Configuration** -> **Sales** -> **Payment Methods**.
 
-![4.png](\img\platforms\magento_2\4.png)
+![4.png](\img\ecommerce\magento_2\4.png)
 
 ## Varnish Cache
 

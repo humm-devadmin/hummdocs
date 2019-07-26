@@ -24,33 +24,33 @@ The plugin can be installed via CubeCart's Admin Control Panel, either manually 
 
 **2** - Select the **lightning bolt** button, next to your required **humm** plugin version, to reveal the **Auto Install/Upgrade Token**
 
-![autoinstall-1.png](/img/platforms/cubecart/autoinstall-1.png)
+![autoinstall-1.png](/img/ecommerce/cubecart/autoinstall-1.png)
 
 **3** - Copy the **Token** from within the pop-up.
 
-![autoinstall-2.png](/img/platforms/cubecart/autoinstall-2.png)
+![autoinstall-2.png](/img/ecommerce/cubecart/autoinstall-2.png)
 
 **4** - Log into the CubeCart Admin Control Panel as an Administrator.
 
-![autoinstall-3.png](/img/platforms/cubecart/autoinstall-3.png)
+![autoinstall-3.png](/img/ecommerce/cubecart/autoinstall-3.png)
 
 **5** - Once logged in, you will be presented with your Store's dashboard. From the side menu that appears to the left, scroll to the **Extensions** section and select **Manage Extensions**.
 
-![autoinstall-4.png](/img/platforms/cubecart/autoinstall-4.png)
+![autoinstall-4.png](/img/ecommerce/cubecart/autoinstall-4.png)
 
 **6** - Copy the **Auto Install/Upgrade Token** into the Token field on the **Manage Extensions** page and select the **Go** button.
 
-![autoinstall-5.png](/img/platforms/cubecart/autoinstall-5.png)
+![autoinstall-5.png](/img/ecommerce/cubecart/autoinstall-5.png)
 
 **7** - If the module has been installed correctly, the module will appear in the list of **Available Extensions**.
 
-![autoinstall-6.png](/img/platforms/cubecart/autoinstall-6.png)
+![autoinstall-6.png](/img/ecommerce/cubecart/autoinstall-6.png)
 
 <div class="panel">
 If the automatic installation is not successful, you will be presented with a message at the top of the page similar to the screenshot below. If this continues to be a problem, please refer to the <a href="#manual-installation">Manual Installation</a> procedure.
 </div>
 
-![autoinstall-7.png](/img/platforms/cubecart/autoinstall-7.png)
+![autoinstall-7.png](/img/ecommerce/cubecart/autoinstall-7.png)
 
 ### Manual Installation
 
@@ -60,7 +60,7 @@ If the automatic installation is not successful, you will be presented with a me
 
 **2** - Select the **download** button , next to your required **humm** plugin version, to download the **humm** plugin ZIP file.
 
-![manualinstall-1.png](/img/platforms/cubecart/manualinstall-1.png)
+![manualinstall-1.png](/img/ecommerce/cubecart/manualinstall-1.png)
 
 **3** - Extract the ZIP file and copy the contents to the **modules/gateway** folder of your server’s/site directory.
 
@@ -68,15 +68,15 @@ If the automatic installation is not successful, you will be presented with a me
 
 **5** - Log into the CubeCart Admin Control Panel as an Administrator.
 
-![manualinstall-2.png](/img/platforms/cubecart/manualinstall-2.png)
+![manualinstall-2.png](/img/ecommerce/cubecart/manualinstall-2.png)
 
 **6** - Once logged in, you will be presented with your Store's dashboard. From the side menu that appears to the left, scroll to the **Extensions** section and select **Manage Extensions**.
 
-![manualinstall-3.png](/img/platforms/cubecart/manualinstall-3.png)
+![manualinstall-3.png](/img/ecommerce/cubecart/manualinstall-3.png)
 
 **7** - If the module has been installed correctly, the module will appear in the list of **Available Extensions**.
 
-![manualinstall-4.png](/img/platforms/cubecart/manualinstall-4.png)
+![manualinstall-4.png](/img/ecommerce/cubecart/manualinstall-4.png)
 
 ## Configuring **humm**
 
@@ -90,7 +90,7 @@ If the automatic installation is not successful, you will be presented with a me
 
 **3** - Under the **Available Extensions** section, select the text **Humm** to configure the module settings. Descriptions of the options are listed below.
 
-![config-1.png](/img/platforms/cubecart/config-1.png)
+![config-1.png](/img/ecommerce/cubecart/config-1.png)
 <div class="panel">
   We have intentionally masked the <b>Merchant ID</b> and <b>API Key</b> in this support document. Please contact us and we will advise you of the settings to use.
 </div>
@@ -129,7 +129,7 @@ If the automatic installation is not successful, you will be presented with a me
 
 **5** - **%country%** will be automatically set as an **Enabled Region** in the **Allowed Zones** tab. This must match the Country set in the CubeCart Store Settings.
 
-![config-2.png](/img/platforms/cubecart/config-2.png)
+![config-2.png](/img/ecommerce/cubecart/config-2.png)
 <hr>
 
 <hr>
@@ -149,23 +149,23 @@ That is, you do not need to type in your <b>Merchant ID</b> and <b>API Key</b> a
 
 **2** - Select the **lightning bolt** button, next to your required **humm** plugin version, to reveal the **Auto Install/Upgrade Token**
 
-![autoinstall-1.png](/img/platforms/cubecart/autoinstall-1.png)
+![autoinstall-1.png](/img/ecommerce/cubecart/autoinstall-1.png)
 
 **3** - Copy the **Token** from within the pop-up.
 
-![autoinstall-2.png](/img/platforms/cubecart/autoinstall-2.png)
+![autoinstall-2.png](/img/ecommerce/cubecart/autoinstall-2.png)
 
 **4** - Log into the CubeCart Admin Control Panel as an Administrator.
 
-![autoinstall-3.png](/img/platforms/cubecart/autoinstall-3.png)
+![autoinstall-3.png](/img/ecommerce/cubecart/autoinstall-3.png)
 
 **5** - Once logged in, you will be presented with your Store's dashboard. From the side menu that appears to the left, scroll to the **Extensions** section and select **Manage Extensions**.
 
-![autoinstall-4.png](/img/platforms/cubecart/autoinstall-4.png)
+![autoinstall-4.png](/img/ecommerce/cubecart/autoinstall-4.png)
 
 **6** - Copy the **Auto Install/Upgrade Token** into the Token field on the **Manage Extensions** page.
 
-![autoinstall-5.png](/img/platforms/cubecart/autoinstall-5.png)
+![autoinstall-5.png](/img/ecommerce/cubecart/autoinstall-5.png)
 
 **7** - If you enable the option to **Backup if already exists**, a backup of the previous plugin version will be created.
 
@@ -184,16 +184,16 @@ Prior to manually upgrading, you will first need to un-install the previous vers
 
 **1** - Log into the CubeCart Admin Control Panel as an Administrator.
 
-![uninstall-1.png](/img/platforms/cubecart/uninstall-1.png)
+![uninstall-1.png](/img/ecommerce/cubecart/uninstall-1.png)
 
 **2** - Once logged in, you will be presented with your Store's dashboard. From the side menu that appears to the left, scroll to the **Extensions** section and select **Manage Extensions**.
 
-![uninstall-2.png](/img/platforms/cubecart/uninstall-2.png)
+![uninstall-2.png](/img/ecommerce/cubecart/uninstall-2.png)
 
 **3** - In the list of **Available Extensions**, select the **delete** button associated with the **Humm** extension.
 
 **4** - If the module has been un-installed correctly, the module will no longer appear in the list of **Available Extensions**.
 
-![uninstall-3.png](/img/platforms/cubecart/uninstall-3.png)
+![uninstall-3.png](/img/ecommerce/cubecart/uninstall-3.png)
 
 **5** - You can now download the new version of the **humm** CubeCart plugin and install it as per the instructions in the [Installing **humm**](#installing-oxipay) section of this document.

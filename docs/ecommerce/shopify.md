@@ -15,19 +15,19 @@ To integrate **humm** you will need your
 
 3 - Once logged in, click **Install payment provider**.
 
-![5.png](/img/platforms/shopify/5.png)
+![5.png](/img/ecommerce/shopify/5.png)
 
 4 - Confirmation will appear at bottom.
 
-![6.png](/img/platforms/shopify/6.png)
+![6.png](/img/ecommerce/shopify/6.png)
 
 5 - In **Alternative Payments**, select **Humm** from the drop-down.
 
-![7.png](/img/platforms/shopify/7.png)
+![7.png](/img/ecommerce/shopify/7.png)
 
 6 - Enter your **Merchant Number** and **API Key** then click **Save**.
 
-![8.png](/img/platforms/shopify/8.png)
+![8.png](/img/ecommerce/shopify/8.png)
 
 ##Price-info Widgets
 

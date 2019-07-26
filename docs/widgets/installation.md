@@ -1,5 +1,5 @@
-#
-## Adding a Widget to your Website
+# Price-info Widget Setup on your Website
+
 **Step 1:** Choose the widget that you want to install from:
 
 * [Price-info Widget](../price_info)
@@ -9,5 +9,5 @@
 
 **Step 3:** Save and you should see a working widget on your website.
 
-### Working Example
+## Working Example
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200"></script>

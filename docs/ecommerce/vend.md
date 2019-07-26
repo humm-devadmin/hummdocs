@@ -29,7 +29,7 @@ Login to your Vend store.
 Go to Settings -> Payment Types -> Add Payment Type
 
 
-![01_add_payment_type.png](/img/platforms/vend/01_add_payment_type.png)
+![01_add_payment_type.png](/img/ecommerce/vend/01_add_payment_type.png)
 
 ---
 
@@ -41,10 +41,10 @@ Select:
 * Custom Name = **humm**
 
 
-![02_select_credit_card.png](/img/platforms/vend/02_select_credit_card.png)
+![02_select_credit_card.png](/img/ecommerce/vend/02_select_credit_card.png)
 
 
-![03_name_oxipay.png](/img/platforms/vend/03_name_oxipay.png)
+![03_name_oxipay.png](/img/ecommerce/vend/03_name_oxipay.png)
 
 ---
 
@@ -53,7 +53,7 @@ Select:
 On the Settings -> Payment Types screen, choose the **humm** Payment Type
 
 
-![04_configure_oxipay.png](/img/platforms/vend/04_configure_oxipay.png)
+![04_configure_oxipay.png](/img/ecommerce/vend/04_configure_oxipay.png)
 
 
 
@@ -63,7 +63,7 @@ Set the Gateway URL to:
 
 Press the "Save Pament Type"
 
-![05_add_custom_gateway.png](/img/platforms/vend/05_add_custom_gateway.png)
+![05_add_custom_gateway.png](/img/ecommerce/vend/05_add_custom_gateway.png)
 
 ---
 ### Pair a Register
@@ -83,11 +83,11 @@ Your **Merchant ID** is provided in your Welcome Pack.
 
 
 
-![06_payment.png](/img/platforms/vend/06_payment.png)
+![06_payment.png](/img/ecommerce/vend/06_payment.png)
 
-![07_pay_with_oxipay.png](/img/platforms/vend/07_pay_with_oxipay.png)
+![07_pay_with_oxipay.png](/img/ecommerce/vend/07_pay_with_oxipay.png)
 
-![08_pair_register.png](/img/platforms/vend/08_pair_register.png)
+![08_pair_register.png](/img/ecommerce/vend/08_pair_register.png)
 
 ---
 

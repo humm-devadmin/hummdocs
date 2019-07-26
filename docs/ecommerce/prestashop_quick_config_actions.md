@@ -15,7 +15,7 @@ Below is a summary of how to bring up the **Quick Config Actions** sub-menu:
 
 **6** - Otherwise, clicking on the arrow next to the **Configure** button will open a drop-down menu similar to the one shown in the screenshot below.
 
-![12.png](/img/platforms/prestashop/12.png)
+![12.png](/img/ecommerce/prestashop/12.png)
 
 Here is a quick summary of the various **Configure** options available to you:
 
@@ -33,7 +33,7 @@ Here is a quick summary of the various **Configure** options available to you:
 <hr>
 * **Mark as Favorite**: Marks **humm** as one of your favourite plugins so that it becomes available from within the **Favourites** category list on the left hand side of the **Modules List** panel.
 
-![13.png](/img/platforms/prestashop/13.png)
+![13.png](/img/ecommerce/prestashop/13.png)
 <hr>
 
 * **Delete**: Completely removes the plugin from your store. The plugin will no longer be available for installation again and the only way to add **humm** back to your store as a payment method would be to perform the instructions in the [Installing **humm**](#installing-oxipay) section of the document again.

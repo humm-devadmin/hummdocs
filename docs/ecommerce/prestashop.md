@@ -18,21 +18,21 @@ PrestaShop 1.7: click
 
 2 - In your store's admin area, click **Modules and Services** on the left.
 
-![2.png](/img/platforms/prestashop/2.png)
+![2.png](/img/ecommerce/prestashop/2.png)
 
 4 - Click **Add a new module** in top-right.
 
 5 - Click **Choose a file**, select the plugin, then click **Upload this module**.
 
-![5.png](/img/platforms/prestashop/5.png)
+![5.png](/img/ecommerce/prestashop/5.png)
 
 7 - From **Modules List** at the bottom, click **Install**
 
-![7.png](/img/platforms/prestashop/7.png)
+![7.png](/img/ecommerce/prestashop/7.png)
 
 8 - Then click **Proceed with the Installation**.
 
-![9.png](/img/platforms/prestashop/9.png)
+![9.png](/img/ecommerce/prestashop/9.png)
 
 ## Configuring humm
 
@@ -51,6 +51,6 @@ Gateway URL | Leave blank
 
 2 - Find **humm**, then from the Configure drop-down select **Delete > OK**
 
-![14.png](/img/platforms/prestashop/14.png)
+![14.png](/img/ecommerce/prestashop/14.png)
 
 4 - Install the new version of humm, see [Installing the Plugin](#installing-humm).

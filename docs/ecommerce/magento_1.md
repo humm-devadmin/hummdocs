@@ -22,7 +22,7 @@ To integrate **humm** you will need your
 
 5 - On the **Cache Management** page, click on **Flush Magento Cache**.
 
-![3.png](/img/platforms/magento_1/3.png)
+![3.png](/img/ecommerce/magento_1/3.png)
 
 ## Configuration
 
@@ -30,11 +30,11 @@ To integrate **humm** you will need your
 
 2 - On **Configuration** page, scroll downwards then click on **Payment Methods** on left side menu.
 
-![5.png](/img/platforms/magento_1/5.png)
+![5.png](/img/ecommerce/magento_1/5.png)
 
 3 - Confirm  **humm Checkout** is visible and once expanded looks similar to the image below.
 
-![6.png](/img/platforms/magento_1/6.png)
+![6.png](/img/ecommerce/magento_1/6.png)
 
 ## Varnish Cache
 
