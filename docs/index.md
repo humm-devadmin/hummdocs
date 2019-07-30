@@ -1,3 +1,7 @@
+#Introduction to Humm
+
+##asdf
+
 <div id="DIV_1">
 	<div id="DIV_2">
 		<div id="DIV_3">
@@ -69,11 +73,6 @@
 								<div id="DIV_38">
 									Time to pay
 								</div>
-								<div id="DIV_39">
-									<div id="DIV_40">
-										5 x fortnight
-									</div>
-								</div>
 								<div id="DIV_41">
 									<div id="DIV_42">
 										10 x fortnight
@@ -88,11 +87,6 @@
 							<div id="DIV_45">
 								<div id="DIV_46">
 									Monthly fee
-								</div>
-								<div id="DIV_47">
-									<div id="DIV_48">
-										-
-									</div>
 								</div>
 								<div id="DIV_49">
 									<div id="DIV_50">
@@ -109,11 +103,6 @@
 								<div id="DIV_54">
 									Establishment fee
 								</div>
-								<div id="DIV_55">
-									<div id="DIV_56">
-										-
-									</div>
-								</div>
 								<div id="DIV_57">
 									<div id="DIV_58">
 										-
@@ -129,11 +118,6 @@
 								<div id="DIV_62">
 									Repeat purchase fee
 								</div>
-								<div id="DIV_63">
-									<div id="DIV_64">
-										-
-									</div>
-								</div>
 								<div id="DIV_65">
 									<div id="DIV_66">
 										-
@@ -148,11 +132,6 @@
 							<div id="DIV_69">
 								<div id="DIV_70">
 									Late payment fee
-								</div>
-								<div id="DIV_71">
-									<div id="DIV_72">
-										$6
-									</div>
 								</div>
 								<div id="DIV_73">
 									<div id="DIV_74">
