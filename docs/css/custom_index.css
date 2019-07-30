@@ -1,0 +1,34 @@
+
+#DIV_1 {
+    width: auto;
+    height: auto;
+    top: 0; 
+  }/*#DIV_1*/
+
+
+  #DIV_2::before, #DIV_3::before {
+    display: none !important;
+  }
+
+  #DIV_2::after, #DIV_3::after {
+    display: none !important;
+  }
+
+  #DIV_1 * {
+      width: auto !important;
+      height: auto !important;
+  }
+
+
+  /* Hides sidebar */
+  .md-sidebar--secondary {
+    display: none;
+}
+
+  .md-content {
+      margin-right: 0 !important;
+  }
+
+  #DIV_4 {
+      float: none !important;
+  }
