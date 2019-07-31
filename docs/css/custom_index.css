@@ -7,174 +7,6 @@
 /* TESTING */
 
 
-#DIV_1 {
-    
-    color: rgb(51, 51, 51);
-    height: 1106.33px;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    width: 1663px;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 831.5px 553.156px;
-    transform-origin: 831.5px 553.164px;
-    caret-color: rgb(51, 51, 51);
-    background: rgb(241, 242, 238) none repeat scroll 0% 0% / auto padding-box border-box;
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_1*/
-  
-  #DIV_1:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_1:after*/
-  
-  #DIV_1:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_1:before*/
-  
-  #DIV_2 {
-    
-    color: rgb(51, 51, 51);
-    height: 1106.33px;
-    max-width: 1380px;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    width: 1380px;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 690px 553.156px;
-    transform-origin: 690px 553.164px;
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    margin: 0px 141.5px;
-    outline: rgb(51, 51, 51) none 0px;
-    padding: 70px 30px;
-  }/*#DIV_2*/
-  
-  #DIV_2:after {
-    
-    clear: both;
-    color: rgb(51, 51, 51);
-    content: '"' '"';
-    display: table;
-    height: 0px;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    width: 0px;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 0px 0px;
-    transform-origin: 0px 0px;
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_2:after*/
-  
-  #DIV_2:before {
-    
-    color: rgb(51, 51, 51);
-    content: '"' '"';
-    display: table;
-    height: 0px;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    width: 0px;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 0px 0px;
-    transform-origin: 0px 0px;
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_2:before*/
-  
-  #DIV_3 {
-    
-    color: rgb(51, 51, 51);
-    height: 966.328px;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    width: 1350px;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 675px 483.156px;
-    transform-origin: 675px 483.164px;
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    margin: 0px -15px;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_3*/
-  
-  #DIV_3:after {
-    
-    clear: both;
-    color: rgb(51, 51, 51);
-    content: '"' '"';
-    display: table;
-    height: 0px;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    width: 0px;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 0px 0px;
-    transform-origin: 0px 0px;
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_3:after*/
-  
-  #DIV_3:before {
-    
-    color: rgb(51, 51, 51);
-    content: '"' '"';
-    display: table;
-    height: 0px;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    width: 0px;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 0px 0px;
-    transform-origin: 0px 0px;
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_3:before*/
   
   #DIV_4 {
     bottom: 0px;
@@ -202,34 +34,6 @@
     padding: 0px 15px;
   }/*#DIV_4*/
   
-  #DIV_4:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_4:after*/
-  
-  #DIV_4:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_4:before*/
-  
   #DIV_5 {
     
     color: rgb(51, 51, 51);
@@ -253,34 +57,6 @@
     padding: 50px 0px;
   }/*#DIV_5*/
   
-  #DIV_5:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_5:after*/
-  
-  #DIV_5:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_5:before*/
-  
   #H1_6 {
     
     color: rgb(51, 51, 51);
@@ -300,34 +76,6 @@
     outline: rgb(51, 51, 51) none 0px;
   }/*#H1_6*/
   
-  #H1_6:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 700 normal 52px / 57.2px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#H1_6:after*/
-  
-  #H1_6:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 700 normal 52px / 57.2px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#H1_6:before*/
-  
   #SPAN_7 {
     
     color: rgb(51, 51, 51);
@@ -343,34 +91,6 @@
     font: normal normal 700 normal 52px / 57.2px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
   }/*#SPAN_7*/
-  
-  #SPAN_7:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 700 normal 52px / 57.2px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#SPAN_7:after*/
-  
-  #SPAN_7:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 700 normal 52px / 57.2px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#SPAN_7:before*/
   
   #P_8 {
     
@@ -391,34 +111,6 @@
     outline: rgb(51, 51, 51) none 0px;
   }/*#P_8*/
   
-  #P_8:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#P_8:after*/
-  
-  #P_8:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#P_8:before*/
-  
   #A_9 {
     
     color: rgb(255, 105, 0);
@@ -435,36 +127,6 @@
     font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(255, 105, 0) none 0px;
   }/*#A_9*/
-  
-  #A_9:after {
-    
-    color: rgb(255, 105, 0);
-    cursor: auto;
-    text-align: center;
-    text-decoration: none solid rgb(255, 105, 0);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(255, 105, 0);
-    caret-color: rgb(255, 105, 0);
-    border: 0px none rgb(255, 105, 0);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(255, 105, 0) none 0px;
-  }/*#A_9:after*/
-  
-  #A_9:before {
-    
-    color: rgb(255, 105, 0);
-    cursor: auto;
-    text-align: center;
-    text-decoration: none solid rgb(255, 105, 0);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(255, 105, 0);
-    caret-color: rgb(255, 105, 0);
-    border: 0px none rgb(255, 105, 0);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(255, 105, 0) none 0px;
-  }/*#A_9:before*/
   
   #DIV_10, #DIV_11 {
     
@@ -484,34 +146,6 @@
     outline: rgb(51, 51, 51) none 0px;
   }/*#DIV_10, #DIV_11*/
   
-  #DIV_10:after, #DIV_11:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_10:after, #DIV_11:after*/
-  
-  #DIV_10:before, #DIV_11:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_10:before, #DIV_11:before*/
-  
   #DIV_12 {
     
     color: rgb(51, 51, 51);
@@ -529,34 +163,6 @@
     font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
   }/*#DIV_12*/
-  
-  #DIV_12:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_12:after*/
-  
-  #DIV_12:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_12:before*/
   
   #DIV_13 {
     
@@ -583,36 +189,6 @@
     padding: 30px 0px;
   }/*#DIV_13*/
   
-  #DIV_13:after {
-    
-    color: rgb(51, 51, 51);
-    display: block;
-    text-align: left;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_13:after*/
-  
-  #DIV_13:before {
-    
-    color: rgb(51, 51, 51);
-    display: block;
-    text-align: left;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_13:before*/
-  
   #DIV_14 {
     
     color: rgb(51, 51, 51);
@@ -634,38 +210,6 @@
     outline: rgb(51, 51, 51) none 0px;
     padding: 0px 60px 0px 0px;
   }/*#DIV_14*/
-  
-  #DIV_14:after {
-    
-    color: rgb(51, 51, 51);
-    min-height: auto;
-    min-width: auto;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_14:after*/
-  
-  #DIV_14:before {
-    
-    color: rgb(51, 51, 51);
-    min-height: auto;
-    min-width: auto;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_14:before*/
   
   #DIV_15 {
     
@@ -752,20 +296,6 @@
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
   }/*#DIV_16:after, #DIV_17:after*/
-  
-  #DIV_16:before, #DIV_17:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_16:before, #DIV_17:before*/
   
   #DIV_18 {
     
@@ -874,34 +404,6 @@
     outline: rgb(51, 51, 51) none 0px;
   }/*#SOURCE_21, #SOURCE_31*/
   
-  #SOURCE_21:after, #SOURCE_31:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#SOURCE_21:after, #SOURCE_31:after*/
-  
-  #SOURCE_21:before, #SOURCE_31:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#SOURCE_21:before, #SOURCE_31:before*/
-  
   #IMG_22, #IMG_33 {
     
     color: rgb(51, 51, 51);
@@ -923,34 +425,6 @@
     outline: rgb(51, 51, 51) none 0px;
   }/*#IMG_22, #IMG_33*/
   
-  #IMG_22:after, #IMG_33:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#IMG_22:after, #IMG_33:after*/
-  
-  #IMG_22:before, #IMG_33:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#IMG_22:before, #IMG_33:before*/
-  
   #DIV_23 {
     
     color: rgb(51, 51, 51);
@@ -969,34 +443,6 @@
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
   }/*#DIV_23*/
-  
-  #DIV_23:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_23:after*/
-  
-  #DIV_23:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_23:before*/
   
   #DIV_24 {
     
@@ -1017,34 +463,7 @@
     padding: 0px 0px 5px;
   }/*#DIV_24*/
   
-  #DIV_24:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 800 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_24:after*/
-  
-  #DIV_24:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 800 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_24:before*/
-  
+
   #DIV_25 {
     
     color: rgb(51, 51, 51);
@@ -1062,35 +481,8 @@
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
   }/*#DIV_25*/
-  
-  #DIV_25:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_25:after*/
-  
-  #DIV_25:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_25:before*/
-  
+
+
   #DIV_26 {
     
     color: rgb(51, 51, 51);
@@ -1113,38 +505,6 @@
     transition: opacity 0.15s linear 0s;
   }/*#DIV_26*/
   
-  #DIV_26:after {
-    
-    color: rgb(51, 51, 51);
-    min-height: auto;
-    min-width: auto;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_26:after*/
-  
-  #DIV_26:before {
-    
-    color: rgb(51, 51, 51);
-    min-height: auto;
-    min-width: auto;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_26:before*/
-  
   #DIV_27, #DIV_28 {
     
     color: rgb(51, 51, 51);
@@ -1162,34 +522,6 @@
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
   }/*#DIV_27, #DIV_28*/
-  
-  #DIV_27:after, #DIV_28:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_27:after, #DIV_28:after*/
-  
-  #DIV_27:before, #DIV_28:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_27:before, #DIV_28:before*/
   
   #DIV_29 {
     
@@ -1210,34 +542,6 @@
     padding: 5px 0px 20px;
   }/*#DIV_29*/
   
-  #DIV_29:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_29:after*/
-  
-  #DIV_29:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_29:before*/
-  
   #DIV_34 {
     
     color: rgb(51, 51, 51);
@@ -1256,34 +560,6 @@
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
   }/*#DIV_34*/
-  
-  #DIV_34:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_34:after*/
-  
-  #DIV_34:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_34:before*/
   
   #DIV_35 {
     
@@ -1304,34 +580,6 @@
     padding: 0px 0px 5px;
   }/*#DIV_35*/
   
-  #DIV_35:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 800 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_35:after*/
-  
-  #DIV_35:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 800 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_35:before*/
-  
   #DIV_36 {
     
     color: rgb(51, 51, 51);
@@ -1349,34 +597,6 @@
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
   }/*#DIV_36*/
-  
-  #DIV_36:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_36:after*/
-  
-  #DIV_36:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_36:before*/
   
   #DIV_37, #DIV_45, #DIV_53, #DIV_61, #DIV_69 {
     
@@ -1403,36 +623,6 @@
     padding: 30px 0px;
   }/*#DIV_37, #DIV_45, #DIV_53, #DIV_61, #DIV_69*/
   
-  #DIV_37:after, #DIV_45:after, #DIV_53:after, #DIV_61:after, #DIV_69:after {
-    
-    color: rgb(51, 51, 51);
-    display: block;
-    text-align: left;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_37:after, #DIV_45:after, #DIV_53:after, #DIV_61:after, #DIV_69:after*/
-  
-  #DIV_37:before, #DIV_45:before, #DIV_53:before, #DIV_61:before, #DIV_69:before {
-    
-    color: rgb(51, 51, 51);
-    display: block;
-    text-align: left;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_37:before, #DIV_45:before, #DIV_53:before, #DIV_61:before, #DIV_69:before*/
-  
   #DIV_38, #DIV_46, #DIV_54, #DIV_62, #DIV_70 {
     
     color: rgb(51, 51, 51);
@@ -1455,38 +645,6 @@
     padding: 0px 20px 0px 0px;
   }/*#DIV_38, #DIV_46, #DIV_54, #DIV_62, #DIV_70*/
   
-  #DIV_38:after, #DIV_46:after, #DIV_54:after, #DIV_62:after, #DIV_70:after {
-    
-    color: rgb(51, 51, 51);
-    min-height: auto;
-    min-width: auto;
-    text-align: left;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 800 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_38:after, #DIV_46:after, #DIV_54:after, #DIV_62:after, #DIV_70:after*/
-  
-  #DIV_38:before, #DIV_46:before, #DIV_54:before, #DIV_62:before, #DIV_70:before {
-    
-    color: rgb(51, 51, 51);
-    min-height: auto;
-    min-width: auto;
-    text-align: left;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 800 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_38:before, #DIV_46:before, #DIV_54:before, #DIV_62:before, #DIV_70:before*/
-  
   #DIV_39, #DIV_41, #DIV_47, #DIV_49, #DIV_55, #DIV_57, #DIV_63, #DIV_65, #DIV_71, #DIV_73 {
     
     color: rgb(51, 51, 51);
@@ -1508,39 +666,7 @@
     outline: rgb(51, 51, 51) none 0px;
     padding: 0px 20px 0px 0px;
   }/*#DIV_39, #DIV_41, #DIV_47, #DIV_49, #DIV_55, #DIV_57, #DIV_63, #DIV_65, #DIV_71, #DIV_73*/
-  
-  #DIV_39:after, #DIV_41:after, #DIV_47:after, #DIV_49:after, #DIV_55:after, #DIV_57:after, #DIV_63:after, #DIV_65:after, #DIV_71:after, #DIV_73:after {
-    
-    color: rgb(51, 51, 51);
-    min-height: auto;
-    min-width: auto;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_39:after, #DIV_41:after, #DIV_47:after, #DIV_49:after, #DIV_55:after, #DIV_57:after, #DIV_63:after, #DIV_65:after, #DIV_71:after, #DIV_73:after*/
-  
-  #DIV_39:before, #DIV_41:before, #DIV_47:before, #DIV_49:before, #DIV_55:before, #DIV_57:before, #DIV_63:before, #DIV_65:before, #DIV_71:before, #DIV_73:before {
-    
-    color: rgb(51, 51, 51);
-    min-height: auto;
-    min-width: auto;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_39:before, #DIV_41:before, #DIV_47:before, #DIV_49:before, #DIV_55:before, #DIV_57:before, #DIV_63:before, #DIV_65:before, #DIV_71:before, #DIV_73:before*/
-  
+ 
   #DIV_40, #DIV_42, #DIV_44, #DIV_50, #DIV_52, #DIV_58, #DIV_60, #DIV_66, #DIV_68, #DIV_74, #DIV_76 {
     
     color: rgb(51, 51, 51);
@@ -1558,35 +684,7 @@
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
   }/*#DIV_40, #DIV_42, #DIV_44, #DIV_50, #DIV_52, #DIV_58, #DIV_60, #DIV_66, #DIV_68, #DIV_74, #DIV_76*/
-  
-  #DIV_40:after, #DIV_42:after, #DIV_44:after, #DIV_50:after, #DIV_52:after, #DIV_58:after, #DIV_60:after, #DIV_66:after, #DIV_68:after, #DIV_74:after, #DIV_76:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_40:after, #DIV_42:after, #DIV_44:after, #DIV_50:after, #DIV_52:after, #DIV_58:after, #DIV_60:after, #DIV_66:after, #DIV_68:after, #DIV_74:after, #DIV_76:after*/
-  
-  #DIV_40:before, #DIV_42:before, #DIV_44:before, #DIV_50:before, #DIV_52:before, #DIV_58:before, #DIV_60:before, #DIV_66:before, #DIV_68:before, #DIV_74:before, #DIV_76:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_40:before, #DIV_42:before, #DIV_44:before, #DIV_50:before, #DIV_52:before, #DIV_58:before, #DIV_60:before, #DIV_66:before, #DIV_68:before, #DIV_74:before, #DIV_76:before*/
-  
+
   #DIV_43, #DIV_51, #DIV_59, #DIV_67, #DIV_75 {
     
     color: rgb(51, 51, 51);
@@ -1607,38 +705,7 @@
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
   }/*#DIV_43, #DIV_51, #DIV_59, #DIV_67, #DIV_75*/
-  
-  #DIV_43:after, #DIV_51:after, #DIV_59:after, #DIV_67:after, #DIV_75:after {
-    
-    color: rgb(51, 51, 51);
-    min-height: auto;
-    min-width: auto;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_43:after, #DIV_51:after, #DIV_59:after, #DIV_67:after, #DIV_75:after*/
-  
-  #DIV_43:before, #DIV_51:before, #DIV_59:before, #DIV_67:before, #DIV_75:before {
-    
-    color: rgb(51, 51, 51);
-    min-height: auto;
-    min-width: auto;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_43:before, #DIV_51:before, #DIV_59:before, #DIV_67:before, #DIV_75:before*/
+
   
   #DIV_48, #DIV_56, #DIV_72 {
     
@@ -1657,34 +724,7 @@
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
   }/*#DIV_48, #DIV_56, #DIV_72*/
-  
-  #DIV_48:after, #DIV_56:after, #DIV_72:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_48:after, #DIV_56:after, #DIV_72:after*/
-  
-  #DIV_48:before, #DIV_56:before, #DIV_72:before {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_48:before, #DIV_56:before, #DIV_72:before*/
+
   
   #DIV_64 {
     
@@ -1703,25 +743,9 @@
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
   }/*#DIV_64*/
-  
-  #DIV_64:after {
-    
-    color: rgb(51, 51, 51);
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_64:after*/
-  
-  #DIV_64:before {
 
-  }/*#DIV_64:before*/
-  
+
+
 #intro tr:before {
   
   color: rgb(51, 51, 51);
@@ -1760,36 +784,7 @@
     outline: rgb(51, 51, 51) none 0px;
     padding: 40px 0px 0px;
   }/*#DIV_77*/
-  
-  #DIV_77:after {
-    
-    color: rgb(51, 51, 51);
-    display: block;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_77:after*/
-  
-  #DIV_77:before {
-    
-    color: rgb(51, 51, 51);
-    display: block;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_77:before*/
+
   
   #DIV_78 {
     
@@ -1812,39 +807,7 @@
     outline: rgb(51, 51, 51) none 0px;
     padding: 10px 0px;
   }/*#DIV_78*/
-  
-  #DIV_78:after {
-    
-    color: rgb(51, 51, 51);
-    min-height: auto;
-    min-width: auto;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_78:after*/
-  
-  #DIV_78:before {
-    
-    color: rgb(51, 51, 51);
-    min-height: auto;
-    min-width: auto;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_78:before*/
-  
+
   #A_79 {
     
     color: rgb(255, 255, 255);
@@ -1869,54 +832,10 @@
     padding: 12px 45px;
   }/*#A_79*/
   
-  #A_79:after {
-    
-    color: rgb(255, 255, 255);
-    letter-spacing: -1px;
-    text-align: center;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal 700 normal 21px / 25.2px ProximaNova, Roboto, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-  }/*#A_79:after*/
-  
-  #A_79:before {
-    
-    color: rgb(255, 255, 255);
-    letter-spacing: -1px;
-    text-align: center;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-size-adjust: 100%;
-    word-break: break-word;
-    column-rule-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal 700 normal 21px / 25.2px ProximaNova, Roboto, sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-  }/*#A_79:before*/
-  
-  
-#DIV_1 {
-    height: auto;
-    top: 0;
-    background: none !important;
-  }
 
 
-#DIV_2::before, #DIV_3::before {
-    display: none !important;
-}
 
-#DIV_2::after, #DIV_3::after {
-    display: none !important;
-}
-
-
-#DIV_1 * {
+#DIV_4 * {
     width: auto !important;
     height: auto !important;
 }
@@ -1927,18 +846,25 @@
         font-size: 1em !important;
     }
 
-    #DIV_2 {
-        margin: 0 !important;
-        padding: 20px !important;
-    }
-
     #DIV_4 {
         float: none !important;
     }
 }
 
-
 .md-content {
+    height: 100% !important;
     margin-right: 0 !important;
-    height: auto !important;
+    position: relative;
+  }
+
+  #DIV_4 {
+    width: 100%;
+  }
+
+
+#DIV_10 {
+  height: 100%;
+  clear:both;
 }
+
+

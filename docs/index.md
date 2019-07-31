@@ -1,10 +1,4 @@
-#Introduction to Humm
-
-##asdf
-
 <div id="DIV_1">
-	<div id="DIV_2">
-		<div id="DIV_3">
 			<div id="DIV_4">
 				<div id="DIV_5">
 					<h1 id="H1_6">
@@ -153,6 +147,4 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
 </div>
