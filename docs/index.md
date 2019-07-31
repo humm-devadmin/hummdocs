@@ -125,7 +125,7 @@
 							</div>
 							<div id="DIV_69">
 								<div id="DIV_70">
-									Late payment fee
+									Late fee
 								</div>
 								<div id="DIV_73">
 									<div id="DIV_74">

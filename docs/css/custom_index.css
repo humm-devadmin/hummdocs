@@ -1,13 +1,5 @@
 
-
-
-
-  
-
 /* TESTING */
-
-
-  
   #DIV_4 {
     bottom: 0px;
     
@@ -846,9 +838,7 @@
         font-size: 1em !important;
     }
 
-    #DIV_4 {
-        float: none !important;
-    }
+
 }
 
 .md-content {
@@ -857,14 +847,12 @@
     position: relative;
   }
 
-  #DIV_4 {
-    width: 100%;
-  }
+#DIV_4 {
+  width: 100%;
+}
 
 
 #DIV_10 {
   height: 100%;
   clear:both;
 }
-
-
