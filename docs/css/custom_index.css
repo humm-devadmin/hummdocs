@@ -11,6 +11,19 @@
     font: normal normal 800 normal 145.6px / 116.48px ProximaNova, Roboto, sans-serif;
 }
 
+.things-container {
+  padding: 2rem 1rem;
+  color: white;
+  background-color: red;
+  display: inline-block;
+  background-color: red;
+  width: 100%;
+  background-color: #ff6900; 
+}
+
+.little-things {
+  float: left;
+}
 
   #DIV_4 {
     bottom: 0px;
