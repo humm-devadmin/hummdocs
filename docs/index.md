@@ -53,79 +53,125 @@
 									</div>
 								</div>
 							</div>
-							<div id="DIV_37">
-								<div id="DIV_38">
-									Time to pay
+							<div id="row">
+								<div class="row_heading">
+									Reusable Limit
 								</div>
-								<div id="DIV_41">
-									<div id="DIV_42">
-										10 x fortnight
-									</div>
+								<div class="row_cell">
+									Yes
 								</div>
-								<div id="DIV_43">
-									<div id="DIV_44">
-										6 - 60 months
-									</div>
+								<div class="row_cell">
+									Varies by customer
 								</div>
 							</div>
-							<div id="DIV_45">
-								<div id="DIV_46">
-									Monthly fee
+							<div id="row">
+								<div class="row_heading">
+									Instore & Online
 								</div>
-								<div id="DIV_49">
-									<div id="DIV_50">
-										$8
-									</div>
+								<div class="row_cell">
+									Yes
 								</div>
-								<div id="DIV_51">
-									<div id="DIV_52">
-										$8
-									</div>
+								<div class="row_cell">
+									Yes
 								</div>
 							</div>
-							<div id="DIV_53">
-								<div id="DIV_54">
-									Establishment fee
+							<div id="row">
+								<div class="row_heading">
+									Limit Available
 								</div>
-								<div id="DIV_57">
-									<div id="DIV_58">
-										-
-									</div>
+								<div class="row_cell">
+									-
 								</div>
-								<div id="DIV_59">
-									<div id="DIV_60">
-										$35 - $90
-									</div>
+								<div class="row_cell">
+									$35 - $90
 								</div>
 							</div>
-							<div id="DIV_61">
-								<div id="DIV_62">
-									Repeat purchase fee
+							<div id="row">
+								<div class="row_heading">
+									Terms
 								</div>
-								<div id="DIV_65">
-									<div id="DIV_66">
-										-
-									</div>
+								<div class="row_cell">
+									-
 								</div>
-								<div id="DIV_67">
-									<div id="DIV_68">
-										$22
-									</div>
+								<div class="row_cell">
+									$22
 								</div>
 							</div>
-							<div id="DIV_69">
-								<div id="DIV_70">
-									Late fee
+							<div id="row">
+								<div class="row_heading">
+									Deposit Required at Time of Purchase
 								</div>
-								<div id="DIV_73">
-									<div id="DIV_74">
-										$6
-									</div>
+								<div class="row_cell">
+									$6
 								</div>
-								<div id="DIV_75">
-									<div id="DIV_76">
-										$6
-									</div>
+								<div class="row_cell">
+									$6
+								</div>
+							</div>
+							<div id="row">
+								<div class="row_heading">
+									Interest
+								</div>
+								<div class="row_cell">
+									$6
+								</div>
+								<div class="row_cell">
+									$6
+								</div>
+							</div>
+							<div id="row">
+								<div class="row_heading">
+									Payments
+								</div>
+								<div class="row_cell">
+									$6
+								</div>
+								<div class="row_cell">
+									$6
+								</div>
+							</div>
+							<div id="row">
+								<div class="row_heading">
+									Establishment Fee
+								</div>
+								<div class="row_cell">
+									$6
+								</div>
+								<div class="row_cell">
+									$6
+								</div>
+							</div>
+							<div id="row">
+								<div class="row_heading">
+									Additional Purchase
+								</div>
+								<div class="row_cell">
+									$6
+								</div>
+								<div class="row_cell">
+									$6
+								</div>
+							</div>
+							<div id="row">
+								<div class="row_heading">
+									Monthly Fee
+								</div>
+								<div class="row_cell">
+									$6
+								</div>
+								<div class="row_cell">
+									$6
+								</div>
+							</div>
+							<div id="row">
+								<div class="row_heading">
+									Late Fee
+								</div>
+								<div class="row_cell">
+									$6
+								</div>
+								<div class="row_cell">
+									$6
 								</div>
 							</div>
 						</div>

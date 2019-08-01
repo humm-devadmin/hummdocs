@@ -2,10 +2,8 @@
 /* TESTING */
   #DIV_4 {
     bottom: 0px;
-    
-    color: rgb(51, 51, 51);
+    color: black;
     float: left;
-    height: 966.328px;
     left: 0px;
     min-height: 1px;
     position: relative;
@@ -16,29 +14,29 @@
     top: 0px;
     width: 1350px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 675px 483.156px;
     transform-origin: 675px 483.164px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
-    padding: 0px 15px;
+    padding: 1rem 1rem;
   }/*#DIV_4*/
   
   #DIV_5 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 198px;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     width: 1320px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 660px 99px;
     transform-origin: 660px 99px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border-top: 1px solid rgb(255, 105, 0);
     border-right: 0px none rgb(51, 51, 51);
     border-bottom: 1px solid rgb(255, 105, 0);
@@ -58,10 +56,10 @@
     text-size-adjust: 100%;
     width: 1320px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 660px 28.5px;
     transform-origin: 660px 28.5px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 700 normal 52px / 57.2px ProximaNova, Roboto, sans-serif;
     margin: 26px 0px 13px;
@@ -70,15 +68,15 @@
   
   #SPAN_7 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 0px 0px;
     transform-origin: 0px 0px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 700 normal 52px / 57.2px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
@@ -86,17 +84,17 @@
   
   #P_8 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 0px;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     width: 1320px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 660px 0px;
     transform-origin: 660px 0px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
     margin: 0px;
@@ -122,17 +120,17 @@
   
   #DIV_10, #DIV_11 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 627.328px;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     width: 1320px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 660px 313.656px;
     transform-origin: 660px 313.664px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
@@ -140,17 +138,17 @@
   
   #DIV_12 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 627.328px;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     width: 1320px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 660px 313.656px;
     transform-origin: 660px 313.664px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
@@ -158,7 +156,7 @@
   
   #DIV_13 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     display: flex;
     height: 192.328px;
     text-align: left;
@@ -166,12 +164,12 @@
     text-size-adjust: 100%;
     width: 1320px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     align-content: flex-start;
     align-items: center;
     perspective-origin: 660px 96.1563px;
     transform-origin: 660px 96.1641px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border-top: 0px none rgb(51, 51, 51);
     border-right: 0px none rgb(51, 51, 51);
     border-bottom: 1px solid rgb(102, 102, 102);
@@ -183,7 +181,7 @@
   
   #DIV_14 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 0px;
     min-height: auto;
     min-width: auto;
@@ -192,10 +190,10 @@
     text-size-adjust: 100%;
     width: 360px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 180px 0px;
     transform-origin: 180px 0px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     flex: 1 1 0%;
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
@@ -205,7 +203,7 @@
   
   #DIV_15 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 131.328px;
     min-height: auto;
     min-width: auto;
@@ -214,30 +212,29 @@
     text-size-adjust: 100%;
     width: 660px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 330px 65.6563px;
     transform-origin: 330px 65.6641px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     flex: 2 1 0%;
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
-    padding: 0px 60px 0px 0px;
   }/*#DIV_15*/
     
   #DIV_16, #DIV_17 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 131.328px;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     width: 600px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 300px 65.6563px;
     transform-origin: 300px 65.6641px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
@@ -245,17 +242,17 @@
   
   #DIV_18 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 74.3281px;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     width: 600px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 300px 37.1563px;
     transform-origin: 300px 37.1641px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
@@ -264,15 +261,15 @@
   
   #PICTURE_19, #SOURCE_20, #PICTURE_30, #SOURCE_32 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 0px 0px;
     transform-origin: 0px 0px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
@@ -280,15 +277,15 @@
   
   #SOURCE_21, #SOURCE_31 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 0px 0px;
     transform-origin: 0px 0px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
@@ -296,7 +293,7 @@
   
   #IMG_22, #IMG_33 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     display: inline-block;
     height: 49.3281px;
     max-width: 100%;
@@ -306,10 +303,10 @@
     vertical-align: middle;
     width: 80px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 40px 24.6563px;
     transform-origin: 40px 24.6641px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
@@ -317,17 +314,17 @@
   
   #DIV_23 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 57px;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     width: 600px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 300px 28.5px;
     transform-origin: 300px 28.5px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     border-radius: 30px 30px 30px 30px;
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
@@ -336,17 +333,17 @@
   
   #DIV_24 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 31px;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     width: 600px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 300px 15.5px;
     transform-origin: 300px 15.5px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 800 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
@@ -356,17 +353,17 @@
 
   #DIV_25 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 26px;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     width: 600px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 300px 13px;
     transform-origin: 300px 13px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
@@ -375,7 +372,7 @@
 
   #DIV_26 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 131.328px;
     min-height: auto;
     min-width: auto;
@@ -384,10 +381,10 @@
     text-size-adjust: 100%;
     width: 300px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 150px 65.6563px;
     transform-origin: 150px 65.6641px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     flex: 1 1 0%;
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
@@ -397,17 +394,17 @@
   
   #DIV_27, #DIV_28 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 131.328px;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     width: 300px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 150px 65.6563px;
     transform-origin: 150px 65.6641px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
@@ -415,17 +412,17 @@
   
   #DIV_29 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 74.3281px;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     width: 300px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 150px 37.1563px;
     transform-origin: 150px 37.1641px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
@@ -434,17 +431,17 @@
   
   #DIV_34 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 57px;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     width: 300px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 150px 28.5px;
     transform-origin: 150px 28.5px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     border-radius: 30px 30px 30px 30px;
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
@@ -453,17 +450,17 @@
   
   #DIV_35 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 31px;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     width: 300px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 150px 15.5px;
     transform-origin: 150px 15.5px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 800 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
@@ -471,24 +468,24 @@
   }/*#DIV_35*/
   
   #DIV_36 {
-    color: rgb(51, 51, 51);
+    color: black;
     height: 26px;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     width: 300px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 150px 13px;
     transform-origin: 150px 13px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
   }/*#DIV_36*/
   
-  #DIV_37, #DIV_45, #DIV_53, #DIV_61, #DIV_69 {
-    color: rgb(51, 51, 51);
+  #row {
+    color: black;
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgb(102, 102, 102);
@@ -496,8 +493,8 @@
     padding: 30px 0px;
   }/*#DIV_37, #DIV_45, #DIV_53, #DIV_61, #DIV_69*/
   
-  #DIV_38, #DIV_46, #DIV_54, #DIV_62, #DIV_70 {
-    color: rgb(51, 51, 51);
+.row_heading {
+    color: black;
     height: 26px;
     min-height: auto;
     min-width: auto;
@@ -506,10 +503,10 @@
     text-size-adjust: 100%;
     width: 335px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 167.5px 13px;
     transform-origin: 167.5px 13px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     flex: 1 1 0%;
     font: normal normal 800 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
@@ -517,107 +514,34 @@
     padding: 0px 20px 0px 0px;
   }/*#DIV_38, #DIV_46, #DIV_54, #DIV_62, #DIV_70*/
   
-  #DIV_39, #DIV_41, #DIV_47, #DIV_49, #DIV_55, #DIV_57, #DIV_63, #DIV_65, #DIV_71, #DIV_73 {
+.row_cell {
     
-    color: rgb(51, 51, 51);
-    height: 26px;
-    min-height: auto;
-    min-width: auto;
+    color: black;
     text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    width: 335px;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 167.5px 13px;
-    transform-origin: 167.5px 13px;
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
     flex: 1 1 0%;
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-    padding: 0px 20px 0px 0px;
   }/*#DIV_39, #DIV_41, #DIV_47, #DIV_49, #DIV_55, #DIV_57, #DIV_63, #DIV_65, #DIV_71, #DIV_73*/
- 
-  #DIV_40, #DIV_42, #DIV_44, #DIV_50, #DIV_52, #DIV_58, #DIV_60, #DIV_66, #DIV_68, #DIV_74, #DIV_76 {
-    
-    color: rgb(51, 51, 51);
-    height: 26px;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    width: 315px;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 157.5px 13px;
-    transform-origin: 157.5px 13px;
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_40, #DIV_42, #DIV_44, #DIV_50, #DIV_52, #DIV_58, #DIV_60, #DIV_66, #DIV_68, #DIV_74, #DIV_76*/
 
-  #DIV_43, #DIV_51, #DIV_59, #DIV_67, #DIV_75 {
-    
-    color: rgb(51, 51, 51);
-    height: 26px;
-    min-height: auto;
-    min-width: auto;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    width: 315px;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 157.5px 13px;
-    transform-origin: 157.5px 13px;
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    flex: 1 1 0%;
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_43, #DIV_51, #DIV_59, #DIV_67, #DIV_75*/
-
-  
-  #DIV_48, #DIV_56, #DIV_72 {
-    
-    color: rgb(51, 51, 51);
-    height: 26px;
-    text-align: center;
-    text-decoration: none solid rgb(51, 51, 51);
-    text-size-adjust: 100%;
-    width: 315px;
-    word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
-    perspective-origin: 157.5px 13px;
-    transform-origin: 157.5px 13px;
-    caret-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-  }/*#DIV_48, #DIV_56, #DIV_72*/
-
-  
   #DIV_64 {
     
-    color: rgb(51, 51, 51);
+    color: black;
     height: 26px;
     text-align: center;
     text-decoration: none solid rgb(51, 51, 51);
     text-size-adjust: 100%;
     width: 315px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 157.5px 13px;
     transform-origin: 157.5px 13px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 300 normal 24px / 26.4px ProximaNova, Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
   }/*#DIV_64*/
 
   #DIV_78 {
-    color: rgb(51, 51, 51);
+    color: black;
     height: 71px;
     min-height: auto;
     min-width: auto;
@@ -626,10 +550,10 @@
     text-size-adjust: 100%;
     width: 220px;
     word-break: break-word;
-    column-rule-color: rgb(51, 51, 51);
+    column-rule-color: black;
     perspective-origin: 110px 35.5px;
     transform-origin: 110px 35.5px;
-    caret-color: rgb(51, 51, 51);
+    caret-color: black;
     border: 0px none rgb(51, 51, 51);
     font: normal normal 300 normal 20px / 25.4px ProximaNova, Roboto, sans-serif;
     margin: 5px 20px;
