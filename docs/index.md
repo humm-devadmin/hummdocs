@@ -80,21 +80,23 @@
 									Limit Available
 								</div>
 								<div class="row_cell">
-									-
+									Up to $2,000
 								</div>
 								<div class="row_cell">
-									$35 - $90
+									Up to $30,000
 								</div>
 							</div>
 							<div id="row">
 								<div class="row_heading">
 									Terms
 								</div>
-								<div class="row_cell">
-									-
+								<div class="row_cell multiline_cell">
+									<b>2.5 months</b> - 5 fortnightly, 10 weekly,<br>
+									<b>5 months*</b> - 10 fortnightly or 20
+									weekly (instore only)
 								</div>
 								<div class="row_cell">
-									$22
+									6-60 months
 								</div>
 							</div>
 							<div id="row">
@@ -102,10 +104,10 @@
 									Deposit Required at Time of Purchase
 								</div>
 								<div class="row_cell">
-									$6
+									Yes (waived for VIPs)
 								</div>
 								<div class="row_cell">
-									$6
+									Yes (waived for VIPs next purchase)
 								</div>
 							</div>
 							<div id="row">
@@ -113,10 +115,10 @@
 									Interest
 								</div>
 								<div class="row_cell">
-									$6
+									Never
 								</div>
 								<div class="row_cell">
-									$6
+									Never
 								</div>
 							</div>
 							<div id="row">
@@ -124,10 +126,10 @@
 									Payments
 								</div>
 								<div class="row_cell">
-									$6
+									Weekly or fortnightly
 								</div>
 								<div class="row_cell">
-									$6
+									Fortnightly
 								</div>
 							</div>
 							<div id="row">
@@ -138,7 +140,7 @@
 									$6
 								</div>
 								<div class="row_cell">
-									$6
+									$35 - $90
 								</div>
 							</div>
 							<div id="row">
@@ -146,21 +148,22 @@
 									Additional Purchase
 								</div>
 								<div class="row_cell">
-									$6
+									$0
 								</div>
 								<div class="row_cell">
-									$6
+									$22
 								</div>
 							</div>
 							<div id="row">
 								<div class="row_heading">
 									Monthly Fee
 								</div>
-								<div class="row_cell">
-									$6
+								<div class="row_cell multiline_cell">
+									$0 for 2.5 month plans<br>
+									$8 for 5 month plans*
 								</div>
 								<div class="row_cell">
-									$6
+									$8^
 								</div>
 							</div>
 							<div id="row">
