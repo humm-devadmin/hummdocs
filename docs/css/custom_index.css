@@ -1,5 +1,17 @@
 
-/* TESTING */
+.region-hero-banner {
+  width: 100%;
+  background-color: #C8BDA4;
+
+}
+
+.hero-text h2 {
+    color: rgb(255, 255, 255);
+    letter-spacing: -4px;
+    font: normal normal 800 normal 145.6px / 116.48px ProximaNova, Roboto, sans-serif;
+}
+
+
   #DIV_4 {
     bottom: 0px;
     color: black;

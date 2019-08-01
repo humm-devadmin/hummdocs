@@ -1,3 +1,19 @@
+<div class="region-hero-banner" style="background-color: #C8BDA4">
+		<div>
+			<div>
+				<div class="hero-text">
+					<h2>Sliiiice!</h2>
+					<p><strong><span>Pay in sliiiices.&nbsp;No interest ever.</span></strong><br>
+						Here's how.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<img src="img/index/Humm_header_how_0.png">
+		</div>
+</div>
+
 <div id="DIV_1">
 			<div id="DIV_4">
 				<div id="DIV_5">
