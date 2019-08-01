@@ -2,7 +2,7 @@
 			<div id="DIV_4">
 				<div id="DIV_5">
 					<h1 id="H1_6">
-						How it all <span id="SPAN_7">breaks down.</span>
+						How it all breaks down:
 					</h1>
 					<p id="P_8">
 						<a id="A_9"></a>
@@ -19,12 +19,7 @@
 										<div id="DIV_17">
 											<div id="DIV_18">
 												<picture id="PICTURE_19">
-													<!--[if IE 9]><video style="display: none;"><![endif]-->
-
-													<source id="SOURCE_20" />
-													<source id="SOURCE_21" />
-													<!--[if IE 9]></video><![endif]-->
-<img src="img/index/mouse-little%20things.png" alt="little things" id="IMG_22" />
+													<img src="img/index/mouse-little%20things.png" alt="little things" id="IMG_22" />
 												</picture>
 											</div>
 											<div id="DIV_23">
@@ -32,7 +27,7 @@
 													Little things
 												</div>
 												<div id="DIV_25">
-													&lt;$2K
+													Your everyday spending
 												</div>
 											</div>
 										</div>
@@ -43,12 +38,7 @@
 										<div id="DIV_28">
 											<div id="DIV_29">
 												<picture id="PICTURE_30">
-													<!--[if IE 9]><video style="display: none;"><![endif]-->
-
-													<source id="SOURCE_31" />
-													<source id="SOURCE_32" />
-													<!--[if IE 9]></video><![endif]-->
-<img src="img/index/elephant-Big%20things.png" alt="big things" id="IMG_33" />
+													<img src="img/index/elephant-Big%20things.png" alt="big things" id="IMG_33" />
 												</picture>
 											</div>
 											<div id="DIV_34">
@@ -56,7 +46,7 @@
 													Big things
 												</div>
 												<div id="DIV_36">
-													&lt;$30k
+													Life's bigger buys
 												</div>
 											</div>
 										</div>
@@ -139,11 +129,6 @@
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div id="DIV_77">
-					<div id="DIV_78">
-						<a href="https://buyer.shophumm.com.au/registration" id="A_79">Sign up today</a>
 					</div>
 				</div>
 			</div>
