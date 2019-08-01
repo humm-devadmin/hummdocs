@@ -23,6 +23,19 @@
 
 .little-things {
   float: left;
+  width: 50%
+}
+
+.big-things {
+  float: right;
+  width: 50%;
+  line-height: 1rem;
+}
+
+.little-things li, .big-things li {
+  font-weight: 300;
+  line-height: 1rem;
+  margin-bottom: 0px !important;
 }
 
   #DIV_4 {

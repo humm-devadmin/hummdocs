@@ -14,8 +14,7 @@
 	</div>
 </div>
 
-<div class="orange-break">
-	<div class="things-container">
+<div class="things-container">
 	<div class="little-things">
 		<div>
 			<div>
@@ -26,9 +25,9 @@
 			<div>
 				<h3><strong>Buy 'Little things'</strong></h3>
 				<ul>
-				<li>Apply for up&nbsp;to <strong>$2,000</strong></li>
-				<li>Repay in <strong>5 or 10 slices</strong> weekly or fortnightly</li>
-				<li>Repay and free up your balance to <strong>spend again</strong></li>
+					<li>Apply for up&nbsp;to <strong>$2,000</strong></li>
+					<li>Repay in <strong>5 or 10 slices</strong> weekly or fortnightly</li>
+					<li>Repay and free up your balance to <strong>spend again</strong></li>
 				</ul>
 			</div>
 		</div>
@@ -43,13 +42,12 @@
 			<div>
 				<h3><strong>Buy 'Big things'</strong></h3>
 				<ul>
-				<li>Get pre approval up to <strong>$10,000</strong></li>
-				<li>Apply instore for up to <strong>$30,000</strong> depending on what you buy and where you shop</li>
-				<li>Repay over 6, 12, 24 months all the&nbsp;way up to <strong>60 months</strong>.</li>
+					<li>Get pre approval up to <strong>$10,000</strong></li>
+					<li>Apply instore for up to <strong>$30,000</strong> depending on what you buy and where you shop</li>
+					<li>Repay over 6, 12, 24 months all the&nbsp;way up to <strong>60 months</strong>.</li>
 				</ul>
 			</div>
 		</div>
-	</div>
 	</div>
 </div>
 
