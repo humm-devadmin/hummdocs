@@ -38,6 +38,64 @@
   margin-bottom: 0px !important;
 }
 
+.little-things *, 
+.big-things *
+{
+  text-align: center;
+}
+
+.little-things h3, 
+.big-things h3
+{
+  margin: 0;
+  line-height: auto;
+}
+
+#get_humming, #get_humming_text {
+  height: 100px;
+  text-align: center;
+  display: inline-block;
+  width:100%;
+  height: 100%;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+#get_humming_text {
+  padding: 0;
+}
+
+#humm1, #humm2, #humm3, #humm4, #get_humming_text p
+{
+  text-align: center; 
+  width: 25%; 
+  display: inline-block;
+  float: left;
+}
+
+#get_humm {
+  background-color: #f1f2ee;
+}
+
+#humm1 p, #humm2 p, #humm3 p, #humm4 p
+{
+  font: normal normal 700 normal 25px / 30px ProximaNova, Roboto, sans-serif;
+  color: red;
+}
+
+#take_it_container p {
+  text-align: center;
+  margin: 0;
+  font: normal normal 700 normal 35px / 57.2px ProximaNova, Roboto, sans-serif;
+}
+
+#Menu
+{
+    width: 50%; height: 40px; background-color: blue; margin-left: auto; 
+    margin-right: auto; margin-top: 20px; border-radius: 20px;
+}
+
+
+
   #DIV_4 {
     bottom: 0px;
     color: black;

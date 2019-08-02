@@ -2,7 +2,7 @@
 	<div>
 		<div>
 			<div class="hero-text">
-				<h2>Sliiiice!</h2>
+				<h2>Humm!</h2>
 				<p><strong><span>Pay in sliiiices.&nbsp;No interest ever.</span></strong><br>
 					Here's how.
 				</p>
@@ -17,39 +17,66 @@
 <div class="things-container">
 	<div class="little-things">
 		<div>
-			<div>
+			<div class="white_img">
 				<picture>
-				<img src="/sites/default/files/styles/icon_extra_large_xs/public/2019-04/Humm_MouseWhite.png?itok=GK4k-oDt" alt="little things" typeof="foaf:Image" class="img-responsive">
+				<img src="img/index/Humm_MouseWhite.png" alt="big things" typeof="foaf:Image" class="img-responsive">
 				</picture>
 			</div>
 			<div>
-				<h3><strong>Buy 'Little things'</strong></h3>
-				<ul>
-					<li>Apply for up&nbsp;to <strong>$2,000</strong></li>
-					<li>Repay in <strong>5 or 10 slices</strong> weekly or fortnightly</li>
-					<li>Repay and free up your balance to <strong>spend again</strong></li>
-				</ul>
+				<h3><strong>Buy 'Little things'.</strong></h3>
+				<div>
+					<p>Up to $2,000 and chose to repay fortnightly in 5 or 10 slices - that's over 2.5 or 5 months.</p>
+				</div>
 			</div>
 		</div>
 	</div>
 	<div class="big-things">
 		<div>
-			<div>
+			<div class="white_img">
 				<picture>
-				<img src="/sites/default/files/styles/icon_extra_large_xs/public/2019-04/Humm_ElephantWhite.png?itok=QJcKco5t" alt="big things" typeof="foaf:Image" class="img-responsive">
+				<img src="img/index/Humm_ElephantWhite.png" alt="big things" typeof="foaf:Image" class="img-responsive">
 				</picture>
 			</div>
 			<div>
-				<h3><strong>Buy 'Big things'</strong></h3>
-				<ul>
-					<li>Get pre approval up to <strong>$10,000</strong></li>
-					<li>Apply instore for up to <strong>$30,000</strong> depending on what you buy and where you shop</li>
-					<li>Repay over 6, 12, 24 months all the&nbsp;way up to <strong>60 months</strong>.</li>
-				</ul>
+				<h3><strong>Buy 'Big things'.</strong></h3>
+				<div>
+					<p>Up to $30,000 and up to 50 months to pay wiht no interest ever.</p>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
+<div id="take_it_container">
+	<p>Take it today and take time to pay - with no interest, ever</p>
+</div>
+
+
+<div id="get_humm">
+
+		<div id="get_humming">
+				<div id="humm1">
+					<img src="img/index/shopnow.png">
+				</div>
+				<div id="humm2">
+					<img src="img/index/signup.png">
+				</div>
+				<div id="humm3">
+					<img src="img/index/download.png">
+				</div>
+				<div id="humm4">
+					<img src="img/index/pay_in_slices.png">
+				</div>
+			</div>
+			<div id="get_humming_text">
+				<p>Shop now</p>
+				<p>Sign up</p>
+				<p>Get the app</p>
+				<p>Pay in slices</p>
+			</div>
+
+
+</div>
+
 
 <div id="DIV_1">
 			<div id="DIV_4">
