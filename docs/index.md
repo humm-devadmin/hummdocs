@@ -47,34 +47,37 @@
 	</div>
 </div>
 <div id="take_it_container">
-	<p>Take it today and take time to pay - with no interest, ever</p>
+	<p>Take it today and take time to pay - with no interest, ever.</p>
 </div>
 
 
 <div id="get_humm">
-
-		<div id="get_humming">
-				<div id="humm1">
-					<img src="img/index/shopnow.png">
-				</div>
-				<div id="humm2">
-					<img src="img/index/signup.png">
-				</div>
-				<div id="humm3">
-					<img src="img/index/download.png">
-				</div>
-				<div id="humm4">
-					<img src="img/index/pay_in_slices.png">
-				</div>
+	<div id="get_humming">
+			<div id="humm1">
+				<img src="img/index/shopnow.png">
 			</div>
-			<div id="get_humming_text">
-				<p>Shop now</p>
-				<p>Sign up</p>
-				<p>Get the app</p>
-				<p>Pay in slices</p>
+			<div id="humm2">
+				<img src="img/index/signup.png">
 			</div>
-
-
+			<div id="humm3">
+				<img src="img/index/download.png">
+			</div>
+			<div id="humm4">
+				<img src="img/index/pay_in_slices.png">
+			</div>
+		</div>
+		<div id="get_humming_text">
+			<p>Shop now</p>
+			<p>Sign up</p>
+			<p>Get the app</p>
+			<p>Pay in slices</p>
+		</div>
+		<div id="get_humming_subtext">
+			<p>Say I'll humm it when you pay</p>
+			<p>Fast approval</p>
+			<p>From the App Store or Google Play</p>
+			<p>Fortnightly payments</p>
+		</div>
 </div>
 
 

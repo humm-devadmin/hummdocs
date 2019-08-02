@@ -51,25 +51,31 @@
   line-height: auto;
 }
 
-#get_humming, #get_humming_text {
+#get_humming, #get_humming_text, #get_humming_subtext {
   height: 100px;
   text-align: center;
   display: inline-block;
   width:100%;
   height: 100%;
+}
+
+#get_humming {
   padding: 1.5rem 0 1.5rem 0;
 }
 
 #get_humming_text {
+  font: normal normal 700 normal 30px / 30px ProximaNova, Roboto, sans-serif;
+  letter-spacing: -1px;
   padding: 0;
 }
 
-#humm1, #humm2, #humm3, #humm4, #get_humming_text p
+#humm1, #humm2, #humm3, #humm4, #get_humming_text p, #get_humming_subtext p
 {
   text-align: center; 
   width: 25%; 
   display: inline-block;
   float: left;
+  margin: 0;
 }
 
 #get_humm {
@@ -80,6 +86,10 @@
 {
   font: normal normal 700 normal 25px / 30px ProximaNova, Roboto, sans-serif;
   color: red;
+}
+
+#take_it_container {
+  padding: 1.2rem;
 }
 
 #take_it_container p {
