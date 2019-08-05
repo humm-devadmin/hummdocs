@@ -3,13 +3,13 @@
 		<div>
 			<div class="hero-text">
 				<h2>Humm!</h2>
-				<p><strong><span>Pay in sliiiices.&nbsp;No interest ever.</span></strong><br>
-					Here's how.
+				<p><strong>Little things. Big things.</strong><br>
+					<strong>Everything.</strong> No interest ever.
 				</p>
 			</div>
 		</div>
 	</div>
-	<div>
+	<div id="elephant-img">
 		<img src="img/index/Humm_header_how_0.png">
 	</div>
 </div>

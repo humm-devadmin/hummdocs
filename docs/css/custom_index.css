@@ -2,13 +2,40 @@
 .region-hero-banner {
   width: 100%;
   background-color: #C8BDA4;
+  padding: 2rem;
+  position: relative;
+}
 
+#elephant-img {
+  text-align: right;
+}
+
+
+
+#elephant-img img {
+  width: 25rem;
+}
+
+.hero-text {
+  position: absolute;
 }
 
 .hero-text h2 {
     color: rgb(255, 255, 255);
     letter-spacing: -4px;
     font: normal normal 800 normal 145.6px / 116.48px ProximaNova, Roboto, sans-serif;
+}
+
+.hero-text p {
+  -webkit-tap-highlight-color: transparent;
+font-family: ProximaNova,Roboto,sans-serif;
+word-break: break-word;
+text-align: left;
+color: #fff;
+line-height: 1em;
+font-size: 1.82em;
+box-sizing: border-box;
+display: inline;
 }
 
 .things-container {
