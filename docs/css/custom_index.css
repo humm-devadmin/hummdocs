@@ -107,6 +107,11 @@ display: inline;
 
 #humm1, #humm2, #humm3, #humm4 {
   text-align: center;
+  width: 8%;
+  margin-right: 8.5%;
+  margin-left: 8.5%;
+  display: flex;
+  align-items: center;
 }
 
 #get_humm {

@@ -54,10 +54,10 @@
 <div id="get_humm">
 	<div id="get_humming">
 			<div id="humm1">
-				<img src="img/index/shopnow.png">
+				<img src="img/index/shopnow.svg">
 			</div>
 			<div id="humm2">
-				<img src="img/index/signup.png">
+				<img src="img/index/signup.svg">
 			</div>
 			<div id="humm3">
 				<img src="img/index/download.png">
