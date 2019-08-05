@@ -6,13 +6,11 @@
   position: relative;
 }
 
-#elephant-img {
+#elephant_img {
   text-align: right;
 }
 
-
-
-#elephant-img img {
+#elephant_img img {
   width: 25rem;
 }
 
@@ -115,6 +113,12 @@ display: inline;
   display: inline-block;
   float: left;
   margin: 0;
+}
+
+#get_humming_text p {
+  line-height: 1.1em;
+  font-size: 1.2em;
+  font-weight: 800;
 }
 
 #humm1, #humm2, #humm3, #humm4 {
