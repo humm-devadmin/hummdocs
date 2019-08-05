@@ -73,7 +73,7 @@
 			<p>Pay in slices</p>
 		</div>
 		<div id="get_humming_subtext">
-			<p>Say I'll humm it when you pay</p>
+			<p>Say I'll humm it<br>when you pay</p>
 			<p>Fast approval</p>
 			<p>From the App Store or Google Play</p>
 			<p>Fortnightly payments</p>

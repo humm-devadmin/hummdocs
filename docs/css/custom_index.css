@@ -78,6 +78,10 @@
   margin: 0;
 }
 
+#humm1, #humm2, #humm3, #humm4 {
+  text-align: center;
+}
+
 #get_humm {
   background-color: #f1f2ee;
 }
@@ -141,7 +145,6 @@
   }/*#DIV_5*/
   
   #H1_6 {
-    
     color: black;
     height: 57px;
     text-align: center;
@@ -157,6 +160,8 @@
     font: normal normal 700 normal 52px / 57.2px ProximaNova, Roboto, sans-serif;
     margin: 26px 0px 13px;
     outline: rgb(51, 51, 51) none 0px;
+    padding: 0;
+    margin: 0;
   }/*#H1_6*/
   
   #SPAN_7 {
