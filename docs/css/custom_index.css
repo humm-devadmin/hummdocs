@@ -27,7 +27,7 @@
 }
 
 .hero-text p {
-  -webkit-tap-highlight-color: transparent;
+font-weight: 300;
 font-family: ProximaNova,Roboto,sans-serif;
 word-break: break-word;
 text-align: left;
@@ -38,25 +38,37 @@ box-sizing: border-box;
 display: inline;
 }
 
-.things-container {
-  padding: 2rem 1rem;
+#things_container {
   color: white;
-  background-color: red;
   display: inline-block;
   background-color: red;
   width: 100%;
-  background-color: #ff6900; 
+  background-color: #ff6900;
+  padding: 1rem;
 }
 
-.little-things {
+#images {
+  text-align: center;
+}
+
+.little-things, .little_img {
   float: left;
-  width: 50%
+  width: 50%;
 }
 
-.big-things {
+.little_img img {
+  display: inline-block;
+  vertical-align: middle; 
+}
+
+.little_img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.big-things, .big_img {
   float: right;
   width: 50%;
-  line-height: 1rem;
 }
 
 .little-things li, .big-things li {

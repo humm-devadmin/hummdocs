@@ -9,43 +9,36 @@
 			</div>
 		</div>
 	</div>
-	<div id="elephant-img">
+	<div id="elephant_img">
 		<img src="img/index/Humm_header_how_0.png">
 	</div>
 </div>
 
-<div class="things-container">
-	<div class="little-things">
-		<div>
-			<div class="white_img">
-				<picture>
-				<img src="img/index/Humm_MouseWhite.png" alt="big things" typeof="foaf:Image" class="img-responsive">
-				</picture>
-			</div>
-			<div>
-				<h3><strong>Buy 'Little things'.</strong></h3>
-				<div>
-					<p>Up to $2,000 and chose to repay fortnightly in 5 or 10 slices - that's over 2.5 or 5 months.</p>
-				</div>
-			</div>
+<div id="things_container">
+	<div id="images">
+		<div class="little_img">
+			<img src="img/index/Humm_MouseWhite.png" alt="big things" typeof="foaf:Image" class="img-responsive">
+		</div>
+		<div class="big_img">
+			<img src="img/index/Humm_ElephantWhite.png" alt="big things" typeof="foaf:Image" class="img-responsive">
 		</div>
 	</div>
-	<div class="big-things">
-		<div>
-			<div class="white_img">
-				<picture>
-				<img src="img/index/Humm_ElephantWhite.png" alt="big things" typeof="foaf:Image" class="img-responsive">
-				</picture>
-			</div>
+	<div id="text">
+		<div class="little-things">
+			<h3><strong>Buy 'Little things'.</strong></h3>
 			<div>
-				<h3><strong>Buy 'Big things'.</strong></h3>
-				<div>
-					<p>Up to $30,000 and up to 50 months to pay wiht no interest ever.</p>
-				</div>
+				<p>Up to $2,000 and chose to repay fortnightly in 5 or 10 slices - that's over 2.5 or 5 months.</p>
+			</div>
+		</div>
+		<div class="big-things">
+			<h3><strong>Buy 'Big things'.</strong></h3>
+			<div>
+				<p>Up to $30,000 and up to 50 months to pay wiht no interest ever.</p>
 			</div>
 		</div>
 	</div>
 </div>
+
 <div id="take_it_container">
 	<p>Take it today and take time to pay - with no interest, ever.</p>
 </div>
