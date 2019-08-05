@@ -13,7 +13,7 @@ Insert the script where you want the price-info widget to display replacing <cod
 * [Magetno 1](/widgets/price-info/magento_1)
 * [OpenCart 3](/widgets/price-info/opencart_3)
 
-## Widget behavior
+## Widget behaviour
 
 There are three different types of price-info widgets depending on whether your **humm** account supports only **'Little things'**, only **'Big Things'** or **both**. See table below for possible bevahiours.
 
@@ -23,7 +23,7 @@ There are three different types of price-info widgets depending on whether your 
 | **Big Things Only** | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&BigOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500&BigOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000&BigOnly"></script> |
 | **Little Things Only** | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500&LittleOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000&LittleOnly"></script> |
 
-This behavior effects all price-info widgets, including the dynamic price-info widget.
+This behaviour effects all price-info widgets, including the dynamic price-info widget.
 
 ### 'Little things' only
 
