@@ -30,6 +30,11 @@ nav:
       - On Shopify: widgets/price-info/shopify.md
       - On Magento 1: widgets/price-info/magento_1.md 
       - On OpenCart 3: widgets/price-info/opencart_3.md
+   - Banners: widgets/banners.md
+   - Landing Pages: 
+      - Introduction: widgets/landing_pages/introduction.md
+      - Little Things Online: widgets/landing_pages/little_things_online.md
+      - Little Things Instore: widgets/landing_pages/little_things_instore.md
 - Developer Resources:
    - Introduction: developer_resources/introduction.md
    - Checkout Process: developer_resources/checkout_process.md

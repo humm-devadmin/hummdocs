@@ -115,6 +115,7 @@ i.md-icon {
   vertical-align: middle;
 }
 
+
 /* ----------------------------- */
 /* MKDocs Material Theme - END   */
 /* ----------------------------- */
@@ -164,9 +165,7 @@ i.md-icon {
     padding: 0.4045em 2.427em;
 }
 
-.wy-menu-vertical .toctree-l1 > ul.subnav > li.current {
-    /*background: transparent;*/
-}
+
 
 .wy-menu-vertical li ul.subnav ul.subnav {
     padding-left: 0;

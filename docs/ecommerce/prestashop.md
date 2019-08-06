@@ -53,4 +53,4 @@ Gateway URL | Leave blank
 
 ![14.png](/img/ecommerce/prestashop/14.png)
 
-4 - Install the new version of humm, see [Installing the Plugin](#installing-humm).
+4 - Install the new version of humm, see [Install the Plugin](#install-the-plugin).
