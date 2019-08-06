@@ -2,15 +2,14 @@
 
 
 <div class="region-hero-banner" style="background-color: #C8BDA4">
-	<div>
-		<div>
-			<div class="hero-text">
-				<h2>Humm!</h2>
-				<p><strong>Little things. Big things.</strong><br>
-					<strong>Everything.</strong> No interest ever.
-				</p>
-			</div>
-		</div>
+<div id="logo">
+		<img src="img/index/humm-logo.png">
+</div>
+	<div class="hero-text">
+		<h2>Humm!</h2>
+		<p><strong>Little things. Big things.</strong><br>
+			<strong>Everything.</strong> No interest ever.
+		</p>
 	</div>
 	<div id="elephant_img">
 		<img src="img/index/Humm_header_how_0.png">

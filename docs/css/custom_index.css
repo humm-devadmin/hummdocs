@@ -37,6 +37,7 @@
 
 .hero-text {
   position: absolute;
+  bottom: 6rem;
 }
 
 .hero-text h2 {
@@ -124,6 +125,11 @@ display: inline;
   display: inline-block;
   width:100%;
   height: 100%;
+}
+
+#logo img {
+  width: 4rem;
+  float: left;
 }
 
 #get_humm {
