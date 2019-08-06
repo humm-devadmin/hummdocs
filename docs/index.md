@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="css/custom_index.css">
+
+
 <div class="region-hero-banner" style="background-color: #C8BDA4">
 	<div>
 		<div>
@@ -258,3 +261,7 @@
 				</div>
 			</div>
 </div>
+
+<p id="footer">
+	*Purchases need to be over $500 for a 5 month payment plan. ^Charged at the first of the month. If a monthly fee is missed it will be picked up in the next Direct Debit cycle.
+</p>
