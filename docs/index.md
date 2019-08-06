@@ -35,7 +35,7 @@
 		<div class="big-things">
 			<h3><strong>Buy 'Big things'.</strong></h3>
 			<div>
-				<p>Up to $30,000 and up to 50 months to pay with no interest ever.</p>
+				<p>Up to $30,000 and up to 60 months to pay with no interest ever.</p>
 			</div>
 		</div>
 	</div>
