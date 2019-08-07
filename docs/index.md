@@ -42,7 +42,7 @@
 </div>
 
 <div id="take_it_container">
-	Take it today and take time to pay – with no interest, ever<sup>1</sup>.
+	Take it today and take time to pay – with no interest, ever<sup>3</sup>.
 </div>
 
 
@@ -137,7 +137,7 @@
 				</div>
 				<div class="row_cell multiline_cell">
 					<b>2.5 months</b> - 5 fortnightly, 10 weekly,<br>
-					<b>5 months*</b> - 10 fortnightly or 20
+					<b>5 months<sup>1</sup></b> - 10 fortnightly or 20
 					weekly (instore only)
 				</div>
 				<div class="row_cell">
@@ -149,10 +149,10 @@
 					Deposit Required at <br>Time of Purchase
 				</div>
 				<div class="row_cell">
-					Yes (waived for VIPs)
+					Yes (waived for VIPs<sup>4</sup>)
 				</div>
 				<div class="row_cell">
-					Yes (waived for VIPs next purchase)
+					Yes (waived for VIPs<sup>4</sup> next purchase)
 				</div>
 			</div>
 			<div class="row">
@@ -205,10 +205,10 @@
 				</div>
 				<div class="row_cell multiline_cell">
 					$0 for 2.5 month plans<br>
-					$8 for 5 month plans*
+					$8 for 5 month plans<sup>1</sup>
 				</div>
 				<div class="row_cell">
-					$8^
+					$8<sup>2</sup>
 				</div>
 			</div>
 			<div class="row">
@@ -227,5 +227,7 @@
 </div>
 
 <p id="footer">
-	*Purchases need to be over $500 for a 5 month payment plan. ^Charged at the first of the month. If a monthly fee is missed it will be picked up in the next Direct Debit cycle.
+	<strong>1</strong> Purchases need to be over $500 for a 5 month payment plan. <strong>2</strong> Charged at the first of the month. If a monthly fee is missed it will be picked up in the next Direct Debit cycle.
+	<strong>3</strong> Payment plan to approved applicants only; fees, terms, conditions, minimum amounts and exclusions apply. Payment plan provided by Certegy Ezi-Pay Pty Ltd ABN 28 129 228 986.
+	<strong>4</strong> VIPs have used humm and qualify for special offers like no deposit.
 </p>
