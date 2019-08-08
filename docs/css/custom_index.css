@@ -13,12 +13,21 @@
 }
 
 #footer {
-  font-size: 0.95em;
+  font-size: 0.88em;
   padding-bottom: 3rem;
   padding-right: 3rem;
   padding-left: 1rem;
   font-family: Roboto,sans-serif;
 }
+
+#footer strong {
+  font-size: initial;
+}
+
+sup {
+  font-size: 0.7rem;
+}
+
 
 .region-hero-banner {
   width: 100%;
@@ -34,6 +43,7 @@
 #elephant_img img {
   width: 25rem;
 }
+
 
 .hero-text {
   position: absolute;
@@ -138,7 +148,7 @@ display: inline;
 }
 
 #get_humming_text {
-  font: normal normal 700 normal 30px / 30px Roboto, sans-serif;
+  font: normal normal 700 normal 1.5rem / 1rem Roboto, sans-serif;
   padding-top: 1rem;
 }
 
@@ -247,7 +257,7 @@ display: inline;
   }
   
 .row_heading {
-    font: normal normal 800 normal 24px / 26.4px Roboto, sans-serif;
+    font: normal normal 800 normal 1.2rem Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
     padding: 0rem 1rem 0rem 0rem;
     width: 4rem;
@@ -261,13 +271,10 @@ display: inline;
 
 
 .row_cell {
-    
     color: black;
     text-align: center;
-    flex: 1 1 0%;
     font: normal normal 300 normal 24px / 26.4px Roboto, sans-serif;
   }
-
 
 #DIV_4 * {
   width: 100% !important;
@@ -277,13 +284,7 @@ display: inline;
   width: auto !important;
 }
 
-@media only screen and (max-width: 750px) {
-    #DIV_10 * {
-        font-size: 1em !important;
-    }
 
-
-}
 
 .md-content {
     height: 100% !important;
