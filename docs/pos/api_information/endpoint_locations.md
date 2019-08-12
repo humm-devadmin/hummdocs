@@ -1,4 +1,4 @@
-### Endpoint Locations
+# Endpoint Locations
 
 Environment<br/>Classification | Communication<br/>Protocol | Version | URL
 ----------|----------|----------|----------

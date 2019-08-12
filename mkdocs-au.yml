@@ -38,7 +38,6 @@ nav:
    # - Sample cURL Script: developer_resources/sample_curl.md
    - Signature Generation: developer_resources/signature_generation.md
 - POS:
-   - Introduction: 'pos/index.md'
    - Ubiquitous Language: 'pos/ubiquitous_language.md'
    - Getting Started: 'pos/getting-started.md'
    - Processes:
@@ -88,6 +87,7 @@ extra_css: [css/jquery.modal.min.css, css/custom.css]
 extra_javascript: [js/jquery.modal.js]
 extra:
    domain: shophumm.com.au
+   email: pit@shophumm.com.au
    domain_postfix: .com.au
    currency_abbr: AUD
    country_abbr: AU

@@ -1,4 +1,4 @@
-<h3>Statuses and codes</h3>
+# Statuses and codes
 
 There are 3 unique statuses as follows:
 

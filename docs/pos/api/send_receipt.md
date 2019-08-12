@@ -2,7 +2,7 @@ Requests to this API should only be made when a temporary value is used as the *
 
 **Method:** *SendReceipt*
 
-<h3>Request</h3>
+## Request
 
 Parameter | Type | Length | Description
 ----------|------|--------|------------
@@ -15,7 +15,7 @@ x_receipt_number | Unicode string | 64 | This must be the same reference (x_pos_
 tracking_data <code class="optional">optional</code> | Associative array | Max 1000000 | A map that can be populated with additional tracking/state information that will get passed back in the response
 signature | Hex string case-insensitive | 200 | Payload that is signed using HMAC-SHA256 using a device specific key
 
-<h3>Response</h3>
+## Response
 
 Parameter | Type | Description
 -----------|------|-------------
@@ -25,9 +25,9 @@ x_message | Unicode string | A string explaining the status/code above.
 tracking_data | Associative array | Echoes tracking_data sent on the request
 signature | Hex string case-insensitive | Payload that is signed using HMAC-SHA256 using a device specific key
 
-<h3>Testing</h3>
+## Testing
 
-The following describes dummy API requests that return a predictable response. Please contact <a href="mailto:%email%">%email%</a> to get access to the test/dummy APIs.
+The following describes dummy API requests that return a predictable response. Please contact <a href="mailto:pit@%domain%">pit@%domain%</a> to get access to the test/dummy APIs.
 
 Request -> x_receipt_number | Response -> x_status | Response -> x_code
 -----------|-----------|-----------
@@ -38,8 +38,6 @@ Request -> x_receipt_number | Response -> x_status | Response -> x_code
 31###### | Error | EAUT01
 any other value | Error | EISE01
 
-<span style="color:grey;"><b>#</b> signifies an alphanumeric digit</span>
+> <b>#</b> signifies an alphanumeric digit
 
-**Testing Assumptions**
-
-* To generate the signature, use a device-signing-key of "1234567890". A invalid signature will cause an ESIG01 Error.
+> <b>Testing Assumptions</b> To generate the signature, use a device-signing-key of "1234567890". A invalid signature will cause an ESIG01 Error.
