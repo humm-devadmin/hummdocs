@@ -14,10 +14,10 @@ The merchant-initiated flow is a two step process. The first part involves the P
 
 
 <strong>Step 1</strong>
-<img src="/img/flows/cust-init-1.png" alt="humm Merchant Initiated Flow">
+<img src="/img/pos/flows/cust-init-1.png" alt="humm Merchant Initiated Flow">
 
 ---
 
 <strong>Step 2</strong>
 
-<p style="text-align: center;"><img src="/img/flows/cust-init-2.png" alt="humm Customer Initiated Flow"></p>
+<p style="text-align: center;"><img src="/img/pos/flows/cust-init-2.png" alt="humm Customer Initiated Flow"></p>

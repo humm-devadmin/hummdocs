@@ -2,7 +2,7 @@
 
 The flow diagram below shows the process of registering/initialising a POS device with **humm**.
 
-<img src="/img/flows/device-initialisation.png" alt="Device Initialisation">
+<img src="/img/pos/flows/device-initialisation.png" alt="Device Initialisation">
 
 All API requests and responses are signed using <a href="https://en.wikipedia.org/wiki/Hash-based_message_authentication_code">HMAC-SHA256</a>. The message authentication code (MAC) is hashed using SHA256 and a secret cryptographic key. Each individual device (e.g. a POS terminal) has its own secret cryptographic key with which to generate digital signatures. No other device will be able to produce a matching HMAC unless it also knows the original devices secret key. These device specific cryptographic keys are known as 'device-signing-keys'.
 
