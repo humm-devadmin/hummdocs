@@ -38,11 +38,11 @@ nav:
    # - Sample cURL Script: developer_resources/sample_curl.md
    - Signature Generation: developer_resources/signature_generation.md
 - POS:
-   - Ubiquitous Language: 'pos/ubiquitous_language.md'
+   - Terminology: 'pos/terminology.md'
    - Getting Started: 'pos/getting-started.md'
-   - Processes:
-      - Customer Initiated Flow: 'pos/process/customer_initiated_flow.md'
-      - Sales Adjustment: 'pos/process/sales_adjustment.md'
+   - Flows:
+      - Customer Initiated Flow: 'pos/flows/customer_initiated_flow.md'
+      - Sales Adjustment: 'pos/flows/sales_adjustment.md'
    - API Reference: 
       - Create Key: 'pos/api/create_key.md'
       - Invite: 'pos/api/invite.md'
@@ -87,7 +87,6 @@ extra_css: [css/jquery.modal.min.css, css/custom.css]
 extra_javascript: [js/jquery.modal.js]
 extra:
    domain: shophumm.com.au
-   email: pit@shophumm.com.au
    domain_postfix: .com.au
    currency_abbr: AUD
    country_abbr: AU
@@ -102,3 +101,6 @@ extra:
    signature_for_curl: 5390d3249610b40b146ada45d46493895dbad0e7ca05daa7df42e6bd0cfc203f
    payment_desc: ''
    max_purchase: 2100
+markdown_extensions:
+  - codehilite
+      linenums: true

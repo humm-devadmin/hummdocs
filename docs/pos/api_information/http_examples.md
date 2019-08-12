@@ -7,7 +7,7 @@
 Used to obtain a device-signing-key using the shared private key. The device-signing-key can then be used to digitally sign all subsequent messages. See <a href="/api/create_key/">Create Key</a> for more information.
 
 *Sample JSON request:*
-```
+```json
 {
    "x_merchant_id": "30299999",
    "x_device_id": "d555",
@@ -20,7 +20,7 @@ Used to obtain a device-signing-key using the shared private key. The device-sig
 ```
 
 *Sample JSON reponse:*
-```
+```json
 {
    "x_key": "dy33vQhksVsv",
    "x_status": "Success",
@@ -38,7 +38,7 @@ Used to obtain a device-signing-key using the shared private key. The device-sig
 Processes an authorisation to finalise the transaction. See <a href="/api/process_authorisation/">Process Authorisation</a> for more information.
 
 *Sample JSON request:*
-```
+```json
 {
    "x_merchant_id": "30299999",
    "x_device_id": "d555",
@@ -54,7 +54,7 @@ Processes an authorisation to finalise the transaction. See <a href="/api/proces
 ```
 
 *Sample JSON reponse:*
-```
+```json
 {
    "x_status": "Success",
    "x_code": "SPRA01",
@@ -71,7 +71,7 @@ Processes an authorisation to finalise the transaction. See <a href="/api/proces
 Initiates a request that will send an invite to the customer to Login or Register with `humm` so that they can get a pre-approval code. See <a href="/api/invite/">Invite</a> for more information.
 
 *Sample JSON request:*
-```
+```json
 {
    "x_merchant_id": "30299999",
    "x_device_id": "d555",
@@ -84,7 +84,7 @@ Initiates a request that will send an invite to the customer to Login or Registe
 ```
 
 *Sample JSON reponse:*
-```
+```json
 {
    "x_status": "Success",
    "x_code": "SINV01",
@@ -101,7 +101,7 @@ Initiates a request that will send an invite to the customer to Login or Registe
 See <a href="/api/send_receipt/">Send Receipt</a> for more information.
 
 *Sample JSON request:*
-```
+```json
 {
    "x_merchant_id": "30299999",
    "x_device_id": "d555",
@@ -114,7 +114,7 @@ See <a href="/api/send_receipt/">Send Receipt</a> for more information.
 ```
 
 *Sample JSON reponse:*
-```
+```json
 {
    "x_status": "Success",
    "x_code": "SSER01",
@@ -131,7 +131,7 @@ See <a href="/api/send_receipt/">Send Receipt</a> for more information.
 Used to process a Sales Adjustment as the point-of-sale. See <a href="/api/process_sales_adjustment/">Process Sales Adjustment</a> for more information.
 
 *Sample JSON request:*
-```
+```json
 {
    "x_pos_transaction_ref": "tnx-ref1",
    "x_purchase_ref": "123456789",
@@ -145,7 +145,7 @@ Used to process a Sales Adjustment as the point-of-sale. See <a href="/api/proce
 ```
 
 *Sample JSON reponse:*
-```
+```json
 {
    "x_status": "Failed",
    "x_code": "FPSA05",
@@ -162,7 +162,7 @@ Used to process a Sales Adjustment as the point-of-sale. See <a href="/api/proce
 Used to process a Sales Adjustment as the point-of-sale. See <a href="/api/process_adjustment_reversal/">Process Sales Adjustment Reversal</a> for more information.
 
 *Sample JSON request:*
-```
+```json
 {
    "x_pos_transaction_ref": "tnx-rev1",
    "x_adjustment_signature": "ce20e2f1a9fe0d92b3d021ba7f1b372b006778cfab5fc4c09efa60a6d910c471",
@@ -175,7 +175,7 @@ Used to process a Sales Adjustment as the point-of-sale. See <a href="/api/proce
 ```
 
 *Sample JSON reponse:*
-```
+```json
 {
    "x_status": "Failed",
    "x_code": "FPSA05",
