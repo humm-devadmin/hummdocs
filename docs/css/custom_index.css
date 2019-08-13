@@ -53,7 +53,7 @@ sup {
 .hero-text h2 {
     color: rgb(255, 255, 255);
     letter-spacing: -4px;
-    font: normal normal 800 normal 145.6px / 116.48px Roboto, sans-serif;
+    font: normal normal 800 normal 4.5rem / 3rem Roboto, sans-serif;
 }
 
 .hero-text p {
@@ -273,7 +273,7 @@ display: inline;
 .row_cell {
     color: black;
     text-align: center;
-    font: normal normal 300 normal 24px / 26.4px Roboto, sans-serif;
+    font: normal normal 300 normal 1rem / 1rem Roboto, sans-serif;
   }
 
 #DIV_4 * {
