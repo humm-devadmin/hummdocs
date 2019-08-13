@@ -11,7 +11,7 @@ In order to implement this you will need to:
 
 ## 1. Initialise the POS terminal / device
 
-* Login to the [Seller Portal](https://integration-seller.%domain%/#/login)
+* Login to the [Test Seller Portal](https://integration-seller.%domain%/#/login)
 * Generate a POS Device Token from the Menu.
 * *Initialise the POS device*
    
@@ -20,7 +20,7 @@ In order to implement this you will need to:
 
 * Generate a test barcode [here](https://integration-cart.shophumm.com.au/barcode) using a test customer account
 
-If you do not have a test customer account please contact <a href="mailto:pit@%domain%">pit@%domain%</a>
+If you do not have a test credentials please contact <a href="mailto:pit@%domain%">pit@%domain%</a>
 
 
 
