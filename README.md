@@ -32,7 +32,7 @@ The differences are contained in the mkdocs config files (mkdocs-au.yml and mkdo
 
 * You can create a branch for your changes.
 
-        git checkout -b new-thing
+        git checkout -b new-branch-name
 
 * Make your changes to the documentation.
 * Run the web-application locally:  
