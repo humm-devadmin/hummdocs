@@ -38,8 +38,8 @@ nav:
    # - Sample cURL Script: developer_resources/sample_curl.md
    - Signature Generation: developer_resources/signature_generation.md
 - POS Integration:
-   - Terminology: 'pos/terminology.md'
    - Getting Started: 'pos/getting-started.md'
+   - Terminology: 'pos/terminology.md'
    - Flows:
       - Customer Initiated Flow: 'pos/flows/customer_initiated_flow.md'
       - Sales Adjustment: 'pos/flows/sales_adjustment.md'
