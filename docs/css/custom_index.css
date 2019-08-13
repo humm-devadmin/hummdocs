@@ -257,7 +257,7 @@ display: inline;
   }
   
 .row_heading {
-    font: normal normal 800 normal 1.2rem Roboto, sans-serif;
+    font: normal normal 800 normal 1rem Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
     padding: 0rem 1rem 0rem 0rem;
     width: 4rem;
