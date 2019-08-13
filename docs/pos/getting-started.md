@@ -9,16 +9,16 @@ Your POS integration for **humm** will need to support the following customer ex
 
 In order to implement this you will need to: 
 
-## Initialise the POS terminal / device
+## 1. Initialise the POS terminal / device
 
-1. Login to the [Seller Portal](https://integration-seller.%domain%/merchantarea#/login) using your Merchant Id and Password: 
-2. You will need to generate a POS Device Token from the Menu.
-3. *Initialise the POS device*
+* Login to the [Seller Portal](https://integration-seller.%domain%/#/login)
+* Generate a POS Device Token from the Menu.
+* *Initialise the POS device*
    
 
-## Setup a Customer
+## 2. Setup a Customer
 
-1. Generate a test barcode [here](https://integration-cart.shophumm.com.au/barcode) using a test customer account
+* Generate a test barcode [here](https://integration-cart.shophumm.com.au/barcode) using a test customer account
 
 If you do not have a test customer account please contact <a href="mailto:pit@%domain%">pit@%domain%</a>
 

@@ -20,7 +20,7 @@ signature | Hex string case-insensitive | 200 | Payload that is signed using HMA
 Parameter | Type | Description
 -----------|------|-------------
 x_status | Unicode string | Success/Failure/Error
-x_code | Unicode string | A code that maps to a <a href="/api_information/status_codes/">specific reason</a>
+x_code | Unicode string | A code that maps to a <a href="/pos/api_information/status_codes/">specific reason</a>
 x_message | Unicode string | A string explaining the status/code above. 
 tracking_data | Associative array | Echoes tracking_data sent on the request
 signature | Hex string case-insensitive | Payload that is signed using HMAC-SHA256 using a device specific key

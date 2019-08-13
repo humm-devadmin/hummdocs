@@ -2,7 +2,7 @@
 
 ## Process Authorisation
 
-On calls to the ProcessAuthorisation API, the pre-approval code (as specified by the x_pre_approval_code parameter) is flagged as 'used'. Once used, a pre-approval code can never again be reused to get consumer finance. If an already used pre-approval code is passed through on a seperate call to ProcessAuthorisation (with a different digital-signature to the inital call), a status code of 'FPRA22' (see <a href="/api_information/status_codes/">status codes</a>) will be returned - the Barcode has already been used.
+On calls to the ProcessAuthorisation API, the pre-approval code (as specified by the x_pre_approval_code parameter) is flagged as 'used'. Once used, a pre-approval code can never again be reused to get consumer finance. If an already used pre-approval code is passed through on a seperate call to ProcessAuthorisation (with a different digital-signature to the inital call), a status code of 'FPRA22' (see <a href="/pos/api_information/status_codes/">status codes</a>) will be returned - the Barcode has already been used.
 
 There is one exception to the above; In a timeout scenario (e.g. where the bank takes longer than expected to process the initial payment), the same pre-approval can be passed through in a subsequent retry attempt - as long as the request is exactly the same, that is, with a digital-signature that matches the initial call. In this scenario, the ProcessAuthorisation API will instead return the current authorisation status. It is therefore safe to call the ProcessAuthorisation API using the same pre-approval code (and same message with the same digital-signature) until a status is returned.
 

@@ -4,7 +4,7 @@
 
 <code class="post-icon mr"><b>POST</b></code>`/webapi/v1/CreateKey`
 
-Used to obtain a device-signing-key using the shared private key. The device-signing-key can then be used to digitally sign all subsequent messages. See <a href="/api/create_key/">Create Key</a> for more information.
+Used to obtain a device-signing-key using the shared private key. The device-signing-key can then be used to digitally sign all subsequent messages. See <a href="/pos/api/create_key/">Create Key</a> for more information.
 
 *Sample JSON request:*
 ```json
@@ -35,7 +35,7 @@ Used to obtain a device-signing-key using the shared private key. The device-sig
 
 <code class="post-icon mr"><b><b>POST</b></b></code>`/webapi/v1/ProcessAuthorisation`
 
-Processes an authorisation to finalise the transaction. See <a href="/api/process_authorisation/">Process Authorisation</a> for more information.
+Processes an authorisation to finalise the transaction. See <a href="/pos/api/process_authorisation/">Process Authorisation</a> for more information.
 
 *Sample JSON request:*
 ```json
@@ -68,7 +68,7 @@ Processes an authorisation to finalise the transaction. See <a href="/api/proces
 
 <code class="post-icon mr"><b>POST</b></code>`/webapi/v1/Invite`
 
-Initiates a request that will send an invite to the customer to Login or Register with `humm` so that they can get a pre-approval code. See <a href="/api/invite/">Invite</a> for more information.
+Initiates a request that will send an invite to the customer to Login or Register with `humm` so that they can get a pre-approval code. See <a href="/pos/api/invite/">Invite</a> for more information.
 
 *Sample JSON request:*
 ```json
@@ -98,7 +98,7 @@ Initiates a request that will send an invite to the customer to Login or Registe
 
 <code class="post-icon mr"><b>POST</b></code>`/webapi/v1/SendReceipt`
 
-See <a href="/api/send_receipt/">Send Receipt</a> for more information.
+See <a href="/pos/api/send_receipt/">Send Receipt</a> for more information.
 
 *Sample JSON request:*
 ```json
@@ -128,7 +128,7 @@ See <a href="/api/send_receipt/">Send Receipt</a> for more information.
 
 <code class="post-icon mr"><b>POST</b></code>`/webapi/v1/ProcessSalesAdjustment`
 
-Used to process a Sales Adjustment as the point-of-sale. See <a href="/api/process_sales_adjustment/">Process Sales Adjustment</a> for more information.
+Used to process a Sales Adjustment as the point-of-sale. See <a href="/pos/api/process_sales_adjustment/">Process Sales Adjustment</a> for more information.
 
 *Sample JSON request:*
 ```json
@@ -159,7 +159,7 @@ Used to process a Sales Adjustment as the point-of-sale. See <a href="/api/proce
 
 <code class="post-icon mr"><b>POST</b></code>`/webapi/v1/ProcessSalesAdjustmentReversal`
 
-Used to process a Sales Adjustment as the point-of-sale. See <a href="/api/process_adjustment_reversal/">Process Sales Adjustment Reversal</a> for more information.
+Used to process a Sales Adjustment as the point-of-sale. See <a href="/pos/api/process_adjustment_reversal/">Process Sales Adjustment Reversal</a> for more information.
 
 *Sample JSON request:*
 ```json

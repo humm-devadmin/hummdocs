@@ -37,7 +37,7 @@ nav:
    - Refund API: developer_resources/refund_api.md
    # - Sample cURL Script: developer_resources/sample_curl.md
    - Signature Generation: developer_resources/signature_generation.md
-- POS:
+- POS Integration:
    - Terminology: 'pos/terminology.md'
    - Getting Started: 'pos/getting-started.md'
    - Flows:
@@ -102,5 +102,4 @@ extra:
    payment_desc: ''
    max_purchase: 2100
 markdown_extensions:
-   - codehilite:
-      linenums: true
+   - codehilite

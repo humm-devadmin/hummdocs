@@ -13,7 +13,7 @@ Due to the importance of keeping the device-signing-keys out of the wrong hands;
 So what is the process for device initialisation?
 
 1. Retailer provisions a new globally-unique-device-ID (GUDID) from the **humm** merchant portal.
-2. During the setup/initialisation of a new POS terminal; the technician would enter the merchant-ID and the provisioned GUDID, and then perform some action to issue a request to the <a href="/api/create_key/">CreateKey</a> operation. The CreateKey request would be signed with the GUDID.
+2. During the setup/initialisation of a new POS terminal; the technician would enter the merchant-ID and the provisioned GUDID, and then perform some action to issue a request to the <a href="/pos/api/create_key/">CreateKey</a> operation. The CreateKey request would be signed with the GUDID.
 3. **Humm** would return a device-signing-key and flag the GUDID as 'in use' meaning it can ***never*** be used again as a signing-key - essentially the GUDID can only be used as a signing key once.
 4. The POS terminal would securely record the device-signing-key, which will be used to sign all subsequent requests to **humm**.
 
