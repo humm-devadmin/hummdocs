@@ -102,5 +102,5 @@ extra:
    payment_desc: ''
    max_purchase: 2100
 markdown_extensions:
-  - codehilite
+   - codehilite:
       linenums: true
