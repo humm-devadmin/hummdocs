@@ -1,4 +1,4 @@
-This endpoint is used to process a Sales Adjustment at the point-of-sale. See <a href="/pos/flow/sales_adjustment/">Sales Adjustment</a> for more information.
+This endpoint is used to process a Sales Adjustment at the point-of-sale. See <a href="/pos/flows/sales_adjustment/">Sales Adjustment</a> for more information.
 
 **Method:** *ProcessSalesAdjustment*
 
