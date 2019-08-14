@@ -1,4 +1,4 @@
-#Setting up on PrestaShop
+#Integrating on PrestaShop
 
 ## Locate your **humm** Credentials
 
