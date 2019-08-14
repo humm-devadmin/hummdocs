@@ -13,6 +13,8 @@ Below is a PHP example on how you can implement a method for signature generatio
 
 
 ```php
+<?php
+
 function humm_sign($query, $api_key )
 {
     $clear_text = '';
