@@ -1,4 +1,4 @@
-# Setting up **humm** on a CubeCart Store
+#Integrating on CubeCart
 
 This document outlines the steps needed to install **humm** on your CubeCart Store.
 

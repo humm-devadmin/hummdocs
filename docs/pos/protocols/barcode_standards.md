@@ -4,9 +4,8 @@
 
 The length of encoded data is currently 10 digits, which includes 4 static digits, "6199", followed by 6 generated digits. The reason for starting the encoded data with "6199" is so that POS software vendors can make some inferences about barcodes in this format. If a barcode is scanned that starts with "6199" they could assume it's a **humm** payment. Essentially the POS operator could be spared having to do some type of action before scanning the payment barcode saving the POS operator one or more clicks.
 
-<div class="panel">
-<b>Note</b>: <b>Humm</b> reserves the right to change the length of encoded data at any time. For this reason it's strongly advised that POS software integrators do not make any assumptions about barcode lengths.
-</div>
+
+> <b>Humm</b> reserves the right to change the length of encoded data at any time. For this reason we advise POS software integrators not to make assumptions about barcode lengths.
 
 The PROs of 128B are as follows:
 

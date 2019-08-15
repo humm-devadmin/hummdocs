@@ -3,7 +3,7 @@
  - <a href="/pos/api/process_authorisation/">ProcessAuthorisation</a>
  - <a href="/pos/api/invite/">Invite</a>
 
-The merchant-initiated flow occurs when a customer arrives at the POI without a pre-approval code. Ideally, the customer would already have a pre-approval code as the customer-initiated flow is much more streamlined and synchronous*. Every effort should be made by ratailers to funnel customers to the <a href="/pos/flow/customer_initiated_flow/">customer-initiated</a> flow. These efforts might include the following:
+The merchant-initiated flow occurs when a customer arrives at the POI without a pre-approval code. Ideally, the customer would already have a pre-approval code as the customer-initiated flow is much more streamlined and synchronous*. Every effort should be made by ratailers to funnel customers to the <a href="/pos/flows/customer_initiated_flow/">customer-initiated</a> flow. These efforts might include the following:
 
 * **Humm** tags on products that can be read by mobile devices (e.g. QR code) that take customers to the registration screen.
 * Sales people driving customers to register before getting to the POI.

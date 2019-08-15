@@ -1,4 +1,4 @@
-# Magento 1
+#Integrating on Magento 1
 
 ## Locate your **humm** Credentials
 
