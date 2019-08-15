@@ -2,6 +2,8 @@ site_name: humm Documentation (AU)
 site_dir: 'humm-au'
 nav:
 - Home: index.md
+- Request API Key: request_api.md
+# - Integration Assistance: integration_assistance.md
 - E-commerce Integration:
    - Shopify: ecommerce/shopify.md
    - WooCommerce: ecommerce/woocommerce.md
@@ -64,7 +66,6 @@ nav:
       - Device Initialisation: 'pos/security/device_initialisation.md'
       - Signature Generation: 'pos/security/signature_generation.md'
       - Transport Layer Security: 'pos/security/transport_layer_security.md'
-# - Request API Key: request_api.md
 theme: 
   name: null
   custom_dir: material
