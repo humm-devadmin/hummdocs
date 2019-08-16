@@ -6,7 +6,7 @@
 * 2.3.x
 * 3.0.x
 
-##Locate your humm Credentials
+##Locate your **humm** Credentials
 
 To integrate **humm** you will need your
 

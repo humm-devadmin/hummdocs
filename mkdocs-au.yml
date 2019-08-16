@@ -3,7 +3,7 @@ site_dir: 'humm-au'
 nav:
 - Home: index.md
 - Request API Key: request_api.md
-# - Integration Assistance: integration_assistance.md
+- Integration Assistance: integration_assistance.md
 - E-commerce Integration:
    - Shopify: ecommerce/shopify.md
    - WooCommerce: ecommerce/woocommerce.md

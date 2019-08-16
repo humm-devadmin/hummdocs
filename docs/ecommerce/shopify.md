@@ -9,9 +9,9 @@ To integrate **humm** you will need your
 
 ##Integrating **humm**
 
-1 – Email <a href="mailto:pit@%domain%">pit@%domain%</a> with your merchant ID and mobile number for the **humm Gateway Authorisation URL**.
+1 - Fill out online [Request API Key](/docs/request_api) form. We'll email you the **Gateway Authorisation URL**. 
 
-2 - Click on the link we send out, this will prompt you to login to your store.
+2 - Click the link, this will prompt you to login to your store.
 
 3 - Once logged in, click **Install payment provider**.
 

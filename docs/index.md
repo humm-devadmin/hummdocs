@@ -231,4 +231,3 @@
 	<strong>4</strong> VIPs have used humm and qualify for special offers like no deposit.
 </p>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfbYxmvMMiLE1iB5PwL9CT-H_SNuR_6QnQI5-b90peXJvlKwA/viewform?embedded=true" width="640" height="806" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
