@@ -9,7 +9,7 @@ To integrate **humm** you will need your
 
 ##Integrating **humm**
 
-1 - Fill out online [Request API Key](/docs/request_api) form. We'll email you the **Gateway Authorisation URL**. 
+1 - Fill the online [Request API Key Form](/docs/request_api) and we'll email the **Gateway Authorisation URL**. 
 
 2 - Click the link, this will prompt you to login to your store.
 
@@ -26,6 +26,7 @@ To integrate **humm** you will need your
 ![7.png](/img/ecommerce/shopify/7.png)
 
 6 - Enter your **Merchant Number** and **API Key** then click **Save**.
+> Ensure test mode is disbled.
 
 ![8.png](/img/ecommerce/shopify/8.png)
 

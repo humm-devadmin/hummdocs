@@ -94,15 +94,6 @@ display: inline;
   width: 50%;
 }
 
-.little_img img {
-  display: inline-block;
-  vertical-align: middle; 
-}
-
-.little_img {
-  display: inline-block;
-  vertical-align: middle;
-}
 
 .big-things, .big_img {
   float: right;
@@ -159,6 +150,10 @@ display: inline;
   padding-top: 1rem;
 }
 
+#get_humming {
+  display: flex;
+}
+
 #humm1, #humm2, #humm3, #humm4, #get_humming_text p, #get_humming_subtext p
 {
   text-align: center; 
@@ -181,7 +176,6 @@ display: inline;
 
 #humm1, #humm2, #humm3, #humm4 {
   text-align: center;
-  width: 8%;
   margin-right: 8.5%;
   margin-left: 8.5%;
   display: flex;
@@ -266,7 +260,6 @@ display: inline;
 .row_heading {
     font: normal normal 800 normal 1rem Roboto, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
-    padding: 0rem 1rem 0rem 0rem;
     width: 4rem;
     max-width: 13rem;
   }
