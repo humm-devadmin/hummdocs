@@ -83,7 +83,7 @@
 			</h1>
 		</div>
 		<div id="DIV_10">
-			<div class="row">
+			<div id="table_heading" class="row">
 				<div class="row_heading">
 				</div>
 				<div id="little_things_cell" class="row_cell">

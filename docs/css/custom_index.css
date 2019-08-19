@@ -272,14 +272,16 @@ display: inline;
   }
 
 .multiline_cell {
-  font-size: 0.8em !important;
+  font-size: 0.9em !important;
+}
+
+#table_heading {
   text-align: center;
 }
 
 
 .row_cell {
     color: black;
-    text-align: center;
     font: normal normal 300 normal 1rem / 1rem Roboto, sans-serif;
   }
 
