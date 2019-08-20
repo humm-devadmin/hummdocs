@@ -32,7 +32,9 @@
 }
 
 sup {
-  font-size: 0.7rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    vertical-align: middle;
 }
 
 
@@ -196,7 +198,6 @@ display: inline;
 #take_it_container {
   text-align: center;
   font: Roboto, sans-serif;
-  line-height: 1.1em;
   font-size: 2em;
   font-weight: 800;
   padding: 2rem 1.2rem;

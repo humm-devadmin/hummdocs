@@ -41,7 +41,7 @@
 </div>
 
 <div id="take_it_container">
-	Take it today and take time to pay – with no interest, ever<sup>3</sup>.
+	Take it today and take time to pay – with no interest, ever<sup class="superscript">3</sup>.
 </div>
 
 
@@ -136,7 +136,7 @@
 				</div>
 				<div class="row_cell multiline_cell">
 					<b>2.5 months</b> - 5 fortnightly, 10 weekly,<br>
-					<b>5 months<sup>1</sup></b> - 10 fortnightly or 20
+					<b>5 months<sup class="superscript">1</sup></b> - 10 fortnightly or 20
 					weekly (instore only)
 				</div>
 				<div class="row_cell">
@@ -148,10 +148,10 @@
 					Deposit Required at <br>Time of Purchase
 				</div>
 				<div class="row_cell">
-					Yes (waived for VIPs<sup>4</sup>)
+					Yes (waived for VIPs<sup class="superscript">4</sup>)
 				</div>
 				<div class="row_cell">
-					Yes (waived for VIPs<sup>4</sup> next purchase)
+					Yes (waived for VIPs<sup class="superscript">4</sup> next purchase)
 				</div>
 			</div>
 			<div class="row">
@@ -204,10 +204,10 @@
 				</div>
 				<div class="row_cell multiline_cell">
 					$0 for 2.5 month plans<br>
-					$8 for 5 month plans<sup>1</sup>
+					$8 for 5 month plans<sup class="superscript">1</sup>
 				</div>
 				<div class="row_cell">
-					$8<sup>2</sup>
+					$8<sup class="superscript">2</sup>
 				</div>
 			</div>
 			<div class="row">
