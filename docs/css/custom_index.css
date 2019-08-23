@@ -249,8 +249,9 @@ display: inline;
 
 
 .row_cell {
-    color: black;
-    font: normal normal 300 normal 1rem / 1rem Roboto, sans-serif;
+  padding-left: 3rem;
+  color: black;
+  font: normal normal 300 normal 1rem / 1rem Roboto, sans-serif;
   }
 
 #DIV_4 * {
