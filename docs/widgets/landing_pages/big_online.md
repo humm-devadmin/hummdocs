@@ -1,9 +1,11 @@
-#Big Things Online
+# Little Things Online
 
-Create a new page and insert the following code, you will need to use the HTML editor.
+You may set up a dedicated landing page for your buyers to provide them with all the information about buying **humm** big things online.
+
+Simply insert the following <code>script</code> tag into a blank page on your website and the following widget will display.
 
 ```
-<img src="https://docs.shophumm.com.au/img/landing_pages/big_online.png" alt="Big things online" />
+<script id="humm-landing-page-big-online" src="https://widgets.%domain%/content/scripts/landing-page-big-online.js"></script>
 ```
 
-![Big things online](/img/landing_pages/big_online.png)
+<script id="humm-landing-page-big-online" src="https://widgets.%domain%/content/scripts/landing-page-big-online.js"></script>
