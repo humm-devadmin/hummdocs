@@ -8,4 +8,5 @@ Simply insert the following <code>script</code> tag into a blank page on your we
 <script id="humm-landing-page-little-online" src="https://widgets.%domain%/content/scripts/landing-page-little-online.js"></script>
 ```
 
+<br>
 <script id="humm-landing-page-little-online" src="https://widgets.%domain%/content/scripts/landing-page-little-online.js"></script>

@@ -8,4 +8,5 @@ Simply insert the following <code>script</code> tag into a blank page on your we
 <script id="humm-landing-page-big-instore" src="https://widgets.%domain%/content/scripts/landing-page-big-instore.js"></script>
 ```
 
+<br>
 <script id="humm-landing-page-big-instore" src="https://widgets.%domain%/content/scripts/landing-page-big-instore.js"></script>
