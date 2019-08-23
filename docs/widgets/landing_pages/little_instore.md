@@ -1,9 +1,11 @@
-# Little Things Instore
+# Little Things instore
 
-Create a new page and insert the following code, you will need to use the HTML editor.
+You may set up a dedicated landing page for your buyers to provide them with all the information about buying **humm** little things instore.
+
+Simply insert the following <code>script</code> tag into a blank page on your website and the following widget will display.
 
 ```
-<img src="https://docs.shophumm.com.au/img/landing_pages/little_instore.png" alt="Little things instore" />
+<script id="humm-landing-page-little-instore" src="https://widgets.%domain%/content/scripts/landing-page-little-instore.js"></script>
 ```
 
-![Little things online](/img/landing_pages/little_instore.png)
+<script id="humm-landing-page-little-instore" src="https://widgets.%domain%/content/scripts/landing-page-little-instore.js"></script>
