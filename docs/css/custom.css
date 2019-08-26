@@ -70,9 +70,16 @@
   border-right: none;
 }
 
-/* ------------------------------- */
-/* MKDocs Material Changes - Begin */
-/* ------------------------------- */
+/* Resolves issue with landing pages displaying 
+above header. Highest z-index seems 100 */
+.md-header {
+  z-index: 200; /* 200 to future proof */
+}
+
+
+/* ----------------------- */
+/* MKDocs Material Changes */
+/* ----------------------- */
 
 label.md-nav__title text {
   display: none !important;
@@ -114,11 +121,6 @@ i.md-icon {
 .md-flex__cell.md-flex__cell--shrink {
   vertical-align: middle;
 }
-
-
-/* ----------------------------- */
-/* MKDocs Material Theme - END   */
-/* ----------------------------- */
 
 /* ----------------------------- */
 /*    Humm Rebranding Changes    */
