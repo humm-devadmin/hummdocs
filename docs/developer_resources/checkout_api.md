@@ -86,7 +86,6 @@ Below is an overview of the various response key-value pairs that **humm** retur
 x_account_id              | This is the Merchant ID assigned by **humm** to the merchant | Unicode string | 123456
 x_reference               | A reference that uniquely references the order and assigned by the merchant | ASCII string | 19783
 x_currency                | Currency of the transaction | ISO-4217 | %currency_abbr%
-x_test                    | Indicates whether the transaction is to be processed as a live or a test transaction | True/False | False
 x_amount                  | Represents the transaction's total amount including any taxes and shipping costs | decimal | 99.90  
 x_gateway_reference       | A reference for the authorisation issues by **humm** that is unique | unique string | 123
 x_purchase_number         | A reference for the authorisation issues by **humm** that is unique. **Same as x_gateway_reference** | unique string | 123
