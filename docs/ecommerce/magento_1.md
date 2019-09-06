@@ -1,3 +1,4 @@
+
 #Integrating on Magento 1
 
 ## Locate your **humm** Credentials
@@ -46,4 +47,4 @@ This should at least include the following:
     YOUR_DOMAIN/HummPayments/payment/cancel/
     YOUR_DOMAIN/HummPayments/payment/complete/
 
-The endpoints listed [here](../../developer_resources/checkout_api/#humm-gateways) should also be whitelisted.
+The [Checkout API](../../developer_resources/checkout_api/#humm-gateways) and [Refund API](../../developer_resources/refund_api/) endpoints should also be whitelisted.
