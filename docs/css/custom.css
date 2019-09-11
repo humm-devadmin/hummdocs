@@ -1,4 +1,3 @@
-
 /* --------------------------- */
 /*  Humm Rebranding Changes  */
 /* --------------------------- */
@@ -98,7 +97,7 @@ i.md-icon {
 .md-logo:before{
   display: block;
   content: ' ';
-  background-image: url('../img/humm.svg');
+  background-image: url('../img/skye_white.svg');
   background-size: inherit auto;
   background-position: center;
   height: 30px;
