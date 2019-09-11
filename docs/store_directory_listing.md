@@ -16,4 +16,4 @@ Supply desktop and mobile image files for your business.
 
 > Logos/images for mobile should be `267 x 228px` and for desktop `223 x 199px` 
 
-<iframe src="https://form.jotform.co/92530556369868" width="600" height="650" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe>
+<iframe src="https://form.jotform.co/92530556369868" width="600" height="800" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe>
