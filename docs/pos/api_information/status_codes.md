@@ -16,6 +16,8 @@ Success | SPRA01 | ProcessAuthorisation | Approved
 Success | SPSA01 | ProcessSalesAdjustment | Approved
 Success | SPAR01 | ProcessSalesAdjustmentReversal | Approved
 Success | SSER01 | SendReceipt | Success
+Pending | SPND01 | ProcessAuthorisation (Big Things only) | Pending
+Cancelled | FCNL01 | ProcessAuthorisation (Big Things only) | Cancelled
 Failed | FPRA01 | ProcessAuthorisation | Declined due to internal risk assessment against the customer
 Failed | FPRA02 | ProcessAuthorisation | Declined due to insufficient funds for the deposit
 Failed | FPRA03 | ProcessAuthorisation | Declined as communication to the bank is currently unavailable

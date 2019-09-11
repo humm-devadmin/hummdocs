@@ -8,6 +8,9 @@ To get your mkdocs environment configured; install the following:
 
         pip install mkdocs
 
+OR
+	python -m pip install -r requirements.txt --upgrade --proxy=http://YOUR_PROXY:AND_PORT
+
 Note: you might need to ensure cinst, python, & pip are all in your path.
 
 ## Updating the documentation
