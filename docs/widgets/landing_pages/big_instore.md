@@ -1,9 +1,12 @@
-#Big Things Instore
+# Big Things Instore
 
-Create a new page and insert the following code, you will need to use the HTML editor.
+You may set up a dedicated landing page for your buyers to provide them with all the information about buying **humm** big things instore.
+
+Simply insert the following <code>script</code> tag into a blank page on your website and the following widget will display.
 
 ```
-<img src="https://docs.shophumm.com.au/img/landing_pages/big_instore.png" alt="Big things instore" />
+<script id="humm-landing-page-big-instore" src="https://widgets.%domain%/content/scripts/landing-page-big-instore.js"></script>
 ```
 
-![Big things instore](/img/landing_pages/big_instore.png)
+<br>
+<script id="humm-landing-page-big-instore" src="https://widgets.%domain%/content/scripts/landing-page-big-instore.js"></script>

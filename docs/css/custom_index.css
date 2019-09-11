@@ -32,9 +32,9 @@
 }
 
 sup {
-    font-size: 0.7rem;
-    font-weight: bold;
-    vertical-align: middle;
+  font-size: 0.7rem;
+  font-weight: bold;
+  vertical-align: middle;
 }
 
 #take_it_container sup {
@@ -213,7 +213,6 @@ display: inline;
 
 
   #DIV_5 {
-    
     color: black;
     text-align: center;
     caret-color: black;

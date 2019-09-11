@@ -9,7 +9,7 @@ To integrate **humm** you will need your
 
 ##Integrating **humm**
 
-1 - Fill the online [Request API Key Form](/docs/request_api) and we'll email the **Gateway Authorisation URL**. 
+1 - Fill the online [Request API Key Form](/request_api) and we'll email the **Gateway Authorisation URL**. 
 
 2 - Click the link, this will prompt you to login to your store.
 

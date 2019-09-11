@@ -4,6 +4,7 @@ nav:
 - Home: index.md
 - Request API Key: request_api.md
 - Integration Assistance: integration_assistance.md
+# - Store Directory Listing: store_directory_listing.md
 - E-commerce Integration:
    - Shopify: ecommerce/shopify.md
    - WooCommerce: ecommerce/woocommerce.md
@@ -34,7 +35,6 @@ nav:
       - Little & Big Online: widgets/landing_pages/little_big_online.md
       - Little & Big Instore: widgets/landing_pages/little_big_instore.md
       - Little & Big Instore/Online: widgets/landing_pages/little_big_instore_online.md
-
 - Developer Resources:
    - Introduction: developer_resources/introduction.md
    - Checkout Process: developer_resources/checkout_process.md
