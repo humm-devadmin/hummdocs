@@ -10,7 +10,7 @@ Insert the script where you want the price-info widget to display replacing <cod
 
 ## Platform-specific Instructions
 * [Shopify](/widgets/price-info/shopify)
-* [Magetno 1](/widgets/price-info/magento_1)
+* [Magento 1](/widgets/price-info/magento_1)
 * [OpenCart 3](/widgets/price-info/opencart_3)
 
 ## Widget behaviour
