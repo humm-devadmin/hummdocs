@@ -4,7 +4,7 @@ nav:
 - Home: index.md
 - Request API Key: request_api.md
 - Integration Assistance: integration_assistance.md
-- Store Directory Listing: store_directory_listing.md
+# - Store Directory Listing: store_directory_listing.md
 - E-commerce Integration:
    - Shopify: ecommerce/shopify.md
    - WooCommerce: ecommerce/woocommerce.md
