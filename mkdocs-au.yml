@@ -28,6 +28,7 @@ nav:
       - On OpenCart 3: widgets/price-info/opencart_3.md
    - Banners: widgets/banners.md
    - Landing Pages: 
+      - Introduction: widgets/introduction.md
       - Little Things Online: widgets/landing_pages/little_online.md
       - Little Things Instore: widgets/landing_pages/little_instore.md
       - Big Things Online: widgets/landing_pages/big_online.md
