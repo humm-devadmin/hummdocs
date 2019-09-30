@@ -13,14 +13,20 @@ nav:
    - PrestaShop: ecommerce/prestashop.md
    - OpenCart: ecommerce/opencart.md
    - CubeCart: ecommerce/cubecart.md
+   - Test Transactions: accreditation/test.md
+- Custom Integration:
+   - Introduction: custom_integration/introduction.md
+   - Checkout Process: custom_integration/checkout_process.md
+   - Checkout API: custom_integration/checkout_api.md
+   - Refund API: custom_integration/refund_api.md
+   # - Sample cURL Script: custom_integration/sample_curl.md
+   - Signature Generation: custom_integration/signature_generation.md
 #- POS Platforms:
     # - Vend: ecommerce/vend.md
-- Accreditation:
-   - Test Transactions: accreditation/test.md
    # - Testing Declines and Approvals: accreditation/declines_and_approvals.md
 - Best Practice Integration: best_practice_integration.md
 - Widgets + Banners:
-   - Price-info Widget: widgets/price_info.md
+   - Widgets: widgets/price_info.md
    - Widget Installation:
       - Generic Installation: widgets/installation.md
       - On Shopify: widgets/price-info/shopify.md
@@ -28,7 +34,7 @@ nav:
       - On OpenCart 3: widgets/price-info/opencart_3.md
    - Banners: widgets/banners.md
    - Landing Pages: 
-      - Introduction: widgets/introduction.md
+      - Introduction: widgets/landing_pages/introduction.md
       - Little Things Online: widgets/landing_pages/little_online.md
       - Little Things Instore: widgets/landing_pages/little_instore.md
       - Big Things Online: widgets/landing_pages/big_online.md
@@ -36,13 +42,6 @@ nav:
       - Little & Big Online: widgets/landing_pages/little_big_online.md
       - Little & Big Instore: widgets/landing_pages/little_big_instore.md
       - Little & Big Instore/Online: widgets/landing_pages/little_big_instore_online.md
-- Developer Resources:
-   - Introduction: developer_resources/introduction.md
-   - Checkout Process: developer_resources/checkout_process.md
-   - Checkout API: developer_resources/checkout_api.md
-   - Refund API: developer_resources/refund_api.md
-   # - Sample cURL Script: developer_resources/sample_curl.md
-   - Signature Generation: developer_resources/signature_generation.md
 - POS Integration:
    - Getting Started: 'pos/getting-started.md'
    - Terminology: 'pos/terminology.md'
