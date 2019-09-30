@@ -8,3 +8,4 @@ Create a new page and insert the following code, you will need to use the HTML e
 
 <br>
 ![Little & big things online and instore](/img/landing_pages/little_big_instore_online.png)
+
