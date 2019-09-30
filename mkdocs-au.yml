@@ -48,7 +48,7 @@ nav:
    - Flows:
       - Customer Initiated Flow: 'pos/flows/customer_initiated_flow.md'
       - Sales Adjustment: 'pos/flows/sales_adjustment.md'
-      - Big Things Instore: 'pos/flows/big_things_instore_flow.md'
+      - Big Things Flow: 'pos/flows/big_things_instore_flow.md'
    - API Reference: 
       - Create Key: 'pos/api/create_key.md'
       - Invite: 'pos/api/invite.md'
