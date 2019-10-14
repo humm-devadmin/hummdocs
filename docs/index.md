@@ -181,7 +181,7 @@
 					Establishment Fee
 				</div>
 				<div class="row_cell">
-					$6
+					$0
 				</div>
 				<div class="row_cell">
 					$35 - $90
