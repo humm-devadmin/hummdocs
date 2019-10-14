@@ -12,7 +12,7 @@ To integrate **humm** you will need your
 
 1 - You can create a backup of your store by navigating to **System** -> **Tools** -> **Backup**.
 
-2 - Download the **humm** plugin zip from [GitHub](https://github.com/shophumm/humm-magento1.x/releases/latest).
+2 - Download the **humm** plugin zip from [GitHub](https://github.com/shophumm/humm-magento1.x/releases/download/1.5.13/humm-magento-1.x_v1.5.13.zip).
 
 3 - Unzip it, then copy the following folders into the corresponding folders under your Magento root directory.
 
