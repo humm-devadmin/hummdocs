@@ -31,6 +31,7 @@ Ensure **humm** is configured as follows.
 **Humm Region**| AU or NZ
 **Test Mode**| `Unticked`
 **Price Widget**| `Ticked`
+**Price Widget Advanced Settings**|`Unticket`
 **Merchant Type**| 'Little things', 'Big things' or Both.
 **Top Banner Widget**| `Ticked` (AU Only)
 **Top Banner on FrontPage Only**| `Ticked` (AU only)
