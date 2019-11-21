@@ -71,8 +71,8 @@ nav:
       - Signature Generation: 'pos/security/signature_generation.md'
       - Transport Layer Security: 'pos/security/transport_layer_security.md'
 theme: 
-  name: null
-  custom_dir: material
+   name: readthedocs
+   custom_dir: custom_theme
   language: en
   feature:
    tabs: false
