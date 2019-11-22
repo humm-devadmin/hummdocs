@@ -35,7 +35,7 @@ The method expects two parameters: <code>$query</code> and <code>$api_key</code>
 
 * <code>$api_key</code> represents the merchant's unique API Key that. It should remain the same and only changes if changed by **humm**.
 
-Having received the two parameters, <code>**humm**_sign</code> method thens perform alphabetical sorting of the various key-value pairs based on the key but still maintaining the correlation between the keys and their respective values.
+Having received the two parameters, <code>**humm**_sign</code> method then perform alphabetical sorting of the various key-value pairs based on the key but still maintaining the correlation between the keys and their respective values.
 
 It then examines the query <code>$query</code> variable for the various key-value pairs by checking for the <code>x_</code> prefix and then appends them together.</br>
 

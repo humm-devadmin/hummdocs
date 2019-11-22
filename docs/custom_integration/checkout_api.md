@@ -2,7 +2,7 @@
 
 Communicating with **humm** in order to process a transaction via our payment gateway involves **the buyers' browser** performing an HTTP **POST** to the **humm** endpoint. This can be viewed as an authorisation request that is performed by the shopping cart in order to process the payment via **humm**.
 
-Please note, this is not an HTTP API and *can not* be used for server to server communication.
+Please note, this is not an HTTP API and *cannot* be used for server to server communication.
 
 There are two **humm** gateways that transaction information can be posted to and they represent the live **humm** payment gateway and the test (sandbox) gateway.
 
@@ -55,7 +55,7 @@ x_signature **Required**          | Request payload that is signed/verified usin
 x_url_callback **Required**       | Callback notifications are sent asynchronously to this URL. **The protocol must be HTTPS** | URL | https://shop%domain_postfix%/callback | 200
 x_url_cancel **Required**         | Customers are redirected to this URL if they want to quit their **humm** transaction and return to the shopping cart store instead | URL | https://shop%domain_postfix%/cancel | 200
 x_url_complete **Required**       | Customers are redirected to this URL if they have successfully processed their transaction using **humm** | URL | https://shop%domain_postfix%/compete | 200
-x_transaction_timeout             | Transaction timout in minutes. Maximum value is 1440. | int | 60
+x_transaction_timeout             | Transaction timeout in minutes. Maximum value is 1440. | int | 60
 
 ### Sample POST
 
@@ -75,7 +75,7 @@ The first response that **humm** always performs is a server-to-server asynchron
 The second response is a HTTP GET to the client on the URLs specified in <code>x_url_complete</code>.</br>
 The key-value pairs included in this HTTP GET are the same as the POST values as shown below.
 
-**Please note:** The POST response must be sent over HTTPS. Consequently the <code>x_url_callback</code> field should specify the HTTPS has the protocol.
+**Please note:** The POST response must be sent over HTTPS. Consequently, the <code>x_url_callback</code> field should specify the HTTPS has the protocol.
 
 ### Response POST/GET values
 
@@ -95,12 +95,12 @@ x_signature               | Response payload that is signed/verified using HMAC-
 
 ### Response signature validation
 
-The <code>x_signature</code> included in both the POST and GET responses must validated by the merchants server.</br>
+The <code>x_signature</code> included in both the POST and GET responses must validated by the merchant's server.</br>
 Failure to do so could allow a third-party to tamper with the response.
 
-In the event that the provided <code>x_signature</code> does not match the calculated signature, the reponse should be disregarded.
+In the event that the provided <code>x_signature</code> does not match the calculated signature, the response should be disregarded.
 
-All fields recieved starting with <code>x_</code> should be used to calculate the signature, except for <code>x_signature</code> itself.
+All fields received starting with <code>x_</code> should be used to calculate the signature, except for <code>x_signature</code> itself.
 
 For further information please see [Signature Generation](../signature_generation/).
 
