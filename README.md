@@ -3,7 +3,7 @@
 ## Setting up your environment
 
 To get your mkdocs environment configured; install the following:
-* python:
+* python (Python 3.x is required)
 * mkdocs:
 
         pip install mkdocs
