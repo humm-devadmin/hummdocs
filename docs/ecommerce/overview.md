@@ -41,4 +41,6 @@ However, we recommend that you update your widgets to our latest versions listed
 
 All existing Oxipay branding on your website that you have created will need to be updated to **humm** for launch.
 
+Please see our [Best Practice Integration Guidelines](../../best_practice_integration) for further information.
+
 Any questions? Please contact [pit@%domain%](mailto:pit@%domain%)

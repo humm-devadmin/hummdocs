@@ -1,3 +1,5 @@
+#Getting Started
+
 Your POS integration for **humm** will need to support the following customer experience.
 
 ## Checkout Flow
@@ -5,7 +7,6 @@ Your POS integration for **humm** will need to support the following customer ex
 2. POS will scan the barcode
 3. POS calls **humm** and receives a response
 4. Confirm with customer
-
 
 In order to implement this you will need to: 
 
@@ -18,7 +19,7 @@ In order to implement this you will need to:
 
 ## 2. Setup a Customer
 
-* Generate a test barcode [here](https://integration-cart.shophumm.com.au/barcode) using a test customer account
+* Generate a test barcode [here](https://integration-cart.%domain%/barcode) using a test customer account
 
 If you do not have a test credentials please contact <a href="mailto:pit@%domain%">pit@%domain%</a>
 
