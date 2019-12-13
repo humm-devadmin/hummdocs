@@ -3,8 +3,8 @@
 Create a new page and insert the following code, you will need to use the HTML editor.
 
 ```
-<img src="https://docs.%domain%/img/landing_pages/little_big_online.png" alt="Little and big things online" />
+<script id="humm-landing-page-little-big-online" src="https://widgets.%domain%/content/scripts/landing-page-little-big-online.js"></script>
 ```
 
 <br>
-![Little and big things online](/img/landing_pages/little_big_online.png)
+<script id="humm-landing-page-little-big-online" src="https://widgets.%domain%/content/scripts/landing-page-little-big-online.js"></script>
