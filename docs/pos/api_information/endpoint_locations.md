@@ -1,5 +1,7 @@
 # Endpoint Locations
 
+%endpoint_note%
+
 Environment<br/>Classification | Communication<br/>Protocol | Version | URL
 ----------|----------|----------|----------
 Dummy | SOAP | v1 | <a href="https://integration-pos.%domain%/soap/v1/TestService.svc?wsdl">https://integration-pos.%domain%/soap/v1/TestService.svc?wsdl</a>

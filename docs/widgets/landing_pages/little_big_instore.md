@@ -3,8 +3,8 @@
 Create a new page and insert the following code, you will need to use the HTML editor.
 
 ```
-<img src="https://docs.shophumm.com.au/img/landing_pages/little_big_instore.png" alt="Little and big things instore" />
+<script id="humm-landing-page-little-big-instore" src="https://widgets.%domain%/content/scripts/landing-page-little-big-instore.js"></script>
 ```
 
 <br>
-![Little and big things instore](/img/landing_pages/little_big_instore.png)
+<script id="humm-landing-page-little-big-instore" src="https://widgets.%domain%/content/scripts/landing-page-little-big-instore.js"></script>

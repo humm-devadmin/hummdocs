@@ -8,6 +8,8 @@ There are two **humm** gateways that transaction information can be posted to an
 
 ## **Humm** Endpoints
 
+%endpoint_note%
+
 | **Humm** Environment | URL |
 |--------------------|-----|
 | Production Endpoints | [https://cart.%domain%/Checkout?platform=Default](https://cart.%domain%/Checkout?platform=Default) |
