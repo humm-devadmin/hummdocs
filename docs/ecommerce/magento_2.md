@@ -55,7 +55,10 @@ Alternatively, run <code>MAGENTO_DIR/bin/magento cache:flush</code> from command
 
 Navigate to **Stores** -> **Configuration** -> **Sales** -> **Payment Methods**.
 
-![4.png](\img\ecommerce\magento_2\4.png)
+
+![5.png](\img\ecommerce\magento_2\5.png)
+![6.png](\img\ecommerce\magento_2\6.png)
+![7.png](\img\ecommerce\magento_2\7.png)
 
 ## Varnish Cache
 
