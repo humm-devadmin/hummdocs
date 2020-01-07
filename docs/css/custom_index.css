@@ -83,7 +83,6 @@ display: inline;
 #things_container {
   color: white;
   display: inline-block;
-  background-color: red;
   width: 100%;
   background-color: #ff6900;
   padding: 1rem;
@@ -106,17 +105,14 @@ display: inline;
 }
 
 .big-things p, .little-things p {
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding: 0 1rem;
   margin: 0;
 }
 
 .little-things li, .big-things li {
   font-weight: 300;
   line-height: 1rem;
-  margin-bottom: 0px !important;
+  margin-bottom: 0 !important;
 }
 
 .little-things *, 
@@ -129,11 +125,9 @@ display: inline;
 .big-things h3
 {
   margin: 0;
-  line-height: auto;
 }
 
 #get_humming, #get_humming_text, #get_humming_subtext {
-  height: 100px;
   text-align: center;
   display: inline-block;
   width:100%;
@@ -166,7 +160,7 @@ display: inline;
   display: inline-block;
   float: left;
   margin: 0;
-  font: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 #get_humming_subtext p {
@@ -200,7 +194,7 @@ display: inline;
 
 #take_it_container {
   text-align: center;
-  font: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 2em;
   font-weight: 800;
   padding: 2rem 1.2rem;
@@ -212,35 +206,35 @@ display: inline;
 }
 
 
-  #DIV_5 {
-    color: black;
-    text-align: center;
-    caret-color: black;
-    border-bottom: 1px solid rgb(255, 105, 0);
-    padding-top: 2rem;
-  }/*#DIV_5*/
-  
-  #H1_6 {
-    color: black;
-    text-align: center;
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal 700 normal 2rem Roboto, sans-serif;
-  }
-    
-  .row {
-    color: black;
-    display: flex;
-    border-bottom: 1px solid rgb(102, 102, 102);
-    font: normal normal 300 normal 20px / 25.4px Roboto, sans-serif;
-    padding: 1.2rem 0rem;
-    text-align: left;
-  }
-  
+#DIV_5 {
+  color: black;
+  text-align: center;
+  caret-color: black;
+  border-bottom: 1px solid rgb(255, 105, 0);
+  padding-top: 2rem;
+}/*#DIV_5*/
+
+#H1_6 {
+  color: black;
+  text-align: center;
+  border: 0 none rgb(51, 51, 51);
+  font: normal normal 700 normal 2rem Roboto, sans-serif;
+}
+
+.row {
+  color: black;
+  display: flex;
+  border-bottom: 1px solid rgb(102, 102, 102);
+  font: normal normal 300 normal 20px / 25.4px Roboto, sans-serif;
+  padding: 1.2rem 0;
+  text-align: left;
+}
+
 .row_heading {
-    font: normal normal 800 normal 1rem Roboto, sans-serif;
-    width: 4rem;
-    max-width: 13rem;
-  }
+  font: normal normal 800 normal 1rem Roboto, sans-serif;
+  width: 4rem;
+  max-width: 13rem;
+}
 
 .multiline_cell {
   font-size: 0.9em !important;

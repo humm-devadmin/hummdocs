@@ -1,9 +1,6 @@
 img#landing-page-sample {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin: 2rem auto 3rem;
   box-shadow: 0.2rem 0.2rem lightgray;
 }
 
@@ -32,8 +29,6 @@ img#landing-page-sample {
   background-color: #ffffff;
   max-width: 100% !important;
 }
-
-
 
 .rst-versions, .rst-current-version {
   background: #DCE4C9 !important;
@@ -107,7 +102,7 @@ i.md-icon {
   display: block;
   content: ' ';
   background-image: url('../img/humm.svg');
-  background-size: inherit auto;
+  background-size: inherit;
   background-position: center;
   height: 30px;
   width: 150px;
@@ -123,7 +118,6 @@ i.md-icon {
   padding: 0;
   margin: 0;
   height: auto;
-  line-height: auto;
 }
 
 .md-flex__cell.md-flex__cell--shrink {
@@ -168,7 +162,7 @@ i.md-icon {
 }
 
 #oxipay-banner-01 h3 {
-    margin: 0px 0px 10px 0px !important;
+    margin: 0 0 10px 0 !important;
 }
 
 .wy-menu-vertical .subnav .caption-text {
@@ -197,7 +191,7 @@ i.md-icon {
     background-color: #f2dede;
     border-color: #ebccd1;
 }
-.alert-dismissable, .alert-dismissible {
+.alert-dismissible {
     padding-right: 35px;
 }
 .alert {
@@ -227,7 +221,7 @@ i.md-icon {
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
      /* IE10+ CSS styles go here */
      #oxipay-img{
-     top: 0px !important;
+     top: 0 !important;
      }
 }
 
