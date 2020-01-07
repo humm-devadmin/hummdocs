@@ -26,7 +26,7 @@ To integrate **humm** you will need your
 ![7.png](/img/ecommerce/shopify/7.png)
 
 6 - Enter your **Merchant Number** and **API Key** then click **Save**.
-> Ensure test mode is disbled.
+> Ensure test mode is disabled.
 
 ![8.png](/img/ecommerce/shopify/8.png)
 

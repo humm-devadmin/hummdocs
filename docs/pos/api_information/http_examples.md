@@ -19,7 +19,7 @@ Used to obtain a device-signing-key using the shared private key. The device-sig
 }
 ```
 
-*Sample JSON reponse:*
+*Sample JSON response:*
 ```json
 {
    "x_key": "dy33vQhksVsv",
@@ -53,7 +53,7 @@ Processes an authorisation to finalise the transaction. See <a href="/pos/api/pr
 }
 ```
 
-*Sample JSON reponse:*
+*Sample JSON response:*
 ```json
 {
    "x_status": "Success",
@@ -83,7 +83,7 @@ Initiates a request that will send an invite to the customer to Login or Registe
 }
 ```
 
-*Sample JSON reponse:*
+*Sample JSON response:*
 ```json
 {
    "x_status": "Success",
@@ -113,7 +113,7 @@ See <a href="/pos/api/send_receipt/">Send Receipt</a> for more information.
 }
 ```
 
-*Sample JSON reponse:*
+*Sample JSON response:*
 ```json
 {
    "x_status": "Success",
@@ -144,7 +144,7 @@ Used to process a Sales Adjustment as the point-of-sale. See <a href="/pos/api/p
 }
 ```
 
-*Sample JSON reponse:*
+*Sample JSON response:*
 ```json
 {
    "x_status": "Failed",
@@ -174,7 +174,7 @@ Used to process a Sales Adjustment as the point-of-sale. See <a href="/pos/api/p
 }
 ```
 
-*Sample JSON reponse:*
+*Sample JSON response:*
 ```json
 {
    "x_status": "Failed",
