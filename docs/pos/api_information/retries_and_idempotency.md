@@ -2,7 +2,7 @@
 
 ## Process Authorisation
 
-On calls to the ProcessAuthorisation API, the pre-approval code (as specified by the x_pre_approval_code parameter) is flagged as 'used'. Once used, a pre-approval code can never again be reused to get consumer finance. If an already used pre-approval code is passed through on a seperate call to ProcessAuthorisation (with a different digital-signature to the inital call), a status code of 'FPRA22' (see <a href="/pos/api_information/status_codes/">status codes</a>) will be returned - the Barcode has already been used.
+On calls to the ProcessAuthorisation API, the pre-approval code (as specified by the x_pre_approval_code parameter) is flagged as 'used'. Once used, a pre-approval code can never again be reused to get consumer finance. If an already used pre-approval code is passed through on a separate call to ProcessAuthorisation (with a different digital-signature to the initial call), a status code of 'FPRA22' (see <a href="/pos/api_information/status_codes/">status codes</a>) will be returned - the Barcode has already been used.
 
 There is one exception to the above; In a timeout scenario (e.g. where the bank takes longer than expected to process the initial payment), the same pre-approval can be passed through in a subsequent retry attempt - as long as the request is exactly the same, that is, with a digital-signature that matches the initial call. In this scenario, the ProcessAuthorisation API will instead return the current authorisation status. It is therefore safe to call the ProcessAuthorisation API using the same pre-approval code (and same message with the same digital-signature) until a status is returned.
 
@@ -20,4 +20,4 @@ In the event that a response is not received from **humm**, the same refund requ
 
 **Note**: as per the Process Sales Adjustment API reference, x_purchase_ref is defined as follows:
 >
-The original transaction reference.<br/>It can either be the x_pos_transaction_ref that was passed through as part of the ProcessAuthorisation request (or the SendReceipt request), or the **humm** purchase number that was returned from the call to ProcessAuthorisation. In the case of the former, the x_pos_transaction_ref *must* be unique among all sellers in a chain of sellers. In the case of the latter, the POS software would be required to store the x_purchase_numer retured by ProcessAuthorisation.
+The original transaction reference.<br/>It can either be the x_pos_transaction_ref that was passed through as part of the ProcessAuthorisation request (or the SendReceipt request), or the **humm** purchase number that was returned from the call to ProcessAuthorisation. In the case of the former, the x_pos_transaction_ref *must* be unique among all sellers in a chain of sellers. In the case of the latter, the POS software would be required to store the x_purchase_number returned by ProcessAuthorisation.

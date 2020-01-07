@@ -2,7 +2,7 @@
 
 Ensure you select the widget type corresponding to whether you are a **'Little things'** seller, **'Big Things'** or **both**.
 
-> Contact <a href="mailto:pit@%domain%">pit@%domain%</a> if usnure.
+> Contact <a href="mailto:pit@%domain%">pit@%domain%</a> if unsure.
 
 Insert the script where you want the widget to display replacing <code>PLACE_YOUR_PRODUCT_PRICE</code> with the product's price.
 
