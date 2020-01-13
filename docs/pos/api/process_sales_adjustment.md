@@ -7,7 +7,7 @@ This endpoint is used to process a Sales Adjustment at the point-of-sale. See <a
 Parameter | Type | length | Description
 ----------|------|--------|------------
 x_pos_transaction_ref | Unicode string | 64 | This is the transaction reference of the sales adjustment
-x_purchase_ref | Unicode string | 64 | The original transaction reference.<br/>It can either be the x_pos_transaction_ref that was passed through as part of the *ProcessAuthorisation* request (or the *SendReceipt* request), or the **humm** purchase number that was returned from the call to *ProcessAuthorisation*. In the case of the former, the x_pos_transaction_ref *must* be unique among all sellers in a chain of sellers. In the case of the latter, the POS software would be required to store the x_purchase_numer retured by *ProcessAuthorisation*.
+x_purchase_ref | Unicode string | 64 | The original transaction reference.<br/>It can either be the x_pos_transaction_ref that was passed through as part of the *ProcessAuthorisation* request (or the *SendReceipt* request), or the **humm** purchase number that was returned from the call to *ProcessAuthorisation*. In the case of the former, the x_pos_transaction_ref *must* be unique among all sellers in a chain of sellers. In the case of the latter, the POS software would be required to store the x_purchase_number returned by *ProcessAuthorisation*.
 x_merchant_id | Unicode string | 10 | Merchant identifier as defined by **humm**
 x_amount | int | 12 | Requested adjustment amount (in cents)
 x_device_id | Unicode string | 64 | Unique device identifier for the POS terminal

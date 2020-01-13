@@ -61,7 +61,7 @@ Set the Gateway URL to:
 
 ```https://vend.%domain% ```
 
-Press the "Save Pament Type"
+Press the "Save Payment Type"
 
 ![05_add_custom_gateway.png](/img/ecommerce/vend/05_add_custom_gateway.png)
 

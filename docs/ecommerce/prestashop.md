@@ -12,9 +12,9 @@ To integrate **humm** you will need your
 1 - Download the **humm** plugin.
 
 PrestaShop 1.6: click 
-[here](https://github.com/shophumm/humm-prestashop/releases/download/1.5.6-forPS1.6/humm_prestashop_v1.5.6-forPS1.6.zip)  
+[here](https://github.com/shophumm/humm-prestashop/releases/download/1.5.8-forPS1.6/humm_prestashop_v1.5.8-forPS1.6.zip)  
 PrestaShop 1.7: click
-[here](https://github.com/shophumm/humm-prestashop/releases/download/1.5.6-forPS1.7/humm_prestashop_v1.5.6-forPS1.7.zip)  
+[here](https://github.com/shophumm/humm-prestashop/releases/download/1.5.8-forPS1.7/humm_prestashop_v1.5.8-forPS1.7.zip)  
 
 2 - In your store's admin area, click **Modules and Services** on the left.
 
