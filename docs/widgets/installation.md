@@ -2,7 +2,7 @@
 
 **Step 1:** Choose the widget that you want to install from:
 
-* [Price-info Widget](../price_info)
+* [Price-info Widget](../%price_info_page_link%)
 * [Banner Widgets](../banners)
 
 **Step 2:** Place the ```<script>``` tag in the desired place you'd like it to appear on your website.
