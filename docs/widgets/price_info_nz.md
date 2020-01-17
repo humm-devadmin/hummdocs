@@ -1,6 +1,6 @@
 ## Widgets
 
-Ensure you select the widget type corresponding to whether you are a **'Little things'** seller, **'Big Things'** or **both**.
+Ensure you select the widget type corresponding to whether you are a **'Little things'** seller or a **'Big Things'** seller.
 
 > Contact <a href="mailto:pit@%domain%">pit@%domain%</a> if unsure.
 
@@ -8,45 +8,50 @@ Insert the script where you want the widget to display replacing <code>PLACE_YOU
 
 ## 'Little things' only
 
-Using the following code if you are a **'Little things'** only seller.
+Using the following code if you are a **'Little things'** seller.
+
+#### For 5 fortnightly payments:
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&LittleThings"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&little=f5"></script>
 ```
-Note the use of <code>&LittleThings</code> parameter.
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=100&little=f5"></script>
+
+#### For 10 weekly payments:
+```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&little=w10"></script>
+```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=100&little=w10"></script>
+
+Note the use of <code>&little=f5</code> or <code>&little=w10</code> parameter.
+
+Also remember to use the real product price to replace the "<code>PLACE_YOUR_PRODUCT_PRICE</code>" placeholder.
 
 ## 'Big things' only
 
-Using the following code if you are a **'Big things'** only seller.
+Using the following code if you are a **'Big things'** seller.
+#### For payments over 6 months:
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&BigOnly"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&big=m6"></script>
 ```
-Note the use of <code>&BigOnly</code> parameter.
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1200&big=m6"></script>
 
-## Both 'Little things' and 'Big things'
+#### For payments over 12 month:
+```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&big=m12"></script>
+```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1200&big=m12"></script>
 
-Using the following code if you are both a **'Little things'** and **'Big things'** merchant.
-```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
-```
-Note that there is no extra parameter required.
+Note the use of <code>&big=m6</code> or <code>&big=m12</code> parameter.
+
+Available options are:  
+<code>m6</code> for 6 months, <code>m9</code> for 9 months, <code>m12</code> for 12 months, <code>m18</code> for 18 months, <code>m24</code> for 24 months.
+
 
 ## Platform-specific Installation Instructions
-* [Shopify](/widgets/price-info/shopify)
-* [Magento 1](/widgets/price-info/magento_1)
-* [OpenCart 3](/widgets/price-info/opencart_3)
+* [Shopify](/widgets/price-info/shopify_nz)
+* [Magento 1](/widgets/price-info/magento_1_nz)
+* [OpenCart 3](/widgets/price-info/opencart_3_nz)
 
-## Widget behaviour
-
- **'Little things'**, only **'Big Things'** or **both** widgets behave different. Table below summarises this.
- 
-
-| | <= $1000 | $1000 < price <= $2000 | > $2000 |
-| -- | -- | -- | -- |
-| **Default** | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&littleThings&little=F5"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000"></script> |
-| **Big Things Only** | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&BigOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500&BigOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000&BigOnly"></script> |
-| **Little Things Only** | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleThings"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500&LittleThings"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000&LittleThings"></script> |
-
-This affects all widgets, including dynamic widgets.
 
 ## Dynamic Widget
 
@@ -74,16 +79,20 @@ Here is a block of HTML extracted from a typical WooCommerce product page:
 
 In this case, we use the urlencoded ```%23priceinfo ``` to refer to the id ```#priceinfo```
 
-<script src="https://widgets.%domain%/content/scripts/price-info.js?price-selector=%23priceinfo"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?price-selector=%23priceinfo&big=m12"></script>
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?price-selector=%23priceinfo"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?price-selector=%23priceinfo&big=m12"></script>
 ```
 
 You could also use ```price-selector=.woocommerce-Price-amount.amount``` or any CSS selectors to help identify the price element.
 
 ## Minimum and Maximum Widgets
 
-To display the widget above or below a certain price point, set the ```data-min``` and ```data-max``` accordingly when calling the widget.
+"Little things" and "Big things" widgets have default minimum and maximum thresholds.
+
+By default, "Little things" shows where product price is between $20 and $1000, while "Big things" shows only between the price of $80 and $10000.
+
+You can customise the min and max threshold (can only increase the min or/and decrease the max) by setting ```data-min``` and ```data-max``` accordingly when calling the widget.
 
 ```
 <script data-min="20" data-max="300" src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=YOUR_PRICE"></script>

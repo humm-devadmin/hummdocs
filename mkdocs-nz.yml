@@ -30,9 +30,9 @@ nav:
     - Widgets: widgets/price_info_nz.md
     - Widget Installation:
         - Generic Installation: widgets/installation.md
-        - On Shopify: widgets/price-info/shopify.md
-        - On Magento 1: widgets/price-info/magento_1.md
-        - On OpenCart 3: widgets/price-info/opencart_3.md
+        - On Shopify: widgets/price-info/shopify_nz.md
+        - On Magento 1: widgets/price-info/magento_1_nz.md
+        - On OpenCart 3: widgets/price-info/opencart_3_nz.md
     - Banners: widgets/banners.md
     - Landing Pages:
         - Introduction: widgets/landing_pages/introduction.md
@@ -109,5 +109,6 @@ extra:
     payment_desc: ''
     max_purchase: 2100
     endpoint_note: Please note that the environments below are not currently available. Closer to the launch of humm these will become available.
+    price_info_page_link: price_info_nz
 markdown_extensions:
     - codehilite
