@@ -6,108 +6,108 @@ nav:
 - Integration Assistance: integration_assistance.md
 # - Store Directory Listing: store_directory_listing.md
 - E-commerce Integration:
-   - Shopify: ecommerce/shopify.md
-   - WooCommerce: ecommerce/woocommerce.md
-   - Magento 1: ecommerce/magento_1.md
-   - Magento 2: ecommerce/magento_2.md
-   - PrestaShop: ecommerce/prestashop.md
-   - OpenCart: ecommerce/opencart.md
-   - CubeCart: ecommerce/cubecart.md
-   - Test Transactions: accreditation/test.md
+    - Shopify: ecommerce/shopify.md
+    - WooCommerce: ecommerce/woocommerce.md
+    - Magento 1: ecommerce/magento_1.md
+    - Magento 2: ecommerce/magento_2.md
+    - PrestaShop: ecommerce/prestashop.md
+    - OpenCart: ecommerce/opencart.md
+    - CubeCart: ecommerce/cubecart.md
+    - Test Transactions: accreditation/test.md
 - Custom Integration:
-   - Introduction: custom_integration/introduction.md
-   - Checkout Process: custom_integration/checkout_process.md
-   - Checkout API: custom_integration/checkout_api.md
-   - Refund API: custom_integration/refund_api.md
-   # - Sample cURL Script: custom_integration/sample_curl.md
-   - Signature Generation: custom_integration/signature_generation.md
+    - Introduction: custom_integration/introduction.md
+    - Checkout Process: custom_integration/checkout_process.md
+    - Checkout API: custom_integration/checkout_api.md
+    - Refund API: custom_integration/refund_api.md
+    # - Sample cURL Script: custom_integration/sample_curl.md
+    - Signature Generation: custom_integration/signature_generation.md
 #- POS Platforms:
     # - Vend: ecommerce/vend.md
-   # - Testing Declines and Approvals: accreditation/declines_and_approvals.md
+    # - Testing Declines and Approvals: accreditation/declines_and_approvals.md
 - Best Practice Integration: best_practice_integration.md
 - Widgets + Banners:
-   - Widgets: widgets/price_info.md
-   - Widget Installation:
-      - Generic Installation: widgets/installation.md
-      - On Shopify: widgets/price-info/shopify.md
-      - On Magento 1: widgets/price-info/magento_1.md 
-      - On OpenCart 3: widgets/price-info/opencart_3.md
-   - Banners: widgets/banners.md
-   - Landing Pages: 
-      - Introduction: widgets/landing_pages/introduction.md
-      - Little Things Online: widgets/landing_pages/little_online.md
-      - Little Things Instore: widgets/landing_pages/little_instore.md
-      - Big Things Online: widgets/landing_pages/big_online.md
-      - Big Things Instore: widgets/landing_pages/big_instore.md
-      - Little & Big Online: widgets/landing_pages/little_big_online.md
-      - Little & Big Instore: widgets/landing_pages/little_big_instore.md
-      - General: widgets/landing_pages/general.md
+    - Widgets: widgets/price_info.md
+    - Widget Installation:
+        - Generic Installation: widgets/installation.md
+        - On Shopify: widgets/price-info/shopify.md
+        - On Magento 1: widgets/price-info/magento_1.md 
+        - On OpenCart 3: widgets/price-info/opencart_3.md
+    - Banners: widgets/banners.md
+    - Landing Pages: 
+        - Introduction: widgets/landing_pages/introduction.md
+        - Little Things Online: widgets/landing_pages/little_online.md
+        - Little Things Instore: widgets/landing_pages/little_instore.md
+        - Big Things Online: widgets/landing_pages/big_online.md
+        - Big Things Instore: widgets/landing_pages/big_instore.md
+        - Little & Big Online: widgets/landing_pages/little_big_online.md
+        - Little & Big Instore: widgets/landing_pages/little_big_instore.md
+        - General: widgets/landing_pages/general.md
 - POS Integration:
-   - Getting Started: 'pos/getting-started.md'
-   - Terminology: 'pos/terminology.md'
-   - Flows:
-      - Customer Initiated Flow: 'pos/flows/customer_initiated_flow.md'
-      - Sales Adjustment: 'pos/flows/sales_adjustment.md'
-      - Big Things Flow: 'pos/flows/big_things_instore_flow.md'
-   - API Reference: 
-      - Create Key: 'pos/api/create_key.md'
-      - Invite: 'pos/api/invite.md'
-      - Process Authorisation: 'pos/api/process_authorisation.md'
-      - Send Receipt: 'pos/api/send_receipt.md'
-      - Process Sales Adjustment: 'pos/api/process_sales_adjustment.md'
-      - Process Adjustment Reversal: 'pos/api/process_adjustment_reversal.md'
-   - Additional API Information: 
-      - Status Codes: 'pos/api_information/status_codes.md'
-      - API Versioning: 'pos/api_information/api_versioning.md'
-      - Endpoint Locations: 'pos/api_information/endpoint_locations.md'
-      - HTTP Examples: 'pos/api_information/http_examples.md'
-      - Retries & Idempotency: 'pos/api_information/retries_and_idempotency.md'
-   - Supported Protocols: 
-      - Barcode Standards: 'pos/protocols/barcode_standards.md'
-      - Transport Protocols: 'pos/protocols/transport_protocols.md'
-      - Communication Protocols: 'pos/protocols/communication_protocols.md'
-   - Security: 
-      - Device Initialisation: 'pos/security/device_initialisation.md'
-      - Signature Generation: 'pos/security/signature_generation.md'
-      - Transport Layer Security: 'pos/security/transport_layer_security.md'
+    - Getting Started: 'pos/getting-started.md'
+    - Terminology: 'pos/terminology.md'
+    - Flows:
+        - Customer Initiated Flow: 'pos/flows/customer_initiated_flow.md'
+        - Sales Adjustment: 'pos/flows/sales_adjustment.md'
+        - Big Things Flow: 'pos/flows/big_things_instore_flow.md'
+    - API Reference: 
+        - Create Key: 'pos/api/create_key.md'
+        - Invite: 'pos/api/invite.md'
+        - Process Authorisation: 'pos/api/process_authorisation.md'
+        - Send Receipt: 'pos/api/send_receipt.md'
+        - Process Sales Adjustment: 'pos/api/process_sales_adjustment.md'
+        - Process Adjustment Reversal: 'pos/api/process_adjustment_reversal.md'
+    - Additional API Information: 
+        - Status Codes: 'pos/api_information/status_codes.md'
+        - API Versioning: 'pos/api_information/api_versioning.md'
+        - Endpoint Locations: 'pos/api_information/endpoint_locations.md'
+        - HTTP Examples: 'pos/api_information/http_examples.md'
+        - Retries & Idempotency: 'pos/api_information/retries_and_idempotency.md'
+    - Supported Protocols: 
+        - Barcode Standards: 'pos/protocols/barcode_standards.md'
+        - Transport Protocols: 'pos/protocols/transport_protocols.md'
+        - Communication Protocols: 'pos/protocols/communication_protocols.md'
+    - Security: 
+        - Device Initialisation: 'pos/security/device_initialisation.md'
+        - Signature Generation: 'pos/security/signature_generation.md'
+        - Transport Layer Security: 'pos/security/transport_layer_security.md'
 theme: 
-  name: null
-  custom_dir: material
-  language: en
-  feature:
-   tabs: false
-  palette:
-   primary:
-   accent:
-  font:
-   text: Roboto
-   code: Roboto Mono
-  favicon: assets/images/favicon.png
-  logo:
-   icon: "\uE80C"
-  include_search_page: false
-  search_index_only: true
-  static_templates:
-  - 404.html
+    name: null
+    custom_dir: material
+    language: en
+    feature:
+        tabs: false
+    palette:
+        primary:
+        accent:
+    font:
+        text: Roboto
+        code: Roboto Mono
+    favicon: assets/images/favicon.png
+    logo:
+        icon: "\uE80C"
+    include_search_page: false
+    search_index_only: true
+    static_templates:
+    - 404.html
 extra_css: [css/jquery.modal.min.css, css/custom.css]
 extra_javascript: [js/jquery.modal.js]
 extra:
-   domain: shophumm.com.au
-   domain_postfix: .com.au
-   currency_abbr: AUD
-   country_abbr: AU
-   address_city: Adelaide
-   address_street_1: 97 Pirie St
-   address_street_2: Level 6
-   address_phone_number: 0400 000 000
-   address_state_abbr: SA
-   address_post_code: 5000
-   country: Australia
-   merchantID_for_curl: 30199250
-   signature_for_curl: 5390d3249610b40b146ada45d46493895dbad0e7ca05daa7df42e6bd0cfc203f
-   payment_desc: ''
-   max_purchase: 2100
-   endpoint_note: ''
-  price_info_page_link: price_info
+    domain: shophumm.com.au
+    domain_postfix: .com.au
+    currency_abbr: AUD
+    country_abbr: AU
+    address_city: Adelaide
+    address_street_1: 97 Pirie St
+    address_street_2: Level 6
+    address_phone_number: 0400 000 000
+    address_state_abbr: SA
+    address_post_code: 5000
+    country: Australia
+    merchantID_for_curl: 30199250
+    signature_for_curl: 5390d3249610b40b146ada45d46493895dbad0e7ca05daa7df42e6bd0cfc203f
+    payment_desc: ''
+    max_purchase: 2100
+    endpoint_note: ''
+    price_info_page_link: price_info
 markdown_extensions:
-   - codehilite
+    - codehilite
