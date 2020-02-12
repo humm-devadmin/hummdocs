@@ -5,19 +5,18 @@ nav:
 # - Request API Key: request_api.md
 # - Integration Assistance: integration_assistance.md
 # - Store Directory Listing: store_directory_listing.md
-- E-commerce Integration: ecommerce/overview.md
-# - E-commerce Integration:
-    # - Shopify: ecommerce/shopify.md
-    # - WooCommerce: ecommerce/woocommerce.md
-    # - Magento 1: ecommerce/magento_1.md
-    # - Magento 2: ecommerce/magento_2.md
-    # - PrestaShop: ecommerce/prestashop.md
-    # - OpenCart: ecommerce/opencart.md
-    # - CubeCart: ecommerce/cubecart.md
-    # - Test Transactions: accreditation/test.md
+- E-commerce Integration:
+    - Shopify: ecommerce/shopify.md
+    - WooCommerce: ecommerce/woocommerce.md
+    - Magento 1: ecommerce/magento_1.md
+    - Magento 2: ecommerce/magento_2.md
+    - PrestaShop: ecommerce/prestashop.md
+    - OpenCart: ecommerce/opencart.md
+    - CubeCart: ecommerce/cubecart.md
+    - Test Transactions: accreditation/test.md
+    - Migrating from Oxipay: ecommerce/overview.md
 - Custom Integration:
-    - Introduction: custom_integration/introduction.md
-    - Checkout Process: custom_integration/checkout_process.md
+    - Checkout Flow: custom_integration/checkout_process.md
     - Checkout API: custom_integration/checkout_api.md
     - Refund API: custom_integration/refund_api.md
     # - Sample cURL Script: custom_integration/sample_curl.md
@@ -63,7 +62,7 @@ nav:
         - Endpoint Locations: 'pos/api_information/endpoint_locations.md'
         - HTTP Examples: 'pos/api_information/http_examples.md'
         - Retries & Idempotency: 'pos/api_information/retries_and_idempotency.md'
-    - Supported Protocols:
+    - Protocols:
         - Barcode Standards: 'pos/protocols/barcode_standards.md'
         - Transport Protocols: 'pos/protocols/transport_protocols.md'
         - Communication Protocols: 'pos/protocols/communication_protocols.md'
@@ -110,5 +109,6 @@ extra:
     max_purchase: 2100
     endpoint_note: Please note that the environments below are not currently available. Closer to the launch of humm these will become available.
     price_info_page_link: price_info_nz
+    hide-in-nz: none;
 markdown_extensions:
     - codehilite

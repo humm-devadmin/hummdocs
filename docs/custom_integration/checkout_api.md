@@ -1,6 +1,8 @@
 # Checkout API
 
-Communicating with **humm** in order to process a transaction via our payment gateway involves **the buyers' browser** performing an HTTP **POST** to the **humm** endpoint. This can be viewed as an authorisation request that is performed by the shopping cart in order to process the payment via **humm**.
+We have used this API  ourselves to integrate **humm** into leading shopping cart platforms such as Shopify, WooCommerce and Magento.
+
+Communicating with **humm** involves **the buyers' browser** performing an HTTP **POST** to the **humm** endpoint. This can be viewed as an authorisation request by the shopping cart to process the payment via **humm**.
 
 Please note, this is not an HTTP API and *cannot* be used for server to server communication.
 

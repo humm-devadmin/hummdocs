@@ -5,7 +5,7 @@ img#landing-page-sample {
 }
 
 /* --------------------------- */
-/*  Humm Rebranding Changes  */
+/*  Humm Rebranding Changes    */
 /* --------------------------- */
 
 .wy-nav-side {
@@ -79,6 +79,11 @@ above header. Highest z-index seems 100 */
   z-index: 200; /* 200 to future proof */
 }
 
+
+/* display side menu above main page */
+.humm-branding-area, .humm-branding-area * {
+  z-index: 0 !important;
+}
 
 /* ----------------------- */
 /* MKDocs Material Changes */
