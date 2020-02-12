@@ -1,10 +1,8 @@
-# Banner Widgets
+# Banners
 
-Below are a list of banner widgets you may use to advertise **humm** on your website.
+Check [Generic Installation](../installation) for more information on how to insert them.
 
-See [Generic Installation](../installation) for more information on how to insert them.
-
-#### More Info Large
+## Large Banner
 
 ```
 <script src="https://widgets.%domain%/content/scripts/more-info-large.js"></script>
@@ -12,15 +10,7 @@ See [Generic Installation](../installation) for more information on how to inser
 
 <script src="https://widgets.%domain%/content/scripts/more-info-large.js"></script>
 
-#### More Info Large Slices
-
-```
-<script src="https://widgets.%domain%/content/scripts/more-info-large-slices.js"></script>
-```
-
-<script src="https://widgets.%domain%/content/scripts/more-info-large-slices.js"></script>
-
-#### More Info Small
+## Small Banner
 
 ```
 <script src="https://widgets.%domain%/content/scripts/more-info-small.js"></script>
@@ -28,7 +18,16 @@ See [Generic Installation](../installation) for more information on how to inser
 
 <script src="https://widgets.%domain%/content/scripts/more-info-small.js"></script>
 
-#### More Info Small Slices
+## Pay In Slices (Large)
+
+```
+<script src="https://widgets.%domain%/content/scripts/more-info-large-slices.js"></script>
+```
+
+<script src="https://widgets.%domain%/content/scripts/more-info-large-slices.js"></script>
+
+
+## Pay In Slices (Small)
 
 ```
 <script src="https://widgets.%domain%/content/scripts/more-info-small-slices.js"></script>
@@ -36,7 +35,7 @@ See [Generic Installation](../installation) for more information on how to inser
 
 <script src="https://widgets.%domain%/content/scripts/more-info-small-slices.js"></script>
 
-#### More Info Mini
+## Mini Banner
 
 ```
 <script src="https://widgets.%domain%/content/scripts/more-info-mini.js"></script>

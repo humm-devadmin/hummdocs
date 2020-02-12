@@ -109,5 +109,6 @@ extra:
     max_purchase: 2100
     endpoint_note: ''
     price_info_page_link: price_info
+    hide-in-au: none
 markdown_extensions:
     - codehilite
