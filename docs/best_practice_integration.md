@@ -57,7 +57,7 @@ The **humm** pricing widget is tailored to the price of the item on your website
 
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500"></script>
 
-Widgets are available [here](/widgets/price_info/).
+Widgets are available [here](/widgets/%price_info_page_link%/).
 
 - - -
 
@@ -79,17 +79,17 @@ Triggered from "More Info" on:
 
 **Pop up widget on desktop - Items < $2,000**
 
-<a href="/widgets/price_info#price-info-widget">
+<a href="/widgets/%price_info_page_link%#price-info-widget">
     <img class="box-shadow" src="/img/best_integration_guidelines/pop_up_under 2000_0.png">
 </a>
 
 **Pop up widget on desktop - Items > $2,000**
 
-<a href="/widgets/price_info#price-info-widget">
+<a href="/widgets/%price_info_page_link%#price-info-widget">
     <img class="box-shadow" src="/img/best_integration_guidelines/pop_up_over 2000_0.png">
 </a>
 
-Widgets are available [here](/widgets/price_info/).
+Widgets are available [here](/widgets/%price_info_page_link%/).
 
 - - -
 
@@ -109,7 +109,7 @@ Remind customers of the benefits of paying with humm at the Cart Page
 
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500"></script>
 
-Widgets are available [here](/widgets/price_info/).
+Widgets are available [here](/widgets/%price_info_page_link%/).
 
 - - - 
 
@@ -129,7 +129,7 @@ This is your last chance to let your customers know they have the option to pay 
 
 ![Checkout > $1,000 ](/img/best_integration_guidelines/checkout_lg4.png)
 
-Widgets are available [here](/widgets/price_info/).
+Widgets are available [here](/widgets/%price_info_page_link%/).
 
 - - -
 <br>

@@ -33,7 +33,7 @@ To illustrate, the following Oxipay widget:
 
 However, we recommend that you update your widgets to our latest versions listed here:
 
-* [Price Breakdown](../../widgets/price_info)
+* [Price Breakdown](../../widgets/%price_info_page_link%)
 * [Banner](../../widgets/banners)
 * [Landing Page](../../widgets/landing_pages/introduction)
 
