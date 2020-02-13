@@ -14,13 +14,13 @@ Using the following code if you are a **'Little things'** seller.
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&little=f5"></script>
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=100&little=f5"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=100&little=F5"></script>
 
 #### For 10 weekly payments:
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&little=w10"></script>
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=100&little=w10"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=100&little=W10"></script>
 
 Note the use of <code>&little=f5</code> or <code>&little=w10</code> parameter.
 
@@ -46,6 +46,18 @@ Note the use of <code>&big=m6</code> or <code>&big=m12</code> parameter.
 Available options are:  
 <code>m6</code> for 6 months, <code>m9</code> for 9 months, <code>m12</code> for 12 months, <code>m18</code> for 18 months, <code>m24</code> for 24 months.
 
+
+## Widget behaviour
+
+ **'Little things'**, only **'Big Things'** or **both** widgets behave different. Table below summarises this.
+### Little Things Only
+| < $20 <br> (productPrice=10) | $20 - $1000 <br> (productPrice=200) | > $1000 <br> (producePrice=1800) |
+| -- | -- | -- |
+| <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=10&LittleOnly"></script> | 5W <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script> 10W <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1800&LittleOnly"></script> |
+
+| < $80 <br> (productPrice=30) | $80 - $10k <br> (productPrice=4500) | > $10k <br> (producePrice=12000) |
+| -- | -- | -- |
+| <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=30&big=M6"></script> | 6M <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4500&big=M6"></script> 12M <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4500&big=M12"></script> 24M <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4500&big=M24"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000&BigOnly"></script> |
 
 ## Platform-specific Installation Instructions
 * [Shopify](/widgets/price-info/shopify_nz)

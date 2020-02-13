@@ -1,14 +1,12 @@
 ## Widgets
 
-Ensure you select the widget type corresponding to whether you are a **'Little things'** seller, **'Big Things'** or **both**.
-
-> Contact <a href="mailto:pit@%domain%">pit@%domain%</a> if unsure.
+Select the widget type corresponding to your seller type: **'Little things'**, **'Big Things'** or **both**. Contact <a href="mailto:pit@%domain%">pit@%domain%</a> if unsure.
 
 Insert the script where you want the widget to display replacing <code>PLACE_YOUR_PRODUCT_PRICE</code> with the product's price.
 
 ## 'Little things' only
 
-Using the following code if you are a **'Little things'** only seller.
+If a **'Little things'** only seller, use:
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&LittleOnly"></script>
 ```
@@ -16,7 +14,7 @@ Note the use of <code>&LittleOnly</code> parameter.
 
 ## 'Big things' only
 
-Using the following code if you are a **'Big things'** only seller.
+If a **'Big things'** only seller, use:
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&BigOnly"></script>
 ```
@@ -24,11 +22,11 @@ Note the use of <code>&BigOnly</code> parameter.
 
 ## Both 'Little things' and 'Big things'
 
-Using the following code if you are both a **'Little things'** and **'Big things'** merchant.
+If a **'Little things'** and **'Big things'** seller, use: 
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
 ```
-Note that there is no extra parameter required.
+No extra parameter required.
 
 ## Platform-specific Installation Instructions
 * [Shopify](/widgets/price-info/shopify)
