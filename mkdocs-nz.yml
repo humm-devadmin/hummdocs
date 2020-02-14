@@ -4,7 +4,8 @@ nav:
 - Home: index.md
 # - Request API Key: request_api.md
 # - Integration Assistance: integration_assistance.md
-- E-commerce Integration:
+- eCommerce Integration:
+    - Oxipay Migration: ecommerce/oxipay_migration.md
     - Shopify: ecommerce/shopify.md
     - WooCommerce: ecommerce/woocommerce.md
     - Magento 1: ecommerce/magento_1.md
@@ -13,7 +14,6 @@ nav:
     - OpenCart: ecommerce/opencart.md
     - CubeCart: ecommerce/cubecart.md
     - Test Transactions: accreditation/test.md
-    - Migrating from Oxipay: ecommerce/migration.md
 - Custom Integration:
     - Checkout Flow: custom_integration/checkout_process.md
     - Checkout API: custom_integration/checkout_api.md
