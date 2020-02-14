@@ -8,7 +8,7 @@ Insert the script where you want the widget to display replacing <code>PLACE_YOU
 
 ## 'Little things' only
 
-Using the following code if you are a **'Little things'** seller.
+If a **'Little things'** only seller, use:
 
 #### For 5 fortnightly payments:
 ```
@@ -28,7 +28,8 @@ Also remember to use the real product price to replace the "<code>PLACE_YOUR_PRO
 
 ## 'Big things' only
 
-Using the following code if you are a **'Big things'** seller.
+If a **'Big things'** only seller, use:
+
 #### For payments over 6 months:
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&big=m6"></script>
@@ -49,12 +50,14 @@ Available options are:
 
 ## Widget behaviour
 
- **'Little things'**, only **'Big Things'** or **both** widgets behave different. Table below summarises this.
+ **'Little things'**, only **'Big Things'** or **both** widgets behave differently, see table below:
+
 ### Little Things Only
 | < $20 <br> (productPrice=10) | $20 - $1000 <br> (productPrice=200) | > $1000 <br> (producePrice=1800) |
 | -- | -- | -- |
 | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=10&LittleOnly"></script> | 5W <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script> 10W <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1800&LittleOnly"></script> |
-
+ 
+### Big Things Only
 | < $80 <br> (productPrice=30) | $80 - $10k <br> (productPrice=4500) | > $10k <br> (producePrice=12000) |
 | -- | -- | -- |
 | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=30&big=M6"></script> | 6M <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4500&big=M6"></script> 12M <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4500&big=M12"></script> 24M <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4500&big=M24"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000&BigOnly"></script> |
@@ -67,11 +70,11 @@ Available options are:
 
 ## Dynamic Widget
 
-Provide a ```price-selector``` query argument to target the HTML element containing the product price. This will allow the widget to update as the product price changes - useful if price changes on user selection, or there are multiple products on the same page.
+Provide a ```price-selector``` query argument to target the HTML element containing the price. This will update the widget as the product price changes on user selection.
 
-For this provide a **URL encoded** jQuery style CSS selector and it will bind a call back to the DOMSubTreeModified event.  
+Provide a **URL encoded** jQuery CSS selector.
 
-Here is a block of HTML extracted from a typical WooCommerce product page:
+Here is HTML taken from a WooCommerce product page:
 
 ```
 <span>Product Price:</span>
@@ -89,20 +92,20 @@ Here is a block of HTML extracted from a typical WooCommerce product page:
     </span>
 </p>
 
-In this case, we use the urlencoded ```%23priceinfo ``` to refer to the id ```#priceinfo```
+Use the urlencoded ```%23priceinfo ``` to reference the id ```#priceinfo```
 
-<script src="https://widgets.%domain%/content/scripts/price-info.js?price-selector=%23priceinfo&big=m12"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?price-selector=%23priceinfo"></script>
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?price-selector=%23priceinfo&big=m12"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?price-selector=%23priceinfo"></script>
 ```
 
-You could also use ```price-selector=.woocommerce-Price-amount.amount``` or any CSS selectors to help identify the price element.
+You could also use ```price-selector=.woocommerce-Price-amount.amount``` or any CSS selector to identify the price.
 
 ## Minimum and Maximum Widgets
 
 "Little things" and "Big things" widgets have default minimum and maximum thresholds.
 
-By default, "Little things" shows where product price is between $20 and $1000, while "Big things" shows only between the price of $80 and $10000.
+By default, "Little things" shows when product price is between $20 and $1000, while "Big things" shows only between the price of $80 and $10000.
 
 You can customise the min and max threshold (can only increase the min or/and decrease the max) by setting ```data-min``` and ```data-max``` accordingly when calling the widget.
 
