@@ -5,7 +5,7 @@ nav:
 # - Request API Key: request_api.md
 # - Integration Assistance: integration_assistance.md
 - eCommerce Integration:
-    - Oxipay Migration: ecommerce/oxipay_migration.md
+    - humm to Oxipay Migration: ecommerce/oxipay_migration.md
     - Shopify: ecommerce/shopify.md
     - WooCommerce: ecommerce/woocommerce.md
     - Magento 1: ecommerce/magento_1.md
