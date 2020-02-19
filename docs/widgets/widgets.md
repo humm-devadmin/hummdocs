@@ -1,14 +1,12 @@
 ## Widgets
 
-Ensure you select the widget type corresponding to whether you are a **'Little things'** seller, **'Big Things'** or **both**.
-
-> Contact <a href="mailto:pit@%domain%">pit@%domain%</a> if unsure.
+Select the widget type corresponding to your seller type: **'Little things'**, **'Big Things'** or **both**. Contact <a href="mailto:pit@%domain%">pit@%domain%</a> if unsure.
 
 Insert the script where you want the widget to display replacing <code>PLACE_YOUR_PRODUCT_PRICE</code> with the product's price.
 
 ## 'Little things' only
 
-Using the following code if you are a **'Little things'** only seller.
+If a **'Little things'** only seller, use:
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&LittleOnly"></script>
 ```
@@ -16,7 +14,7 @@ Note the use of <code>&LittleOnly</code> parameter.
 
 ## 'Big things' only
 
-Using the following code if you are a **'Big things'** only seller.
+If a **'Big things'** only seller, use:
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&BigOnly"></script>
 ```
@@ -24,11 +22,11 @@ Note the use of <code>&BigOnly</code> parameter.
 
 ## Both 'Little things' and 'Big things'
 
-Using the following code if you are both a **'Little things'** and **'Big things'** merchant.
+If a **'Little things'** and **'Big things'** seller, use: 
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
 ```
-Note that there is no extra parameter required.
+No extra parameter required.
 
 ## Platform-specific Installation Instructions
 * [Shopify](/widgets/price-info/shopify)
@@ -37,7 +35,7 @@ Note that there is no extra parameter required.
 
 ## Widget behaviour
 
- **'Little things'**, only **'Big Things'** or **both** widgets behave different. Table below summarises this.
+ **'Little things'**, only **'Big Things'** or **both** widgets behave differently, see table below:
 
 | | <= $1000 | $1000 < price <= $2000 | > $2000 |
 | -- | -- | -- | -- |
@@ -49,11 +47,11 @@ This affects all widgets, including dynamic widgets.
 
 ## Dynamic Widget
 
-Provide a ```price-selector``` query argument to target the HTML element containing the product price. This will allow the widget to update as the product price changes - useful if price changes on user selection, or there are multiple products on the same page.
+Provide a ```price-selector``` query argument to target the HTML element containing the price. This will update the widget as the product price changes on user selection.
 
-For this provide a **URL encoded** jQuery style CSS selector and it will bind a call back to the DOMSubTreeModified event.  
+Provide a **URL encoded** jQuery CSS selector.
 
-Here is a block of HTML extracted from a typical WooCommerce product page:
+Here is HTML taken from a WooCommerce product page:
 
 ```
 <span>Product Price:</span>
@@ -71,14 +69,14 @@ Here is a block of HTML extracted from a typical WooCommerce product page:
     </span>
 </p>
 
-In this case, we use the urlencoded ```%23priceinfo ``` to refer to the id ```#priceinfo```
+Use the urlencoded ```%23priceinfo ``` to reference the id ```#priceinfo```
 
 <script src="https://widgets.%domain%/content/scripts/price-info.js?price-selector=%23priceinfo"></script>
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?price-selector=%23priceinfo"></script>
 ```
 
-You could also use ```price-selector=.woocommerce-Price-amount.amount``` or any CSS selectors to help identify the price element.
+You could also use ```price-selector=.woocommerce-Price-amount.amount``` or any CSS selector to identify the price.
 
 ## Minimum and Maximum Widgets
 

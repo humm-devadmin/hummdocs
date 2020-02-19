@@ -2,10 +2,9 @@ site_name: humm Documentation (AU)
 site_dir: 'humm-au'
 nav:
 - Home: index.md
-- Request API Key: request_api.md
+- Request API Key: API Request Form.md
 - Integration Assistance: integration_assistance.md
-# - Store Directory Listing: store_directory_listing.md
-- E-commerce Integration:
+- eCommerce Integration:
     - Shopify: ecommerce/shopify.md
     - WooCommerce: ecommerce/woocommerce.md
     - Magento 1: ecommerce/magento_1.md
@@ -26,7 +25,7 @@ nav:
     # - Testing Declines and Approvals: accreditation/declines_and_approvals.md
 - Best Practice Integration: best_practice_integration.md
 - Widgets + Banners:
-    - Widgets: widgets/price_info.md
+    - Widgets: widgets/widgets.md
     - Widget Installation:
         - Generic Installation: widgets/installation.md
         - On Shopify: widgets/price-info/shopify.md
@@ -108,7 +107,7 @@ extra:
     payment_desc: ''
     max_purchase: 2100
     endpoint_note: ''
-    price_info_page_link: price_info
+    price_info_page_link: widgets
     hide-in-au: none
 markdown_extensions:
     - codehilite

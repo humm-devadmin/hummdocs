@@ -17,9 +17,7 @@ The following instructions outline how to perform a test transaction with humm.
 - Only test accounts will be able to sign in. Preexisting live accounts will not work.
 - Please ensure your mobile number is correct as you will need to receive a verification code. All other registration information used during signup may be dummy values.
 
-<div class="panel">
-    If you can't sign up please contact <a href="mailto:pit@%domain%">pit@%domain%</a>
-</div>
+> If you can't sign up please contact [pit@%domain%](mailto:pit@%domain%)
 
 3 - Pay the first installment using a testing credit card
 

@@ -2,10 +2,10 @@ site_name: humm Documentation (NZ)
 site_dir: 'humm-nz'
 nav:
 - Home: index.md
-# - Request API Key: request_api.md
-# - Integration Assistance: integration_assistance.md
-# - Store Directory Listing: store_directory_listing.md
-- E-commerce Integration:
+- Request API Key: request_api.md
+- Integration Assistance: integration_assistance.md
+- eCommerce Integration:
+    - Oxipay to humm migration: ecommerce/oxipay_migration.md
     - Shopify: ecommerce/shopify.md
     - WooCommerce: ecommerce/woocommerce.md
     - Magento 1: ecommerce/magento_1.md
@@ -14,19 +14,18 @@ nav:
     - OpenCart: ecommerce/opencart.md
     - CubeCart: ecommerce/cubecart.md
     - Test Transactions: accreditation/test.md
-    - Migrating from Oxipay: ecommerce/overview.md
 - Custom Integration:
     - Checkout Flow: custom_integration/checkout_process.md
     - Checkout API: custom_integration/checkout_api.md
     - Refund API: custom_integration/refund_api.md
     # - Sample cURL Script: custom_integration/sample_curl.md
     - Signature Generation: custom_integration/signature_generation.md
-#- POS Platforms:
+# - POS Platforms:
     # - Vend: ecommerce/vend.md
     # - Testing Declines and Approvals: accreditation/declines_and_approvals.md
 - Best Practice Integration: best_practice_integration.md
 - Widgets + Banners:
-    - Widgets: widgets/price_info_nz.md
+    - Widgets: widgets/widgets_nz.md
     - Widget Installation:
         - Generic Installation: widgets/installation.md
         - On Shopify: widgets/price-info/shopify_nz.md
@@ -108,7 +107,7 @@ extra:
     payment_desc: ''
     max_purchase: 2100
     endpoint_note: Please note that the environments below are not currently available. Closer to the launch of humm these will become available.
-    price_info_page_link: price_info_nz
+    price_info_page_link: widgets_nz
     hide-in-nz: none;
 markdown_extensions:
     - codehilite
