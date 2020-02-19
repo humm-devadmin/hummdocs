@@ -2,10 +2,10 @@ site_name: humm Documentation (NZ)
 site_dir: 'humm-nz'
 nav:
 - Home: index.md
-- Request API Key: request_api_nz.md
-- Integration Assistance: integration_assistance_nz.md
+- Request API Key: request_api.md
+- Integration Assistance: integration_assistance.md
 - eCommerce Integration:
-    - humm to Oxipay Migration: ecommerce/oxipay_migration.md
+    - Oxipay to humm migration: ecommerce/oxipay_migration.md
     - Shopify: ecommerce/shopify.md
     - WooCommerce: ecommerce/woocommerce.md
     - Magento 1: ecommerce/magento_1.md
