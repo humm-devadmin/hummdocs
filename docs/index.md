@@ -318,7 +318,7 @@
                     </tr>
                     <tr>
                         <th>Limit Available</th>
-                        <td>Up to $2,000</td>
+                        <td>Up to $1,000</td>
                         <td>Up to $10,000</td>
                     </tr>
                     <tr>
