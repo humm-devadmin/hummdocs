@@ -223,7 +223,7 @@
                     Buy ‘Little things’.
                 </div>
                 <div class="humm-content">
-                    Up to $1,000 and chose to repay fortnightly in 5 or 10 slices - that's over 2.5 or 5 months.
+                    Up to $1,000 and chose to repay weekly or fortnightly
                 </div>
             </div>
             <div class="humm-card humm-big-things">
@@ -232,7 +232,7 @@
                     Buy ‘Big things’.
                 </div>
                 <div class="humm-content">
-                    Up to $10,000 and up to 24 months to pay with no interest ever.
+                    Up to $10,000 and up to 24 months to pay, fortnightly, depending on where you shop and what you buy.
                 </div>
             </div>
         </div>
@@ -240,7 +240,7 @@
     <div class="humm-center-block humm-intro">
         <div class="humm-width-limit humm-text-center">
             <h3>
-                Take it today and take time to pay - with no interest, ever<span class="humm-small-number">3</span>.
+                Take it today and take time to pay - with no interest, ever<span class="humm-small-number">1</span>.
             </h3>
         </div>
     </div>
@@ -273,7 +273,7 @@
                     <div class="humm-title">
                         Pay in slices
                     </div>
-                    <div class="humm-small">Fortnightly payments</div>
+                    <div class="humm-small">Fortnightly payments<br>Fortnightly payments<br>Weekly option on Little Things</div>
                 </div>
             </div>
             <div class="humm-break-down">
@@ -323,16 +323,13 @@
                     </tr>
                     <tr>
                         <th>Terms</th>
-                        <td class="humm-small">
-                            <strong>2.5 months</strong> - 5 fortnightly, 10 weekly,<br>
-                            <strong>5 months<span class="humm-small-number">1</span></strong> - 10 fortnightly or 20 weekly<br>(instore only)
-                        </td>
+                        <td>2.5 months - 5 fortnightly, 10 weekly</td>
                         <td>Fortnightly - 6-24 months</td>
                     </tr>
                     <tr>
                         <th>Deposit Required at <br>Time of Purchase</th>
-                        <td>10% weekly <br>20% fortnighly</td>
-                        <td>20$ fortnightly</td>
+                        <td>Yes, 10% weekly <br>20% fortnighly</td>
+                        <td>Yes - 10% for all terms</td>
                     </tr>
                     <tr>
                         <th>Interest</th>
@@ -346,26 +343,23 @@
                     </tr>
                     <tr>
                         <th>Establishment Fee</th>
-                        <td>$0</td>
-                        <td>$10</td>
+                        <td>No</td>
+                        <td>$tbc (1)</td>
                     </tr>
                     <tr>
-                        <th>Additional Purchase</th>
-                        <td>N/A</td>
-                        <td>N/A</td>
+                        <th>Additional Purchase Fee</th>
+                        <td>No</td>
+                        <td>No</td>
                     </tr>
                     <tr>
                         <th>Monthly Fee</th>
-                        <td class="humm-small">
-                            $0 for 2.5 month plans<br>
-                            $8 for 5 month plans<span class="humm-small-number">1</span>
-                        </td>
-                        <td>$8<span class="humm-small-number">2</span></td>
+                        <td>No</td>
+                        <td>$tbc (2)</td>
                     </tr>
                     <tr>
-                        <th>Late Fee</th>
-                        <td>$6</td>
-                        <td>$6</td>
+                        <th>Late Payment Fee</th>
+                        <td>$10</td>
+                        <td>$10</td>
                     </tr>
                 </table>
             </div>
@@ -374,7 +368,7 @@
 	<br>
     <div class="humm-footer humm-width-limit">
         <div class="humm-text-center">
-            <span class="humm-small-number">1</span> Purchases to be over $500 for a 5 month payment plan. <span class="humm-small-number">2</span> Charged at the first of the month. If a monthly fee is missed it will be picked up in the next Direct Debit cycle. <span class="humm-small-number">3</span> Payment plan to approved applicants only; fees, terms, conditions, minimum amounts and exclusions apply. Payment plan provided by Certegy Ezi-Pay Pty Ltd ABN 28 129 228 986. <span class="humm-small-number">4</span> VIPs have used humm and qualify for special offers like no deposit.
+            <span class="humm-small-number">1</span> Lending Criteria, fees, terms, conditions, minimum amounts and exclusions apply. Credit provided by FlexiGroup (New Zealand) Limited NZBN 9429038167249
         </div>
     </div>
 	<br>
