@@ -273,7 +273,7 @@
                     <div class="humm-title">
                         Pay in slices
                     </div>
-                    <div class="humm-small">Fortnightly payments<br>Fortnightly payments<br>Weekly option on Little Things</div>
+                    <div class="humm-small">Fortnightly payments<br>Weekly option on Little Things</div>
                 </div>
             </div>
             <div class="humm-break-down">
@@ -324,11 +324,11 @@
                     <tr>
                         <th>Terms</th>
                         <td>2.5 months - 5 fortnightly, 10 weekly</td>
-                        <td>Fortnightly - 6-24 months</td>
+                        <td>6-24 months, fortnightly</td>
                     </tr>
                     <tr>
                         <th>Deposit Required at <br>Time of Purchase</th>
-                        <td>Yes, 10% weekly <br>20% fortnighly</td>
+                        <td>Yes 10% weekly <br>20% fortnightly</td>
                         <td>Yes - 10% for all terms</td>
                     </tr>
                     <tr>
