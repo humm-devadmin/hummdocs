@@ -108,6 +108,6 @@ extra:
     max_purchase: 2100
     endpoint_note: Please note that the environments below are not currently available. Closer to the launch of humm these will become available.
     price_info_page_link: widgets_nz
-    hide-in-nz: none;
+    au-only: none;
 markdown_extensions:
     - codehilite

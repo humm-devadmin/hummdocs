@@ -1,4 +1,4 @@
-<div id="humm-landing-content" style=display:%hide-in-nz%>
+<div id="humm-landing-content" style=display:%au-only%>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://widgets.shophumm.com.au/content/html/landing-page/styles/landing.css">
     <div class="humm-header-background">
@@ -189,7 +189,7 @@
 	<br>
 </div>
 
-<div id="humm-landing-content" style=display:%hide-in-au%>
+<div id="humm-landing-content" style=display:%nz-only%>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://widgets.shophumm.com.au/content/html/landing-page/styles/landing.css">
     <div class="humm-header-background">
