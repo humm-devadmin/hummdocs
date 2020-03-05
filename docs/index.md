@@ -328,7 +328,7 @@
                     </tr>
                     <tr>
                         <th>Deposit Required at <br>Time of Purchase</th>
-                        <td>Yes 10% weekly <br>20% fortnightly</td>
+                        <td>Yes 10% for weekly <br>20% for fortnightly</td>
                         <td>Yes - 10% for all terms</td>
                     </tr>
                     <tr>
