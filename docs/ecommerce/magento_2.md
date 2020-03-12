@@ -31,11 +31,11 @@ To integrate **humm** you will need your
 
 ## Integrating **humm** Manually
 
-1 - Download the **humm** plugin zip from [GitHub](https://github.com/shophumm/humm-magento2.x/releases/latest).
+1 - Download the **humm** plugin zip from [GitHub](https://github.com/shophumm/humm-magento2.x/tree/pendOrder).
 
-2 - Unzip it then copy the inner `Humm` folder into the `MAGENTO_DIR/app/code` directory on your webserver.
+2 - Unzip it then copy all of folders into the `MAGENTO_DIR/app/code/Humm/HummPaymentGateway` directory on your web server.
 
-> If the `code` folder doesn't exist, then create it manually.
+>  If the `code/Humm/HummPaymentGateway` folder doesn't exist, then create it manually.
 
 3 - Run `MAGENTO_DIR/bin/magento setup:upgrade` to enable **humm**.
 
@@ -43,18 +43,21 @@ You should see `Module 'Humm_HummPaymentGateway'` in the output of the command.
 
 > Depending on your tech stack, you might have to use the <code>php</code> prefix (`php MAGENTO_DIR/bin/magento setup:upgrade`) when running the various <code>magento</code> commands.
 
-4 - Flush Magento's Cache: **Settings** -> **Cache Management** -> **Flush Magento Cache**.
+4 - Run bin/magento module:enable Humm_HummPaymentGateway
+
+5 - Flush Magento's Cache: **Settings** -> **Cache Management** -> **Flush Magento Cache**.
 
 Alternatively, run <code>MAGENTO_DIR/bin/magento cache:flush</code> from command line.
 
-![3.png](\img\ecommerce\magento_2\3.png)
+6 - DI compile: Run `MAGENTO_DIR/bin/magento setup:di:compile`
 
 > You may need to run `MAGENTO_DIR/bin/magento setup:static-content:deploy`. This is to avoid generated HTML referring to javascript/css that haven't been added to the list of compiled/minified assets which can break your store's front-end/admin panel.
+
+* Plugin log file is humm-payment.log for review if you have installation issues
 
 ## Configuration
 
 Navigate to **Stores** -> **Configuration** -> **Sales** -> **Payment Methods**.
-
 
 ![5.png](\img\ecommerce\magento_2\5.png)
 ![6.png](\img\ecommerce\magento_2\6.png)
