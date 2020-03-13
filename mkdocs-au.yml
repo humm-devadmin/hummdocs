@@ -14,7 +14,6 @@ nav:
     - CubeCart: ecommerce/cubecart.md
     - Test Transactions: accreditation/test.md
 - Custom Integration:
-    - Introduction: custom_integration/introduction.md
     - Checkout Process: custom_integration/checkout_process.md
     - Checkout API: custom_integration/checkout_api.md
     - Refund API: custom_integration/refund_api.md
