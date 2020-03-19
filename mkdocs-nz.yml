@@ -12,7 +12,7 @@ nav:
     - Magento 2: ecommerce/magento_2.md
     - PrestaShop: ecommerce/prestashop.md
     - OpenCart: ecommerce/opencart.md
-    - CubeCart: ecommerce/cubecart.md
+    # - CubeCart: ecommerce/cubecart.md
     - Test Transactions: accreditation/test.md
 - Custom Integration:
     - Checkout Flow: custom_integration/checkout_process.md
