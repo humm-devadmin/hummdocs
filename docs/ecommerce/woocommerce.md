@@ -9,21 +9,26 @@ To integrate **humm** you will need your:
 
 ##Integrating **humm**
 
-1 - On the left-hand side of your WordPress admin page, click **Plugins > Add New** then search for **humm** in top-right search field.
+1 - Download the Humm WooCommerce plugin from [Github](https://github.com/oxipay/oxipay-woocommerce/archive/review.zip).
+
+2 - Navigate to the WordPress Admin page and on the left hand side click **Plugins > Add New** then click the **Upload Plugin** button at the top of the page.
 
 ![1.png](/img/ecommerce/woocommerce/1.png)
 
-4 - Next to **Humm / Oxipay Payment Gateway for WooCommerce** click **Install** then **Activate**. 
+3 - Add the Humm **.zip** file downloaded earlier and install it to your WordPress website.
 
-![29.png](/img/ecommerce/woocommerce/29.png)
+4 - Once installed, click the **Activate Now** button.
 
 ## Configuration
 
-From the **Plugins** page, find Humm then click **Settings**.
+1 - From the **Plugins** page, find Humm then click **Settings**.
 
 ![32.png](/img/ecommerce/woocommerce/32.png)
 
-Ensure **humm** is configured as follows.
+2 - Configure the **Merchant ID** and **API Key** fields with your credentials.
+	**If you have not received your API key please fill out the form located [here](https://docs.shophumm.com.au/request_api/).**
+
+3 - Ensure **humm** is configured as follows.
 
 |Setting|Value|
 -------|-----
@@ -32,11 +37,11 @@ Ensure **humm** is configured as follows.
 **Test Mode**| `Unticked`
 **Price Widget**| `Ticked`
 **Price Widget Advanced Settings**|`Unticked`
-**Merchant Type**| 'Little things', 'Big things' or Both.
-**Top Banner Widget**| `Ticked` (AU Only)
-**Top Banner on FrontPage Only**| `Ticked` (AU only)
 **Pre-select Checkout Button**| `Ticked`
 **Pre-select Button Order**| `1`
+**Top Banner Widget**| `Ticked` (AU Only)
+**Top Banner on FrontPage Only**| `Ticked` (AU only)
+**Merchant Type**| 'Little things', 'Big things' or Both.	
 **Minimum Order Total**| `0` for no limit.
 **Maximum Order Total**| `0` for no limit.
 
