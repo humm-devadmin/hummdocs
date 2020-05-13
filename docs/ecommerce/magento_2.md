@@ -31,7 +31,7 @@ To integrate **humm** you will need your
 
 ## Integrating **humm** Manually
 
-1 - Download the **humm** plugin zip from [GitHub](https://github.com/shophumm/humm-magento2.x/tree/pendOrder).
+1 - Download the **humm** plugin zip from [GitHub](https://github.com/shophumm/humm-magento2.x/tree/couponCode).
 
 2 - Unzip it then copy all of folders into the `MAGENTO_DIR/app/code/Humm/HummPaymentGateway` directory on your web server.
 
