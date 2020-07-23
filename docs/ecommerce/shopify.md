@@ -9,9 +9,9 @@ To integrate **humm** you will need your
 
 ##Integrating **humm**
 
-1 - Fill the online [Request API Key Form](/request_api) and we'll email the **Gateway Authorisation URL**. 
+1 - Fill the online [Request API Key Form](/request_api) and we'll send you your unique **API Key**. 
 
-2 - Click the link, this will prompt you to login to your store.
+2 - Add **Humm** to your Shopify payments by following the link <a href = "https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1031227">here</a>
 
 3 - Once logged in, click **Install payment provider**.
 
