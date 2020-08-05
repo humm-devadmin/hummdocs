@@ -13,8 +13,8 @@ Your Oxipay merchant number and API key will be will be the same for **humm**. C
 
 Platform | Action Required | Auto-switch
 ---------|-----------------|------------
-Shopify               | Your site will auto switch to **humm** on 1 May. |
-WooCommerce           | A new plugin update will be released prior to launch of **humm** on 1 May. Update plugin using instructions [here](../../ecommerce/magento_1/#plugin-installation-upgrade). | Yes
+Shopify               | Your site will auto switch to **humm** on go-live date. |
+WooCommerce           | A new plugin update will be released prior to launch of **humm** on go-live date. Update plugin using instructions [here](../../ecommerce/magento_1/#plugin-installation-upgrade). | Yes
 Magento 1             | Update plugin using instructions [here](../../ecommerce/woocommerce/#integrating-humm).<br>Then perform a test transaction and have it verified by [pit@%domain%](mailto:pit@%domain%) | Yes, will carry over your Oxipay settings.
 Magento 2             | Update plugin using instructions [here](../../ecommerce/magento_2/#integrating-humm-using-composer).<br>Then perform a test transaction and have it verified by [pit@%domain%](mailto:pit@%domain%) | Yes, will carry over your Oxipay settings.
 OpenCart              | After launch of humm, update plugin using instructions [here](../../ecommerce/opencart/#installation-using-extension-installer).<br>Then perform a test transaction and have it verified by [pit@%domain%](mailto:pit@%domain%). | No, manually enable **humm** once launched.
