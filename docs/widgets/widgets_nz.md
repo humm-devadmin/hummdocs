@@ -26,6 +26,7 @@ Note the use of <code>&little=f5</code> or <code>&little=w10</code> parameter.
 
 Also remember to use the real product price to replace the "<code>PLACE_YOUR_PRODUCT_PRICE</code>" placeholder.
 
+<!--
 ## 'Big things' only
 
 If a **'Big things'** only seller, use:
@@ -61,6 +62,8 @@ Available options are:
 | < $80 <br> (productPrice=30) | $80 - $10k <br> (productPrice=4500) | > $10k <br> (producePrice=12000) |
 | -- | -- | -- |
 | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=30&big=M6"></script> | 6M <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4500&big=M6"></script> 12M <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4500&big=M12"></script> 24M <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4500&big=M24"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000&BigOnly"></script> |
+
+-->
 
 ## Platform-specific Installation Instructions
 * [Shopify](/widgets/price-info/shopify_nz)
