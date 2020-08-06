@@ -63,7 +63,7 @@ Widgets are available [here](/widgets/%price_info_page_link%/).
 
 ## More info pop up widget
 
-Ensure you enable to fully responsive humm pop-up on the product page call to action. This allows buyers to learn more about humm without interrupting their checkout experience.
+Ensure you enable the fully responsive humm pop-up on the product page call to action. This allows buyers to learn more about humm without interrupting their checkout experience.
 
 Triggered from "More Info" on:
 
@@ -77,17 +77,22 @@ Triggered from "More Info" on:
     <img class="box-shadow" src="/img/best_integration_guidelines/More_info_pop_up_MOB2.png">
 </a>
 
-**Pop up widget on desktop - Items < $2,000**
+**Pop up widget on desktop**
 
-<a href="/widgets/%price_info_page_link%#price-info-widget">
-    <img class="box-shadow" src="/img/best_integration_guidelines/pop_up_under 2000_0.png">
-</a>
 
-**Pop up widget on desktop - Items > $2,000**
+<div id="humm-landing-content" style=display:%au-only%>
+    <a href="/widgets/%price_info_page_link%#price-info-widget">
+        <img class="box-shadow" src="/img/best_integration_guidelines/pop_up_under 2000_0.png">
+    </a>
+</div>
 
-<a href="/widgets/%price_info_page_link%#price-info-widget">
-    <img class="box-shadow" src="/img/best_integration_guidelines/pop_up_over 2000_0.png">
-</a>
+
+<div id="humm-landing-content" style=display:%nz-only%>
+    <a href="/widgets/%price_info_page_link%#price-info-widget">
+        <img class="box-shadow" src="/img/best_integration_guidelines/pop_up_nz.png">
+    </a>
+</div>
+
 
 Widgets are available [here](/widgets/%price_info_page_link%/).
 
