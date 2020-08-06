@@ -28,7 +28,7 @@ Custom                | Custom integrations will need to manually update their [
 Existing Oxipay widgets, including price breakdowns, banners and landing pages will automatically switch to **humm** at launch.
 
 To illustrate, the following Oxipay widget:
-<script src="https://widgets.oxipay.co.nz/content/scripts/price-info.js?productPrice=200"></script>
+<script src="https://widgets.oxipay.co.nz/content/scripts/price-info.js?productPrice=100"></script>
 
 <br>Will switch to **humm**
 

@@ -12,18 +12,16 @@ To integrate **humm** you will need your
 
 1 - You can create a backup of your store by navigating to **System** -> **Tools** -> **Backup**.
 
-2 - Download the **humm** plugin zip from [GitHub](https://github.com/shophumm/humm-magento1.x/releases/download/1.5.13/humm-magento-1.x_v1.5.13.zip).
+2 - Download the **humm** plugin zip from [GitHub](https://github.com/shophumm/humm-magento1.x/archive/review.zip).
 
 3 - Unzip it, then copy the following folders into the corresponding folders under your Magento root directory.
 
-    app/
-    skin/
-
-4 - Login into Magento's **Admin Panel**, click on **System** then select **Cache Management**.
-
-5 - On the **Cache Management** page, click on **Flush Magento Cache**.
-
-![3.png](/img/ecommerce/magento_1/3.png)
+    /app/code/community/Humm/
+	/app/design/frontend/base/default/template/HummPayments/
+	/app/design/adminhtml/base/default/template/HummPayments/
+	/app/etc/modules/Humm_HummPayments.xml
+	/skin/frontend/base/default/images/Humm/
+	/skin/adminhtml/base/default/images/Humm/
 
 ## Configuration
 
@@ -33,18 +31,15 @@ To integrate **humm** you will need your
 
 ![5.png](/img/ecommerce/magento_1/5.png)
 
-3 - Confirm  **humm Checkout** is visible and once expanded looks similar to the image below.
-
-![6.png](/img/ecommerce/magento_1/6.png)
+3 - Confirm  **humm Checkout** is visible and once expanded, the options will need to be configured with your merchant number and API key.
 
 ## Varnish Cache
 
 If your server utilises a Varnish cache it is important that you whitelist any URLs associated with the **humm** plugin.
 
-This should at least include the following:
+A rule must be added to varnish configuration for any magento installation running behind a varnish backend. (Or any other proxy cache) to invalidate any payment controller action.
 
-    YOUR_DOMAIN/HummPayments/payment/start/
-    YOUR_DOMAIN/HummPayments/payment/cancel/
-    YOUR_DOMAIN/HummPayments/payment/complete/
+Must exclude: `.*HummPayments.*` from all caching.
+
 
 The [Checkout API](../../developer_resources/checkout_api/#humm-gateways) and [Refund API](../../developer_resources/refund_api/) endpoints should also be whitelisted.
