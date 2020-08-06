@@ -8,7 +8,7 @@ Below is a chart that summarises the flow of a transaction when processing it us
 
  **Step 1**: The customer places an order in a shopping cart providing details such as their first/last name, email address etc. The customer chooses **humm** as the payment method.
 
- **Step 2**: The customer is redirected to the **humm** checkout gateway via a **HTTP POST** (See <a href="/developer_resources/checkout_api/#request-post">Request POST</a> for details). Note that this post needs to be signed to ensure security (See <a href="/developer_resources/signature_generation/">Signature Generation</a> for details).
+ **Step 2**: The customer is redirected to the **humm** checkout gateway via a **HTTP POST** (See <a href="/custom_integration/checkout_api/#request-post">Request POST</a> for details). Note that this post needs to be signed to ensure security (See <a href="/developer_resources/signature_generation/">Signature Generation</a> for details).
 
  **Step 3**: The customer will then complete the purchase via the **humm** Service. Customers that cancel will be redirected back to the <code>x_url_cancel</code> URL.
 

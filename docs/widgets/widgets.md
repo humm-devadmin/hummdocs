@@ -39,9 +39,8 @@ No extra parameter required.
 
 | | <= $1000 | $1000 < price <= $2000 | > $2000 |
 | -- | -- | -- | -- |
-| **Default** | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000"></script> |
-| **Big Things Only** | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&BigOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500&BigOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000&BigOnly"></script> |
-| **Little Things Only** | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500&LittleOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000&LittleOnly"></script> |
+| **Big Things Only** | | | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000&BigOnly"></script> |
+| **Little Things Only** | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500&LittleOnly"></script> | |
 
 This affects all widgets, including dynamic widgets.
 

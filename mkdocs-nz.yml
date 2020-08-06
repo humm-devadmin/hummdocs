@@ -2,8 +2,8 @@ site_name: humm Documentation (NZ)
 site_dir: 'humm-nz'
 nav:
 - Home: index.md
-- Request API Key: request_api.md
-- Integration Assistance: integration_assistance.md
+# - Request API Key: request_api.md
+# - Integration Assistance: integration_assistance.md
 - eCommerce Integration:
     - Oxipay to humm migration: ecommerce/oxipay_migration.md
     - Shopify: ecommerce/shopify.md
@@ -41,6 +41,7 @@ nav:
         - Little & Big Online: widgets/landing_pages/little_big_online.md
         - Little & Big Instore: widgets/landing_pages/little_big_instore.md
         - General: widgets/landing_pages/general.md
+- Logos: logos.md
 - POS Integration:
     - Getting Started: 'pos/getting-started.md'
     - Terminology: 'pos/terminology.md'
