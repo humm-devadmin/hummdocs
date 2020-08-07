@@ -328,8 +328,8 @@
                     </tr>
                     <tr>
                         <th>Deposit Required at <br>Time of Purchase</th>
-                        <td>Yes 10% for weekly <br>20% for fortnightly</td>
-                        <td>Yes - 10% for all terms</td>
+                        <td>Yes - 20% for all terms</td>
+                        <td>Yes - 20% for all terms</td>
                     </tr>
                     <tr>
                         <th>Interest</th>
@@ -344,7 +344,7 @@
                     <tr>
                         <th>Establishment Fee</th>
                         <td>No</td>
-                        <td>$tbc (1)</td>
+                        <td>$20</td>
                     </tr>
                     <!-- <tr>
                         <th>Additional Purchase Fee</th>
@@ -354,7 +354,7 @@
                     <tr>
                         <th>Monthly Fee</th>
                         <td>No</td>
-                        <td>$tbc (2)</td>
+                        <td>$2.50</td>
                     </tr>
                     <tr>
                         <th>Late Payment Fee</th>
