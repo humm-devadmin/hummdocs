@@ -20,13 +20,13 @@ Let your customers know you accept **humm**.
 * Top strip banners are available [here](/widgets/banners).
 
 <a href="/widgets/banners">
-    <img class="box-shadow" src="/img/best_integration_guidelines/Pay_in_slices_sml.png">
+    <img class="box-shadow" src="/img/best_integration_guidelines/Pay_in_slicesNZ.png">
 </a>
 
 * Banners are available [here](/widgets/banners).
 
 <a href="/widgets/banners">
-    <img class="box-shadow" src="/img/best_integration_guidelines/LTBTsml.png">
+    <img class="box-shadow" src="/img/best_integration_guidelines/LTBTsmlNZ.png">
 </a>
 
 * The **humm** payment tile is available [here](https://tools.shophumm.com.au/logos-images).

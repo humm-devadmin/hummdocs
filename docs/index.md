@@ -346,11 +346,11 @@
                         <td>No</td>
                         <td>$20</td>
                     </tr>
-                    <tr>
+                    <!-- <tr>
                         <th>Additional Purchase Fee</th>
                         <td>No</td>
                         <td>No</td>
-                    </tr>
+                    </tr> -->
                     <tr>
                         <th>Monthly Fee</th>
                         <td>No</td>
