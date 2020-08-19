@@ -42,4 +42,4 @@ A rule must be added to varnish configuration for any magento installation runni
 Must exclude: `.*HummPayments.*` from all caching.
 
 
-The [Checkout API](../../developer_resources/checkout_api/#humm-gateways) and [Refund API](../../developer_resources/refund_api/) endpoints should also be whitelisted.
+The [Checkout API](../../custom_integration/checkout_api/#humm-endpoints) and [Refund API](../../custom_integration/refund_api/) endpoints should also be whitelisted.
