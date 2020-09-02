@@ -9,11 +9,9 @@ To integrate **humm** you will need your:
 
 ##Integrating **humm**
 
-1 - Download the Humm WooCommerce plugin from [Github](https://github.com/oxipay/oxipay-woocommerce/archive/review.zip).
+1 - Download the Humm WooCommerce plugin from <span style=display:%au-only%><a href = "https://github.com/shophumm/humm-au-woocommerce/archive/master.zip">Github</a></span> <span style=display:%nz-only%><a href = "https://github.com/shophumm/humm-nz-woocommerce/archive/master.zip">Github</a></span>
 
 2 - Navigate to the WordPress Admin page and on the left hand side click **Plugins > Add New** then click the **Upload Plugin** button at the top of the page.
-
-![1.png](/img/ecommerce/woocommerce/1.png)
 
 3 - Add the Humm **.zip** file downloaded earlier and install it to your WordPress website.
 
@@ -21,7 +19,7 @@ To integrate **humm** you will need your:
 
 ## Configuration
 
-1 - From the **Plugins** page, find Humm then click **Settings**.
+1 - Navigate to the **Plugins** page, find Humm then click **Settings**.
 
 ![32.png](/img/ecommerce/woocommerce/32.png)
 
@@ -41,9 +39,12 @@ To integrate **humm** you will need your:
 **Pre-select Button Order**| `1`
 **Top Banner Widget**| `Ticked` (AU Only)
 **Top Banner on FrontPage Only**| `Ticked` (AU only)
-**Merchant Type**| 'Little things', 'Big things' or Both.	
+**Merchant Type**| 'Little things', 'Big things' or Both.
+**Shop Name**| Insert your shop name here.	
 **Minimum Order Total**| `0` for no limit.
 **Maximum Order Total**| `0` for no limit.
+
+If you have any questions, email us at <span style=display:%au-only%><strong>pit@shophumm.com.au</strong></span> <span style=display:%nz-only%><strong>pit@shophumm.co.nz</strong></span>
 
 ## Refunding
 
