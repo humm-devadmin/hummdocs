@@ -6,10 +6,10 @@ nav:
 # - Integration Assistance: integration_assistance.md
 - eCommerce Integration:
     - Oxipay to humm migration: ecommerce/oxipay_migration.md
-    - Shopify: ecommerce/shopify.md
-    - WooCommerce: ecommerce/woocommerce.md
-    - Magento 1: ecommerce/magento_1.md
-    - Magento 2: ecommerce/magento_2.md
+    - Shopify: ecommerce/shopify_nz.md
+    - WooCommerce: ecommerce/woocommerce_nz.md
+    - Magento 1: ecommerce/magento_1_nz.md
+    - Magento 2: ecommerce/magento_2_nz.md
     - PrestaShop: ecommerce/prestashop.md
     - OpenCart: ecommerce/opencart.md
     # - CubeCart: ecommerce/cubecart.md
