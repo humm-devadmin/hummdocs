@@ -9,7 +9,7 @@ To integrate **humm** you will need your:
 
 ##Integrating **humm**
 
-1 - Download the Humm WooCommerce plugin from [Github](https://github.com/shophumm/humm-au-woocommerce/archive/master.zip).
+1 - Download the Humm WooCommerce plugin from <span style=display:%au-only%><a href = "https://github.com/shophumm/humm-au-woocommerce/archive/master.zip">Github</a></span> <span style=display:%nz-only%><a href = "https://github.com/shophumm/humm-nz-woocommerce/archive/master.zip">Github</a></span>
 
 2 - Navigate to the WordPress Admin page and on the left hand side click **Plugins > Add New** then click the **Upload Plugin** button at the top of the page.
 
@@ -31,7 +31,7 @@ To integrate **humm** you will need your:
 |Setting|Value|
 -------|-----
 **Enabled**| `Ticked`
-**Humm Region**| AU
+**Humm Region**| AU or NZ
 **Test Mode**| `Unticked`
 **Price Widget**| `Ticked`
 **Price Widget Advanced Settings**|`Unticked`
@@ -44,7 +44,7 @@ To integrate **humm** you will need your:
 **Minimum Order Total**| `0` for no limit.
 **Maximum Order Total**| `0` for no limit.
 
-If you have any questions, email us at **pit@shophumm.com.au**
+If you have any questions, email us at <span style=display:%au-only%><strong>pit@shophumm.com.au</strong></span> <span style=display:%nz-only%><strong>pit@shophumm.co.nz</strong></span>
 
 ## Refunding
 
