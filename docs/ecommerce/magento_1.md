@@ -12,13 +12,15 @@ To integrate **humm** you will need your
 
 1 - You can create a backup of your store by navigating to **System** -> **Tools** -> **Backup**.
 
-2 - Download the **humm** plugin zip from [GitHub](https://github.com/shophumm/humm-magento1.x/archive/review.zip).
+2 - Download the **humm** plugin zip file from <span style=display:%au-only%><a href = "https://github.com/shophumm/humm-au-magento1.x/archive/master.zip">Github</a></span> <span style=display:%nz-only%><a href = "https://github.com/shophumm/humm-nz-magento1/archive/master.zip">Github</a></span>
 
 3 - Unzip it, then copy the following folders into the corresponding folders under your Magento root directory.
 
     /app/code/community/Humm/
 	/app/design/frontend/base/default/template/HummPayments/
+	/app/design/frontend/base/default/layout/humm/
 	/app/design/adminhtml/base/default/template/HummPayments/
+	/app/design/adminhtml/default/default/template/humm/payments/
 	/app/etc/modules/Humm_HummPayments.xml
 	/skin/frontend/base/default/images/Humm/
 	/skin/adminhtml/base/default/images/Humm/
@@ -33,13 +35,20 @@ To integrate **humm** you will need your
 
 3 - Confirm  **humm Checkout** is visible and once expanded, the options will need to be configured with your merchant number and API key.
 
-## Varnish Cache
+|Setting|Value|
+-------|-----
+**Enable this Solution**| Yes
+**Environment**| Production for live, Sandbox for testing
+**Merchant Number**| Configure with your merchant number
+**Title**| Humm payments
+**New Order Status**| Processing
+**Minimum Order Total**| `0` for no limit.
+**Email Customer**| Yes or No
+**Automatic Invoice**| Yes or No (Must be enabled for refunding)
+**Force Humm**| Yes
+**Payment Currency**| AU or NZ
+**Timeout**| 60 recommended
+**Widgets & Banners**| Yes or No
 
-If your server utilises a Varnish cache it is important that you whitelist any URLs associated with the **humm** plugin.
+If you have any questions, email us at <span style=display:%au-only%><strong>pit@shophumm.com.au</strong></span> <span style=display:%nz-only%><strong>pit@shophumm.co.nz</strong></span>
 
-A rule must be added to varnish configuration for any magento installation running behind a varnish backend. (Or any other proxy cache) to invalidate any payment controller action.
-
-Must exclude: `.*HummPayments.*` from all caching.
-
-
-The [Checkout API](../../custom_integration/checkout_api/#humm-endpoints) and [Refund API](../../custom_integration/refund_api/) endpoints should also be whitelisted.

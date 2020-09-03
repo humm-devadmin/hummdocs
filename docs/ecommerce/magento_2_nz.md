@@ -13,8 +13,8 @@ To integrate **humm** you will need your
 
 1. Add the **humm** repository, in Magento's root directory
 
-        composer config repositories.shophumm git https://github.com/shophumm/humm-au-magento2.x.git
-
+        composer config repositories.shophumm git https://github.com/shophumm/humm-nz-magento2.git
+        
 2. Require the Humm Payment Gateway Module
 
         composer require humm/module-humm-payment-gateway:dev-master
@@ -39,7 +39,7 @@ To integrate **humm** you will need your
 
 ## Integrating **humm** Manually
 
-1 - Download the **humm** plugin zip from <span style=display:%au-only%><a href = "https://github.com/shophumm/humm-au-magento2.x/archive/master.zip">Github</a></span> <span style=display:%nz-only%><a href = "https://github.com/shophumm/humm-nz-magento2/archive/master.zip">Github</a></span>
+1 - Download the **humm** plugin zip from [GitHub](https://github.com/shophumm/humm-nz-magento2/archive/master.zip).
 
 2 - Unzip it then copy all of folders into the `MAGENTO_DIR/app/code/Humm/HummPaymentGateway` directory on your web server.
 

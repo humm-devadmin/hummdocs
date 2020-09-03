@@ -11,7 +11,7 @@ To integrate **humm** you will need your
 
 1 - Fill the online [Request API Key Form](/request_api) and we'll send you your unique **API Key**. 
 
-2 - Add **Humm** to your Shopify payments by following the link <a href = "https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1031227">here</a>
+2 - Add **Humm** to your Shopify payments by following the link <span style=display:%au-only%><a href = "https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1031227" >here</a></span> <span style=display:%nz-only%><a href = "https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052217">here</a><span>
 
 3 - Once logged in, click **Install payment provider**.
 
@@ -29,6 +29,8 @@ To integrate **humm** you will need your
 > Ensure test mode is disabled.
 
 ![8.png](/img/ecommerce/shopify/8.png)
+
+If you have any questions, email us at <span style=display:%au-only%><strong>pit@shophumm.com.au</strong></span> <span style=display:%nz-only%><strong>pit@shophumm.co.nz</strong></span>
 
 ##Price-info Widgets
 
