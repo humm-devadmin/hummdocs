@@ -6,11 +6,11 @@ The following instructions outline how to perform a test transaction with humm.
 
 ## Performing a Test Transaction
 
-1 - Add a product to your cart and proceed to check out with **humm**.
+**1.** Add a product to your cart and proceed to check out using **humm** as your payment option.
 
-- The URL you redirect to should be **integration-**cart.%domain%
+- The URL you redirect to should be **integration-cart.%domain%**. If you are redirected to another URL, you may not be in the test environment.
 
-2 - Sign up for a **test** **humm** account.
+**2.** If you don't already have one, sign up for a **test** **humm** account, otherwise login to **humm**.
 
 ![1.png](/img/accreditation/1.png)
 
@@ -19,14 +19,25 @@ The following instructions outline how to perform a test transaction with humm.
 
 > If you can't sign up please contact [pit@%domain%](mailto:pit@%domain%)
 
-3 - Pay the first installment using a testing credit card
+**3.** You will need to add a credit/debit card when completing the registration. You may use any dummy values in these fields.
 
-![2.png](/img/accreditation/2.png)
+![4.png](/img/accreditation/4.png)
 
-- Use the credit card number **4111 1111 1111 1111** with any name and valid expiry date.
+If you are unsure, use the credit card number **4111 1111 1111 1111** with any name and valid expiry date.
 
-4 - Your transaction will be approved or declined and you will be redirected back to the web-store.
+**4.** Once you've signed up you'll be redirected back to the humm portal to complete the test transaction.
+
+You may select any options here as this is all in a sandbox environment.
+
+![5.png](/img/accreditation/5.jpg)
+
+Once completed you will be redirected back to your purchase page with the approriate response.
 
 ![3.png](/img/accreditation/3.png)
 
-5 - Confirm that the transaction is showing up correctly in the sales records for your store.
+**5.** Confirm that the transaction is showing up correctly in the sales records for your store.
+
+You may also view the transaction in our test merchant portal [here](https://uat-buyer.%domain%). Your regular login details will work.
+
+
+> If you have any questions, or need any assistance, please contact [pit@%domain%](mailto:pit@%domain%)
