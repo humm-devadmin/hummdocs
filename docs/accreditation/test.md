@@ -37,7 +37,7 @@ Once completed you will be redirected back to your purchase page with the appror
 
 **5.** Confirm that the transaction is showing up correctly in the sales records for your store.
 
-You may also view the transaction in our test merchant portal [here](https://uat-buyer.%domain%). Your regular login details will work.
+You may also view the transaction in our test merchant portal [here](https://uat-seller.%domain%). Your regular login details will work.
 
 
 > If you have any questions, or need any assistance, please contact [pit@%domain%](mailto:pit@%domain%)
