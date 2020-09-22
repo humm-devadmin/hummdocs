@@ -9,24 +9,26 @@ To integrate **humm** you will need your:
 
 ##Integrating **humm**
 
-1 - Download the Humm WooCommerce plugin from <span style=display:%au-only%><a href = "https://github.com/shophumm/humm-au-woocommerce/archive/master.zip">Github</a></span> <span style=display:%nz-only%><a href = "https://github.com/shophumm/humm-nz-woocommerce/archive/master.zip">Github</a></span>
+<span style = display:%nz-only%><strong>0</strong> - <strong>Before</strong> installing the new **Humm** plugin, if you have a previous version installed, please ensure you deactivate and uninstall the old plugin before proceeding.</span>
 
-2 - Navigate to the WordPress Admin page and on the left hand side click **Plugins > Add New** then click the **Upload Plugin** button at the top of the page.
+**1** - Download the **Humm** WooCommerce plugin from <span style=display:%au-only%><a href = "https://github.com/shophumm/humm-au-woocommerce/archive/master.zip">Github</a></span> <span style=display:%nz-only%><a href = "https://github.com/shophumm/humm-nz-woocommerce/archive/master.zip">Github</a></span>
 
-3 - Add the Humm **.zip** file downloaded earlier and install it to your WordPress website.
+**2** - Navigate to the WordPress Admin page and on the left hand side click **Plugins > Add New** then click the **Upload Plugin** button at the top of the page.
 
-4 - Once installed, click the **Activate Now** button.
+**3** - Add the Humm **.zip** file downloaded earlier and install it to your WordPress website.
+
+**4** - Once installed, click the **Activate Now** button.
 
 ## Configuration
 
-1 - Navigate to the **Plugins** page, find Humm then click **Settings**.
+**1** - Navigate to the **Plugins** page, find Humm then click **Settings**.
 
-![32.png](/img/ecommerce/woocommerce/32.png)
+![32.png](/img/ecommerce/woocommerce/33.png)
 
-2 - Configure the **Merchant ID** and **API Key** fields with your credentials.
+**2** - Configure the **Merchant ID** and **API Key** fields with your credentials.
 	**If you have not received your API key please fill out the form located [here](https://docs.shophumm.com.au/request_api/).**
 
-3 - Ensure **humm** is configured as follows.
+**3** - Ensure **humm** is configured as follows.
 
 |Setting|Value|
 -------|-----
@@ -48,10 +50,10 @@ If you have any questions, email us at <span style=display:%au-only%><strong>pit
 
 ## Refunding
 
-1 - Click order to refund from orders list page, then **Refund** at bottom.
+**1** - Click order to refund from orders list page, then **Refund** at bottom.
 
 ![Refund1.png](/img/ecommerce/woocommerce/refund1.png)
 
-2 - Choose the items or set the amount you want to refund then click **Refund via humm**.
+**2** - Choose the items or set the amount you want to refund then click **Refund via humm**.
 
 ![Refund2.png](/img/ecommerce/woocommerce/refund2.png)

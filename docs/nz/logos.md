@@ -154,4 +154,4 @@ When using any of the banners below you must also have the disclaimer at the bot
 #### humm payment method tile
 < [download](/downloads/nz/logos/humm%20payment%20tile_0.png) >
 
-![](/img/logos/nz/humm%20payment%20tile.png)
+![](/img/logos/nz/humm%20payment%20tile_0.png)
