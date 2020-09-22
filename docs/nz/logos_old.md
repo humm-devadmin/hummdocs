@@ -6,15 +6,23 @@ For any application of a humm logo downloaded from below, you must send a proof 
 
 When using any of the banners below you must also have the disclaimer at the bottom of the page.
 
-## Little Things Retailer Marketing Guide
-< [download](/downloads/nz/logos/Humm_interim_retailer_marketing_guide_Small_things.pdf) >
+## Big Things Retailer Marketing Guide
 
-## Little & Things Retailer Marketing Guide
-< [download](/downloads/nz/logos/Humm_interim_retailer_marketing_guide_Small_Big_Things.pdf) >
+## Small Things Retailer Marketing Guide
 
-## 300 DPI Material
-< [download](/downloads/nz/logos/72dpi.zip) >
+## Logos
 
+
+
+#### humm core logo set
+< [download](/downloads/nz/logos/Humm_Core_Logo_Set_11.zip) >
+
+![](/img/logos/nz/humm_FG_icon_57mm%20x%2057mm__PDF_CMYK_Thumbnail_2.png)
+
+#### humm core logo with strapline set
+< [download](/downloads/nz/logos/Humm_Core%20_w_Strapline_Set_4.zip) >
+
+![](/img/logos/nz/Humm_core%20logo%20w%20strapline_RGB_THUMBNAILS_2.png)
 
 #### humm icon set
 < [download](/downloads/nz/logos/Humm_Icon_Set_4.zip) >
@@ -155,8 +163,4 @@ When using any of the banners below you must also have the disclaimer at the bot
 #### humm payment method tile
 < [download](/downloads/nz/logos/humm%20payment%20tile_0.png) >
 
-![](/img/logos/nz/humm%20payment%20tile_0.png)
-
-## 72 DPI Material
-< [download](/downloads/nz/logos/300dpi.zip) >
-
+![](/img/logos/nz/humm%20payment%20tile.png)
