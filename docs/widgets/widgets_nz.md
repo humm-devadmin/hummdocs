@@ -16,6 +16,8 @@ If a **'Little things'** only seller, use:
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=100&little=F5"></script>
 
+<!--
+
 #### For 10 weekly payments:
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&little=w10"></script>
@@ -25,6 +27,8 @@ If a **'Little things'** only seller, use:
 Note the use of <code>&little=f5</code> or <code>&little=w10</code> parameter.
 
 Also remember to use the real product price to replace the "<code>PLACE_YOUR_PRODUCT_PRICE</code>" placeholder.
+
+-->
 
 <!--
 ## 'Big things' only
