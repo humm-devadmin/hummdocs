@@ -16,9 +16,11 @@ Note the use of <code>&LittleOnly</code> parameter.
 
 If a **'Big things'** only seller, use:
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&BigOnly"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID_HERE"></script>
 ```
-Note the use of <code>&BigOnly</code> parameter.
+Note the use of <code>&merchantId</code> parameter.
+
+
 
 ## Both 'Little things' and 'Big things'
 
@@ -39,7 +41,7 @@ No extra parameter required.
 
 | | <= $1000 | $1000 < price <= $2000 | > $2000 |
 | -- | -- | -- | -- |
-| **Big Things Only** | | | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=4000&BigOnly"></script> |
+| **Big Things Only** | | | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=2001&merchantId=30135131"></script> |
 | **Little Things Only** | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500&LittleOnly"></script> | |
 
 This affects all widgets, including dynamic widgets.
