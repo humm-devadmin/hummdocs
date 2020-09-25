@@ -30,29 +30,28 @@ Also remember to use the real product price to replace the "<code>PLACE_YOUR_PRO
 
 -->
 
-<!--
 ## 'Big things' only
 
 If a **'Big things'** only seller, use:
 
-#### For payments over 6 months:
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&big=m6"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&BigThings"></script>
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1200&big=m6"></script>
 
-#### For payments over 12 month:
+The script will display the pricing banner for any price in the range of $80 to $10,000
+
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1200&BigThings"></script>
+
+## 'Big things' Dynamic API Pricing
+
+The 'Big things' widget can display dynamic API pricing if you append your merchant number to the script tag.
+
+``` 
+<script
+src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&BigThings&merchantId=YOUR_MERCHANT_ID"></script>
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&big=m12"></script>
-```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1200&big=m12"></script>
 
-Note the use of <code>&big=m6</code> or <code>&big=m12</code> parameter.
-
-Available options are:  
-<code>m6</code> for 6 months, <code>m9</code> for 9 months, <code>m12</code> for 12 months, <code>m18</code> for 18 months, <code>m24</code> for 24 months.
-
-
+<!-- 
 ## Widget behaviour
 
  **'Little things'**, only **'Big Things'** or **both** widgets behave differently, see table below:
