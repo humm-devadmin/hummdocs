@@ -4,31 +4,42 @@ Select the widget type corresponding to your seller type: **'Little things'**, *
 
 Insert the script where you want the widget to display replacing <code>PLACE_YOUR_PRODUCT_PRICE</code> with the product's price.
 
-## 'Little things' only
+## 'Little Things' only
 
-If a **'Little things'** only seller, use:
-```
+If you're a **'Little things'** only seller, use:
+
+`
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&LittleOnly"></script>
-```
+`
+
 Note the use of <code>&LittleOnly</code> parameter.
 
-## 'Big things' only
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script>
 
-If a **'Big things'** only seller, use:
-```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID_HERE"></script>
-```
+## 'Big Things' only
+
+If you're a **'Big things'** only seller, use:
+
+`
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
+`
+
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=2001"></script>
+
+## Little & Big Things
+
+If you're a **'Little things'** and **'Big things'** seller, use: 
+
+`
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
+`
+
 Note the use of <code>&merchantId</code> parameter.
 
+This will display dynamic pricing based on the Big Things terms available for your merchant account.
 
-
-## Both 'Little things' and 'Big things'
-
-If a **'Little things'** and **'Big things'** seller, use: 
-```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
-```
-No extra parameter required.
+**Product price = $2001**
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=2001&merchantId=30135131"></script> 
 
 ## Platform-specific Installation Instructions
 * [Shopify](/widgets/price-info/shopify)
@@ -37,7 +48,7 @@ No extra parameter required.
 
 ## Widget behaviour
 
- **'Little things'**, only **'Big Things'** or **both** widgets behave differently, see table below:
+ **'Little things'** only, **'Big Things'** only or **both** widgets behave differently:
 
 | | <= $1000 | $1000 < price <= $2000 | > $2000 |
 | -- | -- | -- | -- |
