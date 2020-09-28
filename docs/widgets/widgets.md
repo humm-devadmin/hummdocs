@@ -4,7 +4,7 @@ Select the widget type corresponding to your seller type: **'Little things'**, *
 
 Insert the script where you want the widget to display replacing <code>PLACE_YOUR_PRODUCT_PRICE</code> with the product's price.
 
-## 'Little things' only
+## 'Little Things' only
 
 If you're a **'Little things'** only seller, use:
 
@@ -16,7 +16,7 @@ Note the use of <code>&LittleOnly</code> parameter.
 
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script>
 
-## 'Big things' only
+## 'Big Things' only
 
 If you're a **'Big things'** only seller, use:
 
@@ -26,7 +26,7 @@ If you're a **'Big things'** only seller, use:
 
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=2001"></script>
 
-## Dynamic API Pricing
+## Little & Big Things
 
 If you're a **'Little things'** and **'Big things'** seller, use: 
 
@@ -48,7 +48,7 @@ This will display dynamic pricing based on the Big Things terms available for yo
 
 ## Widget behaviour
 
- **'Little things'**, only **'Big Things'** or **both** widgets behave differently, see table below:
+ **'Little things'** only, **'Big Things'** only or **both** widgets behave differently:
 
 | | <= $1000 | $1000 < price <= $2000 | > $2000 |
 | -- | -- | -- | -- |
