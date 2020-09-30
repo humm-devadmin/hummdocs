@@ -31,3 +31,5 @@ So, what are you waiting for? Get hummmming.
 << [Download Assets 2](/downloads/nz/promotions/merchant_banners_2.zip) >>
 
 For any application of a humm logo or promotional material downloaded, you must send a proof of the artwork to [marketing@shophumm.co.nz](marketing@shophumm.co.nz) for approval before use.
+
+<br>
