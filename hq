@@ -1,0 +1,2700 @@
+[33mcommit 03c5b27a4787c2c70aed010b6d66b17dff971b1a[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m)[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Wed Sep 30 13:45:37 2020 +1000
+
+    Added merchant banners for NZ promotion
+
+[33mcommit 24a6d4127602dbd712be24abb7a279676ece1cf4[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Tue Sep 29 11:35:34 2020 +1000
+
+    humm NZ launch promotion
+
+[33mcommit f7a334e77ea80519fab742213ad1dbd9736dc84b[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Mon Sep 28 16:22:37 2020 +1000
+
+    Minor text changes
+
+[33mcommit c50340cd0945bab3b1c351140034a4a5564f96d9[m
+Merge: 776f252 12550f1
+Author: kyle-flexi <55418566+kyle-flexi@users.noreply.github.com>
+Date:   Mon Sep 28 16:10:23 2020 +1000
+
+    Merge pull request #92 from shophumm/kyle-bt-update
+    
+    KM: Added BT widget instructions
+
+[33mcommit 12550f13d2b46abdc6b329cb4490c691c7889ad5[m[33m ([m[1;31morigin/kyle-bt-update[m[33m)[m
+Author: Kyle McSweeney <kyle.mcsweeney@flexigroup.com.au>
+Date:   Mon Sep 28 16:09:22 2020 +1000
+
+    KM: Added BT widget instructions
+
+[33mcommit 776f252c6c548d27b4a667dd946069efedaa9be0[m
+Merge: 680d299 d1ad7f8
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Mon Sep 28 13:31:01 2020 +1000
+
+    Merge branch 'develop' of https://github.com/shophumm/hummdocs into develop
+
+[33mcommit 680d2995215f7eb48a04c5f5a5db6fbdfdf4a26a[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Mon Sep 28 13:30:00 2020 +1000
+
+    Updates to logos for NZ
+
+[33mcommit d1ad7f8415531b253bb0f577e1e20c7baa8ea2a1[m
+Merge: 6e3d3ca dea7c4a
+Author: kyle-flexi <55418566+kyle-flexi@users.noreply.github.com>
+Date:   Fri Sep 25 15:54:58 2020 +1000
+
+    Merge pull request #90 from shophumm/kyle-bt-update
+    
+    KM: Added BT widget instructions
+
+[33mcommit dea7c4a7d4701abf0d9cdd6dcc998a8870edea73[m
+Author: Kyle McSweeney <kyle.mcsweeney@flexigroup.com.au>
+Date:   Fri Sep 25 15:53:08 2020 +1000
+
+    KM: Added BT widget instructions
+
+[33mcommit 6e3d3caaf034d0cae4474d9fcd232e84dc6305d5[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Fri Sep 25 10:41:48 2020 +1000
+
+    Added big widget for NZ
+
+[33mcommit c87bd371ce8a94043173630701ca3171353adb9c[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Thu Sep 24 16:49:42 2020 +1000
+
+    removed 10 weekly nz widget option
+
+[33mcommit a53e4ca6e65d4637d182e96e3fb143df9be3c3a1[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Wed Sep 23 13:29:03 2020 +1000
+
+    Updates to NZ Forms
+
+[33mcommit 3ae0f9cf9ae3b7e9ccba25bb169a55c245038dea[m
+Merge: a61b73f 9b4c40b
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Wed Sep 23 10:21:28 2020 +1000
+
+    Merge pull request #85 from shophumm/develop
+    
+    Develop
+
+[33mcommit 9b4c40bbbea4388d96292402f44401a2608dcd6f[m
+Author: kyle-flexi <55418566+kyle-flexi@users.noreply.github.com>
+Date:   Wed Sep 23 10:13:20 2020 +1000
+
+    Update logos.md
+
+[33mcommit 3711a83280bbcc2b6ab05285c93541de5e34f0c1[m
+Merge: 51054f7 fd0def1
+Author: kyle-flexi <55418566+kyle-flexi@users.noreply.github.com>
+Date:   Tue Sep 22 15:43:50 2020 +1000
+
+    Merge pull request #84 from shophumm/kyle-plugin-update
+    
+    KM: Updated presta plugins and to remove old plugins
+
+[33mcommit fd0def1ae9a67a188024701cc89d5bece7ab6bac[m[33m ([m[1;31morigin/kyle-plugin-update[m[33m)[m
+Merge: 83a6293 51054f7
+Author: kyle-flexi <55418566+kyle-flexi@users.noreply.github.com>
+Date:   Tue Sep 22 15:41:23 2020 +1000
+
+    Merge branch 'develop' into kyle-plugin-update
+
+[33mcommit 83a6293e1e46dbb5a7aaba27e463d0fc8806ea93[m
+Author: Kyle McSweeney <kyle.mcsweeney@flexigroup.com.au>
+Date:   Tue Sep 22 15:35:23 2020 +1000
+
+    KM: Updated presta plugins and to remove old plugins
+
+[33mcommit a61b73f5d20aa72baeab3f98a906490efe8a485e[m
+Merge: cb353ce 51054f7
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Wed Sep 16 15:05:14 2020 +1000
+
+    Merge pull request #83 from shophumm/develop
+    
+    Changes to NZ logos
+
+[33mcommit 51054f755c7cff060bd1eba6644b8c395e193cf5[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Fri Sep 11 13:51:27 2020 +1000
+
+    Display API and Integration Assistance Forms
+
+[33mcommit 126896c6a36a732817331a8c0685815ccbdc2a22[m
+Merge: dc066a9 18bf84d
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Fri Sep 11 13:29:55 2020 +1000
+
+    Merge branch 'develop' of https://github.com/shophumm/hummdocs into develop
+
+[33mcommit dc066a9413a5acc2244931837389162d06389601[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Fri Sep 11 13:29:38 2020 +1000
+
+    Changes to NZ logos
+
+[33mcommit 18bf84d3632599b4518c0e897f195fd00a9c7737[m
+Merge: e5e8c53 df087f7
+Author: kyle-flexi <55418566+kyle-flexi@users.noreply.github.com>
+Date:   Thu Sep 10 17:08:48 2020 +1000
+
+    Merge pull request #82 from shophumm/kyle-plugin-update
+    
+    KM: fixed bug in test portal link
+
+[33mcommit df087f734928e9646fc1197ceff8d6e261317952[m
+Author: Kyle McSweeney <kyle.mcsweeney@flexigroup.com.au>
+Date:   Thu Sep 10 17:07:57 2020 +1000
+
+    KM: fixed bug in test portal link
+
+[33mcommit cb353ce13ae6204dd7c2d58f319413145d9591cc[m[33m ([m[1;32mmaster[m[33m)[m
+Merge: 2b15d56 e5e8c53
+Author: kyle-flexi <55418566+kyle-flexi@users.noreply.github.com>
+Date:   Tue Sep 8 07:24:24 2020 +1000
+
+    Merge pull request #81 from shophumm/develop
+    
+    Develop
+
+[33mcommit e5e8c534406c3c5e8178b77c996de6a903cd7000[m
+Merge: 3906d80 a346f8a
+Author: kyle-flexi <55418566+kyle-flexi@users.noreply.github.com>
+Date:   Mon Sep 7 15:09:49 2020 +1000
+
+    Merge pull request #80 from shophumm/kyle-plugin-update
+    
+    KM: Updated test transaction instructions
+
+[33mcommit a346f8a6a2a0769f323baa7a384cba7db76c8105[m
+Author: Kyle McSweeney <kyle.mcsweeney@flexigroup.com.au>
+Date:   Mon Sep 7 15:03:26 2020 +1000
+
+    KM: Updated test transaction instructions
+
+[33mcommit 2b15d563ae58812ad6e1231315a74141423b7a67[m
+Merge: c8a58cf 3906d80
+Author: kyle-flexi <55418566+kyle-flexi@users.noreply.github.com>
+Date:   Thu Sep 3 15:34:34 2020 +1000
+
+    Merge pull request #79 from shophumm/develop
+    
+    PR for kyle-flexi latest changes, another PR will be submitted to merchant magento 2 au and nz files
+
+[33mcommit 3906d806725fdff0a031435a1b645a31c54dfd50[m
+Merge: 35a1f85 c8a58cf
+Author: kyle-flexi <55418566+kyle-flexi@users.noreply.github.com>
+Date:   Wed Sep 2 15:42:06 2020 +1000
+
+    Merge branch 'master' into develop
+
+[33mcommit 35a1f85b9c15b17fe762a4dcd25ea0f9751c581f[m
+Merge: c2eb307 06f3715
+Author: kyle-flexi <55418566+kyle-flexi@users.noreply.github.com>
+Date:   Wed Sep 2 15:40:36 2020 +1000
+
+    Merge pull request #77 from shophumm/kyle-plugin-update
+    
+    Kyle plugin update
+
+[33mcommit 06f3715ebc9b8de9ef816dafc9e522dae2e7523b[m
+Author: Kyle McSweeney <kyle.mcsweeney@flexigroup.com.au>
+Date:   Wed Sep 2 11:04:41 2020 +1000
+
+    KM: Updated CSS switcher
+
+[33mcommit 3ace95c1a8f2d4cf6da91160e64c12757793d100[m
+Author: Kyle McSweeney <kyle.mcsweeney@flexigroup.com.au>
+Date:   Wed Sep 2 10:10:48 2020 +1000
+
+    KM: Update for NZ plugin links
+
+[33mcommit c8a58cfa5def385d0ddd25f08f3a943154d6fd71[m
+Merge: fba0d77 c2eb307
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Mon Aug 31 11:38:12 2020 +1000
+
+    Merge pull request #75 from shophumm/develop
+    
+    Updated NZ seller portal guide
+
+[33mcommit c2eb3079d43060df3ce5842756416635da063219[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 31 11:36:30 2020 +1000
+
+    Updated NZ seller portal guide
+
+[33mcommit fba0d77d80be637c48c1c779a11401e4b5dca2c8[m
+Merge: b24d95d 876c0f3
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Tue Aug 25 16:22:21 2020 +1000
+
+    Merge pull request #74 from shophumm/develop
+    
+    Renaming NZ guides
+
+[33mcommit 876c0f39f5b0e225e0d14db06af3caa45ec683c7[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 25 16:20:31 2020 +1000
+
+    Renaming NZ guides
+
+[33mcommit b24d95d6e0adf26cabd9efae2e2f5095aa32a797[m
+Merge: f3848cb 32ca48b
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Mon Aug 24 22:16:50 2020 +1000
+
+    Merge pull request #73 from shophumm/develop
+    
+    Resolves issue with nz training guides
+
+[33mcommit 32ca48bbb5d4199a0015303ecd5582208217ef7a[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 24 22:15:54 2020 +1000
+
+    Resolves issue with nz training guides
+
+[33mcommit f3848cb2c662cb56cace5e4ebe079d41a9823c9a[m
+Merge: d8ca2ff 8c25747
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Wed Aug 19 22:31:15 2020 +1000
+
+    Merge pull request #71 from shophumm/shopify-url-update
+    
+    KM: Fixed broken links
+
+[33mcommit d8ca2ff1c232726555a52e35dc6dface9395d427[m
+Merge: ae40e60 03def43
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Wed Aug 19 22:30:23 2020 +1000
+
+    Merge pull request #72 from shophumm/develop
+    
+    Added training guides and moved logo directory
+
+[33mcommit 03def436c623482fd3fffc0bd3f146b5f3708f66[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Wed Aug 19 22:22:13 2020 +1000
+
+    Added training guides and moved logo directory
+
+[33mcommit 8c257473088618e8bef3fe3eb711ae6d11a2394c[m[33m ([m[1;31morigin/shopify-url-update[m[33m)[m
+Author: Kyle McSweeney <kyle.mcsweeney@flexigroup.com.au>
+Date:   Tue Aug 11 10:49:24 2020 +1000
+
+    KM: Fixed broken links
+
+[33mcommit ae40e60c1cd2ced960aaa8e8725464927b229f7a[m
+Merge: 207b235 bc12590
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Fri Aug 7 16:29:33 2020 +1000
+
+    Merge pull request #70 from shophumm/develop
+    
+    Updates to NZ fees on main page
+
+[33mcommit bc12590a24021bd5bcca6ac03cd40f2618dfeb97[m
+Merge: 7f48c64 cb16df0
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Fri Aug 7 16:27:07 2020 +1000
+
+    Merge branch 'develop' of https://github.com/shophumm/hummdocs into develop
+
+[33mcommit 7f48c645ee9623b2dba0e54d22d25851119fe0a5[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Fri Aug 7 16:26:28 2020 +1000
+
+    Updates to fees on main page
+
+[33mcommit 207b235e1572d7db671b41f7b707b707ea0107d7[m
+Merge: 56c7a48 cb16df0
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Fri Aug 7 09:29:39 2020 +1000
+
+    Merge pull request #68 from shophumm/develop
+    
+    Simplify layout of demo widgets
+
+[33mcommit cb16df05a1282e786289c6ba1afde503c6702f29[m
+Merge: 5c3ac3a 56c7a48
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Fri Aug 7 09:29:12 2020 +1000
+
+    Merge branch 'master' into develop
+
+[33mcommit 5c3ac3a377379344f12738fb01738bfcd7cc0932[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 6 23:00:24 2020 +1000
+
+    Hiding NZ big things widgets
+
+[33mcommit 4fd3aa949cb1076e986267759ae92b3c5501f144[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 6 22:58:48 2020 +1000
+
+    Added NZ logos
+
+[33mcommit 6f0500b5235fd795102ec10d9ef27a54fb0ffbcc[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 6 21:18:40 2020 +1000
+
+    Hide NZ request forms
+
+[33mcommit 1e313408bdb7047ad14443df111b7da2de0ec1c8[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 6 15:50:13 2020 +1000
+
+    Changes to NZ BPI
+
+[33mcommit 32be7966d19036945e47a58c55a623a12585f563[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 6 09:55:51 2020 +1000
+
+    Changes to go-live date wording and fixing a link
+
+[33mcommit 56c7a488e2599cedaebffc2a38e7cf3826f039b6[m
+Merge: 32e10a1 462ef7e
+Author: kylemcsweeney-3 <55418566+kylemcsweeney-3@users.noreply.github.com>
+Date:   Thu Jul 23 15:52:07 2020 +1000
+
+    Merge pull request #69 from shophumm/shopify-url-update
+    
+    KM: added shopify link
+
+[33mcommit 462ef7e3f3a09c8cb60be1af370ed49d2f99cdda[m
+Author: Kyle McSweeney <kyle.mcsweeney@flexigroup.com.au>
+Date:   Thu Jul 23 11:19:49 2020 +1000
+
+    KM: added shopify link
+
+[33mcommit 2c9ad2eb3955cea8559b7a315c49b13ab9a5742a[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Fri Jun 19 15:15:21 2020 +1000
+
+    Simplify widget demo layout
+
+[33mcommit 32e10a1154603e1313a486f3b996dbb7055cfea4[m
+Merge: 36a4224 5b0603b
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Wed May 13 16:35:38 2020 +1000
+
+    Merge pull request #67 from shophumm/nz-doc-kyle
+    
+    KM: Changes to Magento and WooCommerce installation
+
+[33mcommit 5b0603bec89bd75a584a835583d41d2a852681e8[m[33m ([m[1;31morigin/nz-doc-kyle[m[33m)[m
+Author: Kyle McSweeney <kyle.mcsweeney@flexigroup.com.au>
+Date:   Wed May 13 11:12:24 2020 +1000
+
+    KM: Changes to Magento and WooCommerce installation
+
+[33mcommit 36a42248d6736f1ffc89d1d2d0be8820fa5e82af[m
+Merge: 44a91bf 7b1f19d
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Thu Mar 19 14:32:40 2020 +1100
+
+    Merge pull request #66 from shophumm/nz-doc-kyle
+    
+    KM: Updated small number of text issues
+
+[33mcommit 7b1f19da9f4de45f7376461652bc7eade79c69da[m
+Author: Kyle McSweeney <kyle.mcsweeney@flexigroup.com.au>
+Date:   Thu Mar 19 14:19:50 2020 +1100
+
+    KM: Updated small number of text issues
+
+[33mcommit 44a91bf062b2792e6a4afccb7c93666b2aa70a61[m
+Merge: 72af432 24babcb
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Fri Mar 13 11:47:22 2020 +1100
+
+    Merge pull request #65 from shophumm/develop
+    
+    Changes to Magento 2 installation instructions
+
+[33mcommit 24babcbffcdf15dc0d47bf6447e13346afe86305[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Fri Mar 13 10:33:30 2020 +1100
+
+    Removes intro page from AU custom integration
+
+[33mcommit 3784fabea8038a86b94f7f677016398a64470bf9[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Thu Mar 12 11:07:18 2020 +1100
+
+    Updated Magento 2 manual instructions
+
+[33mcommit 72af4321b19d2de60d369505bfa1ce6721a5c143[m
+Merge: 604d19d c842ea3
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Thu Mar 5 16:34:07 2020 +1100
+
+    Merge pull request #64 from shophumm/develop
+    
+    Corrections to mainpage
+
+[33mcommit c842ea3861395e06bf369a58784e7cc06efe6575[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Thu Mar 5 16:32:10 2020 +1100
+
+    Corrections to mainpage
+
+[33mcommit 604d19de66b8be73527f176befeba9955f871056[m
+Merge: 161d4e2 902d6e3
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Wed Mar 4 10:47:12 2020 +1100
+
+    Merge pull request #63 from shophumm/develop
+    
+    Minor config changes and corrections for NZ
+
+[33mcommit 902d6e3ee7eeef91426e903cd90df76e8d201b08[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Wed Mar 4 10:42:43 2020 +1100
+
+    Corrections ot NZ main page
+
+[33mcommit bead5b9624e7b4e22dfadfb7ac92538b8d85aefe[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Wed Mar 4 10:16:28 2020 +1100
+
+    Config renaming
+
+[33mcommit 161d4e2ac98a833da2ca75f721c552e99b4ef1b5[m
+Merge: af13fe3 431e9ba
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Tue Mar 3 16:28:13 2020 +1100
+
+    Merge pull request #62 from shophumm/develop
+    
+    Changes from NZ feedback
+
+[33mcommit 431e9ba8d95be2eea1d317e7e3522394a947e8da[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Tue Mar 3 15:20:45 2020 +1100
+
+    Fixes type
+
+[33mcommit f763e26e3feba2bd3ef852219d105c7cc0af2217[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Tue Mar 3 15:15:59 2020 +1100
+
+    Fixes to homepage based on NZ feedback
+
+[33mcommit cd34ed75097ece4e204b6fa07a1b44af551f58c5[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Mon Mar 2 16:32:03 2020 +1100
+
+    Updated google form links for NZ
+
+[33mcommit ba50649a70a443c37660c002cb80ce5ca30dff53[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Mon Mar 2 16:10:41 2020 +1100
+
+    Fixed limit on main page
+
+[33mcommit 62166ff507993fa4a9385903a80e255e1fd86ac7[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Mon Mar 2 10:47:27 2020 +1100
+
+    Fixed height of google forms
+
+[33mcommit af13fe39b69b7d17751e9005795faa894462d39b[m
+Merge: 3f848f8 53ae6d1
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Fri Feb 28 09:13:20 2020 +1100
+
+    Merge pull request #61 from shophumm/develop
+    
+    Fixes issue with request api key page
+
+[33mcommit 53ae6d1a22d7eaccc0d5b36e7c3be521ecc3abae[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Fri Feb 28 09:09:50 2020 +1100
+
+    Fixed issue with request api key page in config
+
+[33mcommit 3f848f8a85f9d5d8ee64cf979936532a6d3a111d[m
+Merge: f21bd19 880dacc
+Author: kylemcsweeney-3 <55418566+kylemcsweeney-3@users.noreply.github.com>
+Date:   Wed Feb 19 16:12:40 2020 +1100
+
+    Merge pull request #60 from shophumm/develop
+    
+    Updates to NZ documentation
+
+[33mcommit eae275885188f105f036f1154dd14f8e92be197d[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Wed Feb 19 14:40:42 2020 +1100
+
+    Fixed type on main page
+
+[33mcommit 880dacc72e54487e0413f8b336ec7c48045ebc16[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Wed Feb 19 14:08:39 2020 +1100
+
+    Use single md pages for AU and NZ
+
+[33mcommit b6a8c6f0a3317fd0c855294a7074f797ba1b26c6[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Wed Feb 19 11:56:39 2020 +1100
+
+    Updated magento 2 images
+
+[33mcommit dccbdb561befba11c6b1df1eb83f4799795a8467[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Tue Feb 18 16:58:00 2020 +1100
+
+    hide vend instructions
+
+[33mcommit 88802351123cfc006db8c3f3e2f73c30a3e40c6f[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Tue Feb 18 14:56:01 2020 +1100
+
+    NZ API request and Assistance forms
+
+[33mcommit 4eea8c71932bf6c53f898c24d7b93178f8beb3b9[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Tue Feb 18 14:51:31 2020 +1100
+
+    Fixed email display issue for NZ
+
+[33mcommit 577b72a3bb7bfea129d2f0979e980cace67f9b84[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Tue Feb 18 10:15:45 2020 +1100
+
+    Changes to oxipay migration guide
+
+[33mcommit 4526c5eabb3fae0d10743ab76ff148de25bfc94f[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Mon Feb 17 16:54:41 2020 +1100
+
+    Changes to oxipay migration guide
+
+[33mcommit f7aea17f41dd1aa850ba950fbe1a70c8645d4503[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Fri Feb 14 16:12:28 2020 +1100
+
+    Updated Oxipay migration guide for NZ
+
+[33mcommit d76ba26d40f47d5f7ae6ae24f32d7e0556db8c26[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Fri Feb 14 14:17:55 2020 +1100
+
+    renamed price_info pages to widgets
+
+[33mcommit 3dc18f4ce04bfd6c4e29448985d99123447f8bbc[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Fri Feb 14 13:50:33 2020 +1100
+
+    Updates to widget pages
+
+[33mcommit 16b80283b0136bda2eef47a766f7b89b055c79e0[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Fri Feb 14 13:34:51 2020 +1100
+
+    removed store directory listing page
+
+[33mcommit 30962aa8bd700952e7b1df4201c057fb0d1f832b[m
+Merge: a51e322 1fb0bc6
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Thu Feb 13 17:00:39 2020 +1100
+
+    Merge branch 'develop' of https://github.com/shophumm/hummdocs into develop
+
+[33mcommit a51e32250f052ef6dcaca54f65ed892e906585cf[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Thu Feb 13 17:00:05 2020 +1100
+
+    Changes to NZ widget pages
+
+[33mcommit 1fb0bc6343d0aabf676f5d718f16117c13152aed[m
+Author: Tao Wang <tao.wang@certegy.com.au>
+Date:   Thu Feb 13 15:03:12 2020 +1030
+
+    point to the correct price info page link depending on the country, rather than to the hardcoded "price_info" link.
+
+[33mcommit f21bd1906f095b51b35e748b6a2c68183267e0ba[m
+Merge: 4aa4c3c 31b7f90
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Wed Feb 12 16:57:45 2020 +1100
+
+    Merge pull request #59 from shophumm/develop
+    
+    Develop
+
+[33mcommit 31b7f90404a2a2188f1561ae5bb7e7406410130a[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Wed Feb 12 16:52:49 2020 +1100
+
+    Changes to main page as well as site layout
+
+[33mcommit f0fcf3e92bc091e202296cb1ee69a179d2ba1c0c[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Mon Feb 10 11:22:00 2020 +1100
+
+    Displays side menu above main page
+
+[33mcommit 4aa4c3c81b8ef2b793df5faa549a595671bc8259[m
+Merge: 3300a26 4539944
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Fri Feb 7 14:28:52 2020 +1100
+
+    Merge pull request #58 from shophumm/develop
+    
+    Updates to home page
+
+[33mcommit 45399444fd2c365930e8166886b18bd9a4b52495[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Fri Feb 7 14:19:15 2020 +1100
+
+    Updates to home page
+
+[33mcommit 3300a26a241dc4347fdf9eda3d3a42b42e100861[m
+Merge: 854280b fdad36f
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Thu Feb 6 14:15:20 2020 +1100
+
+    Merge pull request #57 from shophumm/develop
+    
+    Updated yml file for AU
+
+[33mcommit fdad36fc10c423c54abd594a643ea000ce75e371[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Thu Feb 6 14:12:34 2020 +1100
+
+    Updated yml file for AU
+
+[33mcommit 854280be91bcd24159b4d41cf269f1f7a6ceacb7[m
+Merge: 9adcd24 63e0461
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Thu Feb 6 11:50:58 2020 +1100
+
+    Merge pull request #56 from shophumm/develop
+    
+    Updates to POS documentation
+
+[33mcommit 63e04619b925a0ca765fcdad056e6006079132ea[m
+Author: Sam Al-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Thu Feb 6 11:39:48 2020 +1100
+
+    Updates to POS documentation
+
+[33mcommit 9adcd240a44bd730178895dc4671f3bd004b020a[m
+Merge: 2ee25b3 6a4bef3
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Jan 20 12:19:19 2020 +1030
+
+    Merge pull request #55 from shophumm/develop
+    
+    fix indent in yml file for mkdocs to run
+
+[33mcommit 6a4bef3721e9b6678a29f89f704ee8c913e66ba9[m
+Merge: 071c492 2ee25b3
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Jan 20 12:16:47 2020 +1030
+
+    Merge branch 'master' into develop
+
+[33mcommit 071c4922958ce43550600fb363dc30a79d06c786[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Jan 20 10:24:05 2020 +1030
+
+    fix indent in yml file for mkdocs to run
+
+[33mcommit 2ee25b30434d6de895294d507528007a98934602[m
+Merge: d60614f 88260b9
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Jan 20 10:33:13 2020 +1030
+
+    Merge pull request #54 from shophumm/develop
+    
+    fix indent in yml file for mkdocs to run
+
+[33mcommit 88260b95ed1bff108ed7f71a6072c3cbe3e3c7d5[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Jan 20 10:24:05 2020 +1030
+
+    fix indent in yml file for mkdocs to run
+
+[33mcommit d60614f998355ff468df83d48a63bb713482b1e5[m
+Merge: 56c2096 beb4254
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Jan 17 16:16:36 2020 +1030
+
+    Merge pull request #53 from shophumm/develop
+    
+     Update docs for NZ price-info widget
+
+[33mcommit beb425469ba1e6c15ecd10f4e802781443efff22[m
+Merge: 0143c7d c665c71
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Jan 17 16:13:45 2020 +1030
+
+    Merge branch 'features/nz-price-info' into develop
+
+[33mcommit c665c718a5687d8dd21caa06896e191626e541af[m[33m ([m[1;31morigin/features/nz-price-info[m[33m)[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Jan 17 16:04:41 2020 +1030
+
+    Update docs for NZ price-info widget
+
+[33mcommit 6292183acda4888fadb4fc1f5e796309f7b2f4fe[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Tue Jan 7 16:45:21 2020 +1030
+
+    a different page for price-info-nz because NZ will have a very different price-info widget from AU
+
+[33mcommit 56c209690172e0ade4b668453d272e4a7134396c[m
+Merge: 3c92492 0143c7d
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Jan 13 10:46:36 2020 +1030
+
+    Merge pull request #52 from shophumm/develop
+    
+    type fix
+
+[33mcommit 0143c7d62b716ee7546408b013cb93558e228ba4[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Jan 13 10:29:54 2020 +1030
+
+    PrestaShop plugin link update to v1.5.8
+
+[33mcommit ade88002d894d51cf538b2265caa9c5f587c341d[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Tue Jan 7 16:39:31 2020 +1030
+
+    fix some CSS errors
+
+[33mcommit 54f863630afce73e3e7a2dfe08c58716254fd6ad[m
+Merge: 521d763 a01065a
+Author: rbi-flexigroup <roger.bi@flexigroup.com.au>
+Date:   Tue Jan 7 17:00:22 2020 +1100
+
+    Merge branch 'develop' of https://github.com/shophumm/hummdocs into develop
+
+[33mcommit a01065ab0211a3ef936a5651e75c14ec0bac99b2[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Tue Jan 7 16:08:37 2020 +1030
+
+    type fix
+
+[33mcommit 3c924929ac9b5ef311a4674db736a026f5143ec3[m
+Merge: d5db61f f9720aa
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Tue Jan 7 15:25:18 2020 +1030
+
+    Merge pull request #51 from shophumm/develop
+    
+    Updated Magento 2 instructions, landing page changes
+
+[33mcommit f9720aa5a486d9b8ccc5ffd76b6c3f4dfea5630c[m
+Author: Michael Hermann <Michael.Hermann@certegy.com.au>
+Date:   Tue Jan 7 13:19:29 2020 +1030
+
+    Update Magento 2 settings page
+
+[33mcommit 521d763e85d1744225cc0ae7fd57e1cd6ab4c8ab[m
+Author: rbi-flexigroup <roger.bi@flexigroup.com.au>
+Date:   Mon Jan 6 16:44:22 2020 +1100
+
+    update for new version
+
+[33mcommit de2a5506852028ab36f8cc06db8837032f0f0489[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Dec 16 13:06:40 2019 +1030
+
+    rename a landing page widget
+
+[33mcommit fbf113def4894fea58347682a3071cf4997ce4b6[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Dec 16 11:16:23 2019 +1030
+
+    replace landing page intro page with a landing page widget
+
+[33mcommit d5db61fad3ea9d0f8e3df1bd09e39cd3bc1fb173[m
+Merge: 19e7141 4f1bcf1
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Dec 16 10:39:08 2019 +1030
+
+    Merge pull request #50 from shophumm/develop
+    
+    Develop
+
+[33mcommit 4f1bcf18930db9819ab2e714342276e0bbd382ef[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Dec 13 10:51:03 2019 +1030
+
+    replace the remaining image landing pages with html ones
+
+[33mcommit 70c778be6cb46076fe48aaa5d8231d84841f0691[m
+Author: Michael Hermann <Michael.Hermann@certegy.com.au>
+Date:   Thu Dec 12 11:24:18 2019 +1030
+
+    NZ updates
+
+[33mcommit 5e07ca5e27467c539e61b1290f063fcf165363d7[m
+Author: Michael Hermann <Michael.Hermann@certegy.com.au>
+Date:   Thu Dec 12 10:30:22 2019 +1030
+
+    add ecom  upgrade overview
+
+[33mcommit 19e7141708dbc6da19bee94b667122f8ebfb2dc0[m
+Merge: 4531ab8 457d31d
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Nov 22 14:35:05 2019 +1030
+
+    Merge pull request #49 from shophumm/develop
+    
+    Develop
+
+[33mcommit 457d31dd477df5bd8fde370a2414e47ea1898696[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Nov 22 14:28:11 2019 +1030
+
+    Add python version requirement in readme.
+    
+    Because python2 may cause mkdocs build complaining about yml file validation.
+
+[33mcommit c6f8fd65254f6bd34ef231c267235ba9736efe33[m
+Author: Tao Wang <tao.wang@certegy.com.au>
+Date:   Fri Nov 22 14:24:26 2019 +1030
+
+    update .gitignore
+
+[33mcommit dce248aed3de0ec98a70824a7faee103733b6b45[m
+Merge: a1b5e55 4531ab8
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Nov 22 09:27:21 2019 +1030
+
+    Merge branch 'master' into develop
+
+[33mcommit 4531ab87a16b2a9dd7eeab48c21621fe5a1fc8ce[m
+Merge: 9f9584f b6d829e
+Author: Michael-oxipay <36975230+Michael-oxipay@users.noreply.github.com>
+Date:   Thu Nov 21 17:12:58 2019 +1030
+
+    Merge pull request #48 from shophumm/hotfix/docs_nz
+    
+    fix mkdocs-nz.yml to allow the NZ docs to build.
+
+[33mcommit b6d829e2e0cd3bcc90b13023e35ec48e377f82a3[m[33m ([m[1;31morigin/hotfix/docs_nz[m[33m)[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Thu Nov 21 17:09:48 2019 +1030
+
+    fix mkdocs-nz.yml to allow the NZ docs to build.
+
+[33mcommit 9f9584fa8fa13e404c079fc81935f87619248955[m
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Thu Nov 21 16:28:57 2019 +1030
+
+    Update mkdocs-nz.yml
+
+[33mcommit 415d16461de6a0704871e34fb6771e1386b7f90d[m
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Thu Nov 21 16:22:08 2019 +1030
+
+    Update mkdocs-nz.yml
+
+[33mcommit a1b5e55f47c9317a230c79589495ced94ad73879[m
+Author: Michael Hermann <Michael.Hermann@certegy.com.au>
+Date:   Tue Nov 5 11:42:30 2019 +1030
+
+    Spelling typos
+
+[33mcommit c83d1d15a787dca3a601fe96119fef2d66a8de15[m
+Author: Michael Hermann <Michael.Hermann@certegy.com.au>
+Date:   Wed Oct 30 11:10:09 2019 +1030
+
+    Typo, 'Unticket'..
+
+[33mcommit 2ec2b33e046212828ce34b065eec23ac48361166[m
+Merge: 99178bf 53fcee3
+Author: Michael-oxipay <36975230+Michael-oxipay@users.noreply.github.com>
+Date:   Tue Oct 29 16:45:06 2019 +1030
+
+    Merge pull request #47 from shophumm/develop
+    
+    WooCommerce add advanced price widget settings
+
+[33mcommit 53fcee394018d60949c6db60ef6d5686bc24f162[m
+Author: Michael Hermann <Michael.Hermann@certegy.com.au>
+Date:   Tue Oct 29 16:12:38 2019 +1030
+
+    WooCommerce add advanced price widget settings
+
+[33mcommit 99178bf75f308b535c176737edc4dcfd2e057621[m
+Merge: fbdbb79 eeff7a5
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Mon Oct 14 14:26:35 2019 +1030
+
+    Merge pull request #46 from shophumm/develop
+    
+    Develop
+
+[33mcommit eeff7a5a580e4833e6553232dc8da567b31e138e[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Oct 14 14:24:41 2019 +1030
+
+    Updated plugin download link for Magento 1
+
+[33mcommit 91671e91912bb6132fe6470aa3e9984eaeefc9d9[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Oct 14 14:19:11 2019 +1030
+
+    Hides the store directory listing page
+
+[33mcommit 1b6764ffe27fbb1fde51fe428f14951c962f4d35[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Oct 14 14:14:47 2019 +1030
+
+    Fixed establishment fee on the landing page
+
+[33mcommit fbdbb7983ea5cd31730362fe881ff5e783c17e89[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Oct 2 10:43:33 2019 +0930
+
+    Resolves styling issue on request api page
+
+[33mcommit a03c537d27cafcbc66b33804da21e5035fc10ab5[m
+Merge: bf1279b 0315ce7
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Mon Sep 30 15:40:53 2019 +0930
+
+    Merge pull request #44 from shophumm/develop
+    
+    Big Things POS, Magento whitelist refund URLs
+
+[33mcommit 0315ce76913593bbe2a9ed306869d7a88e86488d[m
+Merge: 29d9b52 8ba2df8
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Mon Sep 30 15:36:19 2019 +0930
+
+    Merge pull request #45 from shophumm/dev-kyle
+    
+    Dev kyle
+
+[33mcommit 8ba2df8f9b1320184885850c60f6b693288b4147[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Sep 30 15:34:32 2019 +0930
+
+    Changes to widget pages, restructuring docs
+
+[33mcommit 29d9b5229269057057f09f8175975a562cc509a5[m
+Author: Michael Hermann <Michael.Hermann@certegy.com.au>
+Date:   Mon Sep 30 13:59:46 2019 +0930
+
+    POS Big Things description
+
+[33mcommit ddfd640b3b930edd10a261fc186bb8bb082165f0[m
+Merge: bf1279b 47a9106
+Author: Michael Hermann <Michael.Hermann@certegy.com.au>
+Date:   Mon Sep 30 13:54:17 2019 +0930
+
+    Merge branch 'develop' of https://github.com/shophumm/hummdocs into develop
+
+[33mcommit 47a910630c368b02c04ba69891ae9b19e7578c29[m
+Merge: ad6acaa db1476d
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Mon Sep 30 13:47:12 2019 +0930
+
+    Merge pull request #39 from shophumm/magento_varnish_whitelist
+    
+    Add note that refund endpoints should also be whitelisted
+
+[33mcommit a8029599d25c9c011450bc3b3328cccd77653573[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Sep 27 15:13:49 2019 +0930
+
+    Adds introduction pages for Landing Pages
+
+[33mcommit bf1279b79cc0af26bfa5fa3f69840e1f5e6d5081[m
+Merge: 5dcddfa 0957f9a
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Fri Sep 27 14:26:11 2019 +0930
+
+    Merge pull request #43 from shophumm/dev-kyle
+    
+    Adds page for POS big things and other typo fixes
+
+[33mcommit 0957f9a8adb606317b1ff19273138b0e3f13d0ce[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Sep 27 14:25:01 2019 +0930
+
+    Adds page for POS big things
+
+[33mcommit 5dcddfafbe5f36f3a7851066a1c2b3f16802778b[m
+Merge: 8d899d6 ad6acaa
+Author: kylemcsweeney-3 <55418566+kylemcsweeney-3@users.noreply.github.com>
+Date:   Wed Sep 18 12:16:13 2019 +0930
+
+    Merge pull request #42 from shophumm/develop
+    
+    Fixed typos on magento 1 page
+
+[33mcommit ad6acaaa757c0d365f367535ce9d4dace29b7947[m
+Merge: e616c64 4cc462c
+Author: humm <48002471+shophumm@users.noreply.github.com>
+Date:   Wed Sep 18 12:14:29 2019 +0930
+
+    Merge pull request #41 from shophumm/dev-kyle
+    
+    Fixed typos and small errors
+
+[33mcommit 4cc462c17d3a93341b2765d689eb8fd3cf6ae01d[m
+Author: Kyle McSweeney <kylemcsweeney@Kyles-MacBook-Pro.local>
+Date:   Wed Sep 18 12:13:00 2019 +0930
+
+    fixed typos
+
+[33mcommit 8d899d696f19033c675aae67fe3d74c7065f4553[m
+Merge: ca09d4e a9cb365
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Sep 11 15:39:12 2019 +0930
+
+    Hides listing on store directory page
+
+[33mcommit a9cb365c2fe0097cd09c328ef4af28117d3035f8[m
+Merge: 8c6da05 e616c64
+Author: Michael-oxipay <36975230+Michael-oxipay@users.noreply.github.com>
+Date:   Wed Sep 11 15:15:59 2019 +0930
+
+    Merge pull request #40 from shophumm/develop
+    
+    Develop
+
+[33mcommit e616c642a7f7bfa4a8c4fdaeb7e01cf2c32395e4[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Sep 11 14:43:42 2019 +0930
+
+    Increases height of form, needed when multiple files are selected
+
+[33mcommit fa9f60c396dac2f0257c675d4c120d8f1f8cbefe[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Sep 11 14:37:40 2019 +0930
+
+    Added back logo
+
+[33mcommit af4c97bf84562265e616cf896e0d6fd06d3096cd[m
+Merge: 1595012 cea62ed
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Sep 11 14:36:18 2019 +0930
+
+    Merge branch 'develop' of https://github.com/shophumm/hummdocs into develop
+
+[33mcommit 159501257dbe2bbc794005be10b4509c97280333[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Sep 11 14:35:34 2019 +0930
+
+    Added page for listing on store directory
+
+[33mcommit db1476dfe93acd5b38e277309590c32ecfa1b715[m
+Author: Michael Hermann <Michael.Hermann@certegy.com.au>
+Date:   Fri Sep 6 22:29:21 2019 +0930
+
+    Add note that refund endpoints should also be whitelisted
+
+[33mcommit cea62ed32089599e326ea952c0d27170f77f10c2[m
+Author: Michael Hermann <michael.hermann@certegy.com.au>
+Date:   Fri Sep 6 22:26:58 2019 +0930
+
+    Minor change to help with installation
+
+[33mcommit 8c6da05c343766e640653d7960357759d8cc2ab4[m
+Merge: 2f8a7eb 39ac1a8
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Thu Sep 5 14:17:17 2019 +0930
+
+    Merge pull request #38 from shophumm/remove_x_test
+    
+    removal of 'x_test' from API reference
+
+[33mcommit cd54a04444710bc6a0eb80f581f3c6e5973a9f06[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Thu Sep 5 14:09:45 2019 +0930
+
+    Update status codes
+
+[33mcommit 39ac1a87a0cbea9fea5a00a553a37e4814259eab[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Thu Sep 5 12:41:59 2019 +0930
+
+    removal of 'x_test' from API reference
+
+[33mcommit 2f8a7ebb634975833c502061cfa87c6e47537034[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Wed Sep 4 10:23:29 2019 +0930
+
+    Update WSDL endpoints
+
+[33mcommit ea1ce5a22fc1d04052b01f65f5ad00a82d33cdbc[m
+Merge: 7bbd6e0 fae304c
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Mon Aug 26 10:50:11 2019 +0930
+
+    Merge pull request #37 from shophumm/develop
+    
+    Styling and URL link fixes
+
+[33mcommit fae304c9488e23164c87990cb870306652f5c409[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 26 10:48:33 2019 +0930
+
+    Fixes URL link in shopify instructions
+
+[33mcommit 498c3141a48e9849bcd497a8fb41aab79e38091d[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 26 09:36:26 2019 +0930
+
+    Resolves issue with landing pages displaying
+    above header. Highest z-index seems 100
+
+[33mcommit 7bbd6e035792c1328d18a920951a643eef672551[m
+Merge: d3e1e82 b7a4e4f
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Fri Aug 23 16:06:28 2019 +0930
+
+    Merge pull request #36 from shophumm/develop
+    
+    Minor styling changes
+
+[33mcommit b7a4e4f20e5d092ceea3e7985cb1ccf7696444f0[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Aug 23 16:04:25 2019 +0930
+
+    Minor styling changes
+
+[33mcommit d3e1e82043f3163e2a42cc7b550bb77594270cc4[m
+Merge: 928ad4c d6af3c3
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Fri Aug 23 15:45:30 2019 +0930
+
+    Merge pull request #35 from shophumm/develop
+    
+    Added instructions for new landing pages
+
+[33mcommit d6af3c3dc448852b41543391e5a8830051854a9e[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Aug 23 15:45:04 2019 +0930
+
+    Added instructions for new landing pages
+
+[33mcommit 928ad4c545e7152ce6097721e11dbeb93a3eabbb[m
+Merge: 73ad87a b9d4940
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Fri Aug 23 11:43:22 2019 +0930
+
+    Merge pull request #34 from shophumm/develop
+    
+    Updated superscript styling
+
+[33mcommit b9d4940e15d44682853c8baf4292b21e8ebeee0a[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Aug 23 11:42:10 2019 +0930
+
+    Updated superscript styling
+
+[33mcommit ca09d4e4bd9c8cd77eeb3aa86ebfc035d2e46e03[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Aug 23 11:40:52 2019 +0930
+
+    Updated superscript styling
+
+[33mcommit 73ad87aa88b50ef96a2ec0736364710757756f72[m
+Merge: 19b83d7 db888d4
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Fri Aug 23 11:33:22 2019 +0930
+
+    Merge pull request #33 from shophumm/develop
+    
+    Merge pull request #32 from shophumm/master
+
+[33mcommit db888d4a31aea8cfe9c5789e1ad3831c0b6de611[m
+Merge: d2ac7b1 19b83d7
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Fri Aug 23 11:31:11 2019 +0930
+
+    Merge pull request #32 from shophumm/master
+    
+    Pull changes from master to develop
+
+[33mcommit 19b83d7a8df92c888413978f6f538095dc8be028[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Aug 23 11:30:18 2019 +0930
+
+    Added padding to table cells
+
+[33mcommit 4bf97f531fddd3f9ff06c709a652679178514c48[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Aug 21 09:30:17 2019 +0930
+
+    Removed unused styling
+
+[33mcommit 0e10e827146a557686a9f8f84181e352d7170a6e[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 20 16:54:50 2019 +0930
+
+    removed un-need class name
+
+[33mcommit 82fa71418c88b471566913d58e5a71e28c305433[m
+Merge: 19fe4da ac0ab4b
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 20 16:52:22 2019 +0930
+
+    Merge branch 'master' of https://github.com/shophumm/hummdocs
+
+[33mcommit 19fe4dacc5b13997c376219cc48cdcaf013ee696[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 20 16:52:08 2019 +0930
+
+    Updates to landing page superscript style
+
+[33mcommit ac0ab4b5d5c1d48151b10c8cc87c4daa50883cb0[m
+Merge: 6165b44 d2ac7b1
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Mon Aug 19 16:46:04 2019 +0930
+
+    Merge pull request #31 from shophumm/develop
+    
+    Merge pull request #30 from shophumm/master
+
+[33mcommit d2ac7b18685c68b4c5680b451cad24679b77d853[m
+Merge: 185d36f 6165b44
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Mon Aug 19 16:45:35 2019 +0930
+
+    Merge pull request #30 from shophumm/master
+    
+    Bring dev branch inline with master
+
+[33mcommit 6165b44d42cfd5c7dc67b541f5976dae8002c8e5[m
+Merge: 8897876 2c5ec2c
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 19 15:47:20 2019 +0930
+
+    Merge branch 'master' of https://github.com/shophumm/hummdocs
+
+[33mcommit 889787674eb8f41f78c1d62e9e135566be66ab6c[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 19 15:47:03 2019 +0930
+
+    Include all new landing pages
+
+[33mcommit 2c5ec2cd022652c989d7342e182f4da041acbc22[m
+Merge: 60eca7d 185d36f
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Mon Aug 19 10:45:09 2019 +0930
+
+    Merge pull request #29 from shophumm/develop
+    
+    Minor styling and text changes
+
+[33mcommit 185d36fe49ec24ceb09301e162e176fcf5d88463[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 19 10:43:53 2019 +0930
+
+    Updates to shopify instructions
+
+[33mcommit 3ff5eb13345304417e696b5b38937d5ed2388ebd[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 19 10:16:02 2019 +0930
+
+    Fixes styling issues on landing page
+
+[33mcommit 60eca7d0e14527de6c22e5b183f6309ff3e38ce8[m
+Merge: f1e6fc2 a438751
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Fri Aug 16 16:23:44 2019 +0930
+
+    Merge pull request #28 from shophumm/develop
+    
+    Merge pull request #27 from shophumm/master
+
+[33mcommit a438751913ad24b92c6c791662c0c63a59a5557f[m
+Merge: c18c92a f1e6fc2
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Fri Aug 16 16:22:56 2019 +0930
+
+    Merge pull request #27 from shophumm/master
+    
+    Update develop with changes in master
+
+[33mcommit f1e6fc21bdecf278de40a533a0c0a420e965ab4c[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Aug 16 15:39:18 2019 +0930
+
+    Minor changes to text and styling
+
+[33mcommit f60c1cc15ba80ee3a99659c03d0a7a49ecb974f4[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 15 15:01:39 2019 +0930
+
+    Resolves issue
+
+[33mcommit f6bb74b6d630dbc04c0e0bfad3c8db6cf376f3af[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 15 14:56:00 2019 +0930
+
+    Added Integration Assistance page
+
+[33mcommit fe2ec73a4319121d3186e3043c1fa3f9263f1fd6[m
+Merge: 3baa67c c18c92a
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Thu Aug 15 13:51:48 2019 +0930
+
+    Merge pull request #26 from shophumm/develop
+    
+    Display Request API page by default
+
+[33mcommit c18c92a002f5a260ebe57fbef3b2375f2c760494[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 15 13:48:26 2019 +0930
+
+    Display Request API page, new page for integration assistance, hidden at the moment
+
+[33mcommit 3baa67ccce5bf6507ed4d56b3aa4fda4277f3dfd[m
+Merge: 3097619 a68532b
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Thu Aug 15 11:16:17 2019 +0930
+
+    Merge pull request #25 from shophumm/develop
+    
+    Added Request API Key form + minor styling fixes
+
+[33mcommit a68532b85e56c54b9bd3b40ad3253c3e8a141188[m
+Merge: 6efc391 dd6af92
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 15 11:15:27 2019 +0930
+
+    Merge branch 'develop' of https://github.com/shophumm/hummdocs into develop
+
+[33mcommit 6efc39148262e0ffc267cfd510362830777bf42b[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 15 11:12:11 2019 +0930
+
+    Uses google forms to request API keys
+
+[33mcommit dd6af92c89411d93620f6c81dbee7b85eead1186[m
+Author: samalk+1-at-844996184919 <3Wa0fet1TJW9/VWIFP4+cllycr6HH7/qUfN69of0wnI=>
+Date:   Wed Aug 14 22:33:10 2019 +0930
+
+    Updated title of a few eCommerce pages for consistency
+
+[33mcommit 94244c2ad60dd17972ea5f28600cd655a597505c[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Aug 14 17:15:00 2019 +0930
+
+    Added initial implementation for JotForm API Request
+
+[33mcommit 7c0037bdafcfd8283f1e1ec5ffcaeefa8b6486e5[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Aug 14 14:12:59 2019 +0930
+
+    Additional tweaks
+
+[33mcommit 9b253a9223d4d7185550642cfd01045c801df0d0[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Aug 14 10:09:42 2019 +0930
+
+    Minor fixes
+
+[33mcommit 20296570aa19388ccbea8d2d0dd4354c6cdd6940[m
+Merge: 60e62c5 ef24dc7
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 13 16:42:38 2019 +0930
+
+    Merge branch 'develop' of https://github.com/shophumm/hummdocs into develop
+
+[33mcommit 60e62c5b8cc6aa8ab51433c743d4ab6d12dbdf66[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 13 16:42:11 2019 +0930
+
+    (Getting Started) is now first page in POS section, needed as posdocs re-directs here
+
+[33mcommit 3097619ab1cc957da6e35aab7e990e46313419f7[m
+Merge: 3cceb20 ef24dc7
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Tue Aug 13 15:42:10 2019 +0930
+
+    Merge pull request #24 from shophumm/develop
+    
+    Added POS instructions, code hilighting
+
+[33mcommit ef24dc73a6e274be918d9e4d91d9d06b7a50a8f8[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Aug 13 15:34:15 2019 +0930
+
+    Fixed some broken links
+
+[33mcommit 01860d30b32e934a5b9b629cd28531909475ab6b[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 13 15:33:08 2019 +0930
+
+    Styling changes
+
+[33mcommit fbbaa86c833a431ad629d3884afef4480ea25b10[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 13 15:18:45 2019 +0930
+
+    Styling fix for landing page table
+
+[33mcommit 04e9bc00e17480589f6b71edb2b4983ea97b63fa[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 13 14:30:12 2019 +0930
+
+    Changes to POS documentation
+
+[33mcommit 41d61b9583a0462d9d509eef1c8248f0674a37c3[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 13 09:51:12 2019 +0930
+
+    Fixed type in yml file
+
+[33mcommit e70940838501ca37b325960f6b174a28189a3110[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 13 09:19:53 2019 +0930
+
+    Restructuring files and adding code highlighting
+
+[33mcommit e96eb6845141ddb4802c092b90d5c94788e0785d[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 12 16:11:01 2019 +0930
+
+    Further changes to POS documentation
+
+[33mcommit f068dac600f70257367a45c73be94fe9130ea885[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 12 15:06:11 2019 +0930
+
+    Resolves issue with POS images
+
+[33mcommit e9c94ee5e26b32f8c44dc054023d3b46b8f3bd6e[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 12 15:00:04 2019 +0930
+
+    Initial work in copying POS documentation across
+
+[33mcommit ff02e389bbd4e91ad51fe48556a4818dabf14e74[m
+Merge: f5850e6 3cceb20
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Mon Aug 12 14:39:50 2019 +0930
+
+    Merge pull request #23 from shophumm/master
+    
+    Updates to gitignore to remove humm-au
+
+[33mcommit f5850e6f0f021702a804c81a6b8d33a368e11a4b[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 12 14:34:50 2019 +0930
+
+    Clean up unnecessary humm-au files
+
+[33mcommit 96545de594eb87496feee572b87a55919be21057[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 12 14:32:33 2019 +0930
+
+    Undo changes to gitignore
+
+[33mcommit d57ad62be186190d7a043230d0ae7976b4d2bf03[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 12 14:00:44 2019 +0930
+
+    Updated gitignore
+
+[33mcommit f76c9c6a90881a407aa311a9c9f4464513a28bc2[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 12 13:59:39 2019 +0930
+
+    Updated gitignore
+
+[33mcommit 204ad70082e5711e767e1c4e50bbe3c5b544a0c1[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 12 13:58:05 2019 +0930
+
+    Updated gitignore
+
+[33mcommit b9f77b4d901299a32d11c5da70a2dd413ce6f8e2[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 12 13:57:02 2019 +0930
+
+    Updated gitignore file
+
+[33mcommit fc3a9d3d2c82e34cbe3d91814d8ef028e4e66201[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 12 13:47:24 2019 +0930
+
+    Removed unused platforms directory
+
+[33mcommit 3cceb2071a1375e804c14f244f6f5d6c7972adfe[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Mon Aug 12 11:41:18 2019 +0930
+
+    Clean up unnecessary humm-au files
+
+[33mcommit 439efff22c7bccd9696ba01d828f691df44b2df5[m
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Mon Aug 12 09:35:25 2019 +0930
+
+    Update README.md
+
+[33mcommit b91b55a1ca3e44d2df6276f5dbb267887f30c4a1[m
+Merge: 6e98d35 6d01a3f
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Thu Aug 8 14:23:24 2019 +0930
+
+    Merge pull request #22 from shophumm/develop
+    
+    Styling changes to docs
+
+[33mcommit 6d01a3f70e2c5c135a034cf4082b4dfbd6d63dec[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Aug 7 15:54:06 2019 +0930
+
+    Updated legal terms
+
+[33mcommit a2e9fd6239777e0624634432b8ecf31e2126eefd[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Aug 7 14:46:35 2019 +0930
+
+    updated HTML formatting
+
+[33mcommit 8637f81c32f2cef5b91da0b4fb260203e4af8a9c[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Aug 7 12:07:25 2019 +0930
+
+    Resolves issue on homepage in mobile view
+
+[33mcommit 8b988885be2fce0e0b2873c3a17af51a6b9e4492[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 6 15:29:40 2019 +0930
+
+    Resolves issue with terms text
+
+[33mcommit cc5027426a4a957ccda4bfff1146a8121e2c79c9[m
+Merge: b943b62 6e98d35
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Tue Aug 6 14:41:45 2019 +0930
+
+    Merge pull request #21 from shophumm/master
+    
+    Resolves issue with duplicate pages
+
+[33mcommit 6e98d35bafab9ae0214721b9851e7c9cb1f438c1[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 6 14:40:12 2019 +0930
+
+    resolves issue with duplicate pages
+
+[33mcommit 56503452a2a530e1b51fdb7a5a02de062cc09950[m
+Merge: 8c0b138 b943b62
+Author: sam-flexi <Sam.Al-Khalfa@certegy.com.au>
+Date:   Tue Aug 6 14:19:10 2019 +0930
+
+    Merge pull request #20 from shophumm/develop
+    
+    Adds home page, adds few landing pages and removes existing widget page
+
+[33mcommit b943b62d9aac9b4b3f314136a4f6fb7a0e48ba71[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 6 14:17:55 2019 +0930
+
+    tweaks to logo
+
+[33mcommit eb603c51d0963250d51a4395051c070033d970a6[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 6 14:08:08 2019 +0930
+
+    Styling changes to index page
+
+[33mcommit 1741aaf6cc37a1dd899920b91e7029b9e9530a7c[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Aug 6 10:17:54 2019 +0930
+
+    Ensures custom css is applied to index page only
+
+[33mcommit 6d24f1e09e01b5c42a13e05d6385c978bbd1f6f6[m
+Merge: 838b769 655e900
+Author: samalk+1-at-844996184919 <3Wa0fet1TJW9/VWIFP4+cllycr6HH7/qUfN69of0wnI=>
+Date:   Mon Aug 5 22:37:09 2019 +0930
+
+    updates config file
+
+[33mcommit 838b76920e508688ac497a953a3a8b572af55e4b[m
+Merge: 5fa4fe9 d315578
+Author: samalk+1-at-844996184919 <3Wa0fet1TJW9/VWIFP4+cllycr6HH7/qUfN69of0wnI=>
+Date:   Mon Aug 5 22:33:57 2019 +0930
+
+    Changes to landing pages
+
+[33mcommit 655e90027655b318c55641d655aa92b4c32aa7e0[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 5 16:54:56 2019 +0930
+
+    changes to styling of homepage
+
+[33mcommit a7c82033009ee9c11e2b8e243c7a58acbf494c3e[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 5 16:45:32 2019 +0930
+
+    Changes to home page
+
+[33mcommit 87ee7192af6a31893f9bc0f05c56d4e2d3acc6f6[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 5 15:11:32 2019 +0930
+
+    Changes to icons
+
+[33mcommit 9d78d763bf00bbd763e58a04b9dafdb6b075ef2e[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 5 14:32:42 2019 +0930
+
+    Tweaked landing page for better image positioning
+
+[33mcommit 1ebdbf8abff91158c39e895faa5812a01947b1b6[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Aug 5 13:42:58 2019 +0930
+
+    sytling changes, fixes link issue in PrestaShop page
+
+[33mcommit 4ab82e224a8a8652d5cc20764342569166c8eda8[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Aug 2 15:05:10 2019 +0930
+
+    Adjust styling on landing page
+
+[33mcommit 6b4e17197320e75a194429be971daef39f23665f[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Aug 2 14:08:04 2019 +0930
+
+    Further changes to landing page
+
+[33mcommit e07a705c7d3aa4ca8561728291f583bba991998a[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 1 16:53:41 2019 +0930
+
+    Further changes to landing page
+
+[33mcommit fc23e61b9ebc6924c1dd69adb6f9dcdd0a500b2f[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 1 15:29:19 2019 +0930
+
+    Further changes to landing page
+
+[33mcommit c9b8291f0a55c2a6e67cd961130cab4f631d36d6[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 1 14:56:40 2019 +0930
+
+    initial work on hero image on main index page
+
+[33mcommit d1eb5486a66cb045e97c8c268399fc537fc7c78f[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 1 11:13:18 2019 +0930
+
+    simplifies html and css
+
+[33mcommit 6c8f9a746405c625e408d3f4965f7010e51bfd9c[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 1 10:47:54 2019 +0930
+
+    simplified html structure
+
+[33mcommit cd9531e075f1822bf1cb1b44b757cf5882fdfb25[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Thu Aug 1 10:01:06 2019 +0930
+
+    removes sign up button from front page
+
+[33mcommit d01ba62777d324da8592b41a611942cd9f663268[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Jul 31 16:54:31 2019 +0930
+
+    further styling changes
+
+[33mcommit dff2d9092ebec2a956edb03b6a03230dddcf1751[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Jul 31 16:01:53 2019 +0930
+
+    resolves issue with landing page
+
+[33mcommit cc3fc12a740f298b992b05ea144976fb9fdc6c9c[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 30 16:58:46 2019 +0930
+
+    Further changes to intro page, simplified
+
+[33mcommit 70c5fd953b37e1d568cdf4910d8f67006ae3b563[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 30 15:45:39 2019 +0930
+
+    Resolves styling issues on index page in mobile/tablet view
+
+[33mcommit da2bba8f2795fa109aae3c858145d82c294a75cc[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 30 12:17:32 2019 +0930
+
+    Updates landing page with new design
+
+[33mcommit 8c0b138730ecef4b32f8a4a854fd71f1ce8f737e[m
+Merge: 1854863 3881b68
+Author: sam-humm <Sam.Al-Khalfa@certegy.com.au>
+Date:   Fri Jul 26 12:06:32 2019 +0930
+
+    Merge pull request #19 from shophumm/develop
+    
+    Changes to landing pages, typo fixes, styling fixes
+
+[33mcommit 3881b68915c9abc292720326418193df709baa8f[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Wed Jul 24 15:48:50 2019 +0930
+
+    fixes typos
+
+[33mcommit c5ef491a3555808cdc9bf94af67754fd8c8196a7[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 23 11:36:57 2019 +0930
+
+    Changes to yml file
+
+[33mcommit a1eb8ffa24ff977fe4cbac06fc23da64dc7a4743[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 23 11:31:35 2019 +0930
+
+    Add a comment to landing pages
+
+[33mcommit 5fa4fe9d05a351a6f32bc8f6a25dd9bacb8d485b[m
+Author: samalk+1-at-844996184919 <3Wa0fet1TJW9/VWIFP4+cllycr6HH7/qUfN69of0wnI=>
+Date:   Mon Jul 22 19:32:45 2019 +0930
+
+    changes to yml config file
+
+[33mcommit d3155784cca4a95f9b1d9e6dc3f6169a941d42cb[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Jul 22 17:04:04 2019 +0930
+
+    Minor changes
+
+[33mcommit 44961058e0f1ccd04327daae73d1989dd71ad323[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Jul 22 16:45:59 2019 +0930
+
+    Resolves issue with yml file
+
+[33mcommit 537c58fb8beac147f96322f3991c70aaa0f8fa3f[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Jul 22 16:43:42 2019 +0930
+
+    Added little and big things instore landing page
+
+[33mcommit 7dd4f700974c1395e61820342c36adb621f5c053[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Jul 22 16:21:11 2019 +0930
+
+    Adds a big things instore landing page
+
+[33mcommit cef66d69f1666e0aa23434ccb186e52f96a85846[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Jul 19 16:35:51 2019 +0930
+
+    Changes to landing pages
+
+[33mcommit 483cd82bb2f8dcd8984fd83ffa2ac9ef3cd48965[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Jul 19 15:52:15 2019 +0930
+
+    resolves issue with ecommerce instruction images
+
+[33mcommit c67ed980d6704313f56dd60453438e4459c1ed48[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Jul 19 15:36:34 2019 +0930
+
+    Changes to config file
+
+[33mcommit bcce5b39905ca87f56cdbe8ccd348ee8fa96dacb[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Jul 19 12:10:33 2019 +0930
+
+    renamces an img folder from platforms to ecommerce
+
+[33mcommit ca347becb90bf15dcb53d1cf04a39a86328756d4[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Jul 19 11:19:23 2019 +0930
+
+    resolves issue with header styling
+
+[33mcommit 42e751ae07d133a4bfd73e3105efea4d53e14170[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Jul 19 10:52:41 2019 +0930
+
+    renames platforms directory to ecommerce for easier locating
+
+[33mcommit 7b7eee79bc4385fa2706d98b6f4267cd062fae76[m
+Merge: eddbd33 1854863
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Jul 19 10:46:17 2019 +0930
+
+    Merge branch 'master' into develop
+
+[33mcommit eddbd33deef09f4b9a4db5cc80a5585c0c4190e1[m
+Merge: c963d0c 9f5d578
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Jul 19 10:40:50 2019 +0930
+
+    Merge branch 'develop' of https://github.com/shophumm/hummdocs into develop
+
+[33mcommit c963d0c74901f35f1eee560cedb2a98c102b254b[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Jul 19 10:38:51 2019 +0930
+
+    Landing page changes based on rebrand
+
+[33mcommit 18548636b83b58e4bdf0bc1f98338f04fcaf1765[m
+Merge: 590b060 9f5d578
+Author: sam-humm <Sam.Al-Khalfa@certegy.com.au>
+Date:   Wed Jul 17 09:14:49 2019 +0930
+
+    Merge pull request #18 from shophumm/develop
+    
+    Minor fixes
+
+[33mcommit 9f5d5784e15950f8cd58809fd46d5526bff1e312[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 16 16:48:35 2019 +0930
+
+    renames gateway to endpoint for consistency
+
+[33mcommit 38b52e1af4e8993bdb7449e0e46e8101160fd764[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 16 16:45:45 2019 +0930
+
+    displays woocommerce refund images, caused by type
+
+[33mcommit 982ac3c40e1fd2d82d2e16f81310da11bff8d0c7[m
+Merge: 09f0c49 590b060
+Author: sam-humm <Sam.Al-Khalfa@certegy.com.au>
+Date:   Tue Jul 16 15:52:58 2019 +0930
+
+    Merge branch 'master' into develop
+
+[33mcommit 590b060c48afd4a62d4a97d0bfb84c10e1aeda29[m
+Merge: 7f6a719 c6fe0ed
+Author: sam-humm <Sam.Al-Khalfa@certegy.com.au>
+Date:   Tue Jul 16 14:54:37 2019 +0930
+
+    Merge pull request #17 from shophumm/develop-shopify
+    
+    Resolves issue in mobile view
+
+[33mcommit c6fe0ed76763b169742076a744166ffdadb46ec8[m
+Merge: d367333 3ac7c0f
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 16 14:53:57 2019 +0930
+
+    Merge branch 'develop-shopify' of https://github.com/shophumm/hummdocs into develop-shopify
+
+[33mcommit d36733321657751fd398976537d93e43b946d214[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 16 14:53:12 2019 +0930
+
+    resolves issue in mobile view
+
+[33mcommit 7f6a7190f4b78cf1f5ccd42c4bb2e5e3d5a728aa[m
+Merge: afcb8a0 3ac7c0f
+Author: sam-humm <Sam.Al-Khalfa@certegy.com.au>
+Date:   Tue Jul 16 14:01:39 2019 +0930
+
+    Merge pull request #16 from shophumm/develop-shopify
+    
+    Changes to theme, integration instructions and widgets.
+
+[33mcommit 3ac7c0f8a204e99ce72cc36d4ab2b94c820883ea[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Jul 16 12:56:09 2019 +0930
+
+    OpenCart remove Oxipay Upgrade
+
+[33mcommit f382882898ef19f386fb12d0c8c53809c1a7e378[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 16 12:31:17 2019 +0930
+
+    minor typo
+
+[33mcommit cc52af0677b29dce3469a39292b15426f9c487ce[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 16 12:29:09 2019 +0930
+
+    Finalised changes to Best Practice Integration document, moved it out
+
+[33mcommit 91cbec71e94b33cdc8255e1398fd2971ac293ad6[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Jul 16 11:11:36 2019 +0930
+
+    Update favicon
+
+[33mcommit 9075597b84ea89c746f7c9ca4ee334b6041abb48[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Jul 16 11:00:04 2019 +0930
+
+    Remove test credit cards
+
+[33mcommit 185c556653151a29aad48c382df8701d03e35756[m
+Merge: 1fa4c05 00c4115
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Jul 16 10:57:17 2019 +0930
+
+    Merge branch 'develop-shopify' of https://github.com/shophumm/hummdocs into develop-shopify
+
+[33mcommit 1fa4c0585c31b64942a8f41fa02d6429db192263[m
+Merge: a05672e e6aa703
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Jul 16 10:56:54 2019 +0930
+
+    Fixed merge
+
+[33mcommit 00c411503674d43b33354328b671d55f4cae2e6a[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 16 10:52:36 2019 +0930
+
+    Initial implementation of best integration practice page
+
+[33mcommit a05672ec055c031f54275c54e756f8755f1e933d[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Jul 16 10:48:35 2019 +0930
+
+    Checkout API fixed table of contents
+
+[33mcommit 585c6240dd1c926c7271b62d1a23b5b96986f00e[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Jul 16 10:47:50 2019 +0930
+
+    Fixed internal links to 'gateway reference'
+
+[33mcommit d9a0aa5b35c3088dec81807c1fea66ac359e68c4[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Jul 16 10:36:16 2019 +0930
+
+    Magneto 2
+
+[33mcommit e6aa7030aed5be9e67ddc3e6462ebeeb584c7265[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 16 10:00:48 2019 +0930
+
+    Removes woocommerce price-info widget instructions, un-needed as can be done via the plugin now
+
+[33mcommit 0e554446280030ea2275df1f89618ac85124b199[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 16 10:00:19 2019 +0930
+
+    Changes to shopify widget instructions
+
+[33mcommit 82c635bb785b570477c66461ba800426ff7dad01[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 16 09:52:13 2019 +0930
+
+    Changes to shopify price-info widget instructions
+
+[33mcommit f54a541bd79f1b493982af7e0aef26856f4f8723[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Jul 16 09:49:48 2019 +0930
+
+    Magento 1 update
+
+[33mcommit e9da98b297357927deeb81de898d4e39f34a4dfe[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Jul 16 09:45:57 2019 +0930
+
+    Update accreditation
+
+[33mcommit 75c319b79fe65f49ab7c7ceaf3ab224c1ede3b1e[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 16 09:33:04 2019 +0930
+
+    Minor change to logo position and making humm bold
+
+[33mcommit 5b049767c45476c9249846ed6dc9d8c08ae7e5c3[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 16 09:19:31 2019 +0930
+
+    minor text changes + move a page to accreditation section
+
+[33mcommit 5291dbedd6d5fdea7d85aeb6e75a8faba14be4c1[m
+Merge: 4f175d5 0cf3a59
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 16 09:00:42 2019 +0930
+
+    Merge branch 'develop-shopify' of https://github.com/shophumm/hummdocs into develop-shopify
+
+[33mcommit 4f175d502198531f1e58ffdf813529321b9a34a3[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 16 09:00:26 2019 +0930
+
+    changes to magento 1
+
+[33mcommit 0cf3a595d4038fa1bf25c6a4b9a0a6735389fe8c[m
+Author: samalk+1-at-844996184919 <3Wa0fet1TJW9/VWIFP4+cllycr6HH7/qUfN69of0wnI=>
+Date:   Mon Jul 15 19:55:47 2019 +0930
+
+    Removed widgets intro page
+
+[33mcommit 481da96fde8d4bb4e4321b271601df4afb836941[m
+Author: samalk+1-at-844996184919 <3Wa0fet1TJW9/VWIFP4+cllycr6HH7/qUfN69of0wnI=>
+Date:   Mon Jul 15 19:45:44 2019 +0930
+
+    Fixed types and minor changes
+
+[33mcommit 5e7c7e5992575e5508c6a9b7e482709b762a64d0[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Mon Jul 15 17:13:45 2019 +0930
+
+    Fix substitution and WooCom typos
+
+[33mcommit 13820800a93062b303e7706427ffc6b0196ce2ac[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Jul 15 16:51:33 2019 +0930
+
+    Added material theme to our docs
+
+[33mcommit 2725891a3bc15a1e1967bf76a027fb2bdc7b06a3[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Jul 15 14:26:43 2019 +0930
+
+    Added WooCommerce refund images
+
+[33mcommit 131ad342f0bbfd513dd0c452f49f38407763a5be[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Jul 15 14:24:25 2019 +0930
+
+    Changes to widget pages, text and styling changes
+
+[33mcommit f8b116aa4288d579144539173f49fe8ce813e369[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Jul 15 11:13:38 2019 +0930
+
+    Adds humm logo to header
+
+[33mcommit 4be27eb6d649d15a8092d794fa21966c1d4a1378[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Jul 15 10:55:46 2019 +0930
+
+    minor changes to make it less verbose
+
+[33mcommit 4fb81244a4a68092b8ac806e9461aae7ab012934[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Mon Jul 15 10:26:52 2019 +0930
+
+    Auto expands menu plus resolves menu issue on main page by adding an empty header
+
+[33mcommit daff837ea36789e9df69a4057b512684017eca12[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Jul 12 16:42:51 2019 +0930
+
+    Changes to WooCommerce as well as new theme
+
+[33mcommit 34e9c16409c7dc57a56dd0cfa68320c61e0e4c86[m
+Author: sam-humm <sam.al-khalfa@certegy.com.au>
+Date:   Fri Jul 12 15:51:16 2019 +0930
+
+    Changes to Prestashop documentation
+
+[33mcommit afcb8a0986e3607ca2752bef50efffb158b6bc19[m
+Merge: 3b5fb7f 9b7fcbc
+Author: sam-oxipay <Sam.Al-Khalfa@certegy.com.au>
+Date:   Wed Jul 10 09:11:55 2019 +0930
+
+    Merge pull request #15 from shophumm/develop-shopify
+    
+    Fixed spelling error
+
+[33mcommit 9b7fcbc52d8982aa4ff59a89092616d50f88007c[m
+Author: SamAl-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Wed Jul 10 09:11:13 2019 +0930
+
+    Fixed spelling error
+
+[33mcommit 3b5fb7f0d3ee9ef44c12c71263f2c1cf418b87bc[m
+Merge: f2ba5dc 6dc1c4d
+Author: Michael-oxipay <36975230+Michael-oxipay@users.noreply.github.com>
+Date:   Tue Jul 9 17:15:10 2019 +0930
+
+    Merge pull request #14 from shophumm/develop-shopify
+    
+    Updates to PrestaShop documentation
+
+[33mcommit 6dc1c4d7af3a55d2e4682f11bebec69500c98331[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Jul 9 17:14:17 2019 +0930
+
+    Forgot to clean up one link in OpenCart
+
+[33mcommit c0fbf6e4d671b757cef0e7719a76677d8d5220ee[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Jul 9 17:12:47 2019 +0930
+
+    Fixup internal hyperlinks for OpenCart
+
+[33mcommit d117eab81985d1a1972050710a785b605d9ec7ce[m
+Author: SamAl-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Tue Jul 9 16:43:29 2019 +0930
+
+    Updates to PrestaShop documentation
+
+[33mcommit f2ba5dcb25109e63f5a3a727e9d1a6f2c5547790[m
+Merge: 59cdacf d1bc5b9
+Author: sam-oxipay <Sam.Al-Khalfa@certegy.com.au>
+Date:   Mon Jul 8 17:00:49 2019 +0930
+
+    Merge pull request #13 from shophumm/develop-shopify
+    
+    Updates to shopify instructions - less verbose
+
+[33mcommit d1bc5b95d4024ad4803c79b4b76306fcc88100a6[m
+Author: SamAl-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Mon Jul 8 16:59:32 2019 +0930
+
+    minor changes
+
+[33mcommit 7fec591be502c7235e100166d4182e363fb0d26c[m
+Author: SamAl-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Mon Jul 8 16:40:05 2019 +0930
+
+    Updates to shopify instructions - less verbose
+
+[33mcommit 09f0c49618e189074603cf5affcba0d487bf94cb[m
+Author: SamAl-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Mon Jul 8 16:31:01 2019 +0930
+
+    Updates shopify instructions - less verbose
+
+[33mcommit d0d19e62efcce65a66bd877016c1ca88979deab2[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Fri Jul 5 16:54:02 2019 +0930
+
+    WooCommerce make humm bold, remove unnecessary files
+
+[33mcommit c64ec46a99a95cdcc1b29fd1864ed272e38b682e[m
+Author: SamAl-Khalfa <sam.al-khalfa@certegy.com.au>
+Date:   Fri Jul 5 15:49:41 2019 +0930
+
+    Updated WooCommerce instructions
+
+[33mcommit 59cdacf55b2923b71c7e1f5b76e2400f836bdcea[m
+Merge: e811688 c6c8566
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Thu Jun 6 13:10:05 2019 +0930
+
+    Merge pull request #11 from shophumm/develop
+    
+    Update PS download links
+
+[33mcommit c6c856658452f7bc2f57c75e15821c4d13708e46[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Jun 4 13:43:05 2019 +0930
+
+    Update PS download links
+
+[33mcommit e81168853203bf1fac5b29b3143cb87ebde6c4cb[m
+Merge: af410fc 2a37dff
+Author: Michael-oxipay <36975230+Michael-oxipay@users.noreply.github.com>
+Date:   Wed Apr 24 10:42:23 2019 +0930
+
+    Merge pull request #10 from shophumm/develop
+    
+    add Magento2 composer installation instructions
+
+[33mcommit 2a37dff595d896dbcb49bbaaa31e39648b80bcb2[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Wed Apr 24 10:16:24 2019 +0930
+
+    add Magento2 composer installation instructions
+
+[33mcommit af410fcba0841cc6af8b32fa86beaf3d0a064394[m
+Merge: e47388c 1c7061e
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Tue Apr 16 11:47:20 2019 +0930
+
+    Merge pull request #9 from shophumm/develop
+    
+    Price-info table, varnish cache, x_purchase_number
+
+[33mcommit 1c7061e3a97a9cc6fceb0fed5fa6f36571a40f9c[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Tue Apr 16 11:44:45 2019 +0930
+
+    Update signature_generation.md
+
+[33mcommit f7a587e0fee2db1e496c9c5ec0955dc3776d39e0[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Apr 16 11:38:44 2019 +0930
+
+    Price-info table, varnish cache, x_purchase_number
+
+[33mcommit e47388c435a2a262bdcd814c86eb3c213af7b17f[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Tue Apr 16 09:38:19 2019 +0930
+
+    fix humm logo display in firefox
+
+[33mcommit 0ffd064a21482949c8623226c49c6d00fb6ac72c[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Apr 15 14:11:27 2019 +0930
+
+    update refund gateway URL
+
+[33mcommit d45b883ad7471291a6fdd99eda2445b6dc47e7c4[m
+Merge: 054df46 fbbe25c
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Tue Apr 9 13:28:51 2019 +0930
+
+    Merge branch 'develop'
+
+[33mcommit fbbe25c11538f9d6bff98b42a3fdc143e6ffd84f[m
+Merge: 5b9cb5b e738917
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Tue Apr 9 13:27:31 2019 +0930
+
+    Merge remote-tracking branch 'origin/develop' into develop
+
+[33mcommit 5b9cb5bfa54496916dd1dbd06b2394555c8c14d4[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Tue Apr 9 13:27:18 2019 +0930
+
+    add landing-page-widget
+
+[33mcommit 054df46aaec7f333c1f9d5d7e85d05fbad65650d[m
+Merge: 569bde6 e738917
+Author: Michael-oxipay <36975230+Michael-oxipay@users.noreply.github.com>
+Date:   Tue Apr 9 11:33:13 2019 +0930
+
+    Merge pull request #8 from shophumm/develop
+    
+    Fix shopify widget link
+
+[33mcommit e7389177c3633dc23786e5b8afd7c3dda430f7bb[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Apr 9 11:32:30 2019 +0930
+
+    Fix shopify widget link
+
+[33mcommit 569bde61aa70ce1e8acce6379d7854160260fc39[m
+Merge: 846174f 02fafa3
+Author: Michael-oxipay <36975230+Michael-oxipay@users.noreply.github.com>
+Date:   Mon Apr 8 08:30:03 2019 +0930
+
+    Merge pull request #7 from shophumm/develop
+    
+    WooCommerce plugin update screenshot
+
+[33mcommit 02fafa36cbd0ae370f3294dd1bbeede2f10be37a[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Fri Apr 5 14:09:10 2019 +1030
+
+    WooCommerce plugin update screenshot
+
+[33mcommit 846174f30a2bd6a91efb38b8703a86cd1954d6eb[m
+Merge: ab7f175 cf05d45
+Author: Michael-oxipay <36975230+Michael-oxipay@users.noreply.github.com>
+Date:   Tue Apr 2 16:36:41 2019 +1030
+
+    Merge pull request #6 from shophumm/develop
+    
+    Widgets and OC
+
+[33mcommit cf05d45b7d42d8d2ffe49f2b50e33bf64172266c[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Apr 2 16:30:26 2019 +1030
+
+    Minor fixes to OC
+
+[33mcommit c3b6e758c0824b68fe779bea26f0f076fc800252[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Apr 2 16:24:03 2019 +1030
+
+    Price-info example, Instructions for OC 2.x
+
+[33mcommit a656386414d362dc33dea33104245ffa915e3a0e[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Apr 2 11:04:33 2019 +1030
+
+    Added banner widgets
+
+[33mcommit ab7f175637fcf6688ef1de11ada97aafa8891453[m
+Merge: 74e9fb9 10a98a9
+Author: Michael-oxipay <36975230+Michael-oxipay@users.noreply.github.com>
+Date:   Tue Mar 26 16:41:33 2019 +1030
+
+    Merge pull request #5 from shophumm/develop
+    
+    Updated PS plugin download link
+
+[33mcommit 10a98a96ab84c72b599187cfa14babaca5e974e8[m
+Merge: c0caa85 74e9fb9
+Author: Michael-oxipay <36975230+Michael-oxipay@users.noreply.github.com>
+Date:   Tue Mar 26 16:41:24 2019 +1030
+
+    Merge branch 'master' into develop
+
+[33mcommit c0caa85d5d454bbe2b5e9840fd77479772371e2f[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Mar 26 16:38:47 2019 +1030
+
+    Updated PS plugin download link
+
+[33mcommit 74e9fb924a6e1781d67dfeb92c3e9368462bd6c4[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Tue Mar 26 13:00:48 2019 +1030
+
+    update prestashop plugins download link
+
+[33mcommit b7ba76ff6dee7cec872a5139e2de404a3db155e2[m
+Merge: 9629a65 dee3650
+Author: Michael-oxipay <36975230+Michael-oxipay@users.noreply.github.com>
+Date:   Sun Mar 24 18:02:22 2019 +1030
+
+    Merge pull request #4 from shophumm/develop
+    
+    Develop
+
+[33mcommit dee3650a526411878e18f181e6cb37dead1c984c[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Sun Mar 24 18:00:44 2019 +1030
+
+    Clarified upgrade instructions for ps and oc
+
+[33mcommit ac8ff81d56f2b2e1dd402a8f70a05edc6796fb11[m
+Merge: 6005b77 701ce85
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Sun Mar 24 17:06:52 2019 +1030
+
+    Merge branch 'develop' of https://github.com/shophumm/hummdocs into develop
+
+[33mcommit 6005b776b46415de1e1207e6724e3babc4c3d0ca[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Sun Mar 24 17:06:48 2019 +1030
+
+    Platform spelling
+
+[33mcommit 701ce852e0bc925495dc438a3ef492d7146ed32a[m
+Merge: e688c10 7b615b4
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Sun Mar 24 11:24:49 2019 +1030
+
+    Merge remote-tracking branch 'origin/develop' into develop
+
+[33mcommit e688c10be047e90030818f5073797ac49eed75ea[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Sun Mar 24 11:24:39 2019 +1030
+
+    update magento update part
+
+[33mcommit 9629a657dcb504fb610fb88dffd854166516886f[m
+Merge: db57b6d 7b615b4
+Author: Michael-oxipay <36975230+Michael-oxipay@users.noreply.github.com>
+Date:   Sat Mar 23 15:15:29 2019 +1030
+
+    Merge pull request #3 from shophumm/develop
+    
+    Develop
+
+[33mcommit 7b615b45bd7f8b06dfbbf9a48b238db43b71491c[m
+Merge: 3b016a4 554e663
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Sat Mar 23 15:10:03 2019 +1030
+
+    Merge index
+
+[33mcommit 3b016a418c78c811845da825394a1bbfe28c7b2c[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Sat Mar 23 15:07:58 2019 +1030
+
+    modified ps1.6 repo
+
+[33mcommit a804074c5747a3dafcd13609178bda44cf020d11[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Sat Mar 23 11:16:42 2019 +1030
+
+    Added accreditation
+
+[33mcommit 554e663818f973d3601ada87494d10661aad7e03[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Mar 22 14:55:39 2019 +1030
+
+    update Shopify screenshots
+
+[33mcommit bb4d7a374af78b27e02cfe3b3d15fbbee6352dbd[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Mar 22 14:12:21 2019 +1030
+
+    update woocommerce
+
+[33mcommit db57b6d484ae7c1e4ce76f660073c26e443e95e2[m
+Merge: 13081ad ba1d7c1
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Mar 22 11:55:31 2019 +1030
+
+    Merge branch 'develop'
+
+[33mcommit ba1d7c1a71bb808cf765f68bc95d343ce2ad328e[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Mar 22 11:44:50 2019 +1030
+
+    update the humm introduction page
+
+[33mcommit 13081ad490eb4cec02f491e8e3ea4638bab1e8bf[m
+Merge: 571d423 460c50b
+Author: Michael-oxipay <36975230+Michael-oxipay@users.noreply.github.com>
+Date:   Thu Mar 21 13:18:12 2019 +1030
+
+    Merge pull request #2 from shophumm/develop
+    
+    Spelling mistake in homepage
+
+[33mcommit 460c50bafe6ba5c885192cd0ba5485710211d74c[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Thu Mar 21 13:17:02 2019 +1030
+
+    Spelling mistake in homepage
+
+[33mcommit 571d423ee1bdf2eb2a7124a6c762f7429792eb32[m
+Merge: f8f7734 f56bf06
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Wed Mar 20 17:10:01 2019 +1030
+
+    Merge pull request #1 from shophumm/develop
+    
+    Develop
+
+[33mcommit f56bf06f9ac8b3cb6165536758ccb2b97e2a7a61[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Wed Mar 20 17:02:21 2019 +1030
+
+    little and big examples for price-info installation guides
+
+[33mcommit 3a4aa79cfacee67e13ebf199e536ee8d21645c9b[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Wed Mar 20 16:48:07 2019 +1030
+
+    Updated list of widgets to include LittleOnly and BigOnly
+
+[33mcommit 7491d996cb40511e9cd37f1134045365a2173daa[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Wed Mar 20 15:43:10 2019 +1030
+
+    Remove reference to cURL script
+
+[33mcommit 80288a848812fc9285aea01338518dc01a663f66[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Wed Mar 20 15:41:57 2019 +1030
+
+    Minor changes, URLs should be correct now
+
+[33mcommit ae7bc9052cceae31168122eedcbd30153cfc66ac[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Wed Mar 20 14:30:43 2019 +1030
+
+    Make humm bold
+
+[33mcommit efe1e64c8e79964414c7c28d36df1c06cc094b36[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Wed Mar 20 14:11:08 2019 +1030
+
+    Changed Humm to humm
+
+[33mcommit ca77f09493799084430a28e516389bdfa201fd12[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Wed Mar 20 13:31:31 2019 +1030
+
+    Updated urls
+
+[33mcommit f8f7734075fd0a0933cd60fbd0a1a2716964ab41[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Mar 15 17:40:11 2019 +1030
+
+    minor changes for PrestaShop
+
+[33mcommit 39ad6f0a0f31411c159cc88004ad4627903ade5e[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Thu Mar 14 17:22:01 2019 +1030
+
+    update prestashop section
+
+[33mcommit bfeb995861a244149180c18dfff30adb8fc69c46[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Wed Mar 13 14:28:25 2019 +1030
+
+    update the OpenCart section
+
+[33mcommit ae55b94c6174ff9195dbecacd9b6372c54afaf43[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Wed Mar 13 10:39:05 2019 +1030
+
+    speling/grammer
+
+[33mcommit a3bffb0a02ccc7e2d9c20417fb46a5dc70a3c5ab[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Tue Mar 12 17:05:59 2019 +1030
+
+    Auto stash before merge of "develop" and "origin/develop"
+
+[33mcommit 9fea0d6061f7045d39702e291144c5e4df9e7a3a[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Mar 12 16:44:53 2019 +1030
+
+    Updated list of widgets
+
+[33mcommit 2e502d2a2b2d3dccda804f45c053ac079add76a6[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Mar 12 16:39:28 2019 +1030
+
+    Removed incomplete pages, Adjusted gateways and spelling errors in magento
+
+[33mcommit 69134af73d6d6b6b38b406dfd17bdc97bb39f051[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Mar 11 17:27:04 2019 +1030
+
+    update the widgets section
+
+[33mcommit efc462a651bc78bf3d6d0f0d8014dac79e90309d[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Mar 11 15:39:35 2019 +1030
+
+    change many http:// to https://
+
+[33mcommit ec6f978a0c142dc384b09e84d9e4046f6e63f582[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Mar 11 15:28:09 2019 +1030
+
+    fix theme style: 1. header colour, 2. position of menu button
+
+[33mcommit 82d54b5c4cd7e1b3f785837912d8ad335b77b40b[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Mar 11 14:31:23 2019 +1030
+
+    minor updates to magento 1.x
+
+[33mcommit 34a1e89c68b475770d08f0ba33941a1b125a9af6[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Mar 11 14:26:48 2019 +1030
+
+    update magento 2.x
+
+[33mcommit 20f01fe063cd3c8a8b61ac9064f5782581e92c3a[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Mar 11 13:38:18 2019 +1030
+
+    udpate readme
+
+[33mcommit bc92213011bc902a3cb10608e16469b2dc093d55[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Mar 8 15:57:59 2019 +1030
+
+    Removed submodule site
+
+[33mcommit 61c1e2e543467eae7c170ab3e3a9fb37e6fffb24[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Mar 8 15:55:49 2019 +1030
+
+    update the widgets section
+
+[33mcommit 11187bbef628b5cfc40736d0be134166f6b12bea[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Mar 8 15:48:03 2019 +1030
+
+    update the widget url (use %domain%) for shopify
+
+[33mcommit 281bf632e30c690b170136313eadb5ff4154fa57[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Mar 8 15:47:01 2019 +1030
+
+    remove id and class from script tags because it is not necessary
+
+[33mcommit 2782fc26391592418fa44ab130ae9edd6641b080[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Mar 8 14:28:16 2019 +1030
+
+    put 'widgets installation' under 'widgets', and update folder structure accordingly
+
+[33mcommit 0635b030d6d56a3cc260b59db0c627d2a5232494[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Mar 8 14:23:45 2019 +1030
+
+    update list of widgets
+
+[33mcommit 939bbb45f1155c6a89d578ee105ff3535a812b96[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Mar 8 14:23:27 2019 +1030
+
+    remove sub repo
+
+[33mcommit 12573c514b5212f64fce0102aa6c15060fd71667[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Fri Mar 8 12:03:09 2019 +1030
+
+    for magento1.x
+
+[33mcommit 587a0b271d0e63198b82b56cb169c2a9a4f2268a[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Thu Mar 7 10:22:58 2019 +1030
+
+    Minor changes
+
+[33mcommit a81f67867184f1a1f3043203290b1d37345597e9[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Tue Mar 5 18:40:40 2019 +1030
+
+    Improved some dev resources
+
+[33mcommit ff4b17d3f48fda6d325418cef0fc2b7acea86328[m
+Author: Michael <michael.hermann@certegy.com.au>
+Date:   Mon Mar 4 17:57:32 2019 +1030
+
+    Improved Shopify docs mostly
+
+[33mcommit 41ceeb581ff48a727f88ad52c4325981af9275d6[m
+Author: Thomas Haig <tom.haig@certegy.com.au>
+Date:   Fri Mar 1 14:49:06 2019 +1030
+
+    Additional changes to CSS
+
+[33mcommit ba464b8c9947fc66326f2fea04b015d7185411cb[m
+Author: Thomas Haig <tom.haig@certegy.com.au>
+Date:   Tue Feb 19 16:31:07 2019 +1030
+
+    Updated the styling to add the corrected Humm colours
+
+[33mcommit 56b57dc9d5dc01d2207100b951420ecc243e7342[m
+Author: Thomas Haig <tom.haig@certegy.com.au>
+Date:   Tue Feb 19 15:08:14 2019 +1030
+
+    Changed the wording of Oxipay to Humm
+
+[33mcommit 3cab5b79fc00286288bffc9fd7b5ca559cf0d52d[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Sun Feb 17 17:31:22 2019 +1030
+
+    changed oxipay to humm in some pages, and made those pages available
+
+[33mcommit 5a72723715492d3242504237d7fcfb50625e075c[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Sun Feb 17 17:26:29 2019 +1030
+
+    remove unused footer notes
+
+[33mcommit c71b2955648b18ccdcf0d9b22de59488cd827975[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Sun Feb 17 17:25:01 2019 +1030
+
+    update appveyor and exclude NZ from deploying
+
+[33mcommit bcedfcb1fe4f0ab377d7c88b6d21563caf155bbb[m
+Author: Tao Wang <hellotaotao@gmail.com>
+Date:   Mon Mar 4 15:12:36 2019 +1030
+
+    new root

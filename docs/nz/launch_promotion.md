@@ -15,4 +15,21 @@ To celebrate, they’re giving 10 lucky spenders a chance to win their balance b
 
 So, what are you waiting for? Get hummmming.
 
+## Instructions
+
+1 - Download assets below
+
+2 - Simply resize to the specs you require
+
+3 - If you'd like to add your logo, we've added a spot for that too
+
+4 - Lastly, you must link the campaign creative to the humm [landing page](https://www.shophumm.com/nz/balance-back/) to showcase the Terms & Conditions
+
+## Assets
+<< [Download assets without merchant logo](/downloads/nz/promotions/merchant_banners_1.zip) >>
+
+<< [Download assets with merchant logo](/downloads/nz/promotions/merchant_banners_2.zip) >>
+
 For any application of a humm logo or promotional material downloaded, you must send a proof of the artwork to [marketing@shophumm.co.nz](marketing@shophumm.co.nz) for approval before use.
+
+<br>
