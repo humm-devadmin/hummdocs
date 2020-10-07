@@ -16,16 +16,6 @@ Note the use of <code>&LittleOnly</code> parameter.
 
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script>
 
-## 'Big Things' only
-
-If you're a **'Big things'** only seller, use:
-
-`
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE"></script>
-`
-
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=2001"></script>
-
 ## Little & Big Things
 
 If you're a **'Little things'** and **'Big things'** seller, use: 
