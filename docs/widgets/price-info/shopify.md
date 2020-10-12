@@ -8,7 +8,7 @@
 
 > <b>If the "product-template.liquid" file does not exist</b>, navigate to **Templates** and select **product.liquid** instead.
 
-3 - Place the ```<script>``` tag in the desired place you'd like it to appear on your website, typically this is before. This should be added before ```Add to Cart ``` button tag.
+3 - Place the ```< script >``` tag in the desired place you'd like it to appear on your website, typically this is before. This should be added before ```Add to Cart ``` button tag.
 
 ## 'Little things' only
 
@@ -32,3 +32,5 @@ Using the following code if you are both a **'Little things'** and **'Big things
 ```
 
 4 - Save and you should see a working widget on your website.
+
+<br>
