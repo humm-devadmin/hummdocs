@@ -30,26 +30,23 @@ Also remember to use the real product price to replace the "<code>PLACE_YOUR_PRO
 
 -->
 
-## 'Big things' only
-
-If a **'Big things'** only seller, use:
-
-```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&BigThings"></script>
-```
-
-The script will display the pricing banner for any price in the range of $80 to $10,000
-
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1200&BigThings"></script>
-
 ## 'Big things' Dynamic API Pricing
 
 The 'Big things' widget can display dynamic API pricing if you append your merchant number to the script tag.
+
+
 
 ``` 
 <script
 src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&BigThings&merchantId=YOUR_MERCHANT_ID"></script>
 ```
+
+Note the use of the <code>&BigThings</code> and <code>&merchantId</code> parameter.
+
+You will need to replace the *YOUR_MERCHANT_ID* parameter of the above script with your merchant ID. 
+
+<script
+src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500&BigThings&merchantId=30132859"></script>
 
 <!-- 
 ## Widget behaviour
