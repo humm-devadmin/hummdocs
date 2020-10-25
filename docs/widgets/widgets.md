@@ -8,9 +8,9 @@ Insert the script where you want the widget to display replacing <code>PLACE_YOU
 
 If you're a **'Little things'** only seller, use:
 
-`
+```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&LittleOnly"></script>
-`
+```
 
 Note the use of <code>&LittleOnly</code> parameter.
 
@@ -20,9 +20,9 @@ Note the use of <code>&LittleOnly</code> parameter.
 
 If you're a **'Little things'** and **'Big things'** seller, use: 
 
-`
+```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
-`
+```
 
 Note the use of <code>&merchantId</code> parameter.
 
