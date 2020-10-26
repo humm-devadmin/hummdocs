@@ -71,8 +71,6 @@ nav:
         - Device Initialisation: 'pos/security/device_initialisation.md'
         - Signature Generation: 'pos/security/signature_generation.md'
         - Transport Layer Security: 'pos/security/transport_layer_security.md'
-- Marketing Campaign Assets: 
-    Launch Promotion: nz/launch_promotion.md
 theme:
     name: null
     custom_dir: material
