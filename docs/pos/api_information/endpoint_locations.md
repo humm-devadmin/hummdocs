@@ -1,6 +1,5 @@
 # Endpoint Locations
 
-%endpoint_note%
 
 Environment<br/>Classification | Communication<br/>Protocol | Version | URL
 ----------|----------|----------|----------
