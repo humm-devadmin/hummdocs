@@ -4,7 +4,6 @@
 
 ## **Humm** Endpoints
 
-%endpoint_note%
 
 | **Humm** Environment | URL |
 |--------------------|-----|
