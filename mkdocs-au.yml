@@ -94,6 +94,7 @@ extra:
     domain_postfix: .com.au
     currency_abbr: AUD
     country_abbr: AU
+    country_abbr_lower_case: au
     address_city: Adelaide
     address_street_1: 97 Pirie St
     address_street_2: Level 6

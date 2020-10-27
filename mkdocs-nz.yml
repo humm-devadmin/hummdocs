@@ -97,6 +97,7 @@ extra:
     domain_postfix: .co.nz
     currency_abbr: NZD
     country_abbr: NZ
+    country_abbr_lower_case: nz
     address_city: Auckland
     address_street_1: 111 Carlton Gore Rd
     address_street_2: Level 1

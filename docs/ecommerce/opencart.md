@@ -17,7 +17,7 @@ To integrate **humm** you will need your
 
 > The Extension Installer requires FTP settings to be configured. If it isn't, use manual installation instead.
 
-1 - Download the latest extension for your OpenCart version [here](https://github.com/shophumm/humm-opencart/releases).
+1 - Download the latest extension for your OpenCart version [here](https://github.com/shophumm/humm-%country_abbr_lower_case%-opencart/releases).
 
 2 - From your **OpenCart Admin**, click **Extensions > Installer**.
 
@@ -31,7 +31,7 @@ _Next: Continue onto Finalising Installation [below](#finalising-installation)._
 
 ## Manual Installation
 
-1 - Download the latest extension for your OpenCart version [here](https://github.com/shophumm/humm-opencart/releases).
+1 - Download the latest extension for your OpenCart version [here](https://github.com/shophumm/humm-%country_abbr_lower_case%-opencart/releases).
 
 2 - Unzip then copy contents of `uploads` folder into OpenCarts root folder. If upgrading **humm**, only **humm** files should be overwritten.
 
