@@ -21,13 +21,13 @@ Using the following code if you are a **'Little things'** merchant.
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}&little=f5"></script>
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}&little=f5"></script>
-
+<!-- 
 #### For 10 weekly payments:
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}&little=w10"></script>
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}&little=w10"></script>
-
+-->
 
 ### 'Big things' only
 

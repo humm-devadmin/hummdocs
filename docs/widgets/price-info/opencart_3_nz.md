@@ -52,11 +52,12 @@ Using the following code if you are a **'Little things'** merchant.
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}&little=f5"></script>
 ```
+<!-- 
 #### For 10 weekly payments:
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}&little=w10"></script>
 ```
-
+-->
 ### 'Big things' only
 
 Using the following code if you are a **'Big things'** merchant.
