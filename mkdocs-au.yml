@@ -4,7 +4,7 @@ nav:
 - Home: index.md
 - Request API Key: request_api.md
 - Integration Assistance: integration_assistance.md
-- eCommerce Integration:
+- eComm Integration:
     - Shopify: ecommerce/shopify.md
     - WooCommerce: ecommerce/woocommerce.md
     - Magento 1: ecommerce/magento_1.md
@@ -13,13 +13,13 @@ nav:
     - OpenCart: ecommerce/opencart.md
     - CubeCart: ecommerce/cubecart.md
     - Test Transactions: accreditation/test.md
-- Custom Integration:
+- Custom eComm Integration:
     - Checkout Process: custom_integration/checkout_process.md
     - Checkout API: custom_integration/checkout_api.md
     - Refund API: custom_integration/refund_api.md
     # - Sample cURL Script: custom_integration/sample_curl.md
     - Signature Generation: custom_integration/signature_generation.md
-#- POS Platforms:
+- POS Platforms:
     - Vend: ecommerce/vend.md
     # - Testing Declines and Approvals: accreditation/declines_and_approvals.md
 - Best Practice Integration: best_practice_integration.md
