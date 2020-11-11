@@ -10,15 +10,13 @@ To setup and configure **humm** with your Vend POS device you will need the foll
  </ul>
 </div>
 
-Device Tokens can be generated in your <a href="https://seller.%domain%/">**humm** Merchant Portal</a>
+Device Tokens can be generated in your <a href="https://seller.%domain%/">**humm** Seller Portal</a>
 
-1. Login to the <a href="https://seller.%domain%/">**humm** Merchant Portal</a>
+1. Login to the <a href="https://seller.%domain%/">**humm** Seller Portal</a>
 
-2. Select the menu in the top right corner
+2. Select **POS Device Tokens** from the left hand side menu
 
-3. Select POS Device Tokens
-
-4. Select "Generate" and provide the number of registers you have allocated in Vend
+3. Select **Generate** and provide the number of registers you have allocated in Vend
 <hr/>
 
 ## Setup Process
@@ -79,7 +77,7 @@ You will be prompted for your:
 
 Your **Merchant ID** is provided in your Welcome Pack.
 
-**Device Tokens** can be generated in the <a href="https://seller.%domain%/">**humm** Merchant Portal</a>
+**Device Tokens** can be generated in the <a href="https://seller.%domain%/">**humm** Seller Portal</a>
 
 
 
