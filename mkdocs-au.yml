@@ -25,12 +25,13 @@ nav:
 - Widgets + Banners:
     - Widgets: widgets/widgets.md
     - Widget Installation:
-        - Generic Installation: widgets/installation.md
-        - On Shopify: widgets/price-info/shopify.md
-        - On Magento 1: widgets/price-info/magento_1.md 
-        - On OpenCart 3: widgets/price-info/opencart_3.md
+        - Custom Platforms: widgets/installation.md
+        - Shopify: widgets/price-info/shopify.md
+        - Magento 1: widgets/price-info/magento_1.md 
+        - OpenCart 3: widgets/price-info/opencart_3.md
     - Banners: widgets/banners.md
     - Landing Pages: 
+        - General: widgets/landing_pages/general.md
         - Introduction: widgets/landing_pages/introduction.md
         - Little Things Online: widgets/landing_pages/little_online.md
         - Little Things Instore: widgets/landing_pages/little_instore.md
@@ -38,7 +39,6 @@ nav:
         - Big Things Instore: widgets/landing_pages/big_instore.md
         - Little & Big Online: widgets/landing_pages/little_big_online.md
         - Little & Big Instore: widgets/landing_pages/little_big_instore.md
-        - General: widgets/landing_pages/general.md
 - POS Integration:
     - Getting Started: 'pos/getting-started.md'
     - Terminology: 'pos/terminology.md'

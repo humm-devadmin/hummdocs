@@ -26,20 +26,20 @@ nav:
 - Widgets + Banners:
     - Widgets: widgets/widgets_nz.md
     - Widget Installation:
-        - Generic Installation: widgets/installation.md
-        - On Shopify: widgets/price-info/shopify_nz.md
-        - On Magento 1: widgets/price-info/magento_1_nz.md
-        - On OpenCart 3: widgets/price-info/opencart_3_nz.md
+        - Custom Platforms: widgets/installation.md
+        - Shopify: widgets/price-info/shopify_nz.md
+        - Magento 1: widgets/price-info/magento_1_nz.md
+        - OpenCart 3: widgets/price-info/opencart_3_nz.md
     - Banners: widgets/banners.md
     - Landing Pages:
         - Introduction: widgets/landing_pages/introduction.md
+        - General: widgets/landing_pages/general.md
         - Little Things Online: widgets/landing_pages/little_online.md
         - Little Things Instore: widgets/landing_pages/little_instore.md
         - Big Things Online: widgets/landing_pages/big_online.md
         - Big Things Instore: widgets/landing_pages/big_instore.md
         - Little & Big Online: widgets/landing_pages/little_big_online.md
         - Little & Big Instore: widgets/landing_pages/little_big_instore.md
-        - General: widgets/landing_pages/general.md
 - Logos: nz/logos.md
 - Training Guides: nz/training_guides.md
 - POS Integration:
