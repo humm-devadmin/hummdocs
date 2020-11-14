@@ -46,7 +46,7 @@ To integrate **humm** you will need your:
 **Minimum Order Total**| `0` for no limit.
 **Maximum Order Total**| `0` for no limit.
 
-If you have any questions, email us at <span style=display:%au-only%><strong>pit@shophumm.com.au</strong></span> <span style=display:%nz-only%><strong>pit@shophumm.co.nz</strong></span>
+If you have any questions, email us at <strong>pit@%domain%</strong></span>
 
 ## Refunding
 
