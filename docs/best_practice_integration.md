@@ -147,9 +147,9 @@ Widgets are available [here](/widgets/%price_info_page_link%/).
     </div>
     
     <div class="window-content">
-        <p>For materials you customise or create, please send a copy to <a href="mailto:marketing@shophumm.com.au?subject=humm Artwork Request">marketing@shophumm.com.au</a>&nbsp;for review and approval before publication. Turnaround&nbsp;time is generally 5 working days for each round of submitted&nbsp;material.</p>
+        <p>For materials you customise or create, please send a copy to <a href="mailto:marketing@%domain%?subject=humm Artwork Request">marketing@%domain%</a>&nbsp;for review and approval before publication. Turnaround&nbsp;time is generally 5 working days for each round of submitted&nbsp;material.</p>
 
-        >> <a href="mailto:marketing@shophumm.com.au?subject=humm Artwork Request">Get approval</a> <<
+        >> <a href="mailto:marketing@@%domain%?subject=humm Artwork Request">Get approval</a> <<
 
     </div>
 </div>

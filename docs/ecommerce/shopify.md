@@ -32,7 +32,7 @@ To integrate **humm** you will need your
 
 **Humm** will now be displaying as a payment option at checkout.
 
-If you have any questions, email us at <span style=display:%au-only%><strong>pit@shophumm.com.au</strong></span> <span style=display:%nz-only%><strong>pit@shophumm.co.nz</strong></span>
+If you have any questions, email us at <strong>pit@%domain%</strong>
 
 **7** - You may verify by attempting to checkout with humm. If you are redirected to the **humm** login page, the gateway is working correctly.
 
