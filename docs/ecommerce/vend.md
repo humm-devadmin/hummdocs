@@ -1,14 +1,9 @@
 <h1>Setup on Vend</h1>
 
-To setup and configure **humm** with your Vend POS device you will need the following:
+To **humm** you will need your
 
-
-<div class="panel">
- <ul>
-    <li>Your Merchant ID</li>
-    <li>A POS Device Token for each Vend Device</li>
- </ul>
-</div>
+* Merchant ID
+* A POS Device Token for each Vend Device
 
 Device Tokens can be generated in your <a href="https://seller.%domain%/">**humm** Seller Portal</a>
 
@@ -24,25 +19,11 @@ Device Tokens can be generated in your <a href="https://seller.%domain%/">**humm
 ### Add a payment type
 
 Login to your Vend store.
-Go to Settings -> Payment Types -> Add Payment Type
+Go to **Settings** -> **Payment Types** -> **Add Payment Type**.
 
+From the **Add New Payment Type** pop-up, select **Other Payment Method**
 
-![01_add_payment_type.png](/img/ecommerce/vend/01_add_payment_type.png)
-
----
-
-### Create new "Credit Card" Payment Type
-
-Select:
-
-* Payment Type =  Credit Card
-* Custom Name = **humm**
-
-
-![02_select_credit_card.png](/img/ecommerce/vend/02_select_credit_card.png)
-
-
-![03_name_oxipay.png](/img/ecommerce/vend/03_name_oxipay.png)
+![humm_vend_1.png](/img/ecommerce/vend/humm_vend_1.png)
 
 ---
 
@@ -51,9 +32,7 @@ Select:
 On the Settings -> Payment Types screen, choose the **humm** Payment Type
 
 
-![04_configure_oxipay.png](/img/ecommerce/vend/04_configure_oxipay.png)
-
-
+![humm_vend_2.png](/img/ecommerce/vend/humm_vend_2.png)
 
 Set the Gateway URL to:
 
@@ -61,7 +40,7 @@ Set the Gateway URL to:
 
 Press the "Save Payment Type"
 
-![05_add_custom_gateway.png](/img/ecommerce/vend/05_add_custom_gateway.png)
+![humm_vend_3.png](/img/ecommerce/vend/humm_vend_3.png)
 
 ---
 ### Pair a Register
@@ -79,16 +58,13 @@ Your **Merchant ID** is provided in your Welcome Pack.
 
 **Device Tokens** can be generated in the <a href="https://seller.%domain%/">**humm** Seller Portal</a>
 
+![humm_vend_4.png](/img/ecommerce/vend/humm_vend_4.png)
 
-
-![06_payment.png](/img/ecommerce/vend/06_payment.png)
-
-![07_pay_with_oxipay.png](/img/ecommerce/vend/07_pay_with_oxipay.png)
+![humm_vend_5.png](/img/ecommerce/vend/humm_vend_5.png)
 
 ![08_pair_register.png](/img/ecommerce/vend/08_pair_register.png)
 
 ---
-
 ## Complete
 
 Congratulations! Once a register is paired, your customers can now pay with **humm**
