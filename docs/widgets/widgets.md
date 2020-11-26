@@ -1,51 +1,57 @@
 ## Widgets
 
-Select the widget type corresponding to your seller type: **'Little things'**, **'Big Things'** or **both**. Contact <a href="mailto:pit@%domain%">pit@%domain%</a> if unsure.
+Ensure you select the widget type corresponding to whether you are a **'Little things'** seller or a **'Big Things'** seller.
 
 Insert the script where you want the widget to display replacing <code>PLACE_YOUR_PRODUCT_PRICE</code> with the product's price.
 
-## 'Little Things' only
+## 'Little things' Widget
 
-If you're a **'Little things'** only seller, use:
+If a **'Little things'** only seller, use:
+<div style=display:%nz-only%>
+```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&little=f5"></script>
+```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=100&little=F5"></script>
+</div>
 
+<div style=display:%au-only%>
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&LittleOnly"></script>
 ```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&LittleOnly"></script>
+</div>
 
-Note the use of <code>&LittleOnly</code> parameter.
-
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script>
-
-## Little & Big Things
-
-If you're a **'Little things'** and **'Big things'** seller, use: 
-
+<!--
+#### For 10 weekly payments:
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&little=w10"></script>
+```
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=100&little=W10"></script>
+Note the use of <code>&little=f5</code> or <code>&little=w10</code> parameter.
+-->
+
+## 'Big things' Dynamic API Pricing Widget
+
+The **'Big things'** widget can display dynamic big things pricing tailored to the terms applied to your humm account.
+
+``` 
+<script
+src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&BigThings&merchantId=YOUR_MERCHANT_ID"></script>
 ```
 
-Note the use of <code>&merchantId</code> parameter.
+Note the use of the <code>&BigThings</code> and <code>&merchantId</code> parameters.
 
-This will display dynamic pricing based on the Big Things terms available for your merchant account.
+Replace the <code>YOUR_MERCHANT_ID</code> parameter in the above script with your merchant ID. 
 
-**Product price = $2001**
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=2001&merchantId=30135131"></script> 
+<script
+src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500&BigThings&merchantId=30132859"></script>
+
 
 ## Platform-specific Installation Instructions
-* [Shopify](/widgets/price-info/shopify)
-* [Magento 1](/widgets/price-info/magento_1)
-* [OpenCart 3](/widgets/price-info/opencart_3)
+* [Shopify](/widgets/price-info/shopify_nz)
+* [Magento 1](/widgets/price-info/magento_1_nz)
+* [OpenCart 3](/widgets/price-info/opencart_3_nz)
 
-## Widget behaviour
-
- **'Little things'** only, **'Big Things'** only or **both** widgets behave differently:
-
-| | <= $1000 | $1000 < price <= $2000 | > $2000 |
-| -- | -- | -- | -- |
-| **Big Things Only** | | | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=2001&merchantId=30135131"></script> |
-| **Little Things Only** | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200&LittleOnly"></script> | <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500&LittleOnly"></script> | |
-
-This affects all widgets, including dynamic widgets.
 
 ## Dynamic Widget
 
@@ -82,7 +88,13 @@ You could also use ```price-selector=.woocommerce-Price-amount.amount``` or any 
 
 ## Minimum and Maximum Widgets
 
-To display the widget above or below a certain price point, set the ```data-min``` and ```data-max``` accordingly when calling the widget.
+**'Little things'** and **'Big things'** widgets have default minimum and maximum thresholds.
+
+You can customise the min and max threshold (can only increase the min or/and decrease the max) by setting ```data-min``` and ```data-max``` accordingly when calling the widget.
+
+<p style=display:%nz-only%>
+    By default, "Little things" shows when product price is between $20 and $1000, while "Big things" shows only between the price of $80 and $10000.
+</p>
 
 ```
 <script data-min="20" data-max="300" src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=YOUR_PRICE"></script>
