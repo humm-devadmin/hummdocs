@@ -1,12 +1,10 @@
 # Checkout API
 
-We have used this API  ourselves to integrate **humm** into leading shopping cart platforms such as Shopify, WooCommerce and Magento.
+We have used this API to integrate **humm** into leading shopping cart platforms such as Shopify, WooCommerce and Magento.
 
-Communicating with **humm** involves **the buyers' browser** performing an HTTP **POST** to the **humm** endpoint. This can be viewed as an authorisation request by the shopping cart to process the payment via **humm**.
+Communicating with **humm** involves **the buyers' browser** performing a HTTP **POST** to **humm** - authorisation request. Details provided below on expected format of request as well as response.
 
-Please note, this is not an HTTP API and *cannot* be used for server to server communication.
-
-There are two **humm** gateways that transaction information can be posted to and they represent the live **humm** payment gateway and the test (sandbox) gateway.
+> This is not an HTTP API and *cannot* be used for server to server communication.
 
 ## **Humm** Endpoints
 
@@ -20,17 +18,17 @@ There are two **humm** gateways that transaction information can be posted to an
 
 ## Request POST
 
-Posting to the **humm** endpoint, regardless of whether this is done in the live or test environment, should be done using the format <code>application/x-www-form-urlencoded</code>. Please note that **humm** adopts the convention of prefixing the various key names with <code>x_</code> .
+POST to **humm** in the format <code>application/x-www-form-urlencoded</code> and prefix all key names with <code>x_</code>
 
-Below is an overview of the various key-value pairs that can be passed to **humm** (**Request Values**), a description of what they are as well as an indication of whether they are mandatory or optional.
+Below is an overview of the various key-value pairs that can be passed.
 
 ### Request values
 
  Key | Description | Type | Example | Length
 -----|-------------|------|---------|--------
-x_account_id **Required**         | This is a unique Merchant ID that is assigned by **humm** to individual merchants | unicode string | 123456 | 10
-x_amount **Required**             | Represents the transaction's total amount including any taxes and shipping costs | decimal | 99.90 | 12
-x_currency **Required**           | Currency of the transaction | ISO-4217 | %currency_abbr% | 3
+x_account_id **Required**         | **humm** Merchant ID | unicode string | 123456 | 10
+x_amount **Required**             | Total amount including any taxes and shipping costs | decimal | 99.90 | 12
+x_currency **Required**           | Currency | ISO-4217 | %currency_abbr% | 3
 x_customer_billing_address1       | Billing address line 1 | unicode string | %address_street_1% | 200
 x_customer_billing_address2       | Billing address line 2 | unicode string | %address_street_2% | 200
 x_customer_billing_city           | Billing city | unicode string | %address_city% | 200 
@@ -51,19 +49,18 @@ x_customer_shipping_phone         | Customer's phone number (Shipping) | unicode
 x_customer_shipping_state         | Shipping state | unicode string | %address_state_abbr% | 200
 x_customer_shipping_postcode      | Shipping postcode | unicode string | %address_post_code% | 200
 x_description                     | Item's description as setup in the shopping cart | unicode string | Order #767 | 200
-x_reference **Required**          | A reference that uniquely references the order and assigned by the merchant. This is unique to the shopping cart. | ascii string (max length 250 bytes) | 19783 | 250
-x_shop_country **Required**       | Country of where the merchant's store is located | iso-3166-1alpha-2 | %country_abbr% | 3
-x_shop_name **Required**          | Store name as advertised on the internet, TV and other media | Shop Inc | 200
-x_signature **Required**          | Request payload that is signed/verified using HMAC-SHA256 | hex string, case-insensitive | See [Signature Generation](../signature_generation/) | 64
-x_url_callback **Required**       | Callback notifications are sent asynchronously to this URL. **The protocol must be HTTPS** | URL | https://shop%domain_postfix%/callback | 200
-x_url_cancel **Required**         | Customers are redirected to this URL if they want to quit their **humm** transaction and return to the shopping cart store instead | URL | https://shop%domain_postfix%/cancel | 200
-x_url_complete **Required**       | Customers are redirected to this URL if they have successfully processed their transaction using **humm** | URL | https://shop%domain_postfix%/compete | 200
-x_transaction_timeout             | Transaction timeout in minutes. Maximum value is 1440. | int | 60
+x_reference **Required**          | Reference no. assigned by the shopping cart | ascii string (max length 250 bytes) | 19783 | 250
+x_shop_country **Required**       | Merchant's store country | iso-3166-1alpha-2 | %country_abbr% | 3
+x_shop_name **Required**          | Shopping cart store name | Shop Inc | 200
+x_signature **Required**          | Request payload that is signed using HMAC-SHA256 | hex string, case-insensitive | See [Signature Generation](../signature_generation/) | 64
+x_url_callback **Required**       | Async-callback sent to this URL. **must be HTTPS** | URL | https://shop%domain_postfix%/callback | 200
+x_url_cancel **Required**         | Cancelled orders redirected to this URL | URL | https://shop%domain_postfix%/cancel | 200
+x_url_complete **Required**       | Approved orders redirected to this URL | URL | https://shop%domain_postfix%/compete | 200
+x_transaction_timeout             | Transaction timeout in minutes. Maximum is 1440. | int | 60
 
 ### Sample POST
 
-Below is a sample request that might be posted to an **humm** gateway that is in the <code>application/x-www-form-urlencoded</code> format. In this example, please ignore values for individual keys - such as the value for <code>x_signature</code> - since this sample POST is for demonstration purposes only and does not demonstrate a real transaction that can be completed by **humm**.
-
+Below is a sample POST request in <code>application/x-www-form-urlencoded</code> format. This is a sample POST so ignore values for individual keys
 
     x_reference=123&x_account_id=1&x_amount=100.00&x_currency=%currency_abbr%&x_url_callback=sample_callback_url&x_url_complete=sample_complete_url&x_shop_country=%country_abbr%&x_shop_name=Sample+Shop&x_customer_first_name=first&x_customer_last_name=last&x_customer_email=sample%40email.com&x_customer_billing_country=%country_abbr%&x_customer_billing_city=%address_city%&x_customer_billing_address1=97+Pirie&x_customer_billing_address2=St&x_customer_billing_state=%address_state_abbr%&x_customer_billing_zip=%address_post_code%&x_description=Sample+Store+-+%123&x_url_cancel=sample_cancel_url&x_signature=dummy_signature
 
@@ -71,50 +68,48 @@ Below is a sample request that might be posted to an **humm** gateway that is in
 <a name="Responses"></a>
 ## POST and GET responses
 
-There are two responses from **humm**.
+Once a transaction is processed, **humm** will send two responses: 1) the async-callback POST and 2) the redirect GET.
 
-The first response that **humm** always performs is a server-to-server asynchronous POST to the shopping cart on the gateway specified in the <code>x_url_callback</code> and in the format <code>application/x-www-form-urlencoded</code>. Similar to the request POST, the response POST includes key-values pairs that are specific to that transaction and indicate things such as the outcome of that particular transaction if it has failed or is completed successfully for instance.</br>
+The POST is an asynchronous server-to-server call to the shopping cart on the <code>x_url_callback</code> URL in the <code>application/x-www-form-urlencoded</code> format. It includes key-values pairs specific to the transaction such as it's outcome.</br>
 
-The second response is a HTTP GET to the client on the URLs specified in <code>x_url_complete</code>.</br>
-The key-value pairs included in this HTTP GET are the same as the POST values as shown below.
+> <code>x_url_callback</code> should specifiy a HTTPS URL as the POST response must be sent over HTTPS
 
-**Please note:** The POST response must be sent over HTTPS. Consequently, the <code>x_url_callback</code> field should specify the HTTPS has the protocol.
+The HTTP GET (HTTP) is to the client on the <code>x_url_complete</code> URL.</br>
+
+Both the POST and GET will contain the same set of key-value pairs as shown below.
 
 ### Response POST/GET values
 
-Below is an overview of the various response key-value pairs that **humm** returns after it has finished processing a transaction. Note that some of these key-value pairs echo corresponding key-value pairs in the request that **humm** receives - as is the case with <code>x_currency</code> for instance.
+Below is an overview of the key-value pairs that **humm** returns.
+> Some of these key-value echo corresponding key-value pairs in the request, such as <code>x_currency</code> for instance.
+
+</br>
 
  Key | Description | Type | Example
 -----|-------------|------|---------
-x_account_id              | This is the Merchant ID assigned by **humm** to the merchant | Unicode string | 123456
-x_reference               | A reference that uniquely references the order and assigned by the merchant | ASCII string | 19783
-x_currency                | Currency of the transaction | ISO-4217 | %currency_abbr%
-x_amount                  | Represents the transaction's total amount including any taxes and shipping costs | decimal | 99.90  
-x_gateway_reference       | A reference for the authorisation issues by **humm** that is unique | unique string | 123
-x_purchase_number         | A reference for the authorisation issues by **humm** that is unique. **Same as x_gateway_reference** | unique string | 123
-x_timestamp               | Time at which the transaction is completed, in UTC format YYYY-MM-DDTHH:MM:SSZ | iso-8601 in UTC | 2017-06-24T12:11:43Z
-x_result                  | Values that represent the outcome of a transaction | Valid values are **completed** or **failed** | **completed**
-x_signature               | Response payload that is signed/verified using HMAC-SHA256 | hex string, case-insensitive | See [Signature Generation](../signature_generation/)
+x_account_id              | **humm** Merchant ID | Unicode string | 123456
+x_reference               | Reference no. assigned by the shopping cart | ASCII string | 19783
+x_currency                | Currency | ISO-4217 | %currency_abbr%
+x_amount                  | Total amount including any taxes and shipping costs | decimal | 99.90  
+x_gateway_reference       | **humm** reference number | unique string | 123
+x_purchase_number         | **humm** reference number **Same as x_gateway_reference** | unique string | 123
+x_timestamp               | Time at which transaction is completed | iso-8601 in UTC</br>YYYY-MM-DDTHH:MM:SSZ | 2017-06-24T12:11:43Z
+x_result                  | Transaction outcome | Valid values are **completed** or **failed** | **completed**
+x_signature               | Response payload that is signed using HMAC-SHA256 | hex string, case-insensitive | See [Signature Generation](../signature_generation/)
 
-### Response signature validation
+### Validating **humm** Responses
 
-The <code>x_signature</code> included in both the POST and GET responses must validated by the merchant's server.</br>
-Failure to do so could allow a third-party to tamper with the response.
+The <code>x_signature</code> in the POST and GET responses must validated by the shopping cart to ensure it's not tampered with by a third-party.</br> If there is a mistmatch, then the response should be disregarded.
 
-In the event that the provided <code>x_signature</code> does not match the calculated signature, the response should be disregarded.
+For more information on how to calcualte the signature, see [Signature Generation](../signature_generation/).
 
-All fields received starting with <code>x_</code> should be used to calculate the signature, except for <code>x_signature</code> itself.
+## Async-callback Acknowledgement 
 
-For further information please see [Signature Generation](../signature_generation/).
+To confirm to **humm** that the async-callback POST was correctly received by your cart, you need to respond with an acknowledgement that is human-readable and does not exceed 1000 characters. Common errors include responding with a full HTML page.
 
-## Response POST reply
-
-It is expected that the POST response will be replied to by the merchants server to confirm that the POST response was correctly received.</br>
-The format of this response must be human-readable and not exceed 1000 characters.
-
-The expected key-value pairs of this reply are listed below.
+A JSON with the following key-value pairs is sufficient.
 
  Key | Description | Type | Example
 -----|-------------|------|---------
-x_reference               | A reference that uniquely references the order and assigned by the merchant | ASCII string | 19783
-x_result                  | The status of the order in question according to the merchants server.</br>**This should not merely copy the status from the initial response POST** | ASCII string | Approved, Declined, Paid, etc.
+x_reference               | The shopping cart reference for the order | ASCII string | 19783
+x_result                  | The status of the order from your shopping cart's perspective, NOT a copy of the status from the initial async-callback | ASCII string | Approved, Declined
