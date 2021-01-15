@@ -18,7 +18,7 @@ If a **'Little things'** only seller, use:
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&LittleOnly"></script>
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&LittleOnly"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=100&LittleOnly"></script>
 </div>
 
 <!--
