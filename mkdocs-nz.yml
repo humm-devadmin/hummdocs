@@ -3,7 +3,8 @@ site_dir: 'humm-nz'
 nav:
 - Home: index.md
 - Request API Key: request_api.md
-- Integration Assistance: integration_assistance.md
+- eComm Integration Assistance: integration_assistance.md
+- POS Integration Assistance: pos_integration_assistance.md
 - eComm Integration:
     - Oxipay to humm migration: ecommerce/oxipay_migration.md
     - Shopify: ecommerce/shopify.md
@@ -27,7 +28,7 @@ nav:
     - Widgets: widgets/widgets.md
     - Widget Installation:
         - Custom Platforms: widgets/installation.md
-        - Shopify: widgets/price-info/shopify_nz.md
+        - Shopify: widgets/price-info/shopify.md
         - Magento 1: widgets/price-info/magento_1_nz.md
         - OpenCart 3: widgets/price-info/opencart_3_nz.md
     - Banners: widgets/banners.md
