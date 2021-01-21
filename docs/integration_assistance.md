@@ -12,3 +12,5 @@ Fill out the form below and a member of our team will assist with the online int
         <a href="https://fxl.formstack.com/forms/humm_nz_integration_assistance" title="Online Form">Online Form - Humm NZ: (docs) Integration Assistance</a>
     </noscript>
 </div>
+
+​​​<script>jQuery('iframe').load(function(){jQuery('html,body').animate({scrollTop: 0}, 'slow');});</script>

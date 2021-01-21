@@ -12,3 +12,5 @@ The Encryption Key is sent out via SMS. Fill out form below and we'll be in touc
         <a href="https://fxl.formstack.com/forms/humm_nz_api_key_request" title="Online Form">Online Form - Humm NZ: (docs) API Key Request</a>
     </noscript>
 </div>
+
+​​​<script>jQuery('iframe').load(function(){jQuery('html,body').animate({scrollTop: 0}, 'slow');});</script>
