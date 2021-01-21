@@ -1,4 +1,4 @@
-API Key is sent out via SMS. Fill out form below and we'll be in touch with the API key.
+The Encryption Key is sent out via SMS. Fill out form below and we'll be in touch with the key.
 
 <!-- Display in AU -->
 <div class="online-form" style=display:%au-only%>

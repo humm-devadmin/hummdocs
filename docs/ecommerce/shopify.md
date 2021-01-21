@@ -5,11 +5,11 @@
 To integrate **humm** you will need your
 
 * Merchant Number
-* API Key
+* Encryption Key
 
 ##Integrating **humm**
 
-**1** - Fill the online [Request API Key Form](/request_api) and we'll send you your unique **API Key**. 
+**1** - Fill the online [Request Encryption Key Form](/request_api) and we'll send you your unique **Encryption Key**. 
 
 **2** - Add **Humm** to your Shopify payments by following the link <span style=display:%au-only%><a href = "https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1031227" >here</a></span> <span style=display:%nz-only%><a href = "https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052217">here</a><span>
 
@@ -25,7 +25,7 @@ To integrate **humm** you will need your
 
 ![7.png](/img/ecommerce/shopify/7.png)
 
-**6** - Enter your **Merchant Number** and **API Key** then click **Save**.
+**6** - Enter your **Merchant Number** and **Encryption Key** then click **Save**.
 > Ensure test mode is disabled.
 
 ![8.png](/img/ecommerce/shopify/8.png)
