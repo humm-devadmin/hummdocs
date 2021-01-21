@@ -5,7 +5,7 @@
 To integrate **humm** you will need your:
 
 * Merchant Number
-* API Key
+* Encryption Key
 
 ##Integrating **humm**
 
@@ -25,8 +25,8 @@ To integrate **humm** you will need your:
 
 ![32.png](/img/ecommerce/woocommerce/33.png)
 
-**2** - Configure the **Merchant ID** and **API Key** fields with your credentials.
-	**If you have not received your API key please fill out the form located [here](https://docs.shophumm.com.au/request_api/).**
+**2** - Configure the **Merchant ID** and **Encryption Key** fields with your credentials.
+	**If you have not received your Encryption key please fill out the form located [here](https://docs.shophumm.com.au/request_api/).**
 
 **3** - Ensure **humm** is configured as follows.
 

@@ -2,7 +2,7 @@ site_name: humm Documentation (AU)
 site_dir: 'humm-au'
 nav:
 - Home: index.md
-- Request API Key: request_api.md
+- Request Encryption Key: request_api.md
 - eComm Integration Assistance: integration_assistance.md
 - POS Integration Assistance: pos_integration_assistance.md
 - eComm Integration:
