@@ -1,3 +1,4 @@
+// Force webpage to top on form submit
 document.querySelector("iframe").addEventListener("load", 
     function() {
         window.scrollTo({
