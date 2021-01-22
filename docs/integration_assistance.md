@@ -13,4 +13,4 @@ Fill out the form below and a member of our team will assist with the online int
     </noscript>
 </div>
 
-​​​<script>jQuery('iframe').load(function(){jQuery('html,body').animate({scrollTop: 0}, 'slow');});</script>
+<script src = "/js/custom.js"></script>

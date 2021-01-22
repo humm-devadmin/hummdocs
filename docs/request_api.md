@@ -13,4 +13,4 @@ The Encryption Key is sent out via SMS. Fill out form below and we'll be in touc
     </noscript>
 </div>
 
-​​​<script>jQuery('iframe').load(function(){jQuery('html,body').animate({scrollTop: 0}, 'slow');});</script>
+<script src = "/js/custom.js"></script>

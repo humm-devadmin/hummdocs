@@ -10,4 +10,4 @@ Fill out the form below and a member of our team will assist with POS integratio
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeO9oJZ8-5PKLTEhGLTHlyBNVJQZAXJeNRUvKv4-leQkN4ILQ/viewform?embedded=true" width="640" height="1600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </div>
 
-​​​<script>jQuery('iframe').load(function(){jQuery('html,body').animate({scrollTop: 0}, 'slow');});</script>
+<script src = "/js/custom.js"></script>
