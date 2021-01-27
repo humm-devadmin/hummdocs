@@ -9,7 +9,7 @@ As part of the migration to **humm** you will need to update 3 parts of your e-c
 ## Plugins
 To migrate your online store to **humm**, identify your eCommerce platform from below and follow provided instructions.
 
-Your Oxipay merchant number and API key will be will be the same for **humm**. Contact [pit@%domain%](mailto:pit@%domain%) if you don't have either.
+Your Oxipay merchant number and Encryption key will be will be the same for **humm**. Contact [pit@%domain%](mailto:pit@%domain%) if you don't have either.
 
 Platform | Action Required | Auto-switch
 ---------|-----------------|------------
