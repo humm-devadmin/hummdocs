@@ -1,3 +1,7 @@
+---
+hide:
+  - toc        # Hide table of contents
+---
 # Checkout API
 
 We have used this API to integrate **humm** into leading shopping cart platforms such as Shopify, WooCommerce and Magento.

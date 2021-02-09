@@ -15,8 +15,11 @@ Place the ```<script>``` tag in the desired place you'd like it to appear on you
 
 ### 'Little things' only
 
-Using the following code if you are a **'Little things'** merchant.
+If a **'Little things'** merchant, use:
+
+<!--
 #### For 5 fortnightly payments:
+-->
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}&little=f5"></script>
 ```
@@ -31,7 +34,7 @@ Using the following code if you are a **'Little things'** merchant.
 
 ### 'Big things' only
 
-Using the following code if you are a **'Big things'** merchant.
+If a **'Big things'** merchant, use:
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}&big=m6"></script>
 ```
