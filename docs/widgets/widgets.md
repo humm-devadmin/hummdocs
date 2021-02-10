@@ -1,25 +1,29 @@
 ## Widgets
 
+{{ unit.price }}
+
 Ensure you select the widget type corresponding to whether you are a **'Little things'** seller or a **'Big Things'** seller.
 
 Insert the script where you want the widget to display replacing <code>PLACE_YOUR_PRODUCT_PRICE</code> with the product's price.
-
+%domain%
 ## 'Little things' Widget
 
 If a **'Little things'** only seller, use:
 <div style=display:%nz-only%>
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&little=f5"></script>
+<script src="https://widgets.{{ domain }}/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&little=f5"></script>
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=100&little=F5"></script>
+<script src="https://widgets.{{ domain }}/content/scripts/price-info.js?productPrice=100&little=F5"></script>
 </div>
 
 <div style=display:%au-only%>
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&LittleOnly"></script>
+<script src="https://widgets.{{ domain }}/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&LittleOnly"></script>
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=100&LittleOnly"></script>
+<script src="https://widgets.{{ domain }}/content/scripts/price-info.js?productPrice=100&LittleOnly"></script>
 </div>
+
+{{ unit.domain }}
 
 <!--
 #### For 10 weekly payments:
