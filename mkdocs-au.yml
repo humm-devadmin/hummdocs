@@ -115,6 +115,3 @@ extra:
     nz-only: none
 markdown_extensions:
     - codehilite
-plugins:
-    - macros
-    - search

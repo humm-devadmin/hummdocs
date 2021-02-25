@@ -2,6 +2,11 @@
 
 {{ unit.price }}
 
+%price%
+
+%unit.price%
+
+
 Ensure you select the widget type corresponding to whether you are a **'Little things'** seller or a **'Big Things'** seller.
 
 Insert the script where you want the widget to display replacing <code>PLACE_YOUR_PRODUCT_PRICE</code> with the product's price.
