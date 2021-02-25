@@ -6,7 +6,7 @@ nav:
 - eComm Integration Assistance: integration_assistance.md
 - POS Integration Assistance: pos_integration_assistance.md
 - eComm Integration:
-    - Oxipay to humm migration: ecommerce/oxipay_migration.md
+    # - Oxipay to humm migration: ecommerce/oxipay_migration.md
     - Shopify: ecommerce/shopify.md
     - WooCommerce: ecommerce/woocommerce.md
     - Magento 1: ecommerce/magento_1.md
