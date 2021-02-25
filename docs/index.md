@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation # Hide navigation
+  - toc        # Hide table of contents
+---
 <div id="humm-landing-content" style=display:%au-only%>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://widgets.shophumm.com.au/content/html/landing-page/styles/landing.css">

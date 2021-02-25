@@ -12,14 +12,14 @@
 
 ## 'Little things' only
 
-Using the following code if you are a **'Little things'** only merchant.
+If a **'Little things'** merchant, use:
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}&LittleOnly"></script>
 ```
 
 ## 'Big things' only
 
-Using the following code if you are a **'Big things'** only merchant.
+If a **'Big things'** merchant, use:
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}&BigOnly"></script>
 ```

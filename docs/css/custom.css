@@ -94,14 +94,16 @@ label.md-nav__title text {
 }
 
 i.md-icon {
-  display:none !important;
+  display: none !important;
 }
 
 /* Fixes mobile view issue */
 .md-nav__title.md-nav__title--site {
   display: none !important;
 }
-
+body > header > nav > a > svg {
+  display: none !important;
+}
 /* Inserts humm logo */
 .md-logo:before{
   display: block;
@@ -142,8 +144,16 @@ i.md-icon {
 .panel-danger h3 {
     color: #b92020;
 }
-.md-header {
-    background-color: #FF6C00;
+.md-header, .md-tabs {
+    background-color: #FF6C00 !important;
+}
+
+.md-nav__link--active, .md-nav__link:hover {
+    color: #FF6C00 !important;
+}
+
+.md-tabs__item {
+  color: white !important;
 }
 
 .wy-nav-top .fa {

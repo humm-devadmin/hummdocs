@@ -2,9 +2,10 @@ site_name: humm Documentation (AU)
 site_dir: 'humm-au'
 nav:
 - Home: index.md
-- Request Encryption Key: request_api.md
-- eComm Integration Assistance: integration_assistance.md
-- POS Integration Assistance: pos_integration_assistance.md
+- Assistance Forms:
+    - Request Encryption Key: request_api.md
+    - eComm Integration Assistance: integration_assistance.md
+    - POS Integration Assistance: pos_integration_assistance.md
 - eComm Integration:
     - Shopify: ecommerce/shopify.md
     - WooCommerce: ecommerce/woocommerce.md
@@ -22,8 +23,8 @@ nav:
     # - Sample cURL Script: custom_integration/sample_curl.md
     - Signature Generation: custom_integration/signature_generation.md
     # - Testing Declines and Approvals: accreditation/declines_and_approvals.md
-- Best Practice Integration: best_practice_integration.md
 - Widgets + Banners:
+    - Best Practice Integration: best_practice_integration.md
     - Widgets: widgets/widgets.md
     - Widget Installation:
         - Custom Platforms: widgets/installation.md
@@ -72,8 +73,8 @@ theme:
     name: null
     custom_dir: material
     language: en
-    feature:
-        tabs: false
+    features:
+        - navigation.tabs
     palette:
         primary:
         accent:
@@ -81,15 +82,19 @@ theme:
         text: Roboto
         code: Roboto Mono
     favicon: assets/images/favicon.png
-    logo:
-        icon: "\uE80C"
+    icon:
+        icon: '\uE80C'
     include_search_page: false
     search_index_only: true
     static_templates:
     - 404.html
 extra_css: [css/jquery.modal.min.css, css/custom.css]
-extra_javascript: [js/jquery.modal.js]
+extra_javascript: 
+    - js/jquery-3.5.1.min.js
+    - js/jquery.modal.js
 extra:
+    unit:
+        price: 2
     domain: shophumm.com.au
     domain_postfix: .com.au
     currency_abbr: AUD
