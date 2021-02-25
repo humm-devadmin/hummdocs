@@ -6,7 +6,6 @@ nav:
 - eComm Integration Assistance: integration_assistance.md
 - POS Integration Assistance: pos_integration_assistance.md
 - eComm Integration:
-    # - Oxipay to humm migration: ecommerce/oxipay_migration.md
     - Shopify: ecommerce/shopify.md
     - WooCommerce: ecommerce/woocommerce.md
     - Magento 1: ecommerce/magento_1.md
@@ -17,7 +16,7 @@ nav:
     - Vend: ecommerce/vend.md
     - Test Transactions: accreditation/test.md
 - Custom Integration:
-    - Checkout Flow: custom_integration/checkout_process.md
+    - Checkout Process: custom_integration/checkout_process.md
     - Checkout API: custom_integration/checkout_api.md
     - Refund API: custom_integration/refund_api.md
     # - Sample cURL Script: custom_integration/sample_curl.md
@@ -33,8 +32,8 @@ nav:
         - OpenCart 3: widgets/price-info/opencart_3_nz.md
     - Banners: widgets/banners.md
     - Landing Pages:
-        - Introduction: widgets/landing_pages/introduction.md
         - General: widgets/landing_pages/general.md
+        - Introduction: widgets/landing_pages/introduction.md
         - Little Things Online: widgets/landing_pages/little_online.md
         - Little Things Instore: widgets/landing_pages/little_instore.md
         - Big Things Online: widgets/landing_pages/big_online.md
@@ -49,7 +48,7 @@ nav:
     - Flows:
         - Customer Initiated Flow: 'pos/flows/customer_initiated_flow.md'
         - Sales Adjustment: 'pos/flows/sales_adjustment.md'
-        # - Big Things Flow: 'pos/flows/big_things_instore_flow.md'
+        - Big Things Flow: 'pos/flows/big_things_instore_flow.md'
     - API Reference:
         - Create Key: 'pos/api/create_key.md'
         - Invite: 'pos/api/invite.md'
@@ -63,7 +62,7 @@ nav:
         - Endpoint Locations: 'pos/api_information/endpoint_locations.md'
         - HTTP Examples: 'pos/api_information/http_examples.md'
         - Retries & Idempotency: 'pos/api_information/retries_and_idempotency.md'
-    - Protocols:
+    - Supported Protocols:
         - Barcode Standards: 'pos/protocols/barcode_standards.md'
         - Transport Protocols: 'pos/protocols/transport_protocols.md'
         - Communication Protocols: 'pos/protocols/communication_protocols.md'
@@ -110,6 +109,6 @@ extra:
     payment_desc: ''
     max_purchase: 2100
     price_info_page_link: widgets_nz
-    au-only: none;
+    au-only: none
 markdown_extensions:
     - codehilite
