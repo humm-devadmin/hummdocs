@@ -3,6 +3,7 @@ branches:
     - master
 install:
   - cmd: pip install mkdocs
+  # - cmd: pip install mkdocs-macros-plugin
   
 build_script:
   - cmd: mkdocs build --config-file mkdocs-au.yml

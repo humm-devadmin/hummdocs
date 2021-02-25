@@ -75,8 +75,8 @@ theme:
     name: null
     custom_dir: material
     language: en
-    feature:
-        tabs: false
+    features:
+        - navigation.tabs
     palette:
         primary:
         accent:
@@ -84,15 +84,19 @@ theme:
         text: Roboto
         code: Roboto Mono
     favicon: assets/images/favicon.png
-    logo:
-        icon: "\uE80C"
+    icon:
+        icon: '\uE80C'
     include_search_page: false
     search_index_only: true
     static_templates:
     - 404.html
 extra_css: [css/jquery.modal.min.css, css/custom.css]
-extra_javascript: [js/jquery.modal.js]
+extra_javascript: 
+    - js/jquery-3.5.1.min.js
+    - js/jquery.modal.js
 extra:
+    unit:
+        price: 2
     domain: shophumm.co.nz
     domain_postfix: .co.nz
     currency_abbr: NZD
@@ -110,6 +114,6 @@ extra:
     payment_desc: ''
     max_purchase: 2100
     price_info_page_link: widgets_nz
-    au-only: none;
+    au-only: none
 markdown_extensions:
     - codehilite
