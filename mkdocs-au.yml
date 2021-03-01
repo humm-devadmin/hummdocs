@@ -88,7 +88,7 @@ theme:
     static_templates:
     - 404.html
 extra_css: [css/jquery.modal.min.css, css/custom.css]
-extra_javascript: [js/jquery.modal.js]
+extra_javascript: [js/jquery.modal.js, js/custom.js]
 extra:
     domain: shophumm.com.au
     domain_postfix: .com.au
