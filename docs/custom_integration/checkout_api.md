@@ -5,13 +5,16 @@ We have used this API to integrate **humm** into leading shopping cart platforms
 Communicating with **humm** involves **the buyers' browser** performing a HTTP **POST** to **humm** - authorisation request. Details provided below on expected format of request as well as response.
 
 > This is not an HTTP API and *cannot* be used for server to server communication.
-
 ## **Humm** Endpoints
 
+<script id="header" type="text/x-handlebars-template">
+  
+   Today is {{weekDay}}
+   </script>
 
 | **Humm** Environment | URL |
-|--------------------|-----|
-| Production Endpoints | [https://cart.%domain%/Checkout?platform=Default](https://cart.%domain%/Checkout?platform=Default) |
+
+| Production Endpoints | [https://cart.{{company_name}}/Checkout?platform=Default](https://cart.%domain%/Checkout?platform=Default) |
 | Sandbox Endpoints | [https://integration-cart.%domain%/Checkout?platform=Default](https://integration-cart.%domain%/Checkout?platform=Default) |
 
 <a name="Responses"></a>
@@ -113,3 +116,4 @@ A JSON with the following key-value pairs is sufficient.
 -----|-------------|------|---------
 x_reference               | The shopping cart reference for the order | ASCII string | 19783
 x_result                  | The status of the order from your shopping cart's perspective, NOT a copy of the status from the initial async-callback | ASCII string | Approved, Declined
+

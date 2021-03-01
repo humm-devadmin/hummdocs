@@ -1,4 +1,5 @@
 site_name: humm Documentation (AU)
+domain: shophumm.com.au
 site_dir: 'humm-au'
 nav:
 - Home: index.md
@@ -81,14 +82,14 @@ theme:
         text: Roboto
         code: Roboto Mono
     favicon: assets/images/favicon.png
-    logo:
-        icon: "\uE80C"
+    icon:
+        icon: '\uE80C'
     include_search_page: false
     search_index_only: true
     static_templates:
     - 404.html
 extra_css: [css/jquery.modal.min.css, css/custom.css]
-extra_javascript: [js/jquery.modal.js]
+extra_javascript: [js/jquery-3.5.1.min.js, js/jquery.modal.js, js/handlebars.min-v4.7.6.js, js/custom.js]
 extra:
     domain: shophumm.com.au
     domain_postfix: .com.au
