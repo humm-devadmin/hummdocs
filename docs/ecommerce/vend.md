@@ -1,4 +1,4 @@
-<h1>Setup on Vend</h1>
+# **Setup on Vend**
 
 To **humm** you will need your
 

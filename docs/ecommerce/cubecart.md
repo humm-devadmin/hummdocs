@@ -1,4 +1,4 @@
-#Integrating on CubeCart
+# **Integrating on CubeCart**
 
 
 ## Locate your **humm** Credentials

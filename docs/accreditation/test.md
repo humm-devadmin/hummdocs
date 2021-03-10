@@ -1,4 +1,4 @@
-#Test Transactions
+# **Test Transactions**
 
 The following instructions outline how to perform a test transaction with humm.
 

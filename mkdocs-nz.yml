@@ -13,7 +13,6 @@ nav:
     - Magento 2: ecommerce/magento_2_nz.md
     - PrestaShop: ecommerce/prestashop.md
     - OpenCart: ecommerce/opencart.md
-    # - CubeCart: ecommerce/cubecart.md
     - Vend: ecommerce/vend.md
     - Test Transactions: accreditation/test.md
 - Custom Integration:

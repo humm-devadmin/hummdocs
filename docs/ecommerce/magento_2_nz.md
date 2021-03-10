@@ -1,4 +1,4 @@
-#Integrating on Magento 2
+# **Integrating on Magento 2**
 
 Use the same instructions to upgrade the **humm** plugin to a newer release.
 
