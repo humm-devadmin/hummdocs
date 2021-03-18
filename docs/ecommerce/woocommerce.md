@@ -23,7 +23,7 @@ To integrate **humm** you will need your:
 
 **1.** Navigate to the **Plugins** page, find Humm then click **Settings**.
 
-![humm-woo-plugin.jpg](/img/ecommerce/woocommerce/humm-woo-plugin.jpg)
+![humm-woo-plugin.png](/img/ecommerce/woocommerce/humm-woo-plugin.png)
 
 **2.** Configure the **Merchant ID** and **Encryption Key** fields with your credentials.
 	**If you have not received your Encryption key please fill out the form located [here](https://docs.shophumm.com.au/request_api/).**

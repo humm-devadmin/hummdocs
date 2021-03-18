@@ -21,13 +21,13 @@ PrestaShop 1.7: click
 
 **2.** In your store's admin area, click **Modules** then **Module Manager** on the left.
 
-![presta-module.jpg](/img/ecommerce/prestashop/presta-module.jpg)
+![presta-module.png](/img/ecommerce/prestashop/presta-module.png)
 
 **3.** Click **Upload a module** in top-right.
 
 **4.** Drag the downloaded Humm ZIP file into the upload box, or click **Select File** and select the plugin.
 
-![upload-module.jpg](/img/ecommerce/prestashop/upload-module.jpg)
+![upload-module.png](/img/ecommerce/prestashop/upload-module.png)
 
 **5.** Click the **Upload this module** button.
 
@@ -56,6 +56,6 @@ API Key | Your unique API key
 
 **2.** Find **humm**, then from the Configure drop-down select **Uninstall**
 
-![uninstall-module.jpg](/img/ecommerce/prestashop/uninstall-module.jpg)
+![uninstall-module.png](/img/ecommerce/prestashop/uninstall-module.png)
 
 **3.** Install the new version of humm, see [Install the Plugin](#install-the-plugin).
