@@ -1,9 +1,9 @@
-#Integrating on OpenCart
+# **Integrating on OpenCart**
 
 **Humm** is available for the following versions of OpenCart:
 
-* 2.0.x, 2.1.x, 2.2.x
-* 2.3.x
+* 1.3.x, 1.5.x
+* 2.0.x, 2.2.x, 2.3.x
 * 3.0.x
 
 ##Locate your **humm** Credentials
@@ -15,7 +15,7 @@ To integrate **humm** you will need your
 
 ## Installation using Extension Installer
 
-> The Extension Installer requires FTP settings to be configured. If it isn't, use manual installation instead.
+> **The Extension Installer requires FTP settings to be configured. If it isn't, use manual installation instead.**
 
 1 - Download the latest extension for your OpenCart version [here](https://github.com/shophumm/humm-%country_abbr_lower_case%-opencart/releases).
 
@@ -60,9 +60,12 @@ _Next: Continue onto Finalising Installation [below](#finalising-installation)._
 Setting | Description
 --- | ---
 Status | Enabled
+Merchant ID | Your Merchant ID
+API Key | Your unique API Key
 Order Status Completed | `Completed`
 Order Status Pending | `Processing`
 Order Status Failed | `Failed`
 Geo Zone | AU or NZ
-Environment | Sandbox (Test) for testing else Live or Other.
+Environment | Sandbox (Test) for testing, Live for production
 Sort Order | `1` This will show humm first.
+Log | Yes
