@@ -49,23 +49,20 @@ nav:
         - Customer Initiated Flow: 'pos/flows/customer_initiated_flow.md'
         - Sales Adjustment: 'pos/flows/sales_adjustment.md'
         - Big Things Flow: 'pos/flows/big_things_instore_flow.md'
-    - API Reference:
+    - API Calls:
         - Create Key: 'pos/api/create_key.md'
         - Invite: 'pos/api/invite.md'
         - Process Authorisation: 'pos/api/process_authorisation.md'
         - Send Receipt: 'pos/api/send_receipt.md'
         - Process Sales Adjustment: 'pos/api/process_sales_adjustment.md'
         - Process Adjustment Reversal: 'pos/api/process_adjustment_reversal.md'
+        - HTTP Examples: 'pos/api/http_examples.md'
     - Additional API Information:
         - Status Codes: 'pos/api_information/status_codes.md'
-        - API Versioning: 'pos/api_information/api_versioning.md'
         - Endpoint Locations: 'pos/api_information/endpoint_locations.md'
-        - HTTP Examples: 'pos/api_information/http_examples.md'
         - Retries & Idempotency: 'pos/api_information/retries_and_idempotency.md'
     - Supported Protocols:
         - Barcode Standards: 'pos/protocols/barcode_standards.md'
-        - Transport Protocols: 'pos/protocols/transport_protocols.md'
-        - Communication Protocols: 'pos/protocols/communication_protocols.md'
     - Security:
         - Device Initialisation: 'pos/security/device_initialisation.md'
         - Signature Generation: 'pos/security/signature_generation.md'
