@@ -12,7 +12,6 @@ nav:
     - Magento 2: ecommerce/magento_2_nz.md
     - PrestaShop: ecommerce/prestashop.md
     - OpenCart: ecommerce/opencart.md
-    # - CubeCart: ecommerce/cubecart.md
     - Vend: ecommerce/vend.md
     - Test Transactions: accreditation/test.md
 - Custom Integration:
@@ -87,7 +86,7 @@ theme:
     static_templates:
     - 404.html
 extra_css: [css/jquery.modal.min.css, css/custom.css]
-extra_javascript: [js/jquery.modal.js]
+extra_javascript: [js/jquery.modal.js, js/custom.js]
 extra:
     domain: shophumm.co.nz
     domain_postfix: .co.nz

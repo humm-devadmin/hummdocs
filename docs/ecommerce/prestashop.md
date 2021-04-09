@@ -1,4 +1,4 @@
-#Integrating on PrestaShop
+# **Integrating on PrestaShop**
 
 ## Locate your **humm** Credentials
 
@@ -7,53 +7,55 @@ To integrate **humm** you will need your
 * Merchant Number
 * Encryption Key
 
-## Install the Plugin
+## Installing the Plugin
 
-**1** - Download the **humm** plugin.
+**1.** Download the **humm** plugin.
 
 PrestaShop 1.6: click 
-<span style = display:%au-only%><a href = "https://github.com/shophumm/humm-prestashop/releases/download/1.5.8-forPS1.7/humm_prestashop_v1.5.8-forPS1.7.zip">here</a></span> 
+<span style = display:%au-only%><a href = "https://github.com/shophumm/humm-au-prestashop/archive/master/1.6.zip">here</a></span> 
 <span style = display:%nz-only%><a href = "https://github.com/shophumm/humm-nz-prestashop/archive/master/1.6.zip">here</a></span>   
 
 PrestaShop 1.7: click
-<span style = display:%au-only%><a href = "https://github.com/shophumm/humm-prestashop/releases/download/1.5.8-forPS1.7/humm_prestashop_v1.5.8-forPS1.7.zip">here</a></span> 
+<span style = display:%au-only%><a href = "https://github.com/shophumm/humm-au-prestashop/archive/master/1.7.zip">here</a></span> 
 <span style = display:%nz-only%><a href = "https://github.com/shophumm/humm-nz-prestashop/archive/master/1.7.zip">here</a></span>   
 
-**2** - In your store's admin area, click **Modules and Services** on the left.
+**2.** In your store's admin area, click **Modules** then **Module Manager** on the left.
 
-![2.png](/img/ecommerce/prestashop/2.png)
+![presta-module.png](/img/ecommerce/prestashop/presta-module.png)
 
-**3** - Click **Add a new module** in top-right.
+**3.** Click **Upload a module** in top-right.
 
-**4** - Click **Choose a file**, select the plugin, then click **Upload this module**.
+**4.** Drag the downloaded Humm ZIP file into the upload box, or click **Select File** and select the plugin.
 
-![5.png](/img/ecommerce/prestashop/5.png)
+![upload-module.png](/img/ecommerce/prestashop/upload-module.png)
 
-**5** - From **Modules List** at the bottom, click **Install**
-
-![7.png](/img/ecommerce/prestashop/7.png)
-
-**6** - Then click **Proceed with the Installation**.
-
-![9.png](/img/ecommerce/prestashop/9.png)
+**5.** Click the **Upload this module** button.
 
 ## Configuring humm
 
-**1** - In the **Modules** page, search for **humm** then click **Configure**.
+**1.** In the **Modules** page, search for **humm** then click **Configure**.
 
-Setting | Description
+**2.** Configure the Humm settings as below.
+
+**Setting** | **Description**
 --- | ---
-Checkout Method | Select **humm**
+Is Active | Yes
 Country | AU or NZ
 Is Test? | No
+Minimum Order Amount | 1
+Humm Logging | Yes
 Gateway URL | Leave blank
+Merchant ID | Your Merchant ID
+API Key | Your unique API key
+
+**3.** Configure the **humm** widgets as per your preference.
 
 ## Updating the Plugin
 
-**1** - Navigate to **Modules and Services**.
+**1.** Navigate to **Modules**.
 
-**2** - Find **humm**, then from the Configure drop-down select **Delete > OK**
+**2.** Find **humm**, then from the Configure drop-down select **Uninstall**
 
-![14.png](/img/ecommerce/prestashop/14.png)
+![uninstall-module.png](/img/ecommerce/prestashop/uninstall-module.png)
 
-**4** - Install the new version of humm, see [Install the Plugin](#install-the-plugin).
+**3.** Install the new version of humm, see [Install the Plugin](#install-the-plugin).
