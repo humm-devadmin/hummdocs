@@ -43,27 +43,13 @@ Note that you would place the widget in the section marked ```INSERT_WIDGET_HERE
 ```
 **Step 3:** Place the following ```<script>``` tag into the ```product.twig``` file.<br>
 
-### 'Little things' only
+Replace <code>PLACE_YOUR_MERCHANT_ID</code> with your unique merchant ID. This will have been provided to you in your welcome email.
 
-Using the following code if you are a **'Little things'** only merchant.
-```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}&LittleOnly"></script>
-```
+> **If you are unsure of your merchant ID, please reach out to pit@%domain%.**
 
-### 'Big things' only
-
-Using the following code if you are a **'Big things'** only merchant.
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}&BigOnly"></script>
+<script src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}&merchantID=PLACE_YOUR_MERCHANT_ID"></script>
 ```
-
-### Both 'Little things' and 'Big things'
-
-Using the following code if you are both a **'Little things'** and **'Big things'** merchant.
-```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}"></script>
-```
-
 
 > Try inserting the widget in different places in the code until you find the most suitable place for your site.
 

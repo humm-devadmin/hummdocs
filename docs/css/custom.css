@@ -237,3 +237,7 @@ h1, h2 {
 .wy-menu-vertical span {
   color: #333 !important;
 }
+
+code {
+  font-size: 12px !important;
+}

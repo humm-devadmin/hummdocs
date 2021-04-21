@@ -25,7 +25,6 @@ nav:
 - Widgets + Banners:
     - Widgets: widgets/widgets.md
     - Widget Installation:
-        - Custom Platforms: widgets/installation.md
         - Shopify: widgets/price-info/shopify.md
         - Magento 1: widgets/price-info/magento_1.md 
         - OpenCart 3: widgets/price-info/opencart_3.md
