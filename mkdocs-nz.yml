@@ -22,6 +22,7 @@ nav:
     - Signature Generation: custom_integration/signature_generation.md
     # - Testing Declines and Approvals: accreditation/declines_and_approvals.md
 - Widgets + Banners:
+    - Best Practice Integration: widgets/best_practice_integration.md
     - Widgets: widgets/widgets_nz.md
     - Widget Installation:
         - Shopify: widgets/price-info/shopify_nz.md
