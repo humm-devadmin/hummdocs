@@ -1,10 +1,8 @@
 # Checkout API
 
-We have used this API to integrate **humm** into leading shopping cart platforms such as Shopify, WooCommerce and Magento.
+[Checkout Process](checkout_process.md) provides an overview of the Checkout API. 
 
-Communicating with **humm** involves **the buyers' browser** performing a HTTP **POST** to **humm** - authorisation request. Details provided below on expected format of request as well as response.
-
-> This is not an HTTP API and *cannot* be used for server to server communication.
+> This is not an HTTP API and hence *cannot* be used for server to server communication.
 
 ## **Humm** Endpoints
 
@@ -29,6 +27,9 @@ Below is an overview of the various key-value pairs that can be passed.
 x_account_id **Required**         | **humm** Merchant ID | unicode string | 123456 | 10
 x_amount **Required**             | Total amount including any taxes and shipping costs | decimal | 99.90 | 12
 x_currency **Required**           | Currency | ISO-4217 | %currency_abbr% | 3
+x_reference **Required**          | Reference no. assigned by the shopping cart | ascii string (max length 250 bytes) | 19783 | 250
+x_shop_country **Required**       | Merchant's store country | iso-3166-1alpha-2 | %country_abbr% | 3
+x_shop_name **Required**          | Shopping cart store name | Shop Inc | 200
 x_customer_billing_address1       | Billing address line 1 | unicode string | %address_street_1% | 200
 x_customer_billing_address2       | Billing address line 2 | unicode string | %address_street_2% | 200
 x_customer_billing_city           | Billing city | unicode string | %address_city% | 200 
@@ -49,9 +50,6 @@ x_customer_shipping_phone         | Customer's phone number (Shipping) | unicode
 x_customer_shipping_state         | Shipping state | unicode string | %address_state_abbr% | 200
 x_customer_shipping_postcode      | Shipping postcode | unicode string | %address_post_code% | 200
 x_description                     | Item's description as setup in the shopping cart | unicode string | Order #767 | 200
-x_reference **Required**          | Reference no. assigned by the shopping cart | ascii string (max length 250 bytes) | 19783 | 250
-x_shop_country **Required**       | Merchant's store country | iso-3166-1alpha-2 | %country_abbr% | 3
-x_shop_name **Required**          | Shopping cart store name | Shop Inc | 200
 x_signature **Required**          | Request payload that is signed using HMAC-SHA256 | hex string, case-insensitive | See [Signature Generation](../signature_generation/) | 64
 x_url_callback **Required**       | Async-callback sent to this URL. **must be HTTPS** | URL | https://shop%domain_postfix%/callback | 200
 x_url_cancel **Required**         | Cancelled orders redirected to this URL | URL | https://shop%domain_postfix%/cancel | 200
@@ -60,7 +58,7 @@ x_transaction_timeout             | Transaction timeout in minutes. Maximum is 1
 
 ### Sample POST
 
-Below is a sample POST request in <code>application/x-www-form-urlencoded</code> format. This is a sample POST so ignore values for individual keys
+Here is a sample POST in <code>application/x-www-form-urlencoded</code> format.
 
     x_reference=123&x_account_id=1&x_amount=100.00&x_currency=%currency_abbr%&x_url_callback=sample_callback_url&x_url_complete=sample_complete_url&x_shop_country=%country_abbr%&x_shop_name=Sample+Shop&x_customer_first_name=first&x_customer_last_name=last&x_customer_email=sample%40email.com&x_customer_billing_country=%country_abbr%&x_customer_billing_city=%address_city%&x_customer_billing_address1=97+Pirie&x_customer_billing_address2=St&x_customer_billing_state=%address_state_abbr%&x_customer_billing_zip=%address_post_code%&x_description=Sample+Store+-+%123&x_url_cancel=sample_cancel_url&x_signature=dummy_signature
 
@@ -68,20 +66,17 @@ Below is a sample POST request in <code>application/x-www-form-urlencoded</code>
 <a name="Responses"></a>
 ## POST and GET responses
 
-Once a transaction is processed, **humm** will send two responses: 1) the async-callback POST and 2) the redirect GET.
+Once a transaction is processed, **humm** will fire off two responses at the same time: 1) the async-callback POST and 2) the redirect GET and both will contain the same key-value pairs.
 
-The POST is an asynchronous server-to-server call to the shopping cart on the <code>x_url_callback</code> URL in the <code>application/x-www-form-urlencoded</code> format. It includes key-values pairs specific to the transaction such as it's outcome.</br>
+The POST is an asynchronous server-to-server call to the shopping cart on the <code>x_url_callback</code> URL in the <code>application/x-www-form-urlencoded</code> format. It is mainly there for scenarios where the GET redirect cannot take place due to user closing their browser on humm approved/declined screens</br>
 
 > <code>x_url_callback</code> should specifiy a HTTPS URL as the POST response must be sent over HTTPS
 
-The HTTP GET (HTTP) is to the client on the <code>x_url_complete</code> URL.</br>
-
-Both the POST and GET will contain the same set of key-value pairs as shown below.
+The HTTP GET (HTTP) is a redirect from the browser to the cart on the <code>x_url_complete</code> URL.</br>
 
 ### Response POST/GET values
 
-Below is an overview of the key-value pairs that **humm** returns.
-> Some of these key-value echo corresponding key-value pairs in the request, such as <code>x_currency</code> for instance.
+Here is a list of the key-value pairs that **humm** returns.
 
 </br>
 
@@ -99,11 +94,11 @@ x_signature               | Response payload that is signed using HMAC-SHA256 | 
 
 ### Validating **humm** Responses
 
-The <code>x_signature</code> in the POST and GET responses must validated by the shopping cart to ensure it's not tampered with by a third-party.</br> If there is a mistmatch, then the response should be disregarded.
+The <code>x_signature</code> in the POST and GET responses must validated by the shopping cart to ensure it's not tampered with by a third-party and in cases where there is a mistmatch, the response should be disregarded.
 
 For more information on how to calcualte the signature, see [Signature Generation](../signature_generation/).
 
-## Async-callback Acknowledgement 
+## Acknowledgement of Async-callback 
 
 To confirm to **humm** that the async-callback POST was correctly received by your cart, you need to respond with an acknowledgement that is human-readable and does not exceed 1000 characters. Common errors include responding with a full HTML page.
 
