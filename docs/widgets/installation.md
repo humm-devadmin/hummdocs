@@ -10,4 +10,4 @@
 **Step 3:** Save and you should see a working widget on your website.
 
 ## Working Example
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=200"></script>
+<script src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?productPrice=200&merchantId=30133331"></script>

@@ -14,6 +14,10 @@
 
 <a name="Responses"></a>
 
+## HTTPS
+
+All Humm API requests are required to be secured using TLS 1.2 or greater
+
 ## Request POST
 
 POST to **humm** in the format <code>application/x-www-form-urlencoded</code> and prefix all key names with <code>x_</code>

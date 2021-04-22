@@ -1,19 +1,11 @@
 ## Widgets
 
-<div style=display:%nz-only%>
 Ensure you select the widget type corresponding to whether you are a **'Little things'** seller or a **'Big Things'** seller.
-</div>
+
 
 You will need to insert the script where you want the widget to display (typically directly below the product price), replacing the <code>PLACE_YOUR_PRODUCT_PRICE</code> field with the product's price parameter.
 
-<div style=display:%au-only%>
-You will also need to replace the <code>PLACE_YOUR_MERCHANT_ID</code> field with your unique merchant ID. This will have been provided to you in your welcome email.
 
-</div>
-> **If you are unsure of your merchant ID, please reach out to pit@%domain%.**
-
-
-<div style=display:%nz-only%>
 ## 'Little things' Widget
 
 If a **'Little things'** only seller, use:
@@ -22,25 +14,13 @@ If a **'Little things'** only seller, use:
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&little=f5"></script>
 ```
 <script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=100&little=F5"></script>
-</div>
 
-<div style=display:%au-only%>
-
-```
-<script src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
-```
-Example:
-<script src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?productPrice=100&merchantId=30133331"></script>
-</div>
-
-<div style=display:%nz-only%>
 ## 'Big things' Dynamic API Pricing Widget
 
 The **'Big things'** widget can display dynamic big things pricing tailored to the terms applied to your humm account.
 
 ``` 
-<script
-src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&BigThings&merchantId=YOUR_MERCHANT_ID"></script>
+<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&BigThings&merchantId=YOUR_MERCHANT_ID"></script>
 ```
 
 Note the use of the <code>&BigThings</code> and <code>&merchantId</code> parameters.
@@ -49,14 +29,13 @@ Replace the <code>YOUR_MERCHANT_ID</code> parameter in the above script with you
 
 <script
 src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=1500&BigThings&merchantId=30132859"></script>
-</div>
 
 ## Platform-specific Installation Instructions
-* [Shopify](/widgets/price-info/shopify)
-* [Magento 1](/widgets/price-info/magento_1)
-* [OpenCart 3](/widgets/price-info/opencart_3)
+* [Shopify](/widgets/price-info/shopify_nz)
+* [Magento 1](/widgets/price-info/magento_1_nz)
+* [OpenCart 3](/widgets/price-info/opencart_3_nz)
 
-<div style=display:%nz-only%>
+
 ## Dynamic Widget
 
 Provide a ```price-selector``` query argument to target the HTML element containing the price. This will update the widget as the product price changes on user selection.
@@ -90,7 +69,6 @@ Use the urlencoded ```%23priceinfo ``` to reference the id ```#priceinfo```
 
 You could also use ```price-selector=.woocommerce-Price-amount.amount``` or any CSS selector to identify the price.
 
-</div>
 
 ## Minimum and Maximum Widgets
 
@@ -101,23 +79,9 @@ You can customise the min and max threshold (can only increase the min or/and de
 <p style=display:%nz-only%>
     By default, "Little things" shows when product price is between $20 and $1000, while "Big things" shows only between the price of $80 and $10000.
 </p>
-<div style=display:%nz-only%>
 ```
 <script data-min="20" data-max="300" src="https://widgets.%domain%/content/scripts/price-info.js?productPrice=YOUR_PRICE"></script>
 ```
-</div>
-
-<div style=display:%au-only%>
-You will need to replace <code>PLACE_YOUR_MERCHANT_ID</code> with your unique merchant ID. This will have been provided to you in your welcome email.
-
-</div>
-> **If you are unsure of your merchant ID, please reach out to pit@%domain%.**
-
-<div style=display:%au-only%>
-```
-<script data-min="20" data-max="300" src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
-```
-</div>
 
 Here it will not display for prices above $300 or will display in an altered form for prices below $20.
 

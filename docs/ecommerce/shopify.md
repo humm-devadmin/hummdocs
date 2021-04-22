@@ -53,17 +53,17 @@ To add the Price-info widget as below, use Shopify instructions <a href="../../w
 
 **3.** Paste the below landing page script in the content box. Choose the script based on the plans you have available (Little and/or big things). Click **Save**.
 
-Little things
+**Little things**
 ```
 <script id="humm-landing-page-little-online" src="https://widgets.%domain%/content/scripts/landing-page-little-online.js"></script>
 ```
 
-Big things
+**Big things**
 ```
 <script id="humm-landing-page-big-online" src="https://widgets.%domain%/content/scripts/landing-page-big-online.js"></script>
 ```
 
-Little + Big things
+**Little + Big things**
 ```
 <script id="humm-landing-page-little-big-online" src="https://widgets.%domain%/content/scripts/landing-page-little-big-online.js"></script>
 ```
