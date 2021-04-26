@@ -15,7 +15,7 @@ nav:
     - Vend: ecommerce/vend.md
     - Test Transactions: accreditation/test.md
 - Custom Integration:
-    - Checkout Process: custom_integration/checkout_process.md
+    # - Checkout Process: custom_integration/checkout_process.md
     - Checkout API: custom_integration/checkout_api.md
     - Refund API: custom_integration/refund_api.md
     # - Sample cURL Script: custom_integration/sample_curl.md
