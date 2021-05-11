@@ -1,16 +1,13 @@
 # Signature Generation
 
-To prevent against malicious attacks, **humm** implements HMAC-SHA256 signing. We explain how to use HMAC-SHA256 for signing and verification purposes.
+To prevent against malicious and man-in-the-middle attacks, **humm** implements HMAC-SHA256 signing.
 
-There are two instances where signature generation is required:
+Signature generation is required when:
 
-* When sending a POST request to **humm**
-* When receiving both a response POST or GET from **humm**
+* Sending POST request to **humm**
+* Receiving POST and GET responses from **humm**
 
 ## PHP Example
-
-Below is a PHP example on how you can implement a method for signature generation.
-
 
 ```php
 <?php
@@ -31,17 +28,57 @@ function humm_sign($query, $api_key )
 
 
 The method expects two parameters: <code>$query</code> and <code>$api_key</code>:
-* <code>$query</code> represents the various key-value pairs that form your HTTP request POST and vary depending on the information that is entered as part of the checkout process on your shopping cart.
+* <code>$query</code> represents the various key-value pairs that form your HTTP request POST
 
-* <code>$api_key</code> represents the merchant's unique API Key that. It should remain the same and only changes if changed by **humm**.
+* <code>$api_key</code> is the merchant's API Key
 
-Having received the two parameters, <code>**humm**_sign</code> method then perform alphabetical sorting of the various key-value pairs based on the key but still maintaining the correlation between the keys and their respective values.
+<code>**humm**_sign</code> then performs alphabetical sorting of the key-value pairs based on the key but still maintaining correlation between the keys and their values.
 
-It then examines the query <code>$query</code> variable for the various key-value pairs by checking for the <code>x_</code> prefix and then appends them together.</br>
+It then examines the query <code>$query</code> for the various key-value pairs by checking for the <code>x_</code> prefix and then appends them together.</br>
 
-> <b>Note: </b>When signing a request, all fields starting with <code>x_</code> must be used, except for <code>x_signature</code>.
+> <b>Note: </b>When signing a request, all <code>x_</code> fields must be used, except for <code>x_signature</code>.
 
 The method then computes the keyed hash value using the <code>hash_hmac</code> method.
+
+## C# Example
+
+```C#
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PaymentService.Features.Payments.Humm
+{
+    public class HummRequestSigner
+    {
+        /// <summary>
+        /// Generates the Humm signature for the <paramref name="requestArgs"/> provided.
+        ///
+        /// </summary>
+        /// <param name="requestArgs">Dictionary of request args to sign.</param>
+        /// <returns>HMACSHA256 hashed value converted to a Hexadecimal string.</returns>
+        public static async Task<string> SignAsync(Dictionary<string, string> requestArgs)
+        {
+            // Create a string of all key/value pairs sorted in alphabetical order by key
+            var plainText = requestArgs.Keys
+                .Where(key => key != "x_signature" && !string.IsNullOrWhiteSpace(requestArgs[key]))
+                .OrderBy(key => key)
+                .Aggregate(string.Empty, (current, key) => current + $"{key}{requestArgs[key]}");
+
+            using var hmac = new HMACSHA256(Encoding.UTF8.GetBytes(<<Your API Key goes here>>));
+
+            await using var stream = new MemoryStream(Encoding.UTF8.GetBytes(plainText));
+            var hash = await hmac.ComputeHashAsync(stream);
+
+            return BitConverter.ToString(hash).Replace("-", string.Empty).ToLower();
+        }
+    }
+}
+```
 
 ## Java Example 
 
