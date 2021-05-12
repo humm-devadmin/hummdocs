@@ -1,0 +1,114 @@
+@import url("https://use.typekit.net/plq2clw.css");
+
+.index-content {
+    font-family: "proxima-nova" !important;
+    color: #666666;
+}
+
+.big-sales-text {
+    margin-top: -30px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 50px !important;
+}
+
+.assets {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.promotion {
+    font-size: 1.5rem;
+    font-weight: 1000;
+    color: #FF6C00;
+    letter-spacing: -0.3px;
+}
+
+.asset-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.asset-card {
+    min-width: 50%;
+}
+
+.card-img {
+    height: 300px;
+}
+
+.card-title {  
+    font-weight: 800;
+}
+
+.card-text {
+    margin-right: 10px !important;
+}
+
+.card-link {
+    font-weight: 800;
+    color: #FF6C00;
+}
+
+.availability {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.availability-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #FF6C00;
+    letter-spacing: -0.3px;
+    line-height: 0.9;
+}
+
+.availability-text {
+    text-align: center;
+    font-size: 1.1em;
+    margin: 0 20% !important;
+}
+
+.availability-image {
+    margin-top: 20px;
+    height: 300px;
+}
+
+.availability-image-mb {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .big-sales-text {
+        font-size: 0.6rem;
+        font-weight: 400;
+        letter-spacing: -0.3px;
+    }
+
+    .promotion {
+        line-height: 0.8;
+    }
+
+    .availability-text {
+        font-size: 0.8em;
+    }
+
+    .asset-cards {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+
+    .availability-image {
+        display: none;
+    }
+
+    .availability-image-mb {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}

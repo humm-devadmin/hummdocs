@@ -84,7 +84,7 @@ theme:
     search_index_only: true
     static_templates:
     - 404.html
-extra_css: [css/jquery.modal.min.css, css/custom.css]
+extra_css: [css/jquery.modal.min.css, css/custom.css, css/index.css]
 extra_javascript: [js/jquery.modal.js, js/custom.js]
 extra:
     domain: shophumm.co.nz
