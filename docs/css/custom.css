@@ -79,6 +79,17 @@ above header. Highest z-index seems 100 */
   z-index: 200; /* 200 to future proof */
 }
 
+.md-sidebar {
+  padding-top: 3rem !important;
+}
+
+.md-content__inner {
+  margin-top: 1.2rem !important;
+}
+
+.md-typeset h1 {
+  margin-top: 0.8rem;
+}
 
 /* display side menu above main page */
 .humm-branding-area, .humm-branding-area * {

@@ -7,14 +7,14 @@
 
 .big-sales-text {
     margin-top: -30px;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
     margin-bottom: 50px !important;
 }
 
 .assets {
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 
 .promotion {
@@ -22,13 +22,13 @@
     font-weight: 1000;
     color: #FF6C00;
     letter-spacing: -0.3px;
-    
 }
 
 .asset-cards {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 15px;
 }
 
 .asset-card {
@@ -54,8 +54,8 @@
 }
 
 .availability {
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 
 .availability-title {
