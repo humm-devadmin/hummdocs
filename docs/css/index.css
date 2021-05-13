@@ -18,10 +18,11 @@
 }
 
 .promotion {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 1000;
     color: #FF6C00;
     letter-spacing: -0.3px;
+    
 }
 
 .asset-cards {
@@ -43,7 +44,8 @@
 }
 
 .card-text {
-    margin-right: 10px !important;
+    margin-right: 25% !important;
+    line-height: 1.2;
 }
 
 .card-link {
