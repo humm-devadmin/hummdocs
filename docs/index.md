@@ -15,7 +15,7 @@
             <div class = "asset-card">
                 <img class = "card-img" src = "/img/index/OrderPOS.png">
                 <p class = "card-title">ORDER POINT OF SALE</p>
-                <p class = "card-text">Log into the seller portal to get started</p>
+                <p class = "card-text">Log into the seller portal to get started.</p>
                 <p class = "card-link"><a href = "https://www.shophumm.com/au/tools/point-of-sale/" style = "color: #FF6C00;">PLACE AN ORDER //</a></p>
             </div>
             <div class = "asset-card">
