@@ -110,7 +110,7 @@ x_gateway_reference       | **humm** reference number | unique string | 123
 x_purchase_number         | **humm** reference number **Same as x_gateway_reference** | unique string | 123
 x_timestamp               | Time at which transaction is completed | iso-8601 in UTC</br>YYYY-MM-DDTHH:MM:SSZ | 2017-06-24T12:11:43Z
 x_result                  | Transaction outcome | Valid values are **completed** or **failed** | **completed**
-x_test                    | Indicates whether this is a production or test transaction | True/False | True/False
+x_test                    | Indicates whether this is a production or test transaction | True/False | True
 x_signature               | Response payload that is signed using HMAC-SHA256 | hex string, case-insensitive | See [Signature Generation](../signature_generation/)
 
 ### Validating **humm** Responses
