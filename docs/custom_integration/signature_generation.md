@@ -28,6 +28,7 @@ function humm_sign($query, $api_key )
 
 
 The method expects two parameters: <code>$query</code> and <code>$api_key</code>:
+
 * <code>$query</code> represents the various key-value pairs that form your HTTP request POST
 
 * <code>$api_key</code> is the merchant's API Key
