@@ -80,14 +80,14 @@ above header. Highest z-index seems 100 */
 }
 
 .md-header-nav__topic {
-  font-size: 0.8rem;
-  margin-left: 35%;
+  font-size: 0.7rem !important;
+  margin-left: 35% !important;
 }
 
 @media (max-width: 500px) {
   .md-header-nav__topic {
-    font-size: 0.8rem;
-    margin-left: 0%;
+    font-size: 0.7rem !important;
+    margin-left: 0% !important;
   }
 }
 
@@ -100,7 +100,7 @@ above header. Highest z-index seems 100 */
 }
 
 .md-typeset h1 {
-  margin-top: 0.8rem;
+  margin-top: 0.8rem !important;
 }
 
 /* display side menu above main page */

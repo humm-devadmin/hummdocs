@@ -69,11 +69,12 @@ x_customer_shipping_phone         | Customer's phone number (Shipping) | unicode
 x_customer_shipping_state         | Shipping state | unicode string | %address_state_abbr% | 200
 x_customer_shipping_postcode      | Shipping postcode | unicode string | %address_post_code% | 200
 x_description                     | Item's description as setup in the shopping cart | unicode string | Order #767 | 200
-x_signature **Required**          | Request payload that is signed using HMAC-SHA256 | hex string, case-insensitive | See [Signature Generation](../signature_generation/) | 64
+x_transaction_timeout             | Transaction timeout in minutes. Maximum is 1440. | int | 60
+x_test **Required**               | Indicates whether this is a production or test transaction | True/False | True
 x_url_callback **Required**       | Async-callback sent to this URL. **must be HTTPS** | URL | https://shop%domain_postfix%/callback | 200
 x_url_cancel **Required**         | Cancelled orders redirected to this URL | URL | https://shop%domain_postfix%/cancel | 200
 x_url_complete **Required**       | Approved orders redirected to this URL | URL | https://shop%domain_postfix%/compete | 200
-x_transaction_timeout             | Transaction timeout in minutes. Maximum is 1440. | int | 60
+x_signature **Required**          | Request payload that is signed using HMAC-SHA256 | hex string, case-insensitive | See [Signature Generation](../signature_generation/) | 64
 
 ### Sample POST
 
@@ -109,6 +110,7 @@ x_gateway_reference       | **humm** reference number | unique string | 123
 x_purchase_number         | **humm** reference number **Same as x_gateway_reference** | unique string | 123
 x_timestamp               | Time at which transaction is completed | iso-8601 in UTC</br>YYYY-MM-DDTHH:MM:SSZ | 2017-06-24T12:11:43Z
 x_result                  | Transaction outcome | Valid values are **completed** or **failed** | **completed**
+x_test                    | Indicates whether this is a production or test transaction | True/False | True/False
 x_signature               | Response payload that is signed using HMAC-SHA256 | hex string, case-insensitive | See [Signature Generation](../signature_generation/)
 
 ### Validating **humm** Responses
