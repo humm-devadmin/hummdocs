@@ -79,6 +79,18 @@ above header. Highest z-index seems 100 */
   z-index: 200; /* 200 to future proof */
 }
 
+.md-header-nav__topic {
+  font-size: 0.8rem;
+  margin-left: 35%;
+}
+
+@media (max-width: 500px) {
+  .md-header-nav__topic {
+    font-size: 0.8rem;
+    margin-left: 0%;
+  }
+}
+
 .md-sidebar {
   padding-top: 3rem !important;
 }
