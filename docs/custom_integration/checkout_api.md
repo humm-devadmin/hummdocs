@@ -3,7 +3,7 @@
 ## Checkout Process
 Chart below summarises transaction flow when using **humm** as payment options
 
-<img src="/img/api/1.png" alt="Humm Checkout Process">
+<img src="/img/api/checkout/1.png" alt="Humm Checkout Process">
 
 <!-- **NOTE:** We have included a sample cURL script that you can use to test the **humm** sandbox gateway. You can find the script under [Sample cURL Script](../developer_resources/sample_curl.md) -->
 

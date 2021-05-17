@@ -1,8 +1,8 @@
 # Refund API
 
-**Humm** provides an API to programmatically process refunds or adjustments to an **humm** purchase.
+The Refund API allows you to programmatically process refunds or adjustments to **humm** purchases.
 
-## **Humm** Endpoints
+## Refund Endpoints
 
 
 | **Humm** Environment | URL |
@@ -11,7 +11,7 @@
 | Sandbox Endpoint | [https://integration-buyerapi.%domain%/api/ExternalRefund/v1/processrefund](https://integration-buyerapi.%domain%/api/ExternalRefund/v1/processrefund) |
 
 
-## Request 
+## Refund Request 
 
 ### Headers
 
@@ -31,20 +31,9 @@
 
 See [Signature Generation](signature_generation.md) for information on how to generate the HMAC Signature. 
 
-## Response 
+### Example
 
-| HTTP Status | Reason Code | Reason Description|
-|-------------|-------------|-------------------|
-|  204        |   none      |   Success         |
-|  400        | MERR0001    | API Key Not found |
-|  400        | MERR0003    | Refund Failed     |
-|  400        | MERR0004    | Invalid Request   |
-|  401        | none        | Failed Signature Check|
-
-
-## Example
-
-The following ``curl`` command will allow you to test the refunds API. You will need to substitute **your** x_merchant_number, x_purchase_number and signature
+The following ``curl`` command will allow you to test the refunds API. You will need to substitute **your** `x_merchant_number`, `x_purchase_number` and `signature`
 
     curl \
     --header "Content-Type:application/json" \
@@ -58,3 +47,40 @@ The following ``curl`` command will allow you to test the refunds API. You will 
     }' \    
     https://integration-buyerapi.%domain%/api/ExternalRefund/v1/processrefund
 
+## Refund Response 
+
+| HTTP Status | Reason Code | Reason Description|
+|-------------|-------------|-------------------|
+|  204        |   none      |   Success         |
+|  400        | MERR0001    | API Key Not found |
+|  400        | MERR0003    | Refund Failed     |
+|  400        | MERR0004    | Invalid Request   |
+|  401        | none        | Failed Signature Check|
+
+## HTTP 400 Reason Codes
+
+To capture the reason code for 400 errors, parse the JSON response and use the value in "Message". For example:
+
+    POST /api/ExternalRefund/v1/processrefund HTTP/1.1
+    Host: integration-buyerapi.shophumm.com.au
+    Content-Type: application/json
+    Cookie: hummueid=bc726701-3dc1-43b3-961c-8796df0477a3
+    Content-Length: 224
+
+    {
+        "x_merchant_number":"30188525",
+        "x_amount":18.50,
+        "x_purchase_number":"28237558",
+        "x_reason": "Booking Cancelled",
+        "signature": "561dae20c677fc705dd511878b9bf4ba55bc3084de2efd6e53795d052d9ce778"
+    }
+
+This returns response headers
+
+<img src="/img/api/refund/1.png" alt="HTTP 400 Response Headers">
+
+To capture the reason, parse the JSON 
+
+    {
+        "Message": "MERR0003"
+    }
