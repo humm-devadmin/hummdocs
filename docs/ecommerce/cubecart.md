@@ -6,7 +6,7 @@
 To integrate **humm** you will need your
 
 * Merchant Number
-* Encryption Key
+* API Key
 
 This document outlines the steps needed to install **humm** on your CubeCart Store.
 
@@ -92,7 +92,7 @@ The plugin can be installed via CubeCart's Admin Control Panel, either manually 
 
 ![config-1.png](/img/ecommerce/cubecart/config-1.png)
 
-> We have intentionally masked the <b>Merchant ID</b> and <b>Encryption Key</b> in this support document. Please contact us and we will advise you of the settings to use.
+> We have intentionally masked the <b>Merchant ID</b> and <b>API Key</b> in this support document. Please contact us and we will advise you of the settings to use.
 
 
 <hr>
@@ -112,7 +112,7 @@ The plugin can be installed via CubeCart's Admin Control Panel, either manually 
 * **Merchant ID** This is the **humm** Merchant ID that you are provided with as part of your on-boarding when signing-up for **humm**.
 <hr>
 
-* **Encryption Key** The Encryption key is a case-sensitive alpha-numeric sequence that is used to authenticate payment requests originating from your Store. It is vital that you protect it and don't provide it to unauthorised individuals.
+* **API Key** The API key is a case-sensitive alpha-numeric sequence that is used to authenticate payment requests originating from your Store. It is vital that you protect it and don't provide it to unauthorised individuals.
 <hr>
 
 * **Test Mode** Indicates whether to process payments over the live **humm** Gateway URL resulting in real transactions, or to process it over the **humm** Sandbox Gateway URL which will produce simulated (test) transactions with no real dollar amounts being debited. By default it should be set to **No** unless we are attempting to diagnose issues on your store to do with **humm**, or you're testing integrating the plugin with your online CubeCart store.
@@ -140,7 +140,7 @@ The plugin can be installed via CubeCart's Admin Control Panel, either manually 
 
 <div class="panel">
 Importantly, when you perform an automatic upgrade, all the module settings are retained.
-That is, you do not need to type in your <b>Merchant ID</b> and <b>Encryption Key</b> again.
+That is, you do not need to type in your <b>Merchant ID</b> and <b>API Key</b> again.
 </div>
 
 1 - Navigate to the following URL.

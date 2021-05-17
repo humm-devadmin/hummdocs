@@ -11,7 +11,7 @@
 To integrate **humm** you will need your
 
 * Merchant Number
-* Encryption Key
+* API Key
 
 ## Installation using Extension Installer
 
