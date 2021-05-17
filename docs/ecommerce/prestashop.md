@@ -5,7 +5,7 @@
 To integrate **humm** you will need your
 
 * Merchant Number
-* Encryption Key
+* API Key
 
 ## Installing the Plugin
 

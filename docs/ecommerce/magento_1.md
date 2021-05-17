@@ -6,7 +6,7 @@
 To integrate **humm** you will need your
 
 * Merchant Number
-* Encryption Key
+* API Key
 
 ## Plugin Installation / Upgrade
 
@@ -35,7 +35,7 @@ To integrate **humm** you will need your
 
 ![5.png](/img/ecommerce/magento_1/5.png)
 
-**3.** Confirm  **humm Checkout** is visible and once expanded, the options will need to be configured with your merchant number and Encryption key.
+**3.** Confirm  **humm Checkout** is visible and once expanded, the options will need to be configured with your merchant number and API key.
 
 |Setting|Value|
 -------|-----

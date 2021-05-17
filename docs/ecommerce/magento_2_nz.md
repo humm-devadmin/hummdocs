@@ -7,7 +7,7 @@ Use the same instructions to upgrade the **humm** plugin to a newer release.
 To integrate **humm** you will need your
 
 * Merchant Number
-* Encryption Key
+* API Key
 
 ## Integrating **humm** using Composer
 
@@ -73,7 +73,7 @@ Plugin log file is humm-payment.log for review if you have installation issues
 
 **2** - Scroll down to **Other payment methods** and select **Humm Payment Gateway**
 
-**3** - Enter your **Merchant Number** and **Encryption Key** and select **save config** in the top right of the screen.
+**3** - Enter your **Merchant Number** and **API Key** and select **save config** in the top right of the screen.
 
 ![5.png](\img\ecommerce\magento_2\5.png)
 ![6.png](\img\ecommerce\magento_2\6.png)
