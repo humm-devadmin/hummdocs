@@ -10,6 +10,7 @@ nav:
     - WooCommerce: ecommerce/woocommerce.md
     - Magento 1: ecommerce/magento_1.md
     - Magento 2: ecommerce/magento_2_nz.md
+    - Salesforce: ecommerce/salesforce.md
     - PrestaShop: ecommerce/prestashop.md
     - OpenCart: ecommerce/opencart.md
     - Vend: ecommerce/vend.md
