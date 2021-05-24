@@ -47,10 +47,21 @@ Replace <code>PLACE_YOUR_MERCHANT_ID</code> with your unique merchant ID. This w
 
 > **If you are unsure of your merchant ID, please reach out to pit@%domain%.**
 
+<div style=display:%au-only%>
+
 ```
 <script src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}&merchantID=PLACE_YOUR_MERCHANT_ID"></script>
 ```
 
+</div>
+<div style=display:%nz-only%>
+
+```
+<script src="https://bpi.humm-nz.com/nz/content/scripts/price-info_sync.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}&merchantID=PLACE_YOUR_MERCHANT_ID"></script>
+```
+
+
+</div>
 > Try inserting the widget in different places in the code until you find the most suitable place for your site.
 
 **Step 4:** Save and you should see a working widget on your website.

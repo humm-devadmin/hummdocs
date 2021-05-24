@@ -17,9 +17,20 @@ Replace <code>PLACE_YOUR_MERCHANT_ID</code> with your unique merchant ID. This w
 
 > **If you are unsure of your merchant ID, please reach out to pit@%domain%.**
 
+<div style=display:%au-only%>
+
 ```
 <script src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?productPrice=<?php echo $_product->getFinalPrice(); ?>&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
 ```
+
+</div>
+<div style=display:%nz-only%>
+
+```
+<script src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?productPrice=<?php echo $_product->getFinalPrice(); ?>&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
+```
+
+</div>
 
 <div class="alert alert-danger">
     You may try inserting the code a few lines below the "getPriceHtml" code, or below some other elements. Try different places and view the visual appearance to find the most suitable place for your site.

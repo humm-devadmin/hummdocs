@@ -6,10 +6,20 @@ You will also need to replace the <code>PLACE_YOUR_MERCHANT_ID</code> field with
 
 > **If you are unsure of your merchant ID, please reach out to pit@%domain%.**
 
+<div style = display:%au-only% >
+
 ```
 <script src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
 ```
 
+</div>
+<div style=display:%nz-only%>
+
+```
+<script src="https://bpi.humm-nz.com/nz/content/scripts/price-info_sync.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
+```
+
+</div>
 <strong>Widget example:</strong>
 
 <select id = "price_dd" onchange = "changeSelect()">
@@ -17,8 +27,12 @@ You will also need to replace the <code>PLACE_YOUR_MERCHANT_ID</code> field with
     <option value = "2">Big Things</option>
 </select>
 <div>Price: <span id = "price_div" class = "price">$100</span></div>
+<div style = display:%au-only% >
 <script src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?price-selector=.price&merchantId=30133331"></script>
-
+</div>
+<div style = display:%nz-only% >
+<script src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?price-selector=.price&merchantId=30133331"></script>
+</div>
 
 ## Platform-specific Installation Instructions
 * [Shopify](/widgets/price-info/shopify)
@@ -31,15 +45,19 @@ You will also need to replace the <code>PLACE_YOUR_MERCHANT_ID</code> field with
 
 You can customise the min and max threshold (can only increase the min or/and decrease the max) by setting ```data-min``` and ```data-max``` accordingly when calling the widget.   
 
-<div style=display:%au-only%>
 You will need to replace <code>PLACE_YOUR_MERCHANT_ID</code> with your unique merchant ID. This will have been provided to you in your welcome email.
 
-</div>
 > **If you are unsure of your merchant ID, please reach out to pit@%domain%.**
 
 <div style=display:%au-only%>
 ```
 <script data-min="20" data-max="300" src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
+```
+</div>
+
+<div style=display:%nz-only%>
+```
+<script data-min="20" data-max="300" src="https://bpi.humm-nz.com/nz/content/scripts/price-info_sync.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
 ```
 </div>
 
