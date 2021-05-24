@@ -17,8 +17,9 @@ Replace <code>PLACE_YOUR_MERCHANT_ID</code> with your unique merchant ID. This w
 
 > **If you are unsure of your merchant ID, please reach out to pit@%domain%.**
 
+
 ```
-<script src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?productPrice=<?php echo $_product->getFinalPrice(); ?>&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
+<script src="https://bpi.humm-%country_abbr_lower_case%.com/%country_abbr_lower_case%/content/scripts/price-info_sync.js?productPrice=<?php echo $_product->getFinalPrice(); ?>&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
 ```
 
 <div class="alert alert-danger">

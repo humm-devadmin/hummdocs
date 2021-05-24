@@ -24,11 +24,11 @@ nav:
     # - Testing Declines and Approvals: accreditation/declines_and_approvals.md
 - Widgets + Banners:
     - Best Practice Integration: widgets/best_practice_integration.md
-    - Widgets: widgets/widgets_nz.md
+    - Widgets: widgets/widgets.md
     - Widget Installation:
-        - Shopify: widgets/price-info/shopify_nz.md
-        - Magento 1: widgets/price-info/magento_1_nz.md
-        - OpenCart 3: widgets/price-info/opencart_3_nz.md
+        - Shopify: widgets/price-info/shopify.md
+        - Magento 1: widgets/price-info/magento_1.md
+        - OpenCart 3: widgets/price-info/opencart_3.md
     - Banners: widgets/banners.md
     - Landing Pages:
         - General: widgets/landing_pages/general.md
