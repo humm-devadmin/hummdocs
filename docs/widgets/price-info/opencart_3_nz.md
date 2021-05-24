@@ -45,28 +45,13 @@ Note that you would place the widget in the section marked ```INSERT_WIDGET_HERE
 ## Step 3
 Place the following ```<script>``` tag into the ```product.twig``` file.<br>
 
-### 'Little things' only
+Replace <code>PLACE_YOUR_MERCHANT_ID</code> with your unique merchant ID. This will have been provided to you in your welcome email.
 
-Using the following code if you are a **'Little things'** merchant.
-#### For 5 fortnightly payments:
-```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}&little=f5"></script>
-```
-<!-- 
-#### For 10 weekly payments:
-```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}&little=w10"></script>
-```
--->
-### 'Big things' only
+> **If you are unsure of your merchant ID, please reach out to pit@%domain%.**
 
-Using the following code if you are a **'Big things'** merchant.
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}&big=m6"></script>
+<script src="https://bpi.humm-nz.com/nz/content/scripts/price-info_sync.js?productPrice={%if special%}{{special}}{%else%}{{price}}{%endif%}&merchantID=PLACE_YOUR_MERCHANT_ID"></script>
 ```
-Available options are:  
-<code>big=m6</code> for 6 months, <code>big=m9</code> for 9 months, <code>big=m12</code> for 12 months, <code>big=m18</code> for 18 months, <code>big=m24</code> for 24 months.
-
 > Try inserting the widget in different places in the code until you find the most suitable place for your site.
 
 ## Step 4

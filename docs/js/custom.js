@@ -7,3 +7,11 @@ document.querySelector(".google-form-iframe").addEventListener("load",
     behavior: 'smooth'
   });
 });
+
+function changeSelect() {
+    if(document.getElementById("price_dd").value == "1") {
+        document.getElementById("price_div").innerHTML = "$100";
+    } else if (document.getElementById("price_dd").value == "2") {
+        document.getElementById("price_div").innerHTML = "$2200";
+    }
+}

@@ -10,26 +10,14 @@
 
 3 - Place the below ```< script >``` tag in the desired place you'd like it to appear on your website. This should be added before the ```Add to Cart ``` button tag, or directly below the product price.
 
-## 'Little things' only
+You will need to replace <code>PLACE_YOUR_MERCHANT_ID</code> with your unique merchant ID. This will have been provided to you in your welcome email.
 
-Using the following code if you are a **'Little things'** only merchant.
 ```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}&LittleOnly"></script>
-```
-
-## 'Big things' only
-
-Using the following code if you are a **'Big things'** only merchant.
-```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}&BigOnly"></script>
+<script src="https://bpi.humm-nz.com/nz/content/scripts/price-info_sync.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
 ```
 
-## Both 'Little things' and 'Big things'
 
-Using the following code if you are both a **'Little things'** and **'Big things'** merchant.
-```
-<script src="https://widgets.%domain%/content/scripts/price-info.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}"></script>
-```
+> **If you are unsure of your merchant ID, please reach out to pit@%domain%.**
 
 4 - Save and you should see a working widget on your website.
 
