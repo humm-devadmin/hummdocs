@@ -12,20 +12,9 @@
 
 You will need to replace <code>PLACE_YOUR_MERCHANT_ID</code> with your unique merchant ID. This will have been provided to you in your welcome email.
 
-<div style=display:%au-only%>
-
 ```
-<script src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
+<script src="https://bpi.humm-%country_abbr_lower_case%.com/%country_abbr_lower_case%/content/scripts/price-info_sync.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
 ```
-
-</div>
-<div style=display:%nz-only%>
-
-```
-<script src="https://bpi.humm-nz.com/nz/content/scripts/price-info_sync.js?productPrice={{product.selected_or_first_available_variant.price | divided_by: 100.00}}&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
-```
-
-</div>
 
 > **If you are unsure of your merchant ID, please reach out to pit@%domain%.**
 

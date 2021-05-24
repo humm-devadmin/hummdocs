@@ -27,12 +27,8 @@ You will also need to replace the <code>PLACE_YOUR_MERCHANT_ID</code> field with
     <option value = "2">Big Things</option>
 </select>
 <div>Price: <span id = "price_div" class = "price">$100</span></div>
-<div style = display:%au-only% >
-<script src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?price-selector=.price&merchantId=30133331"></script>
-</div>
-<div style = display:%nz-only% >
-<script src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?price-selector=.price&merchantId=30133331"></script>
-</div>
+
+<script src="https://bpi.humm-%country_abbr_lower_case%.com/%country_abbr_lower_case%/content/scripts/price-info_sync.js?price-selector=.price&merchantId=30133331"></script>
 
 ## Platform-specific Installation Instructions
 * [Shopify](/widgets/price-info/shopify)
@@ -49,17 +45,11 @@ You will need to replace <code>PLACE_YOUR_MERCHANT_ID</code> with your unique me
 
 > **If you are unsure of your merchant ID, please reach out to pit@%domain%.**
 
-<div style=display:%au-only%>
-```
-<script data-min="20" data-max="300" src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
-```
-</div>
 
-<div style=display:%nz-only%>
 ```
-<script data-min="20" data-max="300" src="https://bpi.humm-nz.com/nz/content/scripts/price-info_sync.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
+<script data-min="20" data-max="300" src="https://bpi.humm-%country_abbr_lower_case%.com/%country_abbr_lower_case%/content/scripts/price-info_sync.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
 ```
-</div>
+
 
 Here it will not display for prices above $300 or will display in an altered form for prices below $20.
 
