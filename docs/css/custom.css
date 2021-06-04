@@ -137,10 +137,27 @@ i.md-icon {
   background-repeat: no-repeat;
 }
 
-/* Prevent material from changing widget color */
-.humm-more-info-widget {
-  color:inherit !important;
+.bigger-bnpl {
+  min-width: 100%;
 }
+
+.pay-in-5 {
+  min-width: 100%;
+}
+
+@media (max-width: 525px) {
+  .bigger-bnpl {
+    content:url("../img/banners/Mrec_TBBNPL_300x250.png");
+    min-width: 100%;
+  }
+
+  .pay-in-5 {
+    content: url("../img/banners/Mrec_5ormore_300x250.png");
+    min-width: 100%;
+  }
+}
+
+
 
 .md-logo {
   padding: 0;
