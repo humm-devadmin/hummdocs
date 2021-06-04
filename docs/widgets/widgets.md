@@ -6,20 +6,11 @@ You will also need to replace the <code>PLACE_YOUR_MERCHANT_ID</code> field with
 
 > **If you are unsure of your merchant ID, please reach out to pit@%domain%.**
 
-<div style = display:%au-only% >
 
 ```
-<script src="https://bpi.humm-au.com/au/content/scripts/price-info_sync.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
+<script src="https://bpi.humm-%country_abbr_lower_case%.com/%country_abbr_lower_case%/content/scripts/price-info_sync.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
 ```
 
-</div>
-<div style=display:%nz-only%>
-
-```
-<script src="https://bpi.humm-nz.com/nz/content/scripts/price-info_sync.js?productPrice=PLACE_YOUR_PRODUCT_PRICE&merchantId=PLACE_YOUR_MERCHANT_ID"></script>
-```
-
-</div>
 <strong>Widget example:</strong>
 
 <select id = "price_dd" onchange = "changeSelect()">
