@@ -1,5 +1,6 @@
 site_name: humm Documentation (NZ)
 site_dir: 'humm-nz'
+use_directory_urls: true
 nav:
 - Home: index.md
 - Request API Key: request_api.md
