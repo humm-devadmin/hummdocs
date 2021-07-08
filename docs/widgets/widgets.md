@@ -22,9 +22,9 @@ You will also need to replace the <code>PLACE_YOUR_MERCHANT_ID</code> field with
 <script src="https://bpi.humm-%country_abbr_lower_case%.com/%country_abbr_lower_case%/content/scripts/price-info_sync.js?price-selector=.price&merchantId=30133331"></script>
 
 ## Platform-specific Installation Instructions
-* [Shopify](/widgets/price-info/shopify)
-* [Magento 1](/widgets/price-info/magento_1)
-* [OpenCart 3](/widgets/price-info/opencart_3)
+* [Shopify](/widgets/price-info/shopify.html)
+* [Magento 1](/widgets/price-info/magento_1.html)
+* [OpenCart 3](/widgets/price-info/opencart_3.html)
 
 ## Minimum and Maximum Widgets
 
